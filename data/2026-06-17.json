@@ -1,247 +1,45 @@
 {
   "edition": "No. 412",
-  "moods": {
-    "10대": 62,
-    "20대": 58,
-    "30대": 64,
-    "40대": 62,
-    "50대": 63,
-    "60대+": 70
-  },
-  "moodsPrev": {
-    "10대": 64,
-    "20대": 62,
-    "30대": 63,
-    "40대": 61,
-    "50대": 64,
-    "60대+": 67
-  },
+  "moods": { "10대": 62, "20대": 58, "30대": 64, "40대": 60, "50대": 66, "60대+": 70 },
+  "moodsPrev": { "10대": 64, "20대": 62, "30대": 63, "40대": 61, "50대": 64, "60대+": 67 },
   "keywords": [
-    {
-      "rank": 1,
-      "term": "AI 일상화",
-      "dir": "up",
-      "change": "22%"
-    },
-    {
-      "rank": 2,
-      "term": "초개인화 플랫폼",
-      "dir": "up",
-      "change": "18%"
-    },
-    {
-      "rank": 3,
-      "term": "지속가능 소비",
-      "dir": "up",
-      "change": "15%"
-    },
-    {
-      "rank": 4,
-      "term": "헬스케어 구독",
-      "dir": "up",
-      "change": "12%"
-    },
-    {
-      "rank": 5,
-      "term": "친환경 모빌리티",
-      "dir": "up",
-      "change": "10%"
-    },
-    {
-      "rank": 6,
-      "term": "디지털 휴먼",
-      "dir": "up",
-      "change": "9%"
-    },
-    {
-      "rank": 7,
-      "term": "로컬 크리에이터",
-      "dir": "up",
-      "change": "8%"
-    },
-    {
-      "rank": 8,
-      "term": "웰니스 테크",
-      "dir": "up",
-      "change": "7%"
-    }
+    { "rank": 1, "term": "무지출 챌린지", "dir": "up", "change": "34%" },
+    { "rank": 2, "term": "AI 에이전트", "dir": "up", "change": "28%" },
+    { "rank": 3, "term": "욜드(YOLD) 소비", "dir": "up", "change": "19%" },
+    { "rank": 4, "term": "디토 소비", "dir": "up", "change": "17%" },
+    { "rank": 5, "term": "금리 인하 기대", "dir": "up", "change": "12%" },
+    { "rank": 6, "term": "청년 주거 지원", "dir": "up", "change": "9%" },
+    { "rank": 7, "term": "숏폼 커머스", "dir": "flat", "change": "2%" },
+    { "rank": 8, "term": "영끌 부동산", "dir": "down", "change": "6%" }
   ],
   "sectors": [
-    {
-      "name": "콘텐츠·미디어",
-      "value": 112.2,
-      "delta": 1.1
-    },
-    {
-      "name": "금융·자산",
-      "value": 105,
-      "delta": 1.2
-    },
-    {
-      "name": "소비·유통",
-      "value": 102,
-      "delta": -1.2
-    },
-    {
-      "name": "주거·부동산",
-      "value": 99.7,
-      "delta": 0.4
-    },
-    {
-      "name": "고용·노동",
-      "value": 97.7,
-      "delta": 0.1
-    }
+    { "name": "콘텐츠·미디어", "value": 114.2, "delta": 3.1 },
+    { "name": "금융·자산", "value": 105.0, "delta": 1.2 },
+    { "name": "소비·유통", "value": 102.4, "delta": -0.8 },
+    { "name": "주거·부동산", "value": 99.7, "delta": 0.4 },
+    { "name": "고용·노동", "value": 96.1, "delta": -1.5 }
   ],
   "rising": [
-    {
-      "title": "AI 기반 초개인화 추천",
-      "momentum": 85,
-      "desc": "AI가 소비자의 과거 행동, 선호도, 실시간 상황을 분석하여 쇼핑, 콘텐츠, 서비스 등 전 분야에서 최적의 상품과 서비스를 제안하며 소비 효율을 극대화합니다."
-    },
-    {
-      "title": "순환 경제형 소비",
-      "momentum": 78,
-      "desc": "제품의 생산부터 폐기까지 전 과정에서 자원 효율성을 극대화하고 재활용, 재사용, 공유 경제를 촉진하는 소비 방식이 환경 의식 높은 소비자들을 중심으로 확산되고 있습니다."
-    },
-    {
-      "title": "온디맨드 웰니스",
-      "momentum": 75,
-      "desc": "개인의 건강 상태와 라이프스타일에 맞춰 실시간으로 제공되는 맞춤형 건강 관리 서비스로, AI 진단, 웨어러블 기기 연동, 비대면 코칭 등이 결합되어 일상 속 건강 관리를 돕습니다."
-    }
+    { "title": "절약의 콘텐츠화", "momentum": 88, "desc": "무지출·짠테크가 인증과 커뮤니티를 통해 놀이로 진화. 20·30대가 주도하며 브랜드들은 가성비 서사 경쟁에 돌입했다." },
+    { "title": "AI 에이전트 일상화", "momentum": 82, "desc": "개인 비서형 AI가 검색·쇼핑·학습의 진입점을 대체하기 시작. 세대 전반으로 채택이 가속되고 있다." },
+    { "title": "욜드 소비 본격화", "momentum": 76, "desc": "건강·여행·자기계발에 지갑을 여는 액티브 시니어가 부상. 5060+의 구매력이 시장의 새 축으로 떠오른다." }
   ],
   "marketArticles": [
-    {
-      "title": "AI 일상화 시대, 전국민 AI 활용 역량 강화! - 대한민국 정책브리핑",
-      "source": "대한민국 정책브리핑",
-      "time": "97일 전",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vTWRtX3ltMDlvR1RLUjN2dlZmQ2lLcGt2ZkRyMDFzM0laUDg0US0xR1RNQTRXbDlobmt3NmlVd3RPbDlXN19Fb1c1TGtsbkxXbVRZZ0N3NUtNbXNLTVJIUzI3dHZpdmFIa1pwNQ?oc=5",
-      "summary": ""
-    },
-    {
-      "title": "AI 일상화에… “윤리교육·리터러시 정책 마련 필요” - 한국대학신문",
-      "source": "한국대학신문",
-      "time": "105일 전",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KUWMzZW1FQmhLdzZhc3RaTmFqMlpUakNjZDZUMWlNaG1ZOWxOQW1iQkxnVnVNUXMwQnl6REJhSzV3bmRJN2pXWDJmWHZ5WTRWbmZyd014b0VmV3ZsUDBUeUVraTZOZw?oc=5",
-      "summary": ""
-    },
-    {
-      "title": "코웨이, 초개인화 라이프케어 플랫폼 구축 나선다 - 한국경제",
-      "source": "한국경제",
-      "time": "20일 전",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNRnFEWDNpdkZud0xIakxHT3AybkFhcXY1TlJjdC1pUEhCc3IyYU5FR19TeXZ0MUh3MmluSGtxbTJoaWhZd3lXanlZUlRINnhRbHE4bEtBZ1FsUdIBVEFVX3lxTFA1SDlKR194bkswVmgtSGNfRGduWnl2MVVRcl94TnlMRE45RVBnMU40a29WVWtldzVEV3hZZC1IOHVicUgwX0dWMUZ6amM2NFd3cFRQdw?oc=5",
-      "summary": ""
-    }
+    { "title": "한국 소비심리 3개월째 횡보… 선택과 집중 뚜렷", "source": "한국은행리뷰", "time": "1시간 전", "summary": "소비심리지수가 기준선 부근에서 횡보하는 가운데, 필수 지출은 줄이고 가치 소비에 집중하는 양극화 패턴이 강해지고 있다." },
+    { "title": "콘텐츠·미디어 지수 사상 최고… 숏폼 커머스가 견인", "source": "미디어오늘", "time": "3시간 전", "summary": "숏폼 기반의 즉시 구매가 확산되며 콘텐츠·미디어 부문 지표가 최고치를 기록했다." },
+    { "title": "시니어 시장 50조 돌파 전망… 유통가 욜드 정조준", "source": "리테일인사이트", "time": "어제", "summary": "구매력 있는 욜드 세대를 겨냥한 전용 상품·채널이 늘며 시니어 시장 규모가 빠르게 확대될 것으로 전망된다." }
   ],
-  "profileArticles": {
-    "10대": [
-      {
-        "title": "한국교육학술정보원·특수교육디지털교육협회, 특수교육 디지털 학습도구 지원 강화 위해 ‘맞손’ - 한국대학신문",
-        "source": "한국대학신문",
-        "time": "어제",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqcTY1cmROR3h1NjJ1MFJBQjJ6aFFQVHQzSzEzQVRPcUh1Znl0QlZPa1dZNlVOWksteWRLUzJjTFBLb1hhNWpZd0QxUEU3U3Rnb0h0a0Fqb2xSbDdjVklaN2taYW1zQQ?oc=5",
-        "summary": ""
-      },
-      {
-        "title": "생성형 AI, 교육은 무엇을 지키고 무엇을 바꾸어야 하는가 - 한국교육신문",
-        "source": "한국교육신문",
-        "time": "132일 전",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YUW1DWjRUbmdyWHJNWFBfOU5kdHB4MlZZdUdoVVlmUnpIbmhiUEUwd2N0ZC1na0lXWm83cHRvSEd1NXRvOW51dFg3bVJCQ3Q0T1lONENLN0pwY2FnR2kw?oc=5",
-        "summary": ""
-      }
-    ],
-    "20대": [
-      {
-        "title": "한국비건인증원, 아시아 연대 채식 캠페인 '채식한걸음’ 성료 - 공감신문",
-        "source": "공감신문",
-        "time": "1시간 전",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uWDhSWFEyYWV1Y1E2V2FMZXFIOEFPbnRWR01QQm56eDR4REl3NGxaQy14LUZ5RHdJVmdSaTBTREZJVWt0QUZtdVZhYWF4SWUyajlfenVuYmkyT3ZMeTNFVUplOWdZcHNo?oc=5",
-        "summary": ""
-      },
-      {
-        "title": "K-비건 확산, 한식 기반 식물성 소비 해외서 주목 - 비건뉴스",
-        "source": "비건뉴스",
-        "time": "165일 전",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sNzJaTlcxbzRrdm1jZXVES1REVXh3TXdnU3VoSHNOdVlUTTJDS2QyMzRuWk9PZW11Nmx6MWduZFVUM1FDSElLVWdwYXk0QlVRQ2szdkU3YkFNWGMtSmN2WjA1bmYwYnRP?oc=5",
-        "summary": ""
-      }
-    ],
-    "30대": [
-      {
-        "title": "[DQN]한국투자저축은행, 주식 호황에 순익 7.7배 성장 1위…포트폴리오 재편 여파 애큐온 순익 하위 [2026 저축은행 1분기 리그테이블-수익성] - 한국금융신문",
-        "source": "한국금융신문",
-        "time": "10시간 전",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DSW04NWZOaTA0TmhERWVHRVZLY1Brdmw3d0VHcXZEbl8tWlFJM25QZzJrZmxPOWlhaHBiSlZhVjNWTDQ5ZFdWYmtSY1JzQ2Q2S2NsSTc5WXlsblJDbzQ1dUFnQi0wcDdSdVFxRi0weU5VdHJELUtJYWFQN3A?oc=5",
-        "summary": ""
-      },
-      {
-        "title": "\"반도체 소부장이 대세\"… 코스닥 액티브 ETF '분주' - 매일경제 마켓",
-        "source": "매일경제 마켓",
-        "time": "2일 전",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTmxWUVlOZEx2MTdaNEh4V2ducXBsWXpLenRjZi1reWF2RDRKd2tVSTFOWTlYQWQ2YzdBaVZvNFc4b2pmT19MMmtsOVo2UkhFMHc?oc=5",
-        "summary": ""
-      }
-    ],
-    "40대": [
-      {
-        "title": "솔닥, 정부 마이데이터 지원사업 최종 선정 - 데일리안",
-        "source": "데일리안",
-        "time": "7시간 전",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNWHZRMEl4TWRRVGNUcjl2bzYxSHFVbVFKLVZGVnlmQmcxMEI2c0x0b19Oa0l0Zk5iWm9zZHZqWFpRS25ETzZIUVZoLWxVRHVGQzJ3X1NCUFFLZHUwQnU2UkFxMXV0Z3B0a1ZTVDVBWWtrQm1EWm5JWTBVSThNZXZhc19XVHNpRTNzNjllZHZlQUlHcndkaGtpMm5vMEYzNEYyUEsycnY0aUVRWWh2ZXhEeGgwTmZKcDl3TTBHSFBXSkwxU2o4NFlIOGM0ajB0RUhYbDMyS0hDWlhhLWhJbVZ0Y18xSkZ1aEc5R3plTlhrTmxmM3V6azYxVG1NMU8teDNSbHBrcndqdVdmQlh6d0tGR0hucHlWblR1VVHSAZoCQVVfeXFMTVh2UTBJeE1kUVRjVHI5dm82MUhxVW1RSi1WRlZ5ZkJnMTBCNnNMdG9fTmtJdGZOYlpvc2R2alhaUUtuRE82SFFWaC1sVUR1RkMyd19TQlBRS2R1MEJ1NlJBcTF1dGdwdGtWU1Q1QVlra0JtRFpuSVkwVUk4TWV2YXNfV1RzaUUzczY5ZWR2ZUFJR3J3ZGhraTJubzBGMzRGMlBLMnJ2NGlFUVlodmV4RHhoME5mSnA5d00wR0hQV0pMMVNqODRZSDhjNGowdEVIWGwzMktIQ1pYYS1oSW1WdGNfMUpGdWhHOUd6ZU5Ya05sZjN1ems2MVRtTTFPLXgzUmxwa3J3anVXZkJYendLRkdIbnB5Vm5UdVVR?oc=5",
-        "summary": ""
-      },
-      {
-        "title": "미래에셋생명, 대학병원 연계 ‘프리미엄 건강검진 예약’ 확대 - 글로벌이코노믹",
-        "source": "글로벌이코노믹",
-        "time": "22일 전",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGc3S0ZleF9HY1l1TEx4MTFKOWp5UGFJc2k3RHdFNFVYRUNSNEtJYVJNLUttckF6YTZzTDVFYWUwdkVjNG9POElOQjRUbWN3RzlpTlAyOFBIWTdSamlSU09vVVFXRFpZd3ZWTFNScER2Y3o4ZWVYbzlNTXZvWEFrdVB3ZFE?oc=5",
-        "summary": ""
-      }
-    ],
-    "50대": [
-      {
-        "title": "[스타트UP] “액티브 시니어의 라이프스타일 바꿀래요”...‘오뉴’ 운영하는 로쉬코리아 - 조선비즈 - Chosunbiz",
-        "source": "Chosunbiz",
-        "time": "309일 전",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc3paa2s5LTFpU3BVank3Q1VTdVhTb0dpOTlVZlVaY3dhYmQ0N3NLZHc1cTdMck5BcVFtUnlfWm9XUG9QQWFsWkVqMnlkcEJHOFRSeUhSYm90cm40R1d3emdIUFdHem5XRmRZOFpMNlV5Y1JsX29vZ0N2c2ZXWExmazBXbHFYdk1pRm1FbmVCVGvSAaQBQVVfeXFMUHd1Q0I1dzFDTWFEN0J0TzBJNTRlTXRhZXZiMG1mcV9ucnA5YUQyNkdrVXJ6ak0tNzNzbl9paHBjaTJnVTRyUWFRUW5XOWpsVWJaSjUyVTZaOWhweUgxUVVfMUJyMkZVclJlZzJGdVI1REhvd1pQb3RnRE90TlV0ZXd1aS05YmZnWldoWnJwX2xwWWhKTjY1M0NoNUotSkVscUdaZE4?oc=5",
-        "summary": ""
-      },
-      {
-        "title": "MZ보다 활동적인 액티브시니어, 해외여행 어떻게 즐길까? - 데일리팝",
-        "source": "데일리팝",
-        "time": "329일 전",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3cy1SaVFPcHJjbWNCM05FSFdJVFZDMEgxTUZmQXRER3FKQ0o1WU1FZEZicDNlaVVTdmE3bUIydWdkbm1sbS1td1R0MUpjaWhpRE1sV3M2OXlubF9ya3hHRGpfa0V4cTlB?oc=5",
-        "summary": ""
-      }
-    ],
-    "60대+": [
-      {
-        "title": "[산업 이모저모] 아카라라이프, 코레일유통, 한국앤컴퍼니 - 비즈월드",
-        "source": "비즈월드",
-        "time": "18시간 전",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TeDZWUlZ2NW9FOXAtd0ZzaFJCeEctNzNTaTQwTDVQTjFGTmU2YVY2aExTNEdWLXhfREU0WjdoUEdMY0wtQkwzY29WblU5MTZuMW04NmtTNXA3emc5bUNtRWZFdHcyYXdHcmc?oc=5",
-        "summary": ""
-      },
-      {
-        "title": "[현장] 유럽·북미 에이지테크는 ‘적용’, 중국은 ‘확산’, 일본은 ‘삶’…시니어 산업 흐름 한눈에 - 디멘시아뉴스",
-        "source": "디멘시아뉴스",
-        "time": "61일 전",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrR19oVFF1eGR5SktmUDFyQ2YxVmotY0MxemI0Q1EyblFTTzJoaHJVZzhCdW1uZ3Q2ekJWV2ZVM0Q5NElvZjdWYmc5UU1pODh4Z1o1NU5fVl9MWVNFYmRzQVR4RmZIekVzUE5mUThXOGlOdw?oc=5",
-        "summary": ""
-      }
-    ]
-  },
   "briefing": {
-    "headline": "AI 주도 소비, 지속가능성 강조 및 개인화 경험 확산으로 시장 재편 가속화",
+    "headline": "지갑은 닫고 취향은 연다 — 절약의 콘텐츠화와 욜드 소비가 동시에 시장을 흔든다",
     "takeaways": [
-      "AI 기반 서비스가 일상 소비 경험을 혁신하며 생산성과 편의성을 극대화하고 있습니다.",
-      "환경 및 사회적 가치를 중시하는 지속가능 소비 트렌드가 전 연령대로 확산되며 기업의 ESG 경영이 필수적인 요소로 자리 잡았습니다.",
-      "개인의 취향과 필요에 맞춘 초개인화된 상품 및 서비스 수요가 급증하며 맞춤형 경험 제공이 핵심 경쟁력으로 부상하고 있습니다."
+      "20·30대는 무지출을 놀이처럼 즐기며, 절약 자체가 콘텐츠이자 커뮤니티가 되고 있습니다.",
+      "5060+ 액티브 시니어(욜드)가 건강·여행·자기계발 소비를 키우며 시장의 새로운 축으로 부상합니다.",
+      "AI 에이전트가 세대 전반의 검색·쇼핑 진입점을 바꾸며 소비 행동의 문법을 재편하고 있습니다."
     ],
-    "insight": "기술 발전과 사회적 가치 추구가 결합되어, 소비자는 더욱 스마트하고 의미 있는 경험을 추구하는 방향으로 진화하고 있으며, 이는 기업에게 혁신과 사회적 책임이라는 두 가지 과제를 동시에 안겨주고 있습니다.",
+    "insight": "심리(불확실성 적응·통제감 회복)와 시장(절약의 콘텐츠화)이 맞물립니다. 절약을 즐기는 정서가 가성비 서사 브랜드 경쟁으로 직결되며, 반대편에선 안정기에 접어든 시니어의 향유 소비가 균형추로 작용합니다.",
     "actions": [
-      "AI 기반 개인화 서비스 도입 및 고도화 전략을 수립하여 고객 경험을 혁신해야 합니다.",
-      "ESG 경영을 강화하고 지속가능성을 강조하는 마케팅 메시지를 개발하여 브랜드 가치를 제고해야 합니다."
+      "가성비 서사를 콘텐츠로: 절약을 ‘함께 즐기는 놀이’로 포지셔닝한 캠페인을 검토하세요.",
+      "시니어 라인업 점검: 건강·여행·배움 카테고리에서 욜드 전용 오퍼를 테스트하세요."
     ]
   }
 }

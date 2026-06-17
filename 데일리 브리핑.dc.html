@@ -313,11 +313,20 @@
       </div>
       <div style="font-family:'Noto Serif KR',serif;font-size:25px;font-weight:600;line-height:1.4;color:var(--ink);text-wrap:pretty">{{ openArticle.title }}</div>
       <div style="font-size:12.5px;color:var(--faint);margin-top:10px;display:flex;gap:8px;align-items:center"><span style="font-weight:600">{{ openArticle.source }}</span><span>·</span><span>{{ openArticle.time }}</span></div>
-      <p style="font-size:14.5px;line-height:1.74;color:var(--ink2);margin:18px 0 24px;text-wrap:pretty">{{ openArticle.summary }}</p>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">원문·관련 기사 보기 <span style="font-size:15px">↗</span></a>
+      <sc-if value="{{ openArticle.summary }}" hint-placeholder-val="{{ true }}">
+        <div style="background:var(--card2);border-radius:4px;padding:16px 18px;margin:18px 0 8px">
+          <div style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:8px">AI 요약 · 광고 없는 핵심 내용</div>
+          <p style="font-size:14.5px;line-height:1.74;color:var(--ink2);margin:0;text-wrap:pretty">{{ openArticle.summary }}</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ openArticle.noSummary }}" hint-placeholder-val="">
+        <p style="font-size:13.5px;line-height:1.6;color:var(--faint);margin:18px 0 8px">요약이 아직 준비되지 않았습니다. 아래 링크에서 원문을 확인하세요.</p>
+      </sc-if>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">{{ openArticle.linkLabel }} <span style="font-size:15px">↗</span></a>
         <button onClick="{{ modalToggleBm }}" style="{{ modalBmStyle }}">{{ modalBmChar }}</button>
       </div>
+      <div style="font-size:11px;color:var(--faint);margin-top:10px">※ 원문 사이트에는 광고가 포함될 수 있습니다</div>
     </div>
   </div>
 </sc-if>
@@ -353,7 +362,14 @@ class Component extends DCLogic {
 
   async _fetchJSON(path){ const res = await fetch(path, {cache:'no-store'}); if(!res.ok) throw new Error('http '+res.status); return await res.json(); }
 
-  _withUrl(a){ return { ...a, url: a.url || ('https://news.google.com/search?q='+encodeURIComponent(a.title)+'&hl=ko&gl=KR&ceid=KR:ko') }; }
+  _searchQuery(title){
+    // 긴 제목에서 핵심 키워드 2~4개만 추출 → 실제 관련 뉴스가 검색되도록
+    let t = String(title||'');
+    t = t.replace(/["""'']/g,'').replace(/[…·,\-—:→↗|]/g,' ').replace(/\s+/g,' ').trim();
+    const words = t.split(' ').filter(w=>w.length>=2 && !/^\d+[시간분초]/.test(w));
+    return words.slice(0,4).join(' ');
+  }
+  _withUrl(a){ return { ...a, url: a.url || ('https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(this._searchQuery(a.title))) }; }
 
   _buildDay(key, e, profiles){
     const parts = key.split('-').map(Number), y=parts[0], m=parts[1], dd=parts[2];
@@ -433,7 +449,7 @@ class Component extends DCLogic {
 
   _fallback(){
     if (this._cache) return this._cache;
-    const A = (title, source, time, summary) => ({ title, source, time, summary, url:'https://news.google.com/search?q='+encodeURIComponent(title)+'&hl=ko&gl=KR&ceid=KR:ko' });
+    const A = (title, source, time, summary) => ({ title, source, time, summary });
 
     const profiles = [
       { label:'10대', tag:'디지털 네이티브 · 정체성 형성기',
@@ -663,7 +679,7 @@ class Component extends DCLogic {
     const id = a.title;
     const bk = !!this.state.bookmarks[id], rd = !!this.state.read[id];
     return { ...a, id, side, accent:accentVar, bookmarked:bk, read:rd, timeColor:accentVar,
-      onClick:()=>this._open({ ...a, id, side, accent:accentVar }),
+      onClick:()=>this._open({ ...a, id, side, accent:accentVar, linkLabel: (a.url && !a.url.includes('search.naver.com')) ? '원문 기사 보기' : '관련 뉴스 검색', noSummary: !a.summary }),
       toggleBm:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); this._toggleBm(id); },
       titleStyle:'font-size:15px;font-weight:500;line-height:1.45;text-wrap:pretty;'+(rd?'color:var(--faint);':'color:var(--ink);'),
       starChar: bk?'★':'☆',
