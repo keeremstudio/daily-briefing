@@ -19,49 +19,49 @@
   "keywords": [
     {
       "rank": 1,
-      "term": "초개인화",
+      "term": "AI 일상화",
       "dir": "up",
       "change": "22%"
     },
     {
       "rank": 2,
-      "term": "AI 큐레이션",
+      "term": "초개인화 플랫폼",
       "dir": "up",
       "change": "18%"
     },
     {
       "rank": 3,
-      "term": "지속가능성",
+      "term": "지속가능 소비",
       "dir": "up",
       "change": "15%"
     },
     {
       "rank": 4,
-      "term": "경험 경제",
+      "term": "헬스케어 구독",
       "dir": "up",
-      "change": "13%"
+      "change": "12%"
     },
     {
       "rank": 5,
-      "term": "디지털 헬스케어",
+      "term": "친환경 모빌리티",
       "dir": "up",
-      "change": "11%"
+      "change": "10%"
     },
     {
       "rank": 6,
-      "term": "가치 소비",
+      "term": "디지털 휴먼",
       "dir": "up",
       "change": "9%"
     },
     {
       "rank": 7,
-      "term": "생성형 AI",
+      "term": "로컬 크리에이터",
       "dir": "up",
-      "change": "25%"
+      "change": "8%"
     },
     {
       "rank": 8,
-      "term": "구독 경제",
+      "term": "웰니스 테크",
       "dir": "up",
       "change": "7%"
     }
@@ -95,138 +95,153 @@
   ],
   "rising": [
     {
-      "title": "AI 기반 라이프스타일 코칭",
+      "title": "AI 기반 초개인화 추천",
       "momentum": 85,
-      "desc": "AI가 개인의 데이터를 분석해 건강, 학습, 취미 등 전반적인 라이프스타일을 코칭하는 서비스가 급부상하고 있습니다."
+      "desc": "AI가 소비자의 과거 행동, 선호도, 실시간 상황을 분석하여 쇼핑, 콘텐츠, 서비스 등 전 분야에서 최적의 상품과 서비스를 제안하며 소비 효율을 극대화합니다."
     },
     {
-      "title": "리커머스(Re-commerce) 플랫폼",
+      "title": "순환 경제형 소비",
       "momentum": 78,
-      "desc": "중고거래를 넘어 명품, 전자기기 등 고가 제품의 재판매 및 재활용을 전문적으로 중개하는 플랫폼이 소비자들의 주목을 받고 있습니다."
+      "desc": "제품의 생산부터 폐기까지 전 과정에서 자원 효율성을 극대화하고 재활용, 재사용, 공유 경제를 촉진하는 소비 방식이 환경 의식 높은 소비자들을 중심으로 확산되고 있습니다."
     },
     {
-      "title": "로컬 크리에이터 경제",
-      "momentum": 72,
-      "desc": "지역 특색을 살린 콘텐츠와 상품을 기획하고 판매하는 로컬 크리에이터들이 지역 경제 활성화의 주역으로 부상하고 있습니다."
+      "title": "온디맨드 웰니스",
+      "momentum": 75,
+      "desc": "개인의 건강 상태와 라이프스타일에 맞춰 실시간으로 제공되는 맞춤형 건강 관리 서비스로, AI 진단, 웨어러블 기기 연동, 비대면 코칭 등이 결합되어 일상 속 건강 관리를 돕습니다."
     }
   ],
   "marketArticles": [
     {
-      "title": "생성형 AI, 유통업계 판도 바꾼다... 개인화 추천 정교화",
+      "title": "AI 일상화 시대, 전국민 AI 활용 역량 강화! - 대한민국 정책브리핑",
+      "source": "대한민국 정책브리핑",
+      "time": "97일 전",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vTWRtX3ltMDlvR1RLUjN2dlZmQ2lLcGt2ZkRyMDFzM0laUDg0US0xR1RNQTRXbDlobmt3NmlVd3RPbDlXN19Fb1c1TGtsbkxXbVRZZ0N3NUtNbXNLTVJIUzI3dHZpdmFIa1pwNQ?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "AI 일상화에… “윤리교육·리터러시 정책 마련 필요” - 한국대학신문",
+      "source": "한국대학신문",
+      "time": "105일 전",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KUWMzZW1FQmhLdzZhc3RaTmFqMlpUakNjZDZUMWlNaG1ZOWxOQW1iQkxnVnVNUXMwQnl6REJhSzV3bmRJN2pXWDJmWHZ5WTRWbmZyd014b0VmV3ZsUDBUeUVraTZOZw?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "코웨이, 초개인화 라이프케어 플랫폼 구축 나선다 - 한국경제",
       "source": "한국경제",
-      "time": "3시간 전",
-      "summary": "유통업계가 생성형 AI를 활용한 고객 맞춤형 상품 추천 및 서비스 개발에 박차를 가하며 새로운 경쟁 구도를 형성하고 있습니다."
-    },
-    {
-      "title": "ESG 경영, 이제 선택 아닌 필수... 소비자 지갑 여는 핵심 요소",
-      "source": "매일경제",
-      "time": "5시간 전",
-      "summary": "기업의 ESG 경영 실천 여부가 소비자의 구매 결정에 미치는 영향이 커지면서, 투명한 정보 공개와 진정성 있는 활동이 중요해지고 있습니다."
-    },
-    {
-      "title": "엔데믹 후 첫 여름 휴가, '프리미엄 경험' 소비 폭발적 증가",
-      "source": "연합뉴스",
-      "time": "2시간 전",
-      "summary": "코로나19 팬데믹 이후 첫 맞는 여름 휴가 시즌을 맞아, 해외여행 및 고품격 숙박 등 '프리미엄 경험'에 대한 소비가 급증하고 있습니다."
+      "time": "20일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNRnFEWDNpdkZud0xIakxHT3AybkFhcXY1TlJjdC1pUEhCc3IyYU5FR19TeXZ0MUh3MmluSGtxbTJoaWhZd3lXanlZUlRINnhRbHE4bEtBZ1FsUdIBVEFVX3lxTFA1SDlKR194bkswVmgtSGNfRGduWnl2MVVRcl94TnlMRE45RVBnMU40a29WVWtldzVEV3hZZC1IOHVicUgwX0dWMUZ6amM2NFd3cFRQdw?oc=5",
+      "summary": ""
     }
   ],
-  "briefing": {
-    "headline": "AI 일상화와 지속가능성 소비 확산 속, 개인 맞춤형 경험 경제 부상",
-    "takeaways": [
-      "AI 기술이 생활 전반에 스며들며 소비자 구매 결정에 주요 변수로 작용하고 있습니다.",
-      "환경 및 사회적 가치를 중시하는 '가치 소비' 트렌드가 전 연령대로 확산되고 있습니다.",
-      "팬데믹 이후 회복세에 접어든 경험 경제는 초개인화된 형태로 진화하며 새로운 소비 기회를 창출합니다."
-    ],
-    "insight": "기술 발전과 사회적 가치 추구가 맞물려, 소비자는 이제 단순한 제품 구매를 넘어 개인화된 가치와 의미 있는 경험을 동시에 추구하는 시대로 접어들었습니다.",
-    "actions": [
-      "AI 기반의 고객 맞춤형 서비스 및 상품 추천 시스템 도입을 가속화하여 개인화된 경험을 제공해야 합니다.",
-      "제품 및 서비스 기획 단계부터 ESG 요소를 적극 반영하고, 투명한 정보 공개를 통해 소비자 신뢰를 구축해야 합니다."
-    ]
-  },
   "profileArticles": {
     "10대": [
       {
-        "title": "숏폼 콘텐츠 넘어 '롱폼'의 귀환? 10대들의 새로운 미디어 소비 패턴",
-        "source": "중앙일보",
-        "time": "4시간 전",
-        "summary": "빠르게 소비되던 숏폼 콘텐츠를 넘어, 10대들이 스토리텔링이 강화된 롱폼 콘텐츠에도 다시 관심을 보이며 미디어 소비의 다변화를 예고합니다."
+        "title": "한국교육학술정보원·특수교육디지털교육협회, 특수교육 디지털 학습도구 지원 강화 위해 ‘맞손’ - 한국대학신문",
+        "source": "한국대학신문",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqcTY1cmROR3h1NjJ1MFJBQjJ6aFFQVHQzSzEzQVRPcUh1Znl0QlZPa1dZNlVOWksteWRLUzJjTFBLb1hhNWpZd0QxUEU3U3Rnb0h0a0Fqb2xSbDdjVklaN2taYW1zQQ?oc=5",
+        "summary": ""
       },
       {
-        "title": "메타버스 플랫폼, 단순 놀이터 넘어 10대들의 학습·소통 공간으로 진화",
-        "source": "전자신문",
-        "time": "6시간 전",
-        "summary": "메타버스 플랫폼이 10대들에게 단순한 게임 공간을 넘어, 친구들과 교류하고 학습하며 새로운 경험을 하는 중요한 소셜 공간으로 자리매김하고 있습니다."
+        "title": "생성형 AI, 교육은 무엇을 지키고 무엇을 바꾸어야 하는가 - 한국교육신문",
+        "source": "한국교육신문",
+        "time": "132일 전",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1YUW1DWjRUbmdyWHJNWFBfOU5kdHB4MlZZdUdoVVlmUnpIbmhiUEUwd2N0ZC1na0lXWm83cHRvSEd1NXRvOW51dFg3bVJCQ3Q0T1lONENLN0pwY2FnR2kw?oc=5",
+        "summary": ""
       }
     ],
     "20대": [
       {
-        "title": "월급은 스쳐갈 뿐? 20대 '갓생' 트렌드 속 현명한 소비 전략",
-        "source": "조선일보",
-        "time": "3시간 전",
-        "summary": "자기계발과 건강 관리에 투자하며 '갓생'을 추구하는 20대들이 한정된 수입 안에서 가치 소비를 실현하기 위한 다양한 전략을 모색하고 있습니다."
+        "title": "한국비건인증원, 아시아 연대 채식 캠페인 '채식한걸음’ 성료 - 공감신문",
+        "source": "공감신문",
+        "time": "1시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uWDhSWFEyYWV1Y1E2V2FMZXFIOEFPbnRWR01QQm56eDR4REl3NGxaQy14LUZ5RHdJVmdSaTBTREZJVWt0QUZtdVZhYWF4SWUyajlfenVuYmkyT3ZMeTNFVUplOWdZcHNo?oc=5",
+        "summary": ""
       },
       {
-        "title": "N잡러 시대, 20대에게 재테크는 필수... 소액 투자 플랫폼 인기",
-        "source": "머니투데이",
-        "time": "7시간 전",
-        "summary": "다양한 수입원을 확보하는 N잡러가 늘면서, 20대 사이에서 주식, 펀드 등 소액으로 시작할 수 있는 간편한 투자 플랫폼 이용이 급증하고 있습니다."
+        "title": "K-비건 확산, 한식 기반 식물성 소비 해외서 주목 - 비건뉴스",
+        "source": "비건뉴스",
+        "time": "165일 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sNzJaTlcxbzRrdm1jZXVES1REVXh3TXdnU3VoSHNOdVlUTTJDS2QyMzRuWk9PZW11Nmx6MWduZFVUM1FDSElLVWdwYXk0QlVRQ2szdkU3YkFNWGMtSmN2WjA1bmYwYnRP?oc=5",
+        "summary": ""
       }
     ],
     "30대": [
       {
-        "title": "워라밸 중시하는 30대, '프리미엄 홈케어' 시장 성장 견인",
-        "source": "동아일보",
-        "time": "5시간 전",
-        "summary": "일과 삶의 균형을 중요하게 생각하는 30대들이 집에서 편안하게 즐길 수 있는 고품격 미용, 건강 관리 제품 및 서비스에 아낌없이 투자하고 있습니다."
+        "title": "[DQN]한국투자저축은행, 주식 호황에 순익 7.7배 성장 1위…포트폴리오 재편 여파 애큐온 순익 하위 [2026 저축은행 1분기 리그테이블-수익성] - 한국금융신문",
+        "source": "한국금융신문",
+        "time": "10시간 전",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9DSW04NWZOaTA0TmhERWVHRVZLY1Brdmw3d0VHcXZEbl8tWlFJM25QZzJrZmxPOWlhaHBiSlZhVjNWTDQ5ZFdWYmtSY1JzQ2Q2S2NsSTc5WXlsblJDbzQ1dUFnQi0wcDdSdVFxRi0weU5VdHJELUtJYWFQN3A?oc=5",
+        "summary": ""
       },
       {
-        "title": "육아도 스마트하게! AI 기반 영유아 교육 콘텐츠 시장 급부상",
-        "source": "서울경제",
-        "time": "8시간 전",
-        "summary": "바쁜 30대 부모들을 위해 AI 기술이 접목된 개인 맞춤형 영유아 교육 콘텐츠와 스마트 기기들이 큰 인기를 얻으며 관련 시장이 빠르게 성장 중입니다."
+        "title": "\"반도체 소부장이 대세\"… 코스닥 액티브 ETF '분주' - 매일경제 마켓",
+        "source": "매일경제 마켓",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTmxWUVlOZEx2MTdaNEh4V2ducXBsWXpLenRjZi1reWF2RDRKd2tVSTFOWTlYQWQ2YzdBaVZvNFc4b2pmT19MMmtsOVo2UkhFMHc?oc=5",
+        "summary": ""
       }
     ],
     "40대": [
       {
-        "title": "건강관리, 이제는 예방이 중요! 40대 맞춤형 웰니스 구독 서비스 각광",
-        "source": "한겨레",
-        "time": "2시간 전",
-        "summary": "노화를 늦추고 건강을 미리 관리하려는 40대들이 개인의 건강 상태에 맞춰 영양제, 운동 코칭 등을 정기적으로 제공하는 웰니스 구독 서비스에 주목하고 있습니다."
+        "title": "솔닥, 정부 마이데이터 지원사업 최종 선정 - 데일리안",
+        "source": "데일리안",
+        "time": "7시간 전",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNWHZRMEl4TWRRVGNUcjl2bzYxSHFVbVFKLVZGVnlmQmcxMEI2c0x0b19Oa0l0Zk5iWm9zZHZqWFpRS25ETzZIUVZoLWxVRHVGQzJ3X1NCUFFLZHUwQnU2UkFxMXV0Z3B0a1ZTVDVBWWtrQm1EWm5JWTBVSThNZXZhc19XVHNpRTNzNjllZHZlQUlHcndkaGtpMm5vMEYzNEYyUEsycnY0aUVRWWh2ZXhEeGgwTmZKcDl3TTBHSFBXSkwxU2o4NFlIOGM0ajB0RUhYbDMyS0hDWlhhLWhJbVZ0Y18xSkZ1aEc5R3plTlhrTmxmM3V6azYxVG1NMU8teDNSbHBrcndqdVdmQlh6d0tGR0hucHlWblR1VVHSAZoCQVVfeXFMTVh2UTBJeE1kUVRjVHI5dm82MUhxVW1RSi1WRlZ5ZkJnMTBCNnNMdG9fTmtJdGZOYlpvc2R2alhaUUtuRE82SFFWaC1sVUR1RkMyd19TQlBRS2R1MEJ1NlJBcTF1dGdwdGtWU1Q1QVlra0JtRFpuSVkwVUk4TWV2YXNfV1RzaUUzczY5ZWR2ZUFJR3J3ZGhraTJubzBGMzRGMlBLMnJ2NGlFUVlodmV4RHhoME5mSnA5d00wR0hQV0pMMVNqODRZSDhjNGowdEVIWGwzMktIQ1pYYS1oSW1WdGNfMUpGdWhHOUd6ZU5Ya05sZjN1ems2MVRtTTFPLXgzUmxwa3J3anVXZkJYendLRkdIbnB5Vm5UdVVR?oc=5",
+        "summary": ""
       },
       {
-        "title": "자녀 교육에 아낌없이 투자... 40대 학부모의 '에듀테크' 관심 증폭",
-        "source": "세계일보",
-        "time": "6시간 전",
-        "summary": "자녀 교육에 대한 높은 열정으로 40대 학부모들이 AI 튜터, 온라인 학습 플랫폼 등 최신 에듀테크 기술을 적극적으로 활용하며 교육 시장을 견인하고 있습니다."
+        "title": "미래에셋생명, 대학병원 연계 ‘프리미엄 건강검진 예약’ 확대 - 글로벌이코노믹",
+        "source": "글로벌이코노믹",
+        "time": "22일 전",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGc3S0ZleF9HY1l1TEx4MTFKOWp5UGFJc2k3RHdFNFVYRUNSNEtJYVJNLUttckF6YTZzTDVFYWUwdkVjNG9POElOQjRUbWN3RzlpTlAyOFBIWTdSamlSU09vVVFXRFpZd3ZWTFNScER2Y3o4ZWVYbzlNTXZvWEFrdVB3ZFE?oc=5",
+        "summary": ""
       }
     ],
     "50대": [
       {
-        "title": "액티브 시니어의 귀환! 50대, 은퇴 후 '제2의 인생' 위한 자기계발 투자",
-        "source": "경향신문",
-        "time": "4시간 전",
-        "summary": "은퇴를 앞두거나 은퇴 후에도 활발한 사회 활동을 원하는 50대들이 외국어, 자격증 취득 등 자기계발 프로그램에 적극적으로 참여하고 있습니다."
+        "title": "[스타트UP] “액티브 시니어의 라이프스타일 바꿀래요”...‘오뉴’ 운영하는 로쉬코리아 - 조선비즈 - Chosunbiz",
+        "source": "Chosunbiz",
+        "time": "309일 전",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc3paa2s5LTFpU3BVank3Q1VTdVhTb0dpOTlVZlVaY3dhYmQ0N3NLZHc1cTdMck5BcVFtUnlfWm9XUG9QQWFsWkVqMnlkcEJHOFRSeUhSYm90cm40R1d3emdIUFdHem5XRmRZOFpMNlV5Y1JsX29vZ0N2c2ZXWExmazBXbHFYdk1pRm1FbmVCVGvSAaQBQVVfeXFMUHd1Q0I1dzFDTWFEN0J0TzBJNTRlTXRhZXZiMG1mcV9ucnA5YUQyNkdrVXJ6ak0tNzNzbl9paHBjaTJnVTRyUWFRUW5XOWpsVWJaSjUyVTZaOWhweUgxUVVfMUJyMkZVclJlZzJGdVI1REhvd1pQb3RnRE90TlV0ZXd1aS05YmZnWldoWnJwX2xwWWhKTjY1M0NoNUotSkVscUdaZE4?oc=5",
+        "summary": ""
       },
       {
-        "title": "디지털 금융 사기 주의보 속, 50대 이상 위한 쉽고 안전한 금융 서비스 인기",
-        "source": "국민일보",
-        "time": "7시간 전",
-        "summary": "디지털 금융 환경에 대한 이해도가 낮은 50대 이상을 타겟으로 한 간편하고 안전한 모바일 뱅킹 및 자산 관리 서비스가 신뢰를 얻으며 확산되고 있습니다."
+        "title": "MZ보다 활동적인 액티브시니어, 해외여행 어떻게 즐길까? - 데일리팝",
+        "source": "데일리팝",
+        "time": "329일 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3cy1SaVFPcHJjbWNCM05FSFdJVFZDMEgxTUZmQXRER3FKQ0o1WU1FZEZicDNlaVVTdmE3bUIydWdkbm1sbS1td1R0MUpjaWhpRE1sV3M2OXlubF9ya3hHRGpfa0V4cTlB?oc=5",
+        "summary": ""
       }
     ],
     "60대+": [
       {
-        "title": "스마트폰으로 건강 체크? 60대 이상 디지털 헬스케어 기기 활용 증가",
-        "source": "헬스조선",
-        "time": "1시간 전",
-        "summary": "60대 이상 시니어들이 스마트폰 연동 건강 관리 앱, 웨어러블 기기 등을 활용하여 스스로 건강을 관리하는 디지털 헬스케어 트렌드가 확산되고 있습니다."
+        "title": "[산업 이모저모] 아카라라이프, 코레일유통, 한국앤컴퍼니 - 비즈월드",
+        "source": "비즈월드",
+        "time": "18시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TeDZWUlZ2NW9FOXAtd0ZzaFJCeEctNzNTaTQwTDVQTjFGTmU2YVY2aExTNEdWLXhfREU0WjdoUEdMY0wtQkwzY29WblU5MTZuMW04NmtTNXA3emc5bUNtRWZFdHcyYXdHcmc?oc=5",
+        "summary": ""
       },
       {
-        "title": "여가도 품격 있게! 60대 이상 위한 프리미엄 여행 및 문화 활동 인기",
-        "source": "여행신문",
-        "time": "5시간 전",
-        "summary": "경제적 여유를 바탕으로 여가 생활을 즐기는 60대 이상이 늘면서, 크루즈 여행, 고급 문화 강좌 등 고품격 여가 상품 및 서비스 수요가 증가하고 있습니다."
+        "title": "[현장] 유럽·북미 에이지테크는 ‘적용’, 중국은 ‘확산’, 일본은 ‘삶’…시니어 산업 흐름 한눈에 - 디멘시아뉴스",
+        "source": "디멘시아뉴스",
+        "time": "61일 전",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrR19oVFF1eGR5SktmUDFyQ2YxVmotY0MxemI0Q1EyblFTTzJoaHJVZzhCdW1uZ3Q2ekJWV2ZVM0Q5NElvZjdWYmc5UU1pODh4Z1o1NU5fVl9MWVNFYmRzQVR4RmZIekVzUE5mUThXOGlOdw?oc=5",
+        "summary": ""
       }
+    ]
+  },
+  "briefing": {
+    "headline": "AI 주도 소비, 지속가능성 강조 및 개인화 경험 확산으로 시장 재편 가속화",
+    "takeaways": [
+      "AI 기반 서비스가 일상 소비 경험을 혁신하며 생산성과 편의성을 극대화하고 있습니다.",
+      "환경 및 사회적 가치를 중시하는 지속가능 소비 트렌드가 전 연령대로 확산되며 기업의 ESG 경영이 필수적인 요소로 자리 잡았습니다.",
+      "개인의 취향과 필요에 맞춘 초개인화된 상품 및 서비스 수요가 급증하며 맞춤형 경험 제공이 핵심 경쟁력으로 부상하고 있습니다."
+    ],
+    "insight": "기술 발전과 사회적 가치 추구가 결합되어, 소비자는 더욱 스마트하고 의미 있는 경험을 추구하는 방향으로 진화하고 있으며, 이는 기업에게 혁신과 사회적 책임이라는 두 가지 과제를 동시에 안겨주고 있습니다.",
+    "actions": [
+      "AI 기반 개인화 서비스 도입 및 고도화 전략을 수립하여 고객 경험을 혁신해야 합니다.",
+      "ESG 경영을 강화하고 지속가능성을 강조하는 마케팅 메시지를 개발하여 브랜드 가치를 제고해야 합니다."
     ]
   }
 }
