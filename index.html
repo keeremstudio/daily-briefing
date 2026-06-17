@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:#f4f1ea;font-family:'Noto Sans KR',sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  ::selection{background:var(--ink);color:var(--bg)}
+  input{font-family:inherit}
+  :root{--bg:#f4f1ea;--card:#fbfaf6;--card2:#f1ede3;--ink:#1c1a17;--ink2:#3a352f;--muted:#6b655c;--faint:#8a8378;--line:#e4dfd3;--line2:#ddd8cd;--psych:#b4502e;--market:#2f6b4f;--up:#1f7a4d;--down:#c0432b}
+  [data-db-theme="cool"]{--bg:#eef0f3;--card:#f8f9fb;--card2:#e9edf2;--ink:#161a1f;--ink2:#2f353d;--muted:#5b626c;--faint:#828a95;--line:#dfe3e9;--line2:#d2d7df;--psych:#5b5478;--market:#345f82;--up:#1f7a4d;--down:#c0432b}
+  [data-db-theme="mono"]{--bg:#f1f0ee;--card:#fafafa;--card2:#ebeae7;--ink:#1a1a18;--ink2:#3a3a37;--muted:#66645f;--faint:#8c8a85;--line:#e3e2df;--line2:#d6d5d1;--psych:#3a352f;--market:#7a736a;--up:#4a6b50;--down:#a85a47}
+  [data-db-theme="dark"]{--bg:#1a1816;--card:#232120;--card2:#2c2926;--ink:#f0ece4;--ink2:#d8d2c8;--muted:#a39c8f;--faint:#807a70;--line:#34302c;--line2:#3e3a35;--psych:#d97a52;--market:#5aa37e;--up:#5cc98a;--down:#e07a5f}
+  @keyframes db-fade{from{opacity:0}to{opacity:1}}
+  @keyframes db-rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes db-pulse{from{opacity:.35}to{opacity:1}}
+  @keyframes db-spin{to{transform:rotate(360deg)}}
+  .db-scroll::-webkit-scrollbar{width:8px;height:8px}
+  .db-scroll::-webkit-scrollbar-thumb{background:var(--line2);border-radius:8px}
+  @media (max-width:880px){
+    .db-cols{grid-template-columns:1fr !important;gap:30px !important}
+    .db-takeaways{grid-template-columns:1fr !important;gap:14px !important}
+    .db-pad{padding:22px 18px 56px !important}
+    .db-nameplate{font-size:38px !important}
+    .db-masthead-r{display:none !important}
+  }
+  @media print{
+    .db-noprint{display:none !important}
+    .db-wrap{background:#fff !important;min-height:0 !important}
+    body{background:#fff}
+    .db-cols{grid-template-columns:1fr 1fr !important}
+    .db-card,.db-trend,.db-artrow{break-inside:avoid}
+    @page{margin:12mm}
+  }
+</style>
+</helmet>
+
+<div class="db-wrap" data-db-theme="{{ theme }}" style="background:var(--bg);min-height:100vh;color:var(--ink);transition:background .3s,color .3s">
+<div class="db-pad" data-screen-label="데일리 브리핑" style="max-width:1320px;margin:0 auto;padding:34px 40px 70px">
+
+  <!-- MASTHEAD -->
+  <div style="display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint);font-weight:500;border-bottom:1px solid var(--ink);padding-bottom:9px">
+    <span>{{ edition }}</span>
+    <span>Daily Intelligence Briefing</span>
+    <span>{{ dateFull }}</span>
+  </div>
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;padding:18px 0 16px;border-bottom:3px double var(--ink)">
+    <div>
+      <div class="db-nameplate" style="font-family:'Noto Serif KR',serif;font-weight:700;font-size:52px;line-height:.92;letter-spacing:-.02em;color:var(--ink)">데일리 브리핑</div>
+      <div style="font-size:13px;color:var(--muted);margin-top:9px;letter-spacing:.02em">연령별 인간 심리·상황 분석 &nbsp;·&nbsp; 대한민국 트렌드·시장 흐름</div>
+    </div>
+    <div class="db-masthead-r" style="text-align:right;font-family:'Noto Serif KR',serif">
+      <div style="font-size:13px;color:var(--faint);letter-spacing:.04em">AI AGENT EDITION</div>
+      <div style="font-size:30px;font-weight:600;letter-spacing:-.01em;margin-top:2px;color:var(--ink)">{{ weekday }}요일 판</div>
+    </div>
+  </div>
+
+  <!-- TOOLBAR -->
+  <div class="db-noprint" style="display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-top:16px">
+    <input value="{{ query }}" onInput="{{ setQuery }}" placeholder="기사·키워드 검색" style="flex:1;min-width:180px;max-width:280px;padding:9px 13px;border:1px solid var(--line2);background:var(--card);color:var(--ink);border-radius:8px;font-size:13px;outline:none">
+    <sc-for list="{{ sections }}" as="s" hint-placeholder-count="4">
+      <button onClick="{{ s.onClick }}" style="{{ s.style }}">{{ s.label }}</button>
+    </sc-for>
+    <span style="flex:1"></span>
+    <button onClick="{{ aiRefresh }}" style="{{ aiStyle }}">
+      <sc-if value="{{ aiBusy }}" hint-placeholder-val=""><span style="width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;display:inline-block;animation:db-spin .7s linear infinite"></span></sc-if>
+      <span>{{ aiLabel }}</span>
+    </button>
+    <button onClick="{{ doPrint }}" title="PDF로 저장" style="padding:9px 14px;border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit">PDF 저장</button>
+  </div>
+
+  <!-- DATE STRIP -->
+  <div class="db-scroll db-noprint" style="display:flex;gap:8px;align-items:center;padding:14px 0;overflow-x:auto;border-bottom:1px solid var(--line)">
+    <span style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-right:6px;white-space:nowrap">지난 브리핑</span>
+    <sc-for list="{{ dates }}" as="d" hint-placeholder-count="7">
+      <button onClick="{{ d.onClick }}" style="{{ d.pillStyle }}"><span style="font-weight:600">{{ d.d }}</span><span style="opacity:.6;margin-left:5px">{{ d.wd }}</span></button>
+    </sc-for>
+    <span style="font-size:11px;color:var(--faint);margin-left:6px;white-space:nowrap">← → 키로 이동</span>
+  </div>
+
+  <!-- 1-PAGE SUMMARY -->
+  <div class="db-card" style="margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:28px 30px;animation:db-rise .5s ease both">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
+      <span style="width:7px;height:7px;border-radius:50%;background:var(--down);display:inline-block;animation:db-pulse 1.3s ease-in-out infinite alternate"></span>
+      <span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);font-weight:600">오늘의 한 페이지 요약</span>
+      <sc-if value="{{ aiActive }}" hint-placeholder-val=""><span style="font-size:10px;font-weight:700;letter-spacing:.08em;color:#fff;background:var(--market);padding:2px 8px;border-radius:999px">AI 갱신</span></sc-if>
+    </div>
+    <div style="font-family:'Noto Serif KR',serif;font-weight:600;font-size:28px;line-height:1.4;letter-spacing:-.01em;max-width:980px;text-wrap:pretty;color:var(--ink)">{{ briefing.headline }}</div>
+    <div class="db-takeaways" style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:24px">
+      <sc-for list="{{ takeaways }}" as="t" hint-placeholder-count="3">
+        <div style="border-top:2px solid var(--ink);padding-top:13px">
+          <div style="font-family:'Noto Serif KR',serif;font-size:22px;color:var(--faint);line-height:1;margin-bottom:9px">{{ t.n }}</div>
+          <div style="font-size:14px;line-height:1.62;color:var(--ink2);text-wrap:pretty">{{ t.text }}</div>
+        </div>
+      </sc-for>
+    </div>
+    <sc-if value="{{ showInsight }}" hint-placeholder-val="{{ true }}">
+      <div style="margin-top:22px;display:flex;gap:14px;align-items:flex-start;background:var(--card2);border-radius:4px;padding:15px 18px">
+        <span style="font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--bg);background:var(--ink);padding:4px 9px;border-radius:3px;white-space:nowrap;margin-top:1px">연결 인사이트</span>
+        <span style="font-size:14px;line-height:1.6;color:var(--ink2)">{{ briefing.insight }}</span>
+      </div>
+    </sc-if>
+    <div style="margin-top:18px;border-top:1px dashed var(--line2);padding-top:16px">
+      <div style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:9px">오늘의 액션</div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <sc-for list="{{ actions }}" as="a" hint-placeholder-count="2">
+          <div style="display:flex;gap:9px;align-items:flex-start;font-size:13.5px;line-height:1.55;color:var(--ink2)"><span style="color:var(--market);font-weight:700;margin-top:1px">→</span><span style="text-wrap:pretty">{{ a }}</span></div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- TWO COLUMNS -->
+  <div class="db-cols" style="display:grid;grid-template-columns:{{ colTemplate }};gap:34px;margin-top:34px">
+
+    <!-- LEFT : PSYCHOLOGY -->
+    <sc-if value="{{ showLeft }}" hint-placeholder-val="{{ true }}">
+    <div style="min-width:0">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:10px">
+        <div style="display:flex;align-items:baseline;gap:12px">
+          <span style="font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--psych)">Section A</span>
+          <span style="font-family:'Noto Serif KR',serif;font-size:23px;font-weight:600;color:var(--ink)">연령별 심리 · 상황 분석</span>
+        </div>
+        <button onClick="{{ toggleCompare }}" class="db-noprint" style="font-size:12px;font-weight:500;color:var(--psych);background:transparent;border:1px solid var(--psych);border-radius:7px;padding:5px 11px;cursor:pointer;font-family:inherit;white-space:nowrap">{{ compareLabel }}</button>
+      </div>
+
+      <div class="db-scroll db-noprint" style="display:flex;gap:8px;margin-top:18px;overflow-x:auto;padding-bottom:4px">
+        <sc-for list="{{ ages }}" as="a" hint-placeholder-count="6">
+          <button onClick="{{ a.onClick }}" style="{{ a.pillStyle }}">{{ a.label }}</button>
+        </sc-for>
+      </div>
+
+      <!-- COMPARE VIEW -->
+      <sc-if value="{{ compareMode }}" hint-placeholder-val="">
+        <div style="margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:18px 16px;animation:db-fade .35s ease both">
+          <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:14px">연령대 정서 안정도 비교 · 어제 대비 · 클릭하여 선택</div>
+          <sc-for list="{{ compareList }}" as="c" hint-placeholder-count="6">
+            <div onClick="{{ c.onClick }}" style="{{ c.rowStyle }}">
+              <span style="width:52px;font-size:14px;font-weight:500;color:var(--ink)">{{ c.label }}</span>
+              <div style="flex:1;height:8px;background:var(--line);border-radius:5px;overflow:hidden"><div style="height:100%;border-radius:5px;background:var(--psych);width:{{ c.barPct }}%;transition:width .4s ease"></div></div>
+              <span style="font-family:'Noto Serif KR',serif;font-size:16px;font-weight:600;width:30px;text-align:right;color:var(--ink)">{{ c.score }}</span>
+              <span style="font-size:12px;font-weight:600;width:36px;text-align:right;color:{{ c.trendColor }}">{{ c.trend }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+
+      <!-- DETAIL VIEW -->
+      <sc-if value="{{ notCompare }}" hint-placeholder-val="{{ true }}">
+      <div style="margin-top:20px;animation:db-fade .4s ease both">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+          <div>
+            <div style="font-family:'Noto Serif KR',serif;font-size:34px;font-weight:700;line-height:1;color:var(--ink)">{{ sel.label }}</div>
+            <div style="font-size:13px;color:var(--psych);font-weight:500;margin-top:6px">{{ sel.tag }}</div>
+          </div>
+          <div style="text-align:right;min-width:130px">
+            <div style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)">정서 안정도 · 어제 대비</div>
+            <div style="display:flex;align-items:baseline;justify-content:flex-end;gap:6px;margin-top:2px">
+              <span style="font-family:'Noto Serif KR',serif;font-size:32px;font-weight:600;line-height:1;color:var(--ink)">{{ sel.moodScore }}</span>
+              <span style="font-size:13px;font-weight:600;color:{{ sel.moodTrendColor }}">{{ sel.moodTrend }}</span>
+            </div>
+          </div>
+        </div>
+
+        <sc-if value="{{ showCharts }}" hint-placeholder-val="{{ true }}">
+          <div style="margin-top:12px">
+            <div style="height:8px;background:var(--line);border-radius:5px;overflow:hidden"><div style="height:100%;border-radius:5px;background:var(--psych);width:{{ sel.moodScore }}%;transition:width .5s ease"></div></div>
+            <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--faint);margin-top:5px"><span>불안정</span><span>{{ sel.moodLabel }}</span><span>안정</span></div>
+          </div>
+        </sc-if>
+
+        <p style="font-size:14.5px;line-height:1.72;color:var(--ink2);margin:18px 0 0;text-wrap:pretty">{{ sel.psych }}</p>
+
+        <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:14px">
+          <sc-for list="{{ sel.emotions }}" as="e" hint-placeholder-count="4">
+            <span style="font-size:12px;padding:5px 11px;border-radius:999px;background:var(--card2);color:var(--psych);font-weight:500">{{ e }}</span>
+          </sc-for>
+        </div>
+
+        <div class="db-card" style="margin-top:20px;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:16px 18px">
+          <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:6px">지금의 상황</div>
+          <p style="font-size:13.5px;line-height:1.68;color:var(--ink2);margin:0 0 14px;text-wrap:pretty">{{ sel.situation }}</p>
+          <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:8px">핵심 고민</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <sc-for list="{{ sel.concerns }}" as="c" hint-placeholder-count="3">
+              <div style="display:flex;gap:9px;align-items:flex-start;font-size:13.5px;color:var(--ink2);line-height:1.5"><span style="color:var(--psych);font-weight:700;margin-top:1px">—</span><span>{{ c }}</span></div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="margin-top:22px">
+          <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">관련 기사 · 클릭하여 보기</div>
+          <sc-if value="{{ hasPsychArticles }}" hint-placeholder-val="{{ true }}">
+            <sc-for list="{{ sel.articles }}" as="a" hint-placeholder-count="3">
+              <div class="db-artrow" onClick="{{ a.onClick }}" style="display:flex;gap:13px;align-items:flex-start;padding:12px 4px;border-top:1px solid var(--line);cursor:pointer;transition:background .15s" style-hover="background:var(--card2)">
+                <span style="font-family:'Noto Serif KR',serif;font-size:13px;color:{{ a.timeColor }};font-weight:600;margin-top:2px;white-space:nowrap">{{ a.time }}</span>
+                <div style="min-width:0;flex:1">
+                  <div style="{{ a.titleStyle }}">{{ a.title }}</div>
+                  <div style="font-size:12px;color:var(--faint);margin-top:3px">{{ a.source }}{{ a.readBadge }}</div>
+                </div>
+                <button onClick="{{ a.toggleBm }}" style="{{ a.starStyle }}">{{ a.starChar }}</button>
+              </div>
+            </sc-for>
+          </sc-if>
+          <sc-if value="{{ noPsychArticles }}" hint-placeholder-val=""><div style="padding:22px 4px;font-size:13px;color:var(--faint)">표시할 기사가 없습니다.</div></sc-if>
+        </div>
+      </div>
+      </sc-if>
+    </div>
+    </sc-if>
+
+    <!-- RIGHT : MARKET -->
+    <sc-if value="{{ showRight }}" hint-placeholder-val="{{ true }}">
+    <div style="min-width:0">
+      <div style="display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:10px">
+        <span style="font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--market)">Section B</span>
+        <span style="font-family:'Noto Serif KR',serif;font-size:23px;font-weight:600;color:var(--ink)">대한민국 트렌드 · 시장 흐름</span>
+      </div>
+
+      <div style="margin-top:18px">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">검색·언급 급상승 키워드</div>
+        <sc-for list="{{ keywords }}" as="k" hint-placeholder-count="8">
+          <div style="{{ k.rowStyle }}">
+            <span style="font-family:'Noto Serif KR',serif;font-size:15px;font-weight:600;color:var(--faint);width:22px">{{ k.rank }}</span>
+            <div style="flex:1;min-width:0;display:flex;align-items:center;gap:8px">
+              <span style="font-size:14.5px;font-weight:500;color:var(--ink)">{{ k.term }}</span>
+              <sc-if value="{{ k.hl }}" hint-placeholder-val=""><span style="font-size:10px;color:var(--psych);border:1px solid var(--psych);padding:1px 7px;border-radius:999px;white-space:nowrap;font-weight:500">{{ k.relTag }}</span></sc-if>
+            </div>
+            <sc-if value="{{ showCharts }}" hint-placeholder-val="{{ true }}"><svg width="58" height="18" style="flex:none;overflow:visible"><polyline fill="none" stroke="var(--market)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" points="{{ k.spark }}"></polyline></svg></sc-if>
+            <span style="font-size:12.5px;font-weight:600;color:{{ k.changeColor }};width:54px;text-align:right">{{ k.arrow }} {{ k.change }}</span>
+          </div>
+        </sc-for>
+      </div>
+
+      <div class="db-card" style="margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:16px 18px">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:12px">시장 흐름 지표 <span style="color:var(--line2);letter-spacing:0">(전월=100)</span></div>
+        <sc-for list="{{ sectors }}" as="s" hint-placeholder-count="5">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:11px">
+            <span style="flex:1;font-size:13.5px;font-weight:500;color:var(--ink2)">{{ s.name }}</span>
+            <sc-if value="{{ showCharts }}" hint-placeholder-val="{{ true }}"><svg width="58" height="18" style="flex:none;overflow:visible"><polyline fill="none" stroke="var(--market)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" points="{{ s.spark }}"></polyline></svg></sc-if>
+            <span style="font-family:'Noto Serif KR',serif;font-size:14px;font-weight:600;color:var(--ink);width:46px;text-align:right">{{ s.value }}</span>
+            <span style="font-size:12px;font-weight:600;color:{{ s.changeColor }};width:42px;text-align:right">{{ s.sign }}{{ s.delta }}</span>
+          </div>
+        </sc-for>
+      </div>
+
+      <div style="margin-top:24px">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">부상하는 트렌드</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <sc-for list="{{ rising }}" as="r" hint-placeholder-count="3">
+            <div class="db-trend" style="{{ r.cardStyle }}">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
+                <div style="display:flex;align-items:baseline;gap:8px;min-width:0">
+                  <span style="font-family:'Noto Serif KR',serif;font-size:17px;font-weight:600;color:var(--ink)">{{ r.title }}</span>
+                  <sc-if value="{{ r.hl }}" hint-placeholder-val=""><span style="font-size:10px;color:var(--psych);border:1px solid var(--psych);padding:1px 7px;border-radius:999px;white-space:nowrap;font-weight:500">{{ r.relTag }}</span></sc-if>
+                </div>
+                <span style="font-size:11px;font-weight:600;color:var(--market);white-space:nowrap">모멘텀 {{ r.momentum }}</span>
+              </div>
+              <p style="font-size:13px;line-height:1.6;color:var(--muted);margin:7px 0 0;text-wrap:pretty">{{ r.desc }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="margin-top:24px">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">관련 기사 · 클릭하여 보기</div>
+        <sc-if value="{{ hasMarketArticles }}" hint-placeholder-val="{{ true }}">
+          <sc-for list="{{ marketArticles }}" as="a" hint-placeholder-count="3">
+            <div class="db-artrow" onClick="{{ a.onClick }}" style="display:flex;gap:13px;align-items:flex-start;padding:12px 4px;border-top:1px solid var(--line);cursor:pointer;transition:background .15s" style-hover="background:var(--card2)">
+              <span style="font-family:'Noto Serif KR',serif;font-size:13px;color:{{ a.timeColor }};font-weight:600;margin-top:2px;white-space:nowrap">{{ a.time }}</span>
+              <div style="min-width:0;flex:1">
+                <div style="{{ a.titleStyle }}">{{ a.title }}</div>
+                <div style="font-size:12px;color:var(--faint);margin-top:3px">{{ a.source }}{{ a.readBadge }}</div>
+              </div>
+              <button onClick="{{ a.toggleBm }}" style="{{ a.starStyle }}">{{ a.starChar }}</button>
+            </div>
+          </sc-for>
+        </sc-if>
+        <sc-if value="{{ noMarketArticles }}" hint-placeholder-val=""><div style="padding:22px 4px;font-size:13px;color:var(--faint)">표시할 기사가 없습니다.</div></sc-if>
+      </div>
+    </div>
+    </sc-if>
+  </div>
+
+  <div style="margin-top:46px;padding-top:16px;border-top:1px solid var(--ink);display:flex;justify-content:space-between;font-size:11px;letter-spacing:.06em;color:var(--faint)">
+    <span>{{ sourceLabel }}</span>
+    <span>{{ edition }} · {{ dateFull }}</span>
+  </div>
+</div>
+
+<!-- TOAST -->
+<sc-if value="{{ toast }}" hint-placeholder-val="">
+  <div class="db-noprint" style="position:fixed;bottom:26px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);font-size:13px;padding:11px 20px;border-radius:999px;box-shadow:0 8px 28px rgba(0,0,0,.25);z-index:60;animation:db-rise .3s ease both">{{ toast }}</div>
+</sc-if>
+
+<!-- ARTICLE MODAL -->
+<sc-if value="{{ openArticle }}" hint-placeholder-val="">
+  <div onClick="{{ closeArticle }}" style="position:fixed;inset:0;background:rgba(20,18,16,.5);backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:24px;z-index:50;animation:db-fade .2s ease both">
+    <div onClick="{{ stop }}" style="background:var(--card);max-width:560px;width:100%;border-radius:6px;box-shadow:0 24px 60px rgba(0,0,0,.34);padding:34px 36px;animation:db-rise .3s ease both">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px">
+        <span style="font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:{{ openArticle.accent }};padding:5px 11px;border-radius:3px">{{ openArticle.side }}</span>
+        <button onClick="{{ closeArticle }}" style="border:none;background:none;font-size:24px;color:var(--faint);cursor:pointer;line-height:1">×</button>
+      </div>
+      <div style="font-family:'Noto Serif KR',serif;font-size:25px;font-weight:600;line-height:1.4;color:var(--ink);text-wrap:pretty">{{ openArticle.title }}</div>
+      <div style="font-size:12.5px;color:var(--faint);margin-top:10px;display:flex;gap:8px;align-items:center"><span style="font-weight:600">{{ openArticle.source }}</span><span>·</span><span>{{ openArticle.time }}</span></div>
+      <p style="font-size:14.5px;line-height:1.74;color:var(--ink2);margin:18px 0 24px;text-wrap:pretty">{{ openArticle.summary }}</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">원문·관련 기사 보기 <span style="font-size:15px">↗</span></a>
+        <button onClick="{{ modalToggleBm }}" style="{{ modalBmStyle }}">{{ modalBmChar }}</button>
+      </div>
+    </div>
+  </div>
+</sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1320,&quot;height&quot;:960},&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;warm&quot;,&quot;cool&quot;,&quot;mono&quot;,&quot;dark&quot;],&quot;default&quot;:&quot;warm&quot;,&quot;tsType&quot;:&quot;'warm'|'cool'|'mono'|'dark'&quot;},&quot;showCharts&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showInsight&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = {
+    ageIdx: 1, dateIdx: 0, todayIdx: 0, openArticle: null,
+    query: '', section: 'all', compareMode: false,
+    bookmarks: this._load('db_bookmarks'), read: this._load('db_read'),
+    aiBusy: false, aiEdition: null, toast: '',
+    live: null, source: 'loading'
+  };
+
+  _load(k){ try{ return JSON.parse(localStorage.getItem(k) || '{}') || {}; }catch(e){ return {}; } }
+  _save(k,o){ try{ localStorage.setItem(k, JSON.stringify(o)); }catch(e){} }
+
+  componentDidMount(){
+    this._loadData();
+    this._kd = (e)=>{
+      const t = e.target;
+      if (t && (t.tagName==='INPUT' || t.tagName==='TEXTAREA')){ if(e.key==='Escape') t.blur(); return; }
+      if (e.key==='Escape'){ if(this.state.openArticle) this.setState({openArticle:null}); return; }
+      const max = (this.state.live ? this.state.live.days.length : 3) - 1;
+      if (e.key==='ArrowLeft'){ this.setState(s=>({ dateIdx:Math.min(max,s.dateIdx+1), aiEdition:null })); }
+      else if (e.key==='ArrowRight'){ this.setState(s=>({ dateIdx:Math.max(0,s.dateIdx-1), aiEdition:null })); }
+    };
+    window.addEventListener('keydown', this._kd);
+  }
+
+  _todayStr(){ const d=new Date(), p=n=>('0'+n).slice(-2); return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate()); }
+
+  async _fetchJSON(path){ const res = await fetch(path, {cache:'no-store'}); if(!res.ok) throw new Error('http '+res.status); return await res.json(); }
+
+  _withUrl(a){ return { ...a, url: a.url || ('https://news.google.com/search?q='+encodeURIComponent(a.title)+'&hl=ko&gl=KR&ceid=KR:ko') }; }
+
+  _buildDay(key, e, profiles){
+    const parts = key.split('-').map(Number), y=parts[0], m=parts[1], dd=parts[2];
+    const WD = ['일','월','화','수','목','금','토'];
+    const wd = WD[new Date(y, m-1, dd).getDay()];
+    const mood = profiles.map(p=> (e.moods && e.moods[p.label]!=null) ? e.moods[p.label] : 60);
+    const moodPrev = profiles.map(p=> (e.moodsPrev && e.moodsPrev[p.label]!=null) ? e.moodsPrev[p.label] : (e.moods && e.moods[p.label]!=null ? e.moods[p.label] : 60));
+    return { key, d:m+'.'+dd, wd, full:y+'년 '+m+'월 '+dd+'일 '+wd+'요일', ed:e.edition||'',
+      keywords:e.keywords||[], sectors:e.sectors||[], rising:e.rising||[],
+      briefing:e.briefing||{headline:'',takeaways:[],insight:'',actions:[]},
+      marketArticles:(e.marketArticles||[]).map(a=>this._withUrl(a)),
+      profileArticles:e.profileArticles||null, mood, moodPrev };
+  }
+
+  async _loadData(){
+    try{
+      const idx = await this._fetchJSON('data/index.json');
+      let keys = (idx && Array.isArray(idx.dates)) ? idx.dates.slice() : [];
+      if(!keys.length) throw new Error('no dates');
+      keys.sort((a,b)=> a<b?1:(a>b?-1:0));
+      const profilesRaw = await this._fetchJSON('data/profiles.json');
+      const profiles = (profilesRaw||[]).map(p=>({ ...p, articles:(p.articles||[]).map(a=>this._withUrl(a)) }));
+      const loaded = await Promise.all(keys.map(k=> this._fetchJSON('data/'+k+'.json').then(e=>({k,e})).catch(()=>null)));
+      const days = [];
+      loaded.forEach(it=>{ if(it && it.e) days.push(this._buildDay(it.k, it.e, profiles)); });
+      if(!days.length) throw new Error('no editions');
+      const today = this._todayStr();
+      let ti = days.findIndex(d=> d.key <= today);
+      if(ti < 0) ti = 0;
+      this.setState({ live:{ profiles, days }, source:'live', dateIdx:ti, todayIdx:ti });
+    }catch(err){ this.setState({ source:'fallback' }); }
+  }
+  componentWillUnmount(){ if(this._kd) window.removeEventListener('keydown', this._kd); if(this._tt) clearTimeout(this._tt); }
+
+  _toast(m){ this.setState({toast:m}); clearTimeout(this._tt); this._tt = setTimeout(()=>this.setState({toast:''}), 3200); }
+  _open(a){ const r={...this.state.read}; r[a.id]=true; this._save('db_read',r); this.setState({read:r, openArticle:a}); }
+  _toggleBm(id){ const b={...this.state.bookmarks}; if(b[id]) delete b[id]; else b[id]=true; this._save('db_bookmarks',b); this.setState({bookmarks:b}); }
+
+  async _aiRefresh(){
+    this.setState(s=>({ dateIdx:s.todayIdx, aiBusy:true, toast:'' }));
+    const prompt = 'You are a Korean consumer/market trend analyst. Return ONLY a raw JSON object, no markdown, no commentary. Schema: {"headline": string (one punchy Korean line), "takeaways": [3 Korean sentences], "insight": one Korean sentence linking generational psychology and market, "actions": [2 short Korean actionable lines for marketers/planners], "keywords": [{"term": Korean keyword, "change": "NN%", "dir": "up"|"down"|"flat"}] with exactly 8 items ranked by buzz}. Topic: today\u2019s South Korea consumer trends and market mood. Keep it realistic, specific, concise.';
+    try{
+      if (!(window.claude && window.claude.complete)){ this._toast('데모 환경에서는 예시 데이터로 동작합니다'); this.setState({aiBusy:false}); return; }
+      const out = await window.claude.complete(prompt);
+      let txt = String(out||'').trim();
+      txt = txt.replace(/^```json/i,'').replace(/^```/,'').replace(/```$/,'').trim();
+      const s = txt.indexOf('{'), e = txt.lastIndexOf('}');
+      if (s>=0 && e>s) txt = txt.slice(s, e+1);
+      const j = JSON.parse(txt);
+      const kws = Array.isArray(j.keywords) ? j.keywords.slice(0,8).map((k,i)=>({
+        rank:i+1, term:String(k.term||'').trim(),
+        change:(String(k.change||'').match(/\d+%?/)||['—'])[0],
+        dir:(k.dir==='down'?'down':k.dir==='flat'?'flat':'up')
+      })).filter(k=>k.term) : [];
+      const ai = {
+        headline: j.headline, insight: j.insight,
+        takeaways: Array.isArray(j.takeaways)? j.takeaways.slice(0,3):null,
+        actions: Array.isArray(j.actions)? j.actions.slice(0,2):null
+      };
+      if (kws.length) ai.keywords = kws;
+      this.setState({ aiEdition: ai, aiBusy:false });
+      this._toast('AI가 오늘의 브리핑을 갱신했습니다');
+    }catch(err){ this.setState({aiBusy:false}); this._toast('새로고침에 실패했어요. 잠시 후 다시 시도해 주세요'); }
+  }
+
+  makeSpark(dir, seed){
+    const n=7, w=58, h=15; const vals=[]; let cur=0;
+    const tr = dir==='up'?1 : dir==='down'?-1 : 0;
+    for(let i=0;i<n;i++){
+      const r = Math.sin((seed+1)*12.9898 + i*78.233)*43758.5453;
+      const j = (r - Math.floor(r)) - 0.5;
+      cur += tr*1.0 + j*1.5; vals.push(cur);
+    }
+    const mn=Math.min.apply(null,vals), mx=Math.max.apply(null,vals); const rng=(mx-mn)||1;
+    return vals.map((v,i)=>{ const x=(i/(n-1))*w; const y=h-((v-mn)/rng)*h; return x.toFixed(1)+','+(y+1.5).toFixed(1); }).join(' ');
+  }
+
+  _fallback(){
+    if (this._cache) return this._cache;
+    const A = (title, source, time, summary) => ({ title, source, time, summary, url:'https://news.google.com/search?q='+encodeURIComponent(title)+'&hl=ko&gl=KR&ceid=KR:ko' });
+
+    const profiles = [
+      { label:'10대', tag:'디지털 네이티브 · 정체성 형성기',
+        psych:'또래의 인정과 자기표현 욕구가 가장 강한 시기입니다. SNS 속 끊임없는 비교로 자존감의 기복이 크고, 진로·외모·관계를 둘러싼 불안이 공존합니다. 짧고 즉각적인 보상에 민감하게 반응합니다.',
+        situation:'기말고사와 수행평가가 겹치며 학업 스트레스가 정점에 달했습니다. 숏폼·AI 친구 앱 사용 시간은 늘고, 오프라인 모임은 줄어드는 추세입니다.',
+        emotions:['비교불안','FOMO','호기심','즉흥성'], concerns:['성적·진로에 대한 압박','외모와 또래 관계','용돈 범위의 소액 소비'],
+        relatedKeys:['디토 소비','숏폼 커머스'], relatedTrends:['숏폼 커머스 확장','AI 에이전트 일상화'],
+        articles:[ A('AI 학습앱, 10대 자기주도학습 시간 늘렸다','한국교육신문','2시간 전','주요 AI 튜터 앱 이용 청소년의 일평균 자기주도학습 시간이 전년 대비 늘었다는 분석. 즉각적 피드백이 동기 부여로 작용했다는 평가와 함께 사고력 저하 우려도 제기된다.'),
+          A('숏폼 1일 평균 89분… 청소년 집중력 논쟁 재점화','디지털데일리','5시간 전','청소년 숏폼 시청 시간이 다시 최고치를 기록하며 집중력·수면에 미치는 영향을 둘러싼 논의가 확산되고 있다.'),
+          A('10대 사이 디토 소비 확산… 추천이 곧 결제','트렌드모니터','어제','신뢰하는 인플루언서의 선택을 그대로 따르는 디토(Ditto) 소비가 10대 구매 결정의 핵심 경로로 자리잡고 있다.') ] },
+      { label:'20대', tag:'독립 모색 · 불확실성 적응기',
+        psych:'자율성에 대한 갈망과 생존의 압박 사이에서 긴장이 큽니다. 취업·관계·재무 독립의 과제가 동시에 몰리며 노력 대비 보상에 대한 회의가 커지지만, 작은 성취와 취향 소비로 통제감을 회복하려 합니다.',
+        situation:'상반기 공채 축소로 구직 기간이 길어지고, N잡·사이드 프로젝트를 병행하는 비중이 늘었습니다. 모임은 가성비·목적형으로 재편되는 흐름입니다.',
+        emotions:['번아웃','자기효능 갈망','현실주의','취향확립'], concerns:['취업과 소득의 불안정','주거비와 대출 부담','관계에서 오는 피로'],
+        relatedKeys:['무지출 챌린지','청년 주거 지원'], relatedTrends:['절약의 콘텐츠화'],
+        articles:[ A('20대 체감 청년실업, 공식 통계와 괴리 확대','노컷경제','1시간 전','구직 단념·불완전 취업을 포함한 체감 지표가 공식 실업률과의 격차를 키우며 20대의 박탈감이 커지고 있다는 분석.'),
+          A('무지출 챌린지 다시 유행… 절약이 곧 콘텐츠','머니투데이','4시간 전','지출 0원을 인증하고 공유하는 무지출 챌린지가 재유행하며 절약 자체가 놀이이자 콘텐츠가 되고 있다.'),
+          A('연애·결혼보다 자기 루틴… 20대 가치관 조사','한국리서치','어제','20대가 관계보다 개인의 루틴과 성장을 우선순위에 두는 경향이 뚜렷해졌다는 가치관 조사 결과.') ] },
+      { label:'30대', tag:'정착 압박 · 자원 배분기',
+        psych:'커리어 성장과 가정·자산 형성이 충돌하는 시기입니다. 시간 빈곤과 비교 압박이 크지만, 목표지향적 의사결정으로 효율을 추구하는 성향이 강해집니다.',
+        situation:'금리·전세 변동에 민감하게 반응하며 내 집 마련과 이직 타이밍을 저울질합니다. 육아와 돌봄을 병행하는 가구의 시간 압박이 특히 심화되고 있습니다.',
+        emotions:['책임감','비교압박','효율추구','미래불안'], concerns:['주택과 자산 형성','커리어 정체에 대한 불안','육아와 일의 균형'],
+        relatedKeys:['영끌 부동산','금리 인하 기대'], relatedTrends:['절약의 콘텐츠화','AI 에이전트 일상화'],
+        articles:[ A('30대 영끌 대신 존버… 부동산 관망세 뚜렷','한국경제','3시간 전','금리 불확실성 속에 무리한 매수보다 관망을 택하는 30대가 늘며 거래 절벽이 이어지고 있다.'),
+          A('경력직 이직 시장 양극화… 30대 핵심인재 쟁탈','잡플래닛인사이트','6시간 전','상위 직무에서는 30대 핵심인재 영입 경쟁이 치열한 반면 일반 직무는 채용 한파가 지속되는 양극화가 나타난다.'),
+          A('맞벌이 30대, 시간 사는 소비에 지갑 연다','컨슈머포스트','어제','가사 대행·밀키트 등 시간을 절약해주는 소비에 맞벌이 30대의 지출이 집중되고 있다.') ] },
+      { label:'40대', tag:'정점 책임 · 다중 부양기',
+        psych:'직장·자녀·부모라는 가장 많은 역할을 동시에 감당하는 부담이 정점에 이릅니다. 건강과 노후에 대한 자각이 시작되며, 의미와 안정 사이에서 삶을 재정렬하기 시작합니다.',
+        situation:'자녀 교육비 지출이 커지는 동시에 부모 돌봄 부담이 겹치는 낀 세대의 압박이 두드러집니다. 중간관리자 역할의 피로와 건강검진 이상소견에 대한 관심도 늘고 있습니다.',
+        emotions:['책임 과중','정체성 재점검','건강 자각','안정 추구'], concerns:['교육비와 노후의 동시 준비','직장 내 위치와 역할','본격화된 건강 관리'],
+        relatedKeys:['금리 인하 기대','영끌 부동산'], relatedTrends:['AI 에이전트 일상화'],
+        articles:[ A('사교육비 또 최고치… 40대 가계 압박 가중','교육경제','2시간 전','1인당 월평균 사교육비가 다시 최고치를 경신하며 자녀를 둔 40대 가계의 부담이 커지고 있다.'),
+          A('낀 세대 40대, 부모 돌봄·자녀 양육 이중부담','복지타임스','5시간 전','부모 돌봄과 자녀 양육을 동시에 책임지는 40대의 이중 부담이 사회적 과제로 떠오르고 있다.'),
+          A('40대 건강검진 이상소견 비율 상승','헬스조선','어제','대사증후군 등 만성질환 위험 신호가 40대에서 늘며 예방적 건강관리에 대한 관심이 커지고 있다.') ] },
+      { label:'50대', tag:'전환 설계 · 재정의기',
+        psych:'은퇴와 제2의 삶을 구체화하는 전환기입니다. 자녀 독립·직장 변화 등 상실과 자유가 공존하며, 건강과 관계의 질을 우선순위로 다시 배치합니다.',
+        situation:'임금피크·희망퇴직 논의 속에서 재취업·창업·자격증 취득을 적극적으로 탐색합니다. 시니어의 디지털 전환 학습 수요도 빠르게 늘고 있습니다.',
+        emotions:['전환 불안','자유 기대','관계 재정의','실용주의'], concerns:['은퇴 자금 설계','제2의 커리어','부부·가족 관계의 재정의'],
+        relatedKeys:['욜드(YOLD) 소비','금리 인하 기대'], relatedTrends:['욜드 소비 본격화'],
+        articles:[ A('5060 앙코르 커리어 교육 신청 1년새 40%↑','시니어경제','3시간 전','은퇴 후 새로운 일을 준비하는 앙코르 커리어 교육 수요가 5060을 중심으로 급증하고 있다.'),
+          A('퇴직연금 수령 전략, 50대 관심 급증','한국금융','어제','연금 개시 시점과 수령 방식에 따른 세제 차이가 부각되며 50대의 퇴직연금 전략 수요가 커졌다.'),
+          A('액티브 시니어 소비, 여행·건강에 집중','트렌드모니터','이틀 전','구매력을 갖춘 액티브 시니어가 여행·건강·자기계발에 지출을 집중하며 새로운 소비 주체로 부상하고 있다.') ] },
+      { label:'60대+', tag:'성숙 향유 · 건강 중심기',
+        psych:'자율과 건강 유지가 핵심 가치가 됩니다. 사회적 연결과 역할 상실에 민감할 수 있으나, 풍부한 경험에 기반한 정서적 안정과 만족감이 상대적으로 높습니다.',
+        situation:'디지털 금융·키오스크 적응의 격차가 존재하는 가운데 건강·돌봄 서비스 수요가 확대되고 있습니다. 활동적 여가와 평생교육 참여도 늘고 있습니다.',
+        emotions:['안정감','연결 욕구','건강 우선','여유·지혜'], concerns:['건강과 의료','고립과 관계','연금과 생활비'],
+        relatedKeys:['욜드(YOLD) 소비','AI 에이전트'], relatedTrends:['욜드 소비 본격화','AI 에이전트 일상화'],
+        articles:[ A('고령층 디지털 금융 격차 해소 정책 본격화','디지털데일리','4시간 전','키오스크·모바일뱅킹 사용에 어려움을 겪는 고령층을 위한 디지털 포용 정책이 본격 시행된다.'),
+          A('욜드 세대, 여가·자기계발 지출 늘었다','컨슈머포스트','어제','젊게 사는 노년 욜드(YOLD)가 여가와 배움에 적극 투자하며 시니어 소비의 성격을 바꾸고 있다.'),
+          A('독거 노인 돌봄, AI 안부 서비스 확대','복지타임스','이틀 전','AI 음성 안부 확인 서비스가 독거 노인 돌봄 공백을 메우는 대안으로 지자체 전반에 확대되고 있다.') ] },
+    ];
+
+    const editions = [
+      { keywords:[
+          {rank:1,term:'무지출 챌린지',dir:'up',change:'34%'},{rank:2,term:'AI 에이전트',dir:'up',change:'28%'},
+          {rank:3,term:'욜드(YOLD) 소비',dir:'up',change:'19%'},{rank:4,term:'디토 소비',dir:'up',change:'17%'},
+          {rank:5,term:'금리 인하 기대',dir:'up',change:'12%'},{rank:6,term:'청년 주거 지원',dir:'up',change:'9%'},
+          {rank:7,term:'숏폼 커머스',dir:'flat',change:'2%'},{rank:8,term:'영끌 부동산',dir:'down',change:'6%'} ],
+        sectors:[ {name:'콘텐츠·미디어',value:114.2,delta:3.1},{name:'금융·자산',value:105.0,delta:1.2},{name:'소비·유통',value:102.4,delta:-0.8},{name:'주거·부동산',value:99.7,delta:0.4},{name:'고용·노동',value:96.1,delta:-1.5} ],
+        rising:[ {title:'절약의 콘텐츠화',momentum:88,desc:'무지출·짠테크가 인증과 커뮤니티를 통해 놀이로 진화. 20·30대가 주도하며 브랜드들은 가성비 서사 경쟁에 돌입했다.'},
+          {title:'AI 에이전트 일상화',momentum:82,desc:'개인 비서형 AI가 검색·쇼핑·학습의 진입점을 대체하기 시작. 세대 전반으로 채택이 가속되고 있다.'},
+          {title:'욜드 소비 본격화',momentum:76,desc:'건강·여행·자기계발에 지갑을 여는 액티브 시니어가 부상. 5060+의 구매력이 시장의 새 축으로 떠오른다.'} ],
+        briefing:{ headline:'지갑은 닫고 취향은 연다 — 절약의 콘텐츠화와 욜드 소비가 동시에 시장을 흔든다',
+          takeaways:['20·30대는 무지출을 놀이처럼 즐기며, 절약 자체가 콘텐츠이자 커뮤니티가 되고 있습니다.','5060+ 액티브 시니어(욜드)가 건강·여행·자기계발 소비를 키우며 시장의 새로운 축으로 부상합니다.','AI 에이전트가 세대 전반의 검색·쇼핑 진입점을 바꾸며 소비 행동의 문법을 재편하고 있습니다.'],
+          insight:'심리(불확실성 적응·통제감 회복)와 시장(절약의 콘텐츠화)이 맞물립니다. 절약을 즐기는 정서가 가성비 서사 브랜드 경쟁으로 직결되며, 반대편에선 안정기에 접어든 시니어의 향유 소비가 균형추로 작용합니다.',
+          actions:['가성비 서사를 콘텐츠로: 절약을 \u2018함께 즐기는 놀이\u2019로 포지셔닝한 캠페인을 검토하세요.','시니어 라인업 점검: 건강·여행·배움 카테고리에서 욜드 전용 오퍼를 테스트하세요.'] } },
+      { keywords:[
+          {rank:1,term:'AI 에이전트',dir:'up',change:'31%'},{rank:2,term:'무지출 챌린지',dir:'up',change:'26%'},
+          {rank:3,term:'금리 인하 기대',dir:'up',change:'21%'},{rank:4,term:'욜드(YOLD) 소비',dir:'up',change:'15%'},
+          {rank:5,term:'숏폼 커머스',dir:'up',change:'11%'},{rank:6,term:'디토 소비',dir:'up',change:'8%'},
+          {rank:7,term:'청년 주거 지원',dir:'flat',change:'3%'},{rank:8,term:'영끌 부동산',dir:'down',change:'4%'} ],
+        sectors:[ {name:'콘텐츠·미디어',value:111.1,delta:2.2},{name:'금융·자산',value:103.8,delta:0.9},{name:'소비·유통',value:103.2,delta:0.3},{name:'주거·부동산',value:99.3,delta:-0.2},{name:'고용·노동',value:97.6,delta:-0.7} ],
+        rising:[ {title:'AI 에이전트 일상화',momentum:84,desc:'검색 1위 키워드로 올라선 AI 에이전트. 일상 업무·쇼핑 보조 도구로의 전환이 빨라지고 있다.'},
+          {title:'절약의 콘텐츠화',momentum:80,desc:'무지출 인증 문화가 지속되며 절약 콘텐츠 소비가 견고하게 유지된다.'},
+          {title:'숏폼 커머스 확장',momentum:71,desc:'짧은 영상에서 즉시 결제로 이어지는 숏폼 커머스가 콘텐츠 지표 상승을 견인한다.'} ],
+        briefing:{ headline:'금리 인하 기대가 키운 관망 심리 — 소비는 신중, 콘텐츠 소비만 뜨겁다',
+          takeaways:['금리 인하 기대가 커지며 실물 소비보다 관망·대기 심리가 강해졌습니다.','AI 에이전트 키워드가 검색 1위로 올라서며 일상 도구화가 가속됩니다.','숏폼 커머스가 콘텐츠·미디어 지표 상승을 이끌고 있습니다.'],
+          insight:'금리 기대(시장)와 신중함(심리)이 맞물려 \u2018지금은 사지 않는다\u2019는 정서가 강화 — 다만 콘텐츠 소비는 예외적으로 활발합니다.',
+          actions:['금리 이벤트 전후로 프로모션 캘린더를 재정비하세요.','숏폼 커머스 채널 비중 확대를 검토하세요.'] } },
+      { keywords:[
+          {rank:1,term:'무지출 챌린지',dir:'up',change:'22%'},{rank:2,term:'청년 주거 지원',dir:'up',change:'18%'},
+          {rank:3,term:'AI 에이전트',dir:'up',change:'16%'},{rank:4,term:'디토 소비',dir:'up',change:'14%'},
+          {rank:5,term:'욜드(YOLD) 소비',dir:'up',change:'10%'},{rank:6,term:'금리 인하 기대',dir:'up',change:'7%'},
+          {rank:7,term:'영끌 부동산',dir:'flat',change:'1%'},{rank:8,term:'숏폼 커머스',dir:'down',change:'3%'} ],
+        sectors:[ {name:'콘텐츠·미디어',value:109.4,delta:1.4},{name:'소비·유통',value:103.5,delta:0.6},{name:'금융·자산',value:102.9,delta:0.5},{name:'주거·부동산',value:99.5,delta:0.1},{name:'고용·노동',value:98.3,delta:-0.4} ],
+        rising:[ {title:'절약의 콘텐츠화',momentum:79,desc:'무지출 기조가 검색 1위를 유지하며 절약 문화가 견고하게 이어진다.'},
+          {title:'청년 주거 담론',momentum:73,desc:'주거비 부담이 핵심 의제로 떠오르며 정책·소비 양쪽에서 청년 주거 논의가 확산된다.'},
+          {title:'AI 에이전트 일상화',momentum:78,desc:'채택률이 꾸준히 우상향하며 세대 전반의 도구로 자리잡아 가고 있다.'} ],
+        briefing:{ headline:'청년 주거 담론 부상 — 비용 압박이 정책과 소비를 동시에 흔든다',
+          takeaways:['청년 주거 지원 키워드가 급부상하며 주거비 부담이 핵심 의제로 떠올랐습니다.','무지출 챌린지가 여전히 검색 1위로 절약 기조가 지속됩니다.','AI 에이전트 채택이 꾸준히 우상향하고 있습니다.'],
+          insight:'주거비 압박(상황)이 절약 심리와 결합 — 20·30대의 비용 최적화 행동이 더 정교해지는 흐름입니다.',
+          actions:['주거·생활비 절감과 연계한 혜택 메시지를 강화하세요.','청년 타깃 멤버십·구독의 가성비 패키지를 점검하세요.'] } },
+    ];
+
+    const marketArticles = [
+      A('한국 소비심리 3개월째 횡보… 선택과 집중 뚜렷','한국은행리뷰','1시간 전','소비심리지수가 기준선 부근에서 횡보하는 가운데, 필수 지출은 줄이고 가치 소비에 집중하는 양극화 패턴이 강해지고 있다.'),
+      A('콘텐츠·미디어 지수 사상 최고… 숏폼 커머스가 견인','미디어오늘','3시간 전','숏폼 기반의 즉시 구매가 확산되며 콘텐츠·미디어 부문 지표가 최고치를 기록했다.'),
+      A('시니어 시장 50조 돌파 전망… 유통가 욜드 정조준','리테일인사이트','어제','구매력 있는 욜드 세대를 겨냥한 전용 상품·채널이 늘며 시니어 시장 규모가 빠르게 확대될 것으로 전망된다.'),
+    ];
+
+    const keys = ['2026-06-17','2026-06-16','2026-06-15'];
+    const eds = ['No. 412','No. 411','No. 410'];
+    const moods = [[62,58,64,60,66,70],[64,62,63,61,64,67],[63,60,65,62,63,69]];
+    const moodsPrev = [[64,62,63,61,64,67],[63,60,65,62,63,69],[61,59,62,60,65,68]];
+    const days = keys.map((k,i)=> this._buildDay(k, {
+      edition: eds[i], moods: this._zip(profiles, moods[i]), moodsPrev: this._zip(profiles, moodsPrev[i]),
+      keywords: editions[i].keywords, sectors: editions[i].sectors, rising: editions[i].rising,
+      briefing: editions[i].briefing, marketArticles: marketArticles
+    }, profiles));
+
+    this._cache = { profiles, days };
+    return this._cache;
+  }
+
+  _zip(profiles, arr){ const o={}; profiles.forEach((p,i)=>{ o[p.label]=arr[i]; }); return o; }
+
+  _moodLabel(s){ return s>=68?'안정 지향':s>=64?'긴장 균형':s>=60?'과부하 경계':'기복 큼'; }
+
+  renderVals(){
+    const D = this.state.live || this._fallback();
+    const days = D.days;
+    let di = this.state.dateIdx; if(di>=days.length) di=days.length-1; if(di<0) di=0;
+    const day = days[di];
+    const ai = (di===this.state.todayIdx ? this.state.aiEdition : null);
+    const dd = day, baseEd = day;
+    const sec = this.state.section, q = this.state.query.trim().toLowerCase();
+    const showLeft = sec!=='market', showRight = sec!=='psych';
+
+    // briefing (AI override on today)
+    const briefing = ai ? {
+      headline: ai.headline || baseEd.briefing.headline,
+      insight: ai.insight || baseEd.briefing.insight,
+      takeaways: (ai.takeaways && ai.takeaways.length) ? ai.takeaways : baseEd.briefing.takeaways,
+      actions: (ai.actions && ai.actions.length) ? ai.actions : baseEd.briefing.actions,
+    } : baseEd.briefing;
+    const takeaways = briefing.takeaways.map((t,i)=>({ n:('0'+(i+1)).slice(-2), text:t }));
+
+    // moods / trend vs yesterday
+    const mToday = day.mood, mPrev = day.moodPrev;
+    const raw = D.profiles[this.state.ageIdx];
+
+    const sel = (()=>{
+      const sc = mToday[this.state.ageIdx], diff = sc - mPrev[this.state.ageIdx];
+      const src = (day.profileArticles && day.profileArticles[raw.label]) ? day.profileArticles[raw.label].map(a=>this._withUrl(a)) : raw.articles;
+      const mapArt = (a)=>this._mapArt(a, 'var(--psych)', '심리 · '+raw.label);
+      let arts = src.map(mapArt);
+      arts = arts.filter(a=>(!q || (a.title+a.source+a.summary).toLowerCase().indexOf(q)>=0) && (sec!=='bookmark' || a.bookmarked));
+      return { label:raw.label, tag:raw.tag, psych:raw.psych, situation:raw.situation,
+        emotions:raw.emotions, concerns:raw.concerns,
+        moodScore:sc, moodLabel:this._moodLabel(sc),
+        moodTrend:(diff>=0?'+':'')+diff, moodTrendColor:diff>=0?'var(--up)':'var(--down)',
+        articles:arts };
+    })();
+
+    // age pills + compare list
+    const agePill = (active)=>'padding:8px 16px;border-radius:999px;font-size:14px;font-weight:500;cursor:pointer;border:1px solid;transition:all .18s;white-space:nowrap;font-family:inherit;'+(active?'background:var(--psych);color:#fff;border-color:var(--psych);':'background:transparent;color:var(--muted);border-color:var(--line2);');
+    const ages = D.profiles.map((p,i)=>({ label:p.label, pillStyle:agePill(i===this.state.ageIdx), onClick:()=>this.setState({ageIdx:i}) }));
+    const compareList = D.profiles.map((p,i)=>{ const sc=mToday[i], diff=sc-mPrev[i], act=i===this.state.ageIdx;
+      return { label:p.label, score:sc, barPct:sc, trend:(diff>=0?'+':'')+diff, trendColor:diff>=0?'var(--up)':'var(--down)',
+        onClick:()=>this.setState({ageIdx:i, compareMode:false}),
+        rowStyle:'display:flex;align-items:center;gap:12px;padding:8px 10px;border-radius:8px;cursor:pointer;transition:background .15s;'+(act?'background:var(--card2);':'') }; });
+
+    // keywords / sectors / rising with cross-link
+    const kwSource = (ai && ai.keywords && ai.keywords.length) ? ai.keywords : baseEd.keywords;
+    const relKeys = new Set(raw.relatedKeys||[]), relTr = new Set(raw.relatedTrends||[]);
+    const keywords = kwSource.map((k,i)=>{ const dir=k.dir||'up', hl=relKeys.has(k.term);
+      return { rank:k.rank||(i+1), term:k.term, change:k.change, dir,
+        arrow: dir==='up'?'▲':dir==='down'?'▼':'■',
+        changeColor: dir==='up'?'var(--up)':dir==='down'?'var(--down)':'var(--faint)',
+        spark:this.makeSpark(dir, i+di*7), hl, relTag: hl?(raw.label+' 관심'):'',
+        rowStyle:'display:flex;align-items:center;gap:12px;padding:9px 0;border-top:1px solid var(--line);'+(hl?'background:var(--card2);margin:0 -10px;padding-left:10px;padding-right:10px;border-radius:4px;':'') }; });
+    const sectors = baseEd.sectors.map((s,i)=>({ name:s.name, value:s.value, delta:s.delta,
+      changeColor: s.delta>=0?'var(--up)':'var(--down)', sign: s.delta>=0?'+':'',
+      spark:this.makeSpark(s.delta>=0?'up':'down', i+100+di*5) }));
+    const rising = baseEd.rising.map(r=>{ const hl=relTr.has(r.title);
+      return { title:r.title, momentum:r.momentum, desc:r.desc, hl, relTag: hl?(raw.label+' 관심'):'',
+        cardStyle:'border:1px solid var(--line);border-left:3px solid var(--market);border-radius:3px;padding:14px 16px;background:'+(hl?'var(--card2)':'var(--card)')+';' }; });
+
+    // market articles (filtered)
+    let marketArticles = day.marketArticles.map(a=>this._mapArt(a, 'var(--market)', '시장 트렌드'));
+    marketArticles = marketArticles.filter(a=>(!q || (a.title+a.source+a.summary).toLowerCase().indexOf(q)>=0) && (sec!=='bookmark' || a.bookmarked));
+
+    // toolbar sections
+    const bmCount = Object.keys(this.state.bookmarks).length;
+    const chip = (active)=>'padding:7px 13px;border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;border:1px solid;font-family:inherit;transition:all .15s;'+(active?'background:var(--ink);color:var(--bg);border-color:var(--ink);':'background:transparent;color:var(--muted);border-color:var(--line2);');
+    const sections = [['all','전체'],['psych','심리'],['market','시장'],['bookmark', bmCount?('북마크 '+bmCount):'북마크']].map(([key,label])=>({ key, label, style:chip(sec===key), onClick:()=>this.setState({section:key}) }));
+
+    // date pills
+    const datePill = (active)=>'display:flex;align-items:center;padding:6px 12px;border-radius:999px;font-size:13px;cursor:pointer;border:1px solid;transition:all .18s;white-space:nowrap;font-family:inherit;'+(active?'background:var(--ink);color:var(--bg);border-color:var(--ink);':'background:transparent;color:var(--muted);border-color:var(--line2);');
+    const dates = D.days.map((x,i)=>({ d:x.d, wd:x.wd, pillStyle:datePill(i===di), onClick:()=>this.setState({dateIdx:i, aiEdition:null}) }));
+
+    // modal bookmark
+    const oa = this.state.openArticle;
+    const mBm = oa ? !!this.state.bookmarks[oa.id] : false;
+
+    return {
+      theme: this.props?.theme ?? 'warm',
+      showCharts: this.props?.showCharts ?? true,
+      showInsight: this.props?.showInsight ?? true,
+      edition:dd.ed, dateFull:dd.full, weekday:dd.wd,
+      sourceLabel: this.state.source==='live' ? 'data 폴더에서 매일 자동 갱신되는 브리핑' : (this.state.source==='loading' ? '데이터를 불러오는 중…' : 'AI 에이전트 브리핑 · 내장 예시 데이터(오프라인)'),
+      query:this.state.query, setQuery:(e)=>this.setState({query:e.target.value}),
+      sections, colTemplate: (showLeft && showRight) ? '1fr 1fr' : '1fr', showLeft, showRight,
+      aiBusy:this.state.aiBusy, aiActive:!!ai,
+      aiLabel: this.state.aiBusy ? '생성 중…' : 'AI로 새로고침',
+      aiStyle: 'display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border-radius:8px;font-size:13px;font-weight:600;cursor:'+(this.state.aiBusy?'wait':'pointer')+';font-family:inherit;border:1px solid var(--market);background:var(--market);color:#fff;opacity:'+(this.state.aiBusy?'.7':'1')+';',
+      aiRefresh:()=>{ if(!this.state.aiBusy) this._aiRefresh(); },
+      doPrint:()=>{ try{ window.print(); }catch(e){} },
+      dates, ages, compareList,
+      compareMode:this.state.compareMode, notCompare:!this.state.compareMode,
+      compareLabel: this.state.compareMode ? '상세 보기' : '연령대 비교',
+      toggleCompare:()=>this.setState(s=>({compareMode:!s.compareMode})),
+      sel, keywords, sectors, rising, marketArticles,
+      hasPsychArticles: sel.articles.length>0, noPsychArticles: sel.articles.length===0,
+      hasMarketArticles: marketArticles.length>0, noMarketArticles: marketArticles.length===0,
+      briefing, takeaways, actions:briefing.actions,
+      toast:this.state.toast,
+      openArticle:oa, stop:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); },
+      closeArticle:()=>this.setState({openArticle:null}),
+      modalBmChar: mBm?'★ 저장됨':'☆ 저장하기',
+      modalBmStyle: 'display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);background:transparent;font-size:14px;padding:12px 16px;border-radius:4px;cursor:pointer;font-family:inherit;color:'+(mBm?(oa?oa.accent:'var(--psych)'):'var(--muted)')+';',
+      modalToggleBm:()=>{ if(oa) this._toggleBm(oa.id); },
+    };
+  }
+
+  _mapArt(a, accentVar, side){
+    const id = a.title;
+    const bk = !!this.state.bookmarks[id], rd = !!this.state.read[id];
+    return { ...a, id, side, accent:accentVar, bookmarked:bk, read:rd, timeColor:accentVar,
+      onClick:()=>this._open({ ...a, id, side, accent:accentVar }),
+      toggleBm:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); this._toggleBm(id); },
+      titleStyle:'font-size:15px;font-weight:500;line-height:1.45;text-wrap:pretty;'+(rd?'color:var(--faint);':'color:var(--ink);'),
+      starChar: bk?'★':'☆',
+      starStyle:'border:none;background:none;cursor:pointer;font-size:16px;line-height:1;padding:2px;margin-top:1px;color:'+(bk?accentVar:'var(--line2)')+';',
+      readBadge: rd?' · 읽음':'' };
+  }
+}
+</script>
+</body>
+</html>
