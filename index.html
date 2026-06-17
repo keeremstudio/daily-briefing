@@ -353,7 +353,14 @@ class Component extends DCLogic {
 
   async _fetchJSON(path){ const res = await fetch(path, {cache:'no-store'}); if(!res.ok) throw new Error('http '+res.status); return await res.json(); }
 
-  _withUrl(a){ return { ...a, url: a.url || ('https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(a.title)) }; }
+  _searchQuery(title){
+    // 긴 제목에서 핵심 키워드 2~4개만 추출 → 실제 관련 뉴스가 검색되도록
+    let t = String(title||'');
+    t = t.replace(/["""'']/g,'').replace(/[…·,\-—:→↗|]/g,' ').replace(/\s+/g,' ').trim();
+    const words = t.split(' ').filter(w=>w.length>=2 && !/^\d+[시간분초]/.test(w));
+    return words.slice(0,4).join(' ');
+  }
+  _withUrl(a){ return { ...a, url: a.url || ('https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(this._searchQuery(a.title))) }; }
 
   _buildDay(key, e, profiles){
     const parts = key.split('-').map(Number), y=parts[0], m=parts[1], dd=parts[2];
@@ -433,7 +440,7 @@ class Component extends DCLogic {
 
   _fallback(){
     if (this._cache) return this._cache;
-    const A = (title, source, time, summary) => ({ title, source, time, summary, url:'https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(title) });
+    const A = (title, source, time, summary) => ({ title, source, time, summary });
 
     const profiles = [
       { label:'10대', tag:'디지털 네이티브 · 정체성 형성기',
