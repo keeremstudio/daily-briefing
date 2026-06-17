@@ -1,0 +1,296 @@
+{
+  "edition": "No. 413",
+  "moods": {
+    "10대": 58,
+    "20대": 55,
+    "30대": 62,
+    "40대": 57,
+    "50대": 65,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 64,
+    "40대": 60,
+    "50대": 66,
+    "60대+": 70
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "초개인화",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 2,
+      "term": "AI 커머스",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 3,
+      "term": "지속가능소비",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 4,
+      "term": "경험경제",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 5,
+      "term": "알파세대",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 6,
+      "term": "디지털헬스",
+      "dir": "up",
+      "change": "6%"
+    },
+    {
+      "rank": 7,
+      "term": "로컬크리에이터",
+      "dir": "up",
+      "change": "4%"
+    },
+    {
+      "rank": 8,
+      "term": "구독경제",
+      "dir": "flat",
+      "change": "2%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 113.7,
+      "delta": -0.5
+    },
+    {
+      "name": "금융·자산",
+      "value": 105.8,
+      "delta": 0.8
+    },
+    {
+      "name": "소비·유통",
+      "value": 102.9,
+      "delta": 0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 100.3,
+      "delta": 0.6
+    },
+    {
+      "name": "고용·노동",
+      "value": 96.5,
+      "delta": 0.4
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 라이프스타일 큐레이션",
+      "momentum": 85,
+      "desc": "AI가 개인의 일상 패턴을 학습하여 의식주 전반에 걸친 맞춤형 추천과 서비스를 제공하는 트렌드."
+    },
+    {
+      "title": "초개인화 웰니스 시장",
+      "momentum": 80,
+      "desc": "개인의 건강 데이터와 라이프스타일에 맞춰 운동, 식단, 멘탈 케어 등을 통합적으로 관리해주는 맞춤형 웰니스 서비스가 각광받음."
+    },
+    {
+      "title": "로컬리티 기반 커뮤니티 소비",
+      "momentum": 78,
+      "desc": "특정 지역의 특색 있는 제품이나 서비스를 소비하며, 온라인과 오프라인을 넘나드는 커뮤니티 활동을 통해 소속감과 가치를 공유하는 소비 형태."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "“AI기반 초개인화 시대 전략 차별화해야” - TIN뉴스",
+      "source": "TIN뉴스",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1rVmVZZllRR2w5WngweTlmR3dWaS1EVVpBb2MyLUhOQzRqRDhSWWdqQVdfQkloYnRONUtmRExueURTVGVaVFE?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "KT “초개인화 AI 에이전트, 올 하반기 상용화” - 조선비즈 - Chosunbiz",
+      "source": "Chosunbiz",
+      "time": "16시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcWVDdGMteGpJcnk0R1NTSTY5NnVoR0IzdnIta2ItQTNKOEwwaTlGWHlzVElYU2FkMnBnT2xLMjVMQUNmUGc3LTNjUDk4WE9NUFFIZTU5Y25ydVNINkw5QWwzWGpEYm1DRFVEZEE1cUppYk1PZTdPSVYzaUZjWTU1VTJB0gGWAUFVX3lxTE5NdFFxRU9jRUFaNlNhbmJRMVVMX2ctejBDQjlvb1JtS2RNYWVrWjJwTklFVi1PV1UxT0pvUjc0SklIZ3BMNkpLeHV4cDR2NHNiTDBDMks4UlZUZVp3MHhWMDIyRG8xblBhQzZhWmZBUVNqcXhxWmRISVpWS2s5YzZlZXdyTk1ZMXQwZGZYNjJQUHVwSndMdw?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "\"휴가 간 동안 AI가 대신 응대\"…KT, 하반기 '초개인화 AI 에이전트' 적용 - v.daum.net",
+      "source": "v.daum.net",
+      "time": "17시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TTml4WHhQU2ROWkdlR1pjSmZKdERHcHlHSk10M3Q5bF9uTkJ6Mi10RGRBMU1oQjRhRENPYWhWNG5yaUNQZFd0NkJPa1JsWXc?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "비자, 차세대 AI 커머스 구현 위해 오픈AI와 협력 - 뉴스와이어",
+      "source": "뉴스와이어",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnOHI1T0F6TjRlNlFCXzZodFJaeFdHTF9wMmJKdG9OejVOZndXa3piR092bXh5T1ctUU4yMklzaDJ4Nl9DWHJSSDQxcENjcF9Od3hfRzk1MUljd2hobUlN?oc=5",
+      "summary": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "'사천의 매력 자랑해요' SNS 숏폼 챌린지 공모전 - 뉴스사천",
+        "source": "뉴스사천",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qRFZtaFVpazNNa01sVk5rM0lTY25icW12NER4b1VFTW1NdDdHQXBBd1dWQldjM04zSmsxQURPbE9tbTNfOXBiRmdhaTY5bFQyU3gwdU9VaHR5S0M4djBQSzF4NElNMk9zSnc?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "사천시, '잡아라! 가방도둑 in 사천' SNS 숏폼 챌린지 공모전 개최 - gukjenews.com",
+        "source": "gukjenews.com",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uYzczd3AyMzZHUjNGZGJkLWhRY1pjdGo4a0pQUVFlUVRkWTNMazBhVWcwblZBd0FXTWk5RU9aZUtSTi15bVY3ai1wX3kwUXkzWjZqN0VnUUl6TGQ3QnBGRG5lV0FsSXRZNS1vVGV3?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "[AI픽] 클로드, 한국 생성형 AI 앱 매출 2위…챗GPT 맹추격 - v.daum.net",
+        "source": "v.daum.net",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85UzBlM0dpNml1T2VjdmJSdG51T2U2dVhUTVlHcXlTekdBSzBNLVpQb2hSUjB5UVExSmtlUGs3MWllemYySkZjMVBlaTRHQnNDNGg1NA?oc=5",
+        "summary": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "[청년발언대] 'N잡러' 된 청년들…부업은 선택인가 필수인가 - 청년일보",
+        "source": "청년일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jdTNMQ2MzeGVDWEozNHVHbGYyWVpTRUFDbU0xVnJGM3d6WVZXZ2xmOVVMT2xpN1RaUHc3XzN5c0xBNDFyXzJncFFBUVZiWFNKOWhhNVprcTB0WUZ2YWQwYlhR?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "브리티시 룰렛을 무료로 플레이하세요 교육의 중요성과 접근 방식: 최신 방법론 - 장단점 비교 분석 - kmrk.ru",
+        "source": "kmrk.ru",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQcHZJTzgyLVhnUmZRMFZEUnFsUW5GUDNlR0E0dTd4XzY1ZmdXMzRmYTNLdnJTUkJKa2piTm5pQTJCbkVqZ0c0SmR1YnduZzBGbGlpWGFhb3ExR3RuUGdJMXhUUk5yMm10cEpzaTQ1Y1pXVkxheWdVTjJjODQxYmgxTFZVdFozODk5RHJmSTFWeUhrZS1xamp3LUx4MW1CbUVWRVd0MEVkM2huVU9lTVIzeGlSWUtXVEY3T1g5ZE1YOVhqVDNDTERRYWF3VXFxM0kybzhwX0FDYzdIQzdWTDBaRENlM0J6eHUwX2xqMkNzYnlTTXA0RDhqNG1DMUZROGhxZWR6MGRZU3dEN3VnbnFoSjN6b2RYay03cHpTZFIzajlvQQ?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "안양산업진흥원, ESG 실천 위한 ‘제로웨이스트 캠페인’ 개최 - 안양신문",
+        "source": "안양신문",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlMVpNOEFaTXFyeUZGSkRDc0h0WllENHliR2hNdDY2VnF2Zm4xY2Z5NzJyQldoVER3X2k1WV9EdE9LMFdYNWlOMg?oc=5",
+        "summary": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "남성 육아휴직 국가공무원 처음으로 여성 넘어섰다 - v.daum.net",
+        "source": "v.daum.net",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03STVYclF1UTk0V25ieWtaVWxzMlY4MVZ2a1R0VVlGVU1PSWlSbVZ4UE50bXg4TDJNWG1Fd2dIYmxiTVZkYUVqYkZFb3RYVWtuYnpOZA?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "“요즘 육아휴직은 아빠가 대세”…공무원 육휴 남성이 여성 첫 추월 - 매일경제",
+        "source": "매일경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QRVhrRERxS2w3XzI5RmpJdVdEY2VkbkVHTWcxLWJ6cDNFbHJmMjh4bWYyNjZvMDVadWJqUDVMV3J3RDRfQVY5Rzl0dDNDZmhtR3NUSQ?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "예·적금 빼서 투자… ‘머니무브’ 타고 ‘국민재테크’로 자리매김 [심층기획-ETF 500조 시대] - v.daum.net",
+        "source": "v.daum.net",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5keFphdUhEWUFSMDBKVFhVUnJ5MGo3SFlaSFI1UjFMRDZWd3FMWVc2YlYzc1c4MkpPNUdYNXc3NU1tVWtwNjEwZjJCMVA0VVZzR0RRcg?oc=5",
+        "summary": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "오석진 대전시교육감 당선인, 업무보고 착수…AI·교권 공약 점검 - 타임뉴스",
+        "source": "타임뉴스",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zMUdHU183dS0wMC0wYjZmSFpkWldDSnlwcUNNLWVwSGdGNXlEWXNTVG1uc3pNcjc5VGRhR0x4ZVdJeW9QN3JfX1p1blpxWGZVNmc0Yw?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "아보랩스, AI로 언어 교육의 판을 뒤집다 - 네이트",
+        "source": "네이트",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GdVdVa3JVOXFIbW5nbkNQVk5HN0ZXNFNLcWtyc1NFY2V4azZ0N1I5ODZiVEpOekIwd0NFNVBzNGxlakY5ZkxaTEkwX0I4ZGJpc0J3?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "신한카드, 디지털 멤버십·AI 구독 서비스 캐시백 이벤트 실시 - 뉴스핌",
+        "source": "뉴스핌",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhdEI2d3FhakVWWURTOTNsQkNzaXNQM0NBSW9iV3VaOWtZQlV2Z3Vua0VKNFpWbkpQVzF5R19ld3p3V2ZTalFXSU83c3F0Q0Q1RlJfZDVYekNzT25t?oc=5",
+        "summary": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "초고령사회 전문 인재 양성 나선 서울디지털대, '액티브시니어전문가' 나노디그리 신설 - 브랜드경제신문",
+        "source": "브랜드경제신문",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xMXNEbVB0cUZydnNKR2hvTkI2dXhycnNVMVZhUGR4dFg1Y0tUVG5RM29UejNwcFhGYWNTSHYwOXktZUYwQlQ0dDZrQQ?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "서울디지털대 사회복지학과, ‘액티브시니어전문가’ 나노디그리 신설 - E동아",
+        "source": "E동아",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSaTEtWkhRREp5SWlmWFRyY09XZGUyNmxpYWFMOFZzZWExRWt6bnlRdzg0MTZHeWZNTFRXYmRhTUdHSzdfWjZxaFZCNmJHeGExMHc1UnhjYlFZY0NJRnluY0ZXRjJtMW8?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "강원교육청, 지역 청소년 맞춤형 디지털 교육 콘텐츠 7종 개발 - 연합뉴스",
+        "source": "연합뉴스",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qWjhROFl1X1Rib0xLTi1sM2pKUFVzYy15dUQ5MzVtZTU4bmZKLW92SnI1V0VkMGtjeXNLdGhEaVpia3dJZkdMcE44czlyR2RpUGNvYjhmRVJrZEnSAWBBVV95cUxPSHB4Yl9aQUhiTi1Cczd1NWZKTndRT091d1dxbGt3TkVRckdmY0RDc21SVjBON1EwSG91UTZGSFJpOEZ1ZzR3S0RPZnoyZ1VkSEhENk9KVjBPV2NpcTFreno?oc=5",
+        "summary": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "삼성전자, 유럽 최대 테크 박람회 비바테크서 AI 헬스케어 전면에 - 중앙일보",
+        "source": "중앙일보",
+        "time": "17시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSbkhRM3ZNTDNZWi1ZcDVUdmpSMmdMUWNJeWpQZXgySUZ0ZGE1cWJPWTZWNmVyQ3kyaE1hOEh0U2V1aUZkd3p3dWFwdURXdjhvWnBwd0x3?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "동아에스티-메쥬-피플앤드테크놀로지, '하이카디' 중심 헬스케어 사업 협력 강화 - 요양뉴스",
+        "source": "요양뉴스",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UckRjT1BuQ05JTHFNYUszYTRZMVpfeTZzanpsWXh4Ni1XcU1yTjhyX1dlTTR5YmxVZFVhNmRtV1NENnl1WnVxbkdaS25ORm9IcjhCcE43bzNMODhQdnd1MG1DRGkzay01TE1GSEI0bw?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "[귀농·귀촌 도우미] 실시간 온라인 수업…청년·여성 맞춤교육 - 농민신문",
+        "source": "농민신문",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DQnlvdWxuUEg2dnNsTXZaUW1LeHFFWXFpVFZqZEk4dVpkckJOWEppTjRBVmp5Rzg2V2ZIbmpRc3hoc3JyZHVYYUpyYW5RSjdDaDlHV3pKSUlVQQ?oc=5",
+        "summary": ""
+      }
+    ]
+  },
+  "briefing": {
+    "headline": "초개인화 시대, 경험 경제와 지속가능성이 소비의 핵심 가치로 부상",
+    "takeaways": [
+      "MZ세대를 넘어 알파 세대까지, 가치 소비와 윤리적 소비 확산 가속화",
+      "AI 기반 초개인화 서비스 경쟁 심화, 데이터 활용 마케팅 고도화 필수",
+      "경기 불확실성 속 '가성비'와 '가심비'의 양극화 소비 패턴 심화 및 공존"
+    ],
+    "insight": "전 세대에 걸쳐 '나'와 '우리'의 가치를 중시하는 경향이 강해지며, 단순 상품 구매를 넘어 브랜드의 철학, 사회적 기여, 그리고 개인화된 경험을 통해 자아를 실현하려는 욕구가 시장 전반을 이끌고 있다.",
+    "actions": [
+      "AI 및 빅데이터 기반 고객 세분화 및 초개인화 마케팅 전략 강화",
+      "ESG 경영을 통한 브랜드 가치 제고 및 지속가능성 커뮤니케이션 확대"
+    ]
+  }
+}
