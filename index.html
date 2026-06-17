@@ -315,7 +315,7 @@
       <div style="font-size:12.5px;color:var(--faint);margin-top:10px;display:flex;gap:8px;align-items:center"><span style="font-weight:600">{{ openArticle.source }}</span><span>·</span><span>{{ openArticle.time }}</span></div>
       <p style="font-size:14.5px;line-height:1.74;color:var(--ink2);margin:18px 0 24px;text-wrap:pretty">{{ openArticle.summary }}</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">원문·관련 기사 보기 <span style="font-size:15px">↗</span></a>
+        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">네이버 뉴스에서 관련 기사 보기 <span style="font-size:15px">↗</span></a>
         <button onClick="{{ modalToggleBm }}" style="{{ modalBmStyle }}">{{ modalBmChar }}</button>
       </div>
     </div>
@@ -353,7 +353,7 @@ class Component extends DCLogic {
 
   async _fetchJSON(path){ const res = await fetch(path, {cache:'no-store'}); if(!res.ok) throw new Error('http '+res.status); return await res.json(); }
 
-  _withUrl(a){ return { ...a, url: a.url || ('https://news.google.com/search?q='+encodeURIComponent(a.title)+'&hl=ko&gl=KR&ceid=KR:ko') }; }
+  _withUrl(a){ return { ...a, url: a.url || ('https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(a.title)) }; }
 
   _buildDay(key, e, profiles){
     const parts = key.split('-').map(Number), y=parts[0], m=parts[1], dd=parts[2];
@@ -433,7 +433,7 @@ class Component extends DCLogic {
 
   _fallback(){
     if (this._cache) return this._cache;
-    const A = (title, source, time, summary) => ({ title, source, time, summary, url:'https://news.google.com/search?q='+encodeURIComponent(title)+'&hl=ko&gl=KR&ceid=KR:ko' });
+    const A = (title, source, time, summary) => ({ title, source, time, summary, url:'https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(title) });
 
     const profiles = [
       { label:'10대', tag:'디지털 네이티브 · 정체성 형성기',
