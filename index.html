@@ -315,7 +315,7 @@
       <div style="font-size:12.5px;color:var(--faint);margin-top:10px;display:flex;gap:8px;align-items:center"><span style="font-weight:600">{{ openArticle.source }}</span><span>·</span><span>{{ openArticle.time }}</span></div>
       <p style="font-size:14.5px;line-height:1.74;color:var(--ink2);margin:18px 0 24px;text-wrap:pretty">{{ openArticle.summary }}</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">네이버 뉴스에서 관련 기사 보기 <span style="font-size:15px">↗</span></a>
+        <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">{{ openArticle.linkLabel }} <span style="font-size:15px">↗</span></a>
         <button onClick="{{ modalToggleBm }}" style="{{ modalBmStyle }}">{{ modalBmChar }}</button>
       </div>
     </div>
@@ -670,7 +670,7 @@ class Component extends DCLogic {
     const id = a.title;
     const bk = !!this.state.bookmarks[id], rd = !!this.state.read[id];
     return { ...a, id, side, accent:accentVar, bookmarked:bk, read:rd, timeColor:accentVar,
-      onClick:()=>this._open({ ...a, id, side, accent:accentVar }),
+      onClick:()=>this._open({ ...a, id, side, accent:accentVar, linkLabel: (a.url && !a.url.includes('search.naver.com')) ? '원문 기사 보기' : '관련 뉴스 검색' }),
       toggleBm:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); this._toggleBm(id); },
       titleStyle:'font-size:15px;font-weight:500;line-height:1.45;text-wrap:pretty;'+(rd?'color:var(--faint);':'color:var(--ink);'),
       starChar: bk?'★':'☆',
