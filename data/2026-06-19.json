@@ -1,0 +1,296 @@
+{
+  "edition": "No. 414",
+  "moods": {
+    "10대": 62,
+    "20대": 59,
+    "30대": 61,
+    "40대": 59,
+    "50대": 69,
+    "60대+": 72
+  },
+  "moodsPrev": {
+    "10대": 58,
+    "20대": 55,
+    "30대": 62,
+    "40대": 57,
+    "50대": 65,
+    "60대+": 68
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "커뮤니티 소비",
+      "dir": "up",
+      "change": "12"
+    },
+    {
+      "rank": 2,
+      "term": "AI 디톡스",
+      "dir": "up",
+      "change": "9"
+    },
+    {
+      "rank": 3,
+      "term": "관계 맺기 플랫폼",
+      "dir": "up",
+      "change": "8"
+    },
+    {
+      "rank": 4,
+      "term": "생성형 AI 윤리",
+      "dir": "up",
+      "change": "6"
+    },
+    {
+      "rank": 5,
+      "term": "로컬 크리에이터",
+      "dir": "up",
+      "change": "4"
+    },
+    {
+      "rank": 6,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "3"
+    },
+    {
+      "rank": 7,
+      "term": "지속가능 패션",
+      "dir": "up",
+      "change": "2"
+    },
+    {
+      "rank": 8,
+      "term": "디지털 휴식",
+      "dir": "up",
+      "change": "1"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 115.3,
+      "delta": 1.6
+    },
+    {
+      "name": "금융·자산",
+      "value": 106.1,
+      "delta": 0.3
+    },
+    {
+      "name": "소비·유통",
+      "value": 103.1,
+      "delta": 0.2
+    },
+    {
+      "name": "주거·부동산",
+      "value": 100.9,
+      "delta": 0.6
+    },
+    {
+      "name": "고용·노동",
+      "value": 97,
+      "delta": 0.5
+    }
+  ],
+  "rising": [
+    {
+      "title": "시티 다이버스 (City Divers)",
+      "momentum": 85,
+      "desc": "도시의 숨겨진 공간과 문화를 탐험하며 새로운 경험을 추구하는 젊은 세대의 트렌드. 단순한 관광을 넘어 로컬리티를 깊이 있게 체험하려 한다."
+    },
+    {
+      "title": "느슨한 연대 커뮤니티",
+      "momentum": 78,
+      "desc": "강한 소속감보다는 공통의 관심사를 기반으로 자유롭게 모이고 흩어지는 비공식적 온라인/오프라인 모임이 확산. 부담 없이 관계를 맺고 싶어하는 욕구 반영."
+    },
+    {
+      "title": "환경 친화적 라이프스타일 구독",
+      "momentum": 72,
+      "desc": "친환경 제품, 제로 웨이스트 서비스, 지속가능한 배송 등을 정기적으로 받아보는 구독 서비스가 인기. 편리함과 가치 소비를 동시에 추구."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "에너지 및 커뮤니티 네트워크, 사회 전기 요금 검토 촉구 | ISA - | Instituto Socioambiental",
+      "source": "| Instituto Socioambiental",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPOGI3X2FrUUJ4d0YxT3F4ODdfdG1KSmFITnphX0daNVZDZlJxc1A1UjY3MnFlVlQ0cGV4Q3JzTWs3Nm5DY25fUkJ5N0Y1UTVUVWVVLWQ0aXhudGg1S0ZTWDhBMkNUMDhGV1djeEdfQllxMXZIM2hHVmRBZ3l1RXhlYWZsdTl1SGc1U25KQzRvZ0xxLVByUGJvZFJaMkppQVV4OVdPaFVwcnN4dE5JUEg3ejNqb1VUd2tjSkVXVWxFbzE4ejFBb0NyT2NEeWZWSk9pV2JUbDgyLUN3NnlPTVB5d3VkWS1hV1JXa1lMU0pycFNuQkJnLWVuUUxjLTM2TkJ6dHEtTFR0dkh6MmlEQWJZYm1fMEdWaHY4ZGU1X3FSMFdKNVZKcmUwYWZMTnpNUlBOQ2JVMk9qSDk1Vzc5akJ0YnlzQjNzZlpIN004NmRCM3pKU0VCNjN2RXNBcUNsWUxtMDlKQWZ6THhqd3J6Tm5LVzhMZ2dTbV9xRk9WbFZTODlRVTZ3RDVkTHFfZGdIbmtQUFFDc09qQzhjUmpSblc2ZmtCQUJGS0VrVktYZElNSEUzUHBtRUFJZ1l4XzY2UXJCb09KQ3dYc0VTSEdZZ3l1TXFqck1fdVdieENzS3ZKeU43bllWN0xYQllod3ZKS3A1NlA5Nk1pQThaYlJCVUtzZ2EwRDIzUE5vRTc2bjl0WDBxYnB6bkh0Q0JNZ1ZlUjdaV1dkUEwxWGQycTVOencxWGlNWXFEMG9uSnZGclpPY2hiVDNyNHFB?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "[출간 리스트] 『그랜드 제너레이션이 온다』 - 한국의약통신",
+      "source": "한국의약통신",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JZHgydGxqaWFwNnhzZG1ySDg2emJpTlZvRFJjU2drcW05cjNadnlMYU55VWQ1dVU1bl9xbWNROExfbGdXZlNKY2xmRmFteENXZjUzQlZhcmpVb2E4cEtfU1lYZl92aV82Q2lv?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "“실버는 잊어라, 가계 자산 80% 쥔 ‘GG’가 온다”… 소비 지형 바꾸는 신인류 - 팜뉴스",
+      "source": "팜뉴스",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iZEhZZUdFUDZlZ05QVmUwNks3cjl2YU1sbXlvQUtHRGg4Q3l6ckhPV3lYZWNzVmNDUFd0VmRYWUpkY3F6bWRpd3pfU05PX19xb2RsWi1zcDdCZGRsOWRFX2dsRDdFRmhVajZQYg?oc=5",
+      "summary": ""
+    },
+    {
+      "title": "미신이 된 계몽주의… AI 데이터 시대에도 몰락의 전철 밟을까[서영채의 인문 디톡스] - 문화일보",
+      "source": "문화일보",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55eG9uTVZYdVlCb0lKYWlNR2p0LVotTXRtQ3h0YU1xNVUwbkZ1MnJpbXgwaUt2RjlwUUxhWWg2SGswMmF3Y3ZfOWR6NlVUWXIw?oc=5",
+      "summary": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "사천시, 숏폼 챌린지 공모전 개최 - 한국뉴스통신",
+        "source": "한국뉴스통신",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6d1o0NjZ2bHZFam80eEV5SDI3d0pNblFHSl9xMlNmc2xHLVdYbTdPM2djY2FGTVozRGk5T1NDTUdJWm8tdHQwZUtaMl9LMkxscnpkQlYwUk82QnlMSkswTTRrYkVBQQ?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "교사·학생이 함께 만든 숏폼 챌린지, 7만뷰 돌파 - 분당신문",
+        "source": "분당신문",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9jX1BmSmdvM1NoZ3NhcllJdWVyamlrRFVENWI4dm91MmN4cGp3TmZrMy1zSjhXVGo3RGx5REVZZ0JtT2J1RjBheEJiVQ?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "위버스브레인, 한국외대와 '다국어 AI 튜터 개발' MOU 체결 - v.daum.net",
+        "source": "v.daum.net",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aMlY1cWd4NW9lZER4VUFzM29MMHM5NEZDQzc2SzhHeWZGLXlEYkVBXzhKM1dKLUxzVGd0X1FfaGdMYUVzTnQ0QVRxckhqc0tKUXJxbA?oc=5",
+        "summary": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "[마켓트렌드] 테마파크 넘어 '팬덤 성지'로…에버랜드, IP 플랫폼으로 진화 - 전자신문",
+        "source": "전자신문",
+        "time": "19시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JLXJNQmMyWHQ5dzVqRDhtMDhVSkJqZUdSRndUdDRLOXAtOGpXYWg2ZDFnNTFwdUNQMzFVVGsyeEl6MzVZNWxPSUVXNnhVUQ?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "어릴 땐 돈 없어 못 샀는데…요즘 젊은 세대가 주말마다 오픈런하는 '의외의 공간' - 위키트리",
+        "source": "위키트리",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE42M1MtdFEyeXNGdTJoNFVhZUQ4YVhXZnVzLVV5YWJTWWFTZmNSNURuMFBmQ0hZMXlfMzVIVnZMaUllX0lpWWJwU09QNEJIV1lVa0ZSUUlR?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "세계한인 | 국내관광과 업무를 동시에…‘워케이션’ 비자 내년 시범운영 - 밴쿠버 중앙일보",
+        "source": "밴쿠버 중앙일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlZNakVjSDNDTmQyUm9oN3NDX0VQVTBSQ2tIZTc4TEN4OTBUUGJYYlExNGNhMjZVVHNVWXdJeUxVWEQ4aFJwc001R2dRU2pJREJUakk4V1FIMFNGWVpqQ1hHZGVvUkhhLVE1QnVzcUZfZUVva2lWdEhGT09aSnBsUlNWbTBwbzZ1Yks1aXh2cmdiUUdCSkZISlFHNVRqd3FfbU5VMktpSHAyclFiZi1fT1phSnJDN3VOb0hfZHFGazZHcVhXeXc?oc=5",
+        "summary": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "28화 28편. BM 설계 프레임워크 - 브런치",
+        "source": "브런치",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBDT1RxTm5xUjR5Zkk2NkwzSEdXcklSYnFyeXl1UXZXX1lrYm1HR3hmcm44UUxwSzljaTBMQk1KNDZoR3dsWkRDWU5B?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "탄소배출 줄인다는 소도시 여행, 효과 있을까? - 뉴스펭귄",
+        "source": "뉴스펭귄",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qZy1UVUszSkVQeFo5ZVRHandYTjQ5QmRLbGFNRGpJdUFkV2JrbVlYMUNiTTF5SmQzODNlSVVFQldjSGNlRmJESWtuOVBmaHJXM21pTG16R3VOeGJRN0syWXUzam5rcHJ2V3N0WWJR0gFyQVVfeXFMUF9ITUV3d3UzYVFOVkh4TXhnaWhsZ2JSUDdZTFVJVGhoT2U2VzlyN1B1RE1nNDFMU1dYcm1NQkkzX3ZqaGlwSThYbmhnRGViRkRORjBTWnBJb1E5TG9Yd3p4YlF6dHlNVm5fVGY1bkZDUzFB?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "'슬로우 투어리즘'을 발전시키는 데에는 많은 이점이 있습니다. - Vietnam.vn",
+        "source": "Vietnam.vn",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zMWRpc2RDeVJGV1kzVWlsXzUxWmtLaURlUU5meXJucmVENTIwNi1wMldUUEtnRzNFdTlOT0FWUmp5dDhhNTVGMkVMb3QtTVd1b2hvTzZKaUQzT2dKYkJNWW83c0s3WldMYnRtbWVfMjZIQzNa?oc=5",
+        "summary": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "구글·유튜브, 여름방학 자녀 화면 사용 도구 3가지 제시...안드로이드 보호자 제어 전 기기 확대·AI 학습 도구로 온·오프라인 균형 제안 - 한국정보기술진흥원",
+        "source": "한국정보기술진흥원",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1UMDNwc0hLamVQUE01NFpEYmdGYTZBRUd6Qm1ma21iVG5zNkZtalZ6OUp2Nk1xanNDMnJDaHlaTnY?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "부산 동래구, 부산대학교와 함께하는 ‘AI 인재 육성 코딩 프로그램’ 수강생 모집 - 국제신문",
+        "source": "국제신문",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSjVBTUUtalN5NTljcE8zY3ZXYjJJTE1jRmRuNGgteEktV25GaVZEN3FucDRrUUcwWWxKMElSRUstSnFvdjFPSFVJOEJUTkxwamhuTlhzbEN5dXJTRm8zWUoxRzgxaWdLeU9pcm9VWDZFTk1jdmRlUnNPeGpOeHZCMFVwYUk3d0gwLWZsQU5n?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "유럽 스파·웰니스 시장 보고서 (2026-2035년) - Global Market Insights Inc.",
+        "source": "Global Market Insights Inc.",
+        "time": "방금 전",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYXdCRHR1RTlHb3dWV0ZicS1NSjI5TkExOFVpSHo5RUxJWkFPemZQa1pWQ0R0bG43RGdYdTZxcUZDakU2b21Lemp5Zy0wbndqUGc4czFCdXhuVWNieTR3M3FUdFU1eEtmWjFVLVJJcG52NFNoTlJjV0IxVXB4NS0xbFE4UDFndEQ3MWRUMEV4VQ?oc=5",
+        "summary": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "이웃과 AI 강좌 수강, 부부 왈츠… \"은퇴 후 삶의 가치가 달라요\" - 조선일보",
+        "source": "조선일보",
+        "time": "7시간 전",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUEJDYXV5cW9yRUhFWFVaR3ZoVVlZQTY5X01BaFhKZGV3ZlhURm9taURtNy13cUdFLTBXM0xIaWpyMVNlUnM5TUdnMkpMV0hZVzFiUm03dGNSX2FUUDFjSkwtSk9JcUVMb1dnTzF3VFRjMzNnTkdTU3Z3Wl9NQlVhZWwyU2RGYTBQVS1nbUN3?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "[액티브 시니어] 서초 반포3동 경로당 리모델링… “손주와 함께 '시니어 라운지' 오세요” - 브릿지경제",
+        "source": "브릿지경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02RnFyaDE5NlhxMXZZVzdDRUpHTU1oLWZjMkM2N0xvdkRteTBKS3V6Q28yelc2QmlqV0hkWDR6clAxcGw5S3VBWWFSVmVnWVJNRl9jQUpmcFZuRFFQUnRpVDlwdGtPeGwyRkRFcWJKSnItUlk?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "전남바이오진흥원-비티씨, 지역특산자원 활용 건강기능식품 개발 맞손 - 아주경제",
+        "source": "아주경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BbFczQ3ZpY0RJbG1SaTdLZEdWYnVjZ2N0VWJWazFSUzBCS2xfbVQzVUhOM1pZQnVhamRxbUJ4N054TmZwZ0dnejUxbXZwRFdBejFyLXhvZ2FIZ9IBWEFVX3lxTFBTTEMyd1MxWEpFUnNPcUljUzZ1MmRGQloweEFkYWhSNDNFNURFT080RWJqOWVoY3FJaldDT2VmSGEwNV9JQnlPTldDY2V0T3JWLWlXMzZMMVY?oc=5",
+        "summary": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "\"이게 5억 유튜브 구독자 버튼?\" 미스터비스트가 공개한 실물에 전 세계 들썩 - v.daum.net",
+        "source": "v.daum.net",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kSVgtM0IwdzZHU3REQ0t5TjNrcEh4RTc1R3NGRnE1MVE5a1BZZzB3XzZMY2IyM1RWQUEtRF9FRzhmLWFOZlo5MU9qSV9lSjg?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "\"80대에 가면 늦는다\" 실버타운 55세부터 입주 고민해야하는 까닭 - 땅집고",
+        "source": "땅집고",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DX0ZreFZvQkNpclJKTGhCQldYRS04VlRyd2xmWWZ6MkZYa1E4YlJ4WHpFZDZZdTZZLTlOYkFQMHh5QWF5T2lqY0NDYlJWNHZaWF8tYl9jZFpXVFI2YzJnUlR1Sk1ZQ0FTV29ZOHVhaGhkcmFoOHUzQ1pqRkV6WknSAXNBVV95cUxQZzRlTURZb2FpNXE2M1VtanVodWRSUGh4MnpIUVZiaktiYmtNc21VOWJFSk03WFJtQnBJanlZWk5CVUw4TUswV1RkZTQzeEFRVFM0dkx0U0FCQXdVVXBYQUdEcHpGOFRpS1VwektmLWxpYWxF?oc=5",
+        "summary": ""
+      },
+      {
+        "title": "원주에 '의료기기 반도체 실증플랫폼' 구축…산업부 공모 선정 - 연합뉴스",
+        "source": "연합뉴스",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BTWZfZEhYQlhES0ZCV1UwWGtzalN4elV2dXlvVzVSNFVpQ3pPYTRod1Z4alczZGFzeV9jZGpBZk12U1JUa2xjbnJBckdXU3I0ODNMMHRFRDVSRnptWlRFaUROdUx2Zi1MdEliZ0xqaC12aTZUdEHSAWBBVV95cUxNN2s1Sk1jXzlTRUFjRW8zZHVMNmNjbS1pcEZTUzFBcmlIVi1xMDVVaHFyMDFmTDU3cDlLaF9YUkF0SUZFdEVyUHRxenBaUEFTMnk3WFFCRXgwRlVJVWx4ZXM?oc=5",
+        "summary": ""
+      }
+    ]
+  },
+  "briefing": {
+    "headline": "초개인화 넘어선 '관계 기반 소비' 부상: 연결과 몰입의 2026년 여름 시장",
+    "takeaways": [
+      "개인의 취향을 넘어 소속감과 유대감을 중시하는 '커뮤니티 소비'가 시장 전반으로 확산.",
+      "AI 기술 보편화 속 '인간적 경험'에 대한 갈증 증대, 아날로그 감성 및 오프라인 활동 재조명.",
+      "경제적 불확실성 속에서도 가치 소비 기준 명확화: 지속가능성, 윤리성, 그리고 '나를 위한 투자'로의 전환."
+    ],
+    "insight": "MZ세대는 물론 X세대까지, 디지털 피로도 증가와 사회적 고립감 심화 속에서 '진정한 연결'을 갈구하는 심리가 전 세대에 걸쳐 나타나고 있습니다. 이는 단순한 상품 구매를 넘어 특정 커뮤니티에 소속되거나, 공유된 경험을 통해 유대감을 형성하는 '관계 기반 소비'로 이어지고 있으며, 브랜드는 이제 단순한 제품 제공자가 아닌 '경험 설계자'이자 '커뮤니티 매니저'로서의 역할을 요구받고 있습니다.",
+    "actions": [
+      "브랜드는 고객이 단순한 소비자가 아닌 '참여자'가 될 수 있는 커뮤니티 플랫폼을 구축하고, 온/오프라인 연계 활동을 통해 유대감을 강화해야 합니다.",
+      "AI 큐레이션을 넘어선 '인간적 터치'가 담긴 맞춤형 경험 제공에 집중하며, 스토리텔링과 진정성을 통해 브랜드의 가치를 전달하십시오."
+    ]
+  }
+}
