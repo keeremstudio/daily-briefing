@@ -26,8 +26,30 @@ const AGE_DEFAULT_QUERIES = {
   '60대+': ['고령층 복지 정책', '시니어 디지털 격차'],
 };
 
-// 저품질 소스 필터 (광고성·클릭베이트 도메인)
-const BLOCKED_SOURCES = ['보도자료', '와이어드코리아', 'PR Newswire', 'Globe Newswire', '미디어SR'];
+// 신뢰 언론사 화이트리스트 (이 매체의 기사만 통과)
+// 매칭: source.includes(name) 부분 매칭. Google News RSS의 source 필드와 비교.
+const ALLOWED_SOURCES = [
+  'OSEN', '세계일보', '이데일리',
+  'JoongAng', '중앙일보', // Korea JoongAng Daily / 중앙일보
+  '머니투데이', 'SBS',
+  '헤럴드경제', 'JTBC',
+  '블로터', 'Bloter',
+  '한국경제TV', 'KBS', '한국경제',
+  'MBN', '매일경제',
+  '마이데일리', 'mydaily', 'MyDaily',
+  '경기신문', '인천일보', '경기일보',
+  'kbc', 'KBC', '광주방송',
+  'HelloDD', 'Hello DD', '헬로디디',
+  '데이터뉴스', 'dataNews', 'DataNews',
+  'CEO스코어', 'CEO 스코어',
+  'Arirang', '아리랑',
+  '뉴스앤조이', 'NEWSJOY', 'Newsnjoy', 'newsnjoy',
+];
+
+function isAllowedSource(source) {
+  if (!source) return false;
+  return ALLOWED_SOURCES.some(s => source.includes(s));
+}
 
 function todaySeoul() { return new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' }); }
 function editionNo(date) {
@@ -75,7 +97,7 @@ async function fetchRealNews(query, count = 4) {
     const items = [];
     const re = /<item>([\s\S]*?)<\/item>/g;
     let m;
-    while ((m = re.exec(xml)) && items.length < count + 4) {
+    while ((m = re.exec(xml)) && items.length < count) {
       const b = m[1];
       const get = (tag) => { const x = b.match(new RegExp(`<${tag}[^>]*>\\s*<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>|<${tag}[^>]*>([\\s\\S]*?)</${tag}>`)); return x ? (x[1] || x[2] || '').trim() : ''; };
       const title = get('title').replace(/<[^>]+>/g, '').trim();
@@ -83,7 +105,7 @@ async function fetchRealNews(query, count = 4) {
       const source = get('source') || '';
       const pubDate = get('pubDate');
       if (!title || !link) continue;
-      if (BLOCKED_SOURCES.some(bs => source.includes(bs))) continue;
+      if (!isAllowedSource(source)) continue;  // 화이트리스트 외 매체는 제외
       if (title.includes('[AD]') || title.includes('[광고]') || title.includes('후원]')) continue;
       let timeLabel = '오늘';
       let publishedAt = null;
