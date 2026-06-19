@@ -86,11 +86,14 @@ async function fetchRealNews(query, count = 4) {
       if (BLOCKED_SOURCES.some(bs => source.includes(bs))) continue;
       if (title.includes('[AD]') || title.includes('[광고]') || title.includes('후원]')) continue;
       let timeLabel = '오늘';
+      let publishedAt = null;
       if (pubDate) {
-        const hours = Math.floor((Date.now() - new Date(pubDate).getTime()) / 3600000);
+        const t = new Date(pubDate);
+        publishedAt = isNaN(t) ? null : t.toISOString();
+        const hours = Math.floor((Date.now() - t.getTime()) / 3600000);
         timeLabel = hours < 1 ? '방금 전' : hours < 24 ? hours + '시간 전' : hours < 48 ? '어제' : Math.floor(hours/24) + '일 전';
       }
-      items.push({ title, source, time: timeLabel, url: link, summary: '' });
+      items.push({ title, source, time: timeLabel, url: link, summary: '', publishedAt });
     }
     return items.slice(0, count);
   } catch { return []; }
