@@ -17,10 +17,10 @@
   body{background:#f4f1ea;font-family:'Noto Sans KR',sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
   ::selection{background:var(--ink);color:var(--bg)}
   input{font-family:inherit}
-  :root{--bg:#f4f1ea;--card:#fbfaf6;--card2:#f1ede3;--ink:#1c1a17;--ink2:#3a352f;--muted:#6b655c;--faint:#8a8378;--line:#e4dfd3;--line2:#ddd8cd;--psych:#b4502e;--market:#2f6b4f;--up:#1f7a4d;--down:#c0432b}
-  [data-db-theme="cool"]{--bg:#eef0f3;--card:#f8f9fb;--card2:#e9edf2;--ink:#161a1f;--ink2:#2f353d;--muted:#5b626c;--faint:#828a95;--line:#dfe3e9;--line2:#d2d7df;--psych:#5b5478;--market:#345f82;--up:#1f7a4d;--down:#c0432b}
-  [data-db-theme="mono"]{--bg:#f1f0ee;--card:#fafafa;--card2:#ebeae7;--ink:#1a1a18;--ink2:#3a3a37;--muted:#66645f;--faint:#8c8a85;--line:#e3e2df;--line2:#d6d5d1;--psych:#3a352f;--market:#7a736a;--up:#4a6b50;--down:#a85a47}
-  [data-db-theme="dark"]{--bg:#1a1816;--card:#232120;--card2:#2c2926;--ink:#f0ece4;--ink2:#d8d2c8;--muted:#a39c8f;--faint:#807a70;--line:#34302c;--line2:#3e3a35;--psych:#d97a52;--market:#5aa37e;--up:#5cc98a;--down:#e07a5f}
+  :root{--bg:#f4f1ea;--card:#fbfaf6;--card2:#f1ede3;--ink:#1c1a17;--ink2:#3a352f;--muted:#6b655c;--faint:#8a8378;--line:#e4dfd3;--line2:#ddd8cd;--psych:#b4502e;--market:#2f6b4f;--brand:#7a5c3a;--up:#1f7a4d;--down:#c0432b}
+  [data-db-theme="cool"]{--bg:#eef0f3;--card:#f8f9fb;--card2:#e9edf2;--ink:#161a1f;--ink2:#2f353d;--muted:#5b626c;--faint:#828a95;--line:#dfe3e9;--line2:#d2d7df;--psych:#5b5478;--market:#345f82;--brand:#6e5e74;--up:#1f7a4d;--down:#c0432b}
+  [data-db-theme="mono"]{--bg:#f1f0ee;--card:#fafafa;--card2:#ebeae7;--ink:#1a1a18;--ink2:#3a3a37;--muted:#66645f;--faint:#8c8a85;--line:#e3e2df;--line2:#d6d5d1;--psych:#3a352f;--market:#7a736a;--brand:#5e574c;--up:#4a6b50;--down:#a85a47}
+  [data-db-theme="dark"]{--bg:#1a1816;--card:#232120;--card2:#2c2926;--ink:#f0ece4;--ink2:#d8d2c8;--muted:#a39c8f;--faint:#807a70;--line:#34302c;--line2:#3e3a35;--psych:#d97a52;--market:#5aa37e;--brand:#c9a878;--up:#5cc98a;--down:#e07a5f}
   @keyframes db-fade{from{opacity:0}to{opacity:1}}
   @keyframes db-rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
   @keyframes db-pulse{from{opacity:.35}to{opacity:1}}
@@ -30,6 +30,7 @@
   @media (max-width:880px){
     .db-cols{grid-template-columns:1fr !important;gap:30px !important}
     .db-takeaways{grid-template-columns:1fr !important;gap:14px !important}
+    .db-brand-rising{grid-template-columns:1fr !important}
     .db-pad{padding:22px 18px 56px !important}
     .db-nameplate{font-size:38px !important}
     .db-masthead-r{display:none !important}
@@ -297,6 +298,61 @@
     </sc-if>
   </div>
 
+  <!-- SECTION C: BRAND · DESIGN -->
+  <sc-if value="{{ showBrand }}" hint-placeholder-val="{{ true }}">
+  <div style="margin-top:46px;border-top:2px solid var(--ink);padding-top:24px">
+    <div style="display:flex;align-items:baseline;gap:12px;padding-bottom:10px">
+      <span style="font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--brand)">Section C</span>
+      <span style="font-family:'Noto Serif KR',serif;font-size:23px;font-weight:600;color:var(--ink)">브랜드 · 디자인 인사이트</span>
+    </div>
+
+    <sc-if value="{{ hasBrandHeadline }}" hint-placeholder-val="{{ true }}">
+      <div style="font-family:'Noto Serif KR',serif;font-weight:600;font-size:22px;line-height:1.4;margin-top:18px;color:var(--ink);text-wrap:pretty">{{ brand.headline }}</div>
+    </sc-if>
+
+    <sc-if value="{{ hasBrandInsight }}" hint-placeholder-val="{{ true }}">
+      <div style="margin-top:14px;background:var(--card2);border-radius:4px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--brand);font-weight:700;white-space:nowrap;margin-top:2px">오늘의 시선</span>
+        <span style="font-size:14px;line-height:1.6;color:var(--ink2);text-wrap:pretty">{{ brand.insight }}</span>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ hasBrandRising }}" hint-placeholder-val="{{ true }}">
+      <div style="margin-top:24px">
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">부상 트렌드</div>
+        <div class="db-brand-rising" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+          <sc-for list="{{ brand.rising }}" as="r" hint-placeholder-count="3">
+            <div style="border:1px solid var(--line);border-left:3px solid var(--brand);border-radius:3px;padding:14px 16px;background:var(--card)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
+                <span style="font-family:'Noto Serif KR',serif;font-size:15px;font-weight:600;color:var(--ink);text-wrap:pretty">{{ r.title }}</span>
+                <span style="font-size:11px;font-weight:600;color:var(--brand);white-space:nowrap">모멘텀 {{ r.momentum }}</span>
+              </div>
+              <p style="font-size:13px;line-height:1.55;color:var(--muted);margin:6px 0 0;text-wrap:pretty">{{ r.desc }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </sc-if>
+
+    <div style="margin-top:24px">
+      <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">관련 기사 · 클릭하여 보기</div>
+      <sc-if value="{{ hasBrandArticles }}" hint-placeholder-val="{{ true }}">
+        <sc-for list="{{ brand.articles }}" as="a" hint-placeholder-count="3">
+          <div class="db-artrow" onClick="{{ a.onClick }}" style="display:flex;gap:13px;align-items:flex-start;padding:12px 4px;border-top:1px solid var(--line);cursor:pointer;transition:background .15s">
+            <span style="font-family:'Noto Serif KR',serif;font-size:13px;color:{{ a.timeColor }};font-weight:600;margin-top:2px;white-space:nowrap">{{ a.time }}</span>
+            <div style="min-width:0;flex:1">
+              <div style="{{ a.titleStyle }}"><sc-for list="{{ a.titleParts }}" as="p" hint-placeholder-count="1"><span style="{{ p.style }}">{{ p.text }}</span></sc-for></div>
+              <div style="font-size:12px;color:var(--faint);margin-top:3px">{{ a.source }}{{ a.readBadge }}</div>
+            </div>
+            <button onClick="{{ a.toggleBm }}" style="{{ a.starStyle }}">{{ a.starChar }}</button>
+          </div>
+        </sc-for>
+      </sc-if>
+      <sc-if value="{{ noBrandArticles }}" hint-placeholder-val=""><div style="padding:22px 4px;font-size:13px;color:var(--faint)">표시할 기사가 없습니다.</div></sc-if>
+    </div>
+  </div>
+  </sc-if>
+
   <div style="margin-top:46px;padding-top:16px;border-top:1px solid var(--ink);display:flex;justify-content:space-between;font-size:11px;letter-spacing:.06em;color:var(--faint)">
     <span>{{ sourceLabel }}</span>
     <span>{{ edition }} · {{ dateFull }}</span>
@@ -422,7 +478,10 @@ class Component extends DCLogic {
       keywords:e.keywords||[], sectors:e.sectors||[], rising:e.rising||[],
       briefing:e.briefing||{headline:'',takeaways:[],insight:'',actions:[]},
       marketArticles:(e.marketArticles||[]).map(a=>this._withUrl(a)),
-      profileArticles:e.profileArticles||null, mood, moodPrev };
+      profileArticles:e.profileArticles||null,
+      brandDesign:e.brandDesign||{headline:'',insight:'',rising:[]},
+      brandArticles:(e.brandArticles||[]).map(a=>this._withUrl(a)),
+      mood, moodPrev };
   }
 
   async _loadData(){
@@ -571,6 +630,21 @@ class Component extends DCLogic {
       A('시니어 시장 50조 돌파 전망… 유통가 욜드 정조준','리테일인사이트','어제','구매력 있는 욜드 세대를 겨냥한 전용 상품·채널이 늘며 시니어 시장 규모가 빠르게 확대될 것으로 전망된다.'),
     ];
 
+    const brandDesignDemo = {
+      headline: '에디토리얼 무드, 프리미엄 소비재로 본격 확장',
+      insight: '단정한 활자와 여백을 강조하는 에디토리얼 미감이 패키지·공간·웹 전 영역으로 확산되며, 브랜드의 신뢰도와 가격 저항 완화에 기여하고 있다.',
+      rising: [
+        { title:'세리프 회귀', momentum:82, desc:'산세리프 일변도에서 벗어나, 헤드라인용 세리프와 한글 명조 활용이 빠르게 늘고 있다.' },
+        { title:'무광 크라프트 패키지', momentum:76, desc:'친환경 메시지와 손맛 있는 질감으로 식음료·뷰티 카테고리에서 채택률이 상승.' },
+        { title:'아카이브형 브랜드 사이트', momentum:71, desc:'제품 카탈로그보다 브랜드의 시점을 보여주는 출판물 형식의 웹 구조가 확산.' },
+      ],
+    };
+    const brandArticles = [
+      A('국내 화장품 브랜드 잇따른 BI 리뉴얼… 절제된 타이포로 회귀','월간디자인','2시간 전','지난 6개월 사이 K뷰티 주요 브랜드의 BI 리뉴얼이 이어졌다. 화려한 그래픽 대신 단정한 활자와 충분한 여백이 공통 키워드다.'),
+      A('패키지 디자인 트렌드, 단색·무광·종이 질감','디자인정글','어제','촉각적 경험을 살린 무광 마감과 크라프트 종이 적용 사례가 늘고 있다.'),
+      A('에디토리얼 브랜드 사이트 사례 모음','designdb','이틀 전','전통적인 e-commerce 구조 대신 출판물 형식으로 브랜드의 관점을 전달하는 웹사이트 케이스 스터디 공개.'),
+    ];
+
     const keys = ['2026-06-17','2026-06-16','2026-06-15'];
     const eds = ['No. 412','No. 411','No. 410'];
     const moods = [[62,58,64,60,66,70],[64,62,63,61,64,67],[63,60,65,62,63,69]];
@@ -578,7 +652,8 @@ class Component extends DCLogic {
     const days = keys.map((k,i)=> this._buildDay(k, {
       edition: eds[i], moods: this._zip(profiles, moods[i]), moodsPrev: this._zip(profiles, moodsPrev[i]),
       keywords: editions[i].keywords, sectors: editions[i].sectors, rising: editions[i].rising,
-      briefing: editions[i].briefing, marketArticles: marketArticles
+      briefing: editions[i].briefing, marketArticles: marketArticles,
+      brandDesign: brandDesignDemo, brandArticles: brandArticles
     }, profiles));
 
     this._cache = { profiles, days };
@@ -596,7 +671,9 @@ class Component extends DCLogic {
     const day = days[di];
     const dd = day, baseEd = day;
     const sec = this.state.section, q = this.state.query.trim().toLowerCase();
-    const showLeft = sec!=='market', showRight = sec!=='psych';
+    const showLeft = sec==='all' || sec==='psych' || sec==='bookmark';
+    const showRight = sec==='all' || sec==='market' || sec==='bookmark';
+    const showBrand = sec==='all' || sec==='brand' || sec==='bookmark';
 
     // briefing
     const briefing = baseEd.briefing;
@@ -648,10 +725,21 @@ class Component extends DCLogic {
     let marketArticles = this._sortArts(day.marketArticles).map(a=>this._mapArt(a, 'var(--market)', '시장 트렌드', q));
     marketArticles = marketArticles.filter(a=>(!q || (a.title+a.source+a.summary).toLowerCase().indexOf(q)>=0) && (sec!=='bookmark' || a.bookmarked));
 
+    // brand articles + brandDesign block
+    const brandRaw = day.brandDesign || { headline:'', insight:'', rising:[] };
+    let brandArticles = this._sortArts(day.brandArticles || []).map(a=>this._mapArt(a, 'var(--brand)', '브랜드 · 디자인', q));
+    brandArticles = brandArticles.filter(a=>(!q || (a.title+a.source+a.summary).toLowerCase().indexOf(q)>=0) && (sec!=='bookmark' || a.bookmarked));
+    const brand = {
+      headline: brandRaw.headline || '',
+      insight: brandRaw.insight || '',
+      rising: (brandRaw.rising || []).map(r=>({ title:r.title||'', momentum:r.momentum||0, desc:r.desc||'' })),
+      articles: brandArticles
+    };
+
     // toolbar sections
     const bmCount = Object.keys(this.state.bookmarks).length;
     const chip = (active)=>'padding:7px 13px;border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;border:1px solid;font-family:inherit;transition:all .15s;'+(active?'background:var(--ink);color:var(--bg);border-color:var(--ink);':'background:transparent;color:var(--muted);border-color:var(--line2);');
-    const sections = [['all','전체'],['psych','심리'],['market','시장'],['bookmark', bmCount?('북마크 '+bmCount):'북마크']].map(([key,label])=>({ key, label, style:chip(sec===key), onClick:()=>this.setState({section:key}) }));
+    const sections = [['all','전체'],['psych','심리'],['market','시장'],['brand','브랜드'],['bookmark', bmCount?('북마크 '+bmCount):'북마크']].map(([key,label])=>({ key, label, style:chip(sec===key), onClick:()=>this.setState({section:key}) }));
 
     // date pills
     const datePill = (active)=>'display:flex;align-items:center;padding:6px 12px;border-radius:999px;font-size:13px;cursor:pointer;border:1px solid;transition:all .18s;white-space:nowrap;font-family:inherit;'+(active?'background:var(--ink);color:var(--bg);border-color:var(--ink);':'background:transparent;color:var(--muted);border-color:var(--line2);');
@@ -684,6 +772,9 @@ class Component extends DCLogic {
       sel, keywords, sectors, rising, marketArticles,
       hasPsychArticles: sel.articles.length>0, noPsychArticles: sel.articles.length===0,
       hasMarketArticles: marketArticles.length>0, noMarketArticles: marketArticles.length===0,
+      showBrand, brand,
+      hasBrandArticles: brand.articles.length>0, noBrandArticles: brand.articles.length===0,
+      hasBrandRising: brand.rising.length>0, hasBrandInsight: !!brand.insight, hasBrandHeadline: !!brand.headline,
       briefing, takeaways, actions:briefing.actions,
       toast:this.state.toast,
       openArticle:oa, stop:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); },
