@@ -72,10 +72,6 @@
       <button onClick="{{ s.onClick }}" style="{{ s.style }}">{{ s.label }}</button>
     </sc-for>
     <span style="flex:1"></span>
-    <button onClick="{{ aiRefresh }}" style="{{ aiStyle }}">
-      <sc-if value="{{ aiBusy }}" hint-placeholder-val=""><span style="width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;display:inline-block;animation:db-spin .7s linear infinite"></span></sc-if>
-      <span>{{ aiLabel }}</span>
-    </button>
     <button onClick="{{ doPrint }}" title="PDF로 저장" style="padding:9px 14px;border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit">PDF 저장</button>
     <button onClick="{{ cycleTheme }}" title="테마 변경 (warm → cool → mono → dark)" style="padding:9px 12px;border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;min-width:46px">{{ themeIcon }}</button>
   </div>
@@ -103,7 +99,6 @@
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
       <span style="width:7px;height:7px;border-radius:50%;background:var(--down);display:inline-block;animation:db-pulse 1.3s ease-in-out infinite alternate"></span>
       <span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);font-weight:600">오늘의 한 페이지 요약</span>
-      <sc-if value="{{ aiActive }}" hint-placeholder-val=""><span style="font-size:10px;font-weight:700;letter-spacing:.08em;color:#fff;background:var(--market);padding:2px 8px;border-radius:999px">AI 갱신</span></sc-if>
     </div>
     <div style="font-family:'Noto Serif KR',serif;font-weight:600;font-size:28px;line-height:1.4;letter-spacing:-.01em;max-width:980px;text-wrap:pretty;color:var(--ink)">{{ briefing.headline }}</div>
     <div class="db-takeaways" style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:24px">
@@ -348,7 +343,7 @@ class Component extends DCLogic {
     ageIdx: 1, dateIdx: 0, todayIdx: 0, openArticle: null,
     query: '', section: 'all', compareMode: false,
     bookmarks: this._load('db_bookmarks'), read: this._load('db_read'),
-    aiBusy: false, aiEdition: null, toast: '',
+    toast: '',
     live: null, source: 'loading',
     themeIdx: this._loadTheme(), showNewBanner: false
   };
@@ -366,8 +361,8 @@ class Component extends DCLogic {
       if (e.key==='Escape'){ if(this.state.openArticle) this.setState({openArticle:null}); return; }
       if (e.key==='/'){ const el = document.getElementById('db-search'); if(el){ e.preventDefault(); el.focus(); el.select(); } return; }
       const max = (this.state.live ? this.state.live.days.length : 3) - 1;
-      if (e.key==='ArrowLeft'){ this.setState(s=>({ dateIdx:Math.min(max,s.dateIdx+1), aiEdition:null })); }
-      else if (e.key==='ArrowRight'){ this.setState(s=>({ dateIdx:Math.max(0,s.dateIdx-1), aiEdition:null })); }
+      if (e.key==='ArrowLeft'){ this.setState(s=>({ dateIdx:Math.min(max,s.dateIdx+1) })); }
+      else if (e.key==='ArrowRight'){ this.setState(s=>({ dateIdx:Math.max(0,s.dateIdx-1) })); }
     };
     window.addEventListener('keydown', this._kd);
   }
@@ -460,33 +455,6 @@ class Component extends DCLogic {
   _toast(m){ this.setState({toast:m}); clearTimeout(this._tt); this._tt = setTimeout(()=>this.setState({toast:''}), 3200); }
   _open(a){ const r={...this.state.read}; r[a.id]=true; this._save('db_read',r); this.setState({read:r, openArticle:a}); }
   _toggleBm(id){ const b={...this.state.bookmarks}; if(b[id]) delete b[id]; else b[id]=true; this._save('db_bookmarks',b); this.setState({bookmarks:b}); }
-
-  async _aiRefresh(){
-    this.setState(s=>({ dateIdx:s.todayIdx, aiBusy:true, toast:'' }));
-    const prompt = 'You are a Korean consumer/market trend analyst. Return ONLY a raw JSON object, no markdown, no commentary. Schema: {"headline": string (one punchy Korean line), "takeaways": [3 Korean sentences], "insight": one Korean sentence linking generational psychology and market, "actions": [2 short Korean actionable lines for marketers/planners], "keywords": [{"term": Korean keyword, "change": "NN%", "dir": "up"|"down"|"flat"}] with exactly 8 items ranked by buzz}. Topic: today\u2019s South Korea consumer trends and market mood. Keep it realistic, specific, concise.';
-    try{
-      if (!(window.claude && window.claude.complete)){ this._toast('데모 환경에서는 예시 데이터로 동작합니다'); this.setState({aiBusy:false}); return; }
-      const out = await window.claude.complete(prompt);
-      let txt = String(out||'').trim();
-      txt = txt.replace(/^```json/i,'').replace(/^```/,'').replace(/```$/,'').trim();
-      const s = txt.indexOf('{'), e = txt.lastIndexOf('}');
-      if (s>=0 && e>s) txt = txt.slice(s, e+1);
-      const j = JSON.parse(txt);
-      const kws = Array.isArray(j.keywords) ? j.keywords.slice(0,8).map((k,i)=>({
-        rank:i+1, term:String(k.term||'').trim(),
-        change:(String(k.change||'').match(/\d+%?/)||['—'])[0],
-        dir:(k.dir==='down'?'down':k.dir==='flat'?'flat':'up')
-      })).filter(k=>k.term) : [];
-      const ai = {
-        headline: j.headline, insight: j.insight,
-        takeaways: Array.isArray(j.takeaways)? j.takeaways.slice(0,3):null,
-        actions: Array.isArray(j.actions)? j.actions.slice(0,2):null
-      };
-      if (kws.length) ai.keywords = kws;
-      this.setState({ aiEdition: ai, aiBusy:false });
-      this._toast('AI가 오늘의 브리핑을 갱신했습니다');
-    }catch(err){ this.setState({aiBusy:false}); this._toast('새로고침에 실패했어요. 잠시 후 다시 시도해 주세요'); }
-  }
 
   makeSpark(dir, seed){
     const n=7, w=58, h=15; const vals=[]; let cur=0;
@@ -626,18 +594,12 @@ class Component extends DCLogic {
     const days = D.days;
     let di = this.state.dateIdx; if(di>=days.length) di=days.length-1; if(di<0) di=0;
     const day = days[di];
-    const ai = (di===this.state.todayIdx ? this.state.aiEdition : null);
     const dd = day, baseEd = day;
     const sec = this.state.section, q = this.state.query.trim().toLowerCase();
     const showLeft = sec!=='market', showRight = sec!=='psych';
 
-    // briefing (AI override on today)
-    const briefing = ai ? {
-      headline: ai.headline || baseEd.briefing.headline,
-      insight: ai.insight || baseEd.briefing.insight,
-      takeaways: (ai.takeaways && ai.takeaways.length) ? ai.takeaways : baseEd.briefing.takeaways,
-      actions: (ai.actions && ai.actions.length) ? ai.actions : baseEd.briefing.actions,
-    } : baseEd.briefing;
+    // briefing
+    const briefing = baseEd.briefing;
     const takeaways = briefing.takeaways.map((t,i)=>({ n:('0'+(i+1)).slice(-2), text:t }));
 
     // moods / trend vs yesterday
@@ -666,7 +628,7 @@ class Component extends DCLogic {
         rowStyle:'display:flex;align-items:center;gap:12px;padding:8px 10px;border-radius:8px;cursor:pointer;transition:background .15s;'+(act?'background:var(--card2);':'') }; });
 
     // keywords / sectors / rising with cross-link
-    const kwSource = (ai && ai.keywords && ai.keywords.length) ? ai.keywords : baseEd.keywords;
+    const kwSource = baseEd.keywords;
     const relKeys = new Set(raw.relatedKeys||[]), relTr = new Set(raw.relatedTrends||[]);
     const keywords = kwSource.map((k,i)=>{ const dir=k.dir||'up', hl=relKeys.has(k.term);
       return { rank:k.rank||(i+1), term:k.term, change:k.change, dir,
@@ -693,7 +655,7 @@ class Component extends DCLogic {
 
     // date pills
     const datePill = (active)=>'display:flex;align-items:center;padding:6px 12px;border-radius:999px;font-size:13px;cursor:pointer;border:1px solid;transition:all .18s;white-space:nowrap;font-family:inherit;'+(active?'background:var(--ink);color:var(--bg);border-color:var(--ink);':'background:transparent;color:var(--muted);border-color:var(--line2);');
-    const dates = D.days.map((x,i)=>({ d:x.d, wd:x.wd, pillStyle:datePill(i===di), onClick:()=>this.setState({dateIdx:i, aiEdition:null}) }));
+    const dates = D.days.map((x,i)=>({ d:x.d, wd:x.wd, pillStyle:datePill(i===di), onClick:()=>this.setState({dateIdx:i}) }));
 
     // modal bookmark
     const oa = this.state.openArticle;
@@ -711,13 +673,9 @@ class Component extends DCLogic {
       showCharts: this.props?.showCharts ?? true,
       showInsight: this.props?.showInsight ?? true,
       edition:dd.ed, dateFull:dd.full, weekday:dd.wd,
-      sourceLabel: this.state.source==='live' ? 'data 폴더에서 매일 자동 갱신되는 브리핑' : (this.state.source==='loading' ? '데이터를 불러오는 중…' : 'AI 에이전트 브리핑 · 내장 예시 데이터(오프라인)'),
+      sourceLabel: this.state.source==='live' ? 'data 폴더에서 매일 자동 갱신되는 브리핑' : (this.state.source==='loading' ? '데이터를 불러오는 중…' : '내장 예시 데이터(오프라인)'),
       query:this.state.query, setQuery:(e)=>this.setState({query:e.target.value}),
       sections, colTemplate: (showLeft && showRight) ? '1fr 1fr' : '1fr', showLeft, showRight,
-      aiBusy:this.state.aiBusy, aiActive:!!ai,
-      aiLabel: this.state.aiBusy ? '생성 중…' : 'AI로 새로고침',
-      aiStyle: 'display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border-radius:8px;font-size:13px;font-weight:600;cursor:'+(this.state.aiBusy?'wait':'pointer')+';font-family:inherit;border:1px solid var(--market);background:var(--market);color:#fff;opacity:'+(this.state.aiBusy?'.7':'1')+';',
-      aiRefresh:()=>{ if(!this.state.aiBusy) this._aiRefresh(); },
       doPrint:()=>{ try{ window.print(); }catch(e){} },
       dates, ages, compareList,
       compareMode:this.state.compareMode, notCompare:!this.state.compareMode,
