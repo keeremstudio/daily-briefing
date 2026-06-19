@@ -67,7 +67,7 @@
 
   <!-- TOOLBAR -->
   <div class="db-noprint" style="display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-top:16px">
-    <input value="{{ query }}" onInput="{{ setQuery }}" placeholder="기사·키워드 검색" style="flex:1;min-width:180px;max-width:280px;padding:9px 13px;border:1px solid var(--line2);background:var(--card);color:var(--ink);border-radius:8px;font-size:13px;outline:none">
+    <input id="db-search" value="{{ query }}" onChange="{{ setQuery }}" placeholder="기사·키워드 검색  ( / 키로 포커스)" style="flex:1;min-width:180px;max-width:280px;padding:9px 13px;border:1px solid var(--line2);background:var(--card);color:var(--ink);border-radius:8px;font-size:13px;outline:none">
     <sc-for list="{{ sections }}" as="s" hint-placeholder-count="4">
       <button onClick="{{ s.onClick }}" style="{{ s.style }}">{{ s.label }}</button>
     </sc-for>
@@ -77,6 +77,7 @@
       <span>{{ aiLabel }}</span>
     </button>
     <button onClick="{{ doPrint }}" title="PDF로 저장" style="padding:9px 14px;border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit">PDF 저장</button>
+    <button onClick="{{ cycleTheme }}" title="테마 변경 (warm → cool → mono → dark)" style="padding:9px 12px;border:1px solid var(--line2);background:transparent;color:var(--muted);border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;min-width:46px">{{ themeIcon }}</button>
   </div>
 
   <!-- DATE STRIP -->
@@ -85,8 +86,17 @@
     <sc-for list="{{ dates }}" as="d" hint-placeholder-count="7">
       <button onClick="{{ d.onClick }}" style="{{ d.pillStyle }}"><span style="font-weight:600">{{ d.d }}</span><span style="opacity:.6;margin-left:5px">{{ d.wd }}</span></button>
     </sc-for>
-    <span style="font-size:11px;color:var(--faint);margin-left:6px;white-space:nowrap">← → 키로 이동</span>
+    <span style="font-size:11px;color:var(--faint);margin-left:6px;white-space:nowrap">← → 날짜 이동 · / 검색 · Esc 닫기</span>
   </div>
+
+  <!-- NEW EDITION BANNER -->
+  <sc-if value="{{ showNewBanner }}" hint-placeholder-val="">
+    <div onClick="{{ dismissNewBanner }}" class="db-noprint" style="margin-top:18px;background:var(--card2);border:1px solid var(--market);border-left:3px solid var(--market);border-radius:4px;padding:12px 16px;display:flex;align-items:center;gap:10px;cursor:pointer;animation:db-rise .35s ease both">
+      <span style="width:7px;height:7px;border-radius:50%;background:var(--market);flex:none"></span>
+      <span style="font-size:13px;color:var(--ink2);flex:1">오늘 새 브리핑이 도착했어요</span>
+      <span style="font-size:11px;color:var(--faint)">탭하여 닫기</span>
+    </div>
+  </sc-if>
 
   <!-- 1-PAGE SUMMARY -->
   <div class="db-card" style="margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:28px 30px;animation:db-rise .5s ease both">
@@ -205,7 +215,7 @@
               <div class="db-artrow" onClick="{{ a.onClick }}" style="display:flex;gap:13px;align-items:flex-start;padding:12px 4px;border-top:1px solid var(--line);cursor:pointer;transition:background .15s" style-hover="background:var(--card2)">
                 <span style="font-family:'Noto Serif KR',serif;font-size:13px;color:{{ a.timeColor }};font-weight:600;margin-top:2px;white-space:nowrap">{{ a.time }}</span>
                 <div style="min-width:0;flex:1">
-                  <div style="{{ a.titleStyle }}">{{ a.title }}</div>
+                  <div style="{{ a.titleStyle }}"><sc-for list="{{ a.titleParts }}" as="p" hint-placeholder-count="1"><span style="{{ p.style }}">{{ p.text }}</span></sc-for></div>
                   <div style="font-size:12px;color:var(--faint);margin-top:3px">{{ a.source }}{{ a.readBadge }}</div>
                 </div>
                 <button onClick="{{ a.toggleBm }}" style="{{ a.starStyle }}">{{ a.starChar }}</button>
@@ -230,7 +240,7 @@
       <div style="margin-top:18px">
         <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:10px">검색·언급 급상승 키워드</div>
         <sc-for list="{{ keywords }}" as="k" hint-placeholder-count="8">
-          <div style="{{ k.rowStyle }}">
+          <div onClick="{{ k.onClick }}" style="{{ k.rowStyle }}" title="이 키워드로 검색">
             <span style="font-family:'Noto Serif KR',serif;font-size:15px;font-weight:600;color:var(--faint);width:22px">{{ k.rank }}</span>
             <div style="flex:1;min-width:0;display:flex;align-items:center;gap:8px">
               <span style="font-size:14.5px;font-weight:500;color:var(--ink)">{{ k.term }}</span>
@@ -279,7 +289,7 @@
             <div class="db-artrow" onClick="{{ a.onClick }}" style="display:flex;gap:13px;align-items:flex-start;padding:12px 4px;border-top:1px solid var(--line);cursor:pointer;transition:background .15s" style-hover="background:var(--card2)">
               <span style="font-family:'Noto Serif KR',serif;font-size:13px;color:{{ a.timeColor }};font-weight:600;margin-top:2px;white-space:nowrap">{{ a.time }}</span>
               <div style="min-width:0;flex:1">
-                <div style="{{ a.titleStyle }}">{{ a.title }}</div>
+                <div style="{{ a.titleStyle }}"><sc-for list="{{ a.titleParts }}" as="p" hint-placeholder-count="1"><span style="{{ p.style }}">{{ p.text }}</span></sc-for></div>
                 <div style="font-size:12px;color:var(--faint);margin-top:3px">{{ a.source }}{{ a.readBadge }}</div>
               </div>
               <button onClick="{{ a.toggleBm }}" style="{{ a.starStyle }}">{{ a.starChar }}</button>
@@ -339,11 +349,14 @@ class Component extends DCLogic {
     query: '', section: 'all', compareMode: false,
     bookmarks: this._load('db_bookmarks'), read: this._load('db_read'),
     aiBusy: false, aiEdition: null, toast: '',
-    live: null, source: 'loading'
+    live: null, source: 'loading',
+    themeIdx: this._loadTheme(), showNewBanner: false
   };
 
   _load(k){ try{ return JSON.parse(localStorage.getItem(k) || '{}') || {}; }catch(e){ return {}; } }
   _save(k,o){ try{ localStorage.setItem(k, JSON.stringify(o)); }catch(e){} }
+  _loadTheme(){ try{ const n = parseInt(localStorage.getItem('db_theme')||'0',10); return (isNaN(n)||n<0||n>3)?0:n; }catch(e){ return 0; } }
+  _saveTheme(n){ try{ localStorage.setItem('db_theme', String(n)); }catch(e){} }
 
   componentDidMount(){
     this._loadData();
@@ -351,6 +364,7 @@ class Component extends DCLogic {
       const t = e.target;
       if (t && (t.tagName==='INPUT' || t.tagName==='TEXTAREA')){ if(e.key==='Escape') t.blur(); return; }
       if (e.key==='Escape'){ if(this.state.openArticle) this.setState({openArticle:null}); return; }
+      if (e.key==='/'){ const el = document.getElementById('db-search'); if(el){ e.preventDefault(); el.focus(); el.select(); } return; }
       const max = (this.state.live ? this.state.live.days.length : 3) - 1;
       if (e.key==='ArrowLeft'){ this.setState(s=>({ dateIdx:Math.min(max,s.dateIdx+1), aiEdition:null })); }
       else if (e.key==='ArrowRight'){ this.setState(s=>({ dateIdx:Math.max(0,s.dateIdx-1), aiEdition:null })); }
@@ -370,6 +384,38 @@ class Component extends DCLogic {
     return words.slice(0,4).join(' ');
   }
   _withUrl(a){ return { ...a, url: a.url || ('https://search.naver.com/search.naver?where=news&query='+encodeURIComponent(this._searchQuery(a.title))) }; }
+
+  // 기사 시각 점수 — publishedAt(ISO) 우선, 없으면 한국어 time 문자열 파싱
+  _articleScore(a){
+    if (a.publishedAt){ const t = Date.parse(a.publishedAt); if (!isNaN(t)) return t; }
+    const s = String(a.time||''); const now = Date.now(); let m;
+    if (/방금/.test(s)) return now;
+    if ((m = s.match(/(\d+)\s*분/))) return now - (+m[1])*60000;
+    if ((m = s.match(/(\d+)\s*시간/))) return now - (+m[1])*3600000;
+    if (/이틀/.test(s)) return now - 2*86400000;
+    if (/사흘/.test(s)) return now - 3*86400000;
+    if (/어제/.test(s)) return now - 86400000;
+    if ((m = s.match(/(\d+)\s*일/))) return now - (+m[1])*86400000;
+    if (/오늘/.test(s)) return now - 1;
+    return 0;
+  }
+  _sortArts(arr){ return arr.slice().sort((a,b)=> this._articleScore(b) - this._articleScore(a)); }
+
+  // 검색어 하이라이트용: 제목을 [{text, style}] 배열로 분할
+  _splitTitle(title, q){
+    const t = String(title||'');
+    if (!q || q.length < 1) return [{ text:t, style:'' }];
+    const lower = t.toLowerCase(), ql = q.toLowerCase();
+    const parts = []; let i = 0;
+    while (i < t.length){
+      const f = lower.indexOf(ql, i);
+      if (f < 0){ parts.push({ text:t.slice(i), style:'' }); break; }
+      if (f > i) parts.push({ text:t.slice(i,f), style:'' });
+      parts.push({ text:t.slice(f, f+q.length), style:'background:rgba(180,80,46,.20);color:var(--ink);border-radius:2px;padding:0 2px' });
+      i = f + q.length;
+    }
+    return parts.length ? parts : [{ text:t, style:'' }];
+  }
 
   _buildDay(key, e, profiles){
     const parts = key.split('-').map(Number), y=parts[0], m=parts[1], dd=parts[2];
@@ -399,7 +445,14 @@ class Component extends DCLogic {
       const today = this._todayStr();
       let ti = days.findIndex(d=> d.key <= today);
       if(ti < 0) ti = 0;
-      this.setState({ live:{ profiles, days }, source:'live', dateIdx:ti, todayIdx:ti });
+      // 새 브리핑 감지: 최신 데이터 키가 마지막 본 키보다 새로우면 배너 표시
+      const latestKey = days[0] && days[0].key;
+      let showNew = false;
+      try{
+        const lastSeen = localStorage.getItem('db_lastSeen') || '';
+        if (latestKey && latestKey > lastSeen) showNew = true;
+      }catch(e){}
+      this.setState({ live:{ profiles, days }, source:'live', dateIdx:ti, todayIdx:ti, showNewBanner: showNew });
     }catch(err){ this.setState({ source:'fallback' }); }
   }
   componentWillUnmount(){ if(this._kd) window.removeEventListener('keydown', this._kd); if(this._tt) clearTimeout(this._tt); }
@@ -594,8 +647,8 @@ class Component extends DCLogic {
     const sel = (()=>{
       const sc = mToday[this.state.ageIdx], diff = sc - mPrev[this.state.ageIdx];
       const src = (day.profileArticles && day.profileArticles[raw.label]) ? day.profileArticles[raw.label].map(a=>this._withUrl(a)) : raw.articles;
-      const mapArt = (a)=>this._mapArt(a, 'var(--psych)', '심리 · '+raw.label);
-      let arts = src.map(mapArt);
+      const mapArt = (a)=>this._mapArt(a, 'var(--psych)', '심리 · '+raw.label, q);
+      let arts = this._sortArts(src).map(mapArt);
       arts = arts.filter(a=>(!q || (a.title+a.source+a.summary).toLowerCase().indexOf(q)>=0) && (sec!=='bookmark' || a.bookmarked));
       return { label:raw.label, tag:raw.tag, psych:raw.psych, situation:raw.situation,
         emotions:raw.emotions, concerns:raw.concerns,
@@ -620,7 +673,8 @@ class Component extends DCLogic {
         arrow: dir==='up'?'▲':dir==='down'?'▼':'■',
         changeColor: dir==='up'?'var(--up)':dir==='down'?'var(--down)':'var(--faint)',
         spark:this.makeSpark(dir, i+di*7), hl, relTag: hl?(raw.label+' 관심'):'',
-        rowStyle:'display:flex;align-items:center;gap:12px;padding:9px 0;border-top:1px solid var(--line);'+(hl?'background:var(--card2);margin:0 -10px;padding-left:10px;padding-right:10px;border-radius:4px;':'') }; });
+        onClick:()=>this.setState({ query:k.term, section:'all' }),
+        rowStyle:'display:flex;align-items:center;gap:12px;padding:9px 0;border-top:1px solid var(--line);cursor:pointer;transition:background .15s;'+(hl?'background:var(--card2);margin:0 -10px;padding-left:10px;padding-right:10px;border-radius:4px;':'') }; });
     const sectors = baseEd.sectors.map((s,i)=>({ name:s.name, value:s.value, delta:s.delta,
       changeColor: s.delta>=0?'var(--up)':'var(--down)', sign: s.delta>=0?'+':'',
       spark:this.makeSpark(s.delta>=0?'up':'down', i+100+di*5) }));
@@ -628,8 +682,8 @@ class Component extends DCLogic {
       return { title:r.title, momentum:r.momentum, desc:r.desc, hl, relTag: hl?(raw.label+' 관심'):'',
         cardStyle:'border:1px solid var(--line);border-left:3px solid var(--market);border-radius:3px;padding:14px 16px;background:'+(hl?'var(--card2)':'var(--card)')+';' }; });
 
-    // market articles (filtered)
-    let marketArticles = day.marketArticles.map(a=>this._mapArt(a, 'var(--market)', '시장 트렌드'));
+    // market articles (sorted by latest + filtered)
+    let marketArticles = this._sortArts(day.marketArticles).map(a=>this._mapArt(a, 'var(--market)', '시장 트렌드', q));
     marketArticles = marketArticles.filter(a=>(!q || (a.title+a.source+a.summary).toLowerCase().indexOf(q)>=0) && (sec!=='bookmark' || a.bookmarked));
 
     // toolbar sections
@@ -645,8 +699,15 @@ class Component extends DCLogic {
     const oa = this.state.openArticle;
     const mBm = oa ? !!this.state.bookmarks[oa.id] : false;
 
+    const THEMES = ['warm','cool','mono','dark'];
+    const THEME_ICONS = ['☀','◐','◑','☾'];
+    const ti2 = this.state.themeIdx;
     return {
-      theme: this.props?.theme ?? 'warm',
+      theme: THEMES[ti2] || 'warm',
+      themeIcon: THEME_ICONS[ti2] || '☀',
+      cycleTheme: ()=>{ const n = (this.state.themeIdx+1) % THEMES.length; this._saveTheme(n); this.setState({ themeIdx:n }); },
+      showNewBanner: this.state.showNewBanner,
+      dismissNewBanner: ()=>{ try{ const latest = this.state.live && this.state.live.days[0] && this.state.live.days[0].key; if(latest) localStorage.setItem('db_lastSeen', latest); }catch(e){} this.setState({ showNewBanner:false }); },
       showCharts: this.props?.showCharts ?? true,
       showInsight: this.props?.showInsight ?? true,
       edition:dd.ed, dateFull:dd.full, weekday:dd.wd,
@@ -675,13 +736,14 @@ class Component extends DCLogic {
     };
   }
 
-  _mapArt(a, accentVar, side){
+  _mapArt(a, accentVar, side, q){
     const id = a.title;
     const bk = !!this.state.bookmarks[id], rd = !!this.state.read[id];
     return { ...a, id, side, accent:accentVar, bookmarked:bk, read:rd, timeColor:accentVar,
       onClick:()=>this._open({ ...a, id, side, accent:accentVar, linkLabel: (a.url && !a.url.includes('search.naver.com')) ? '원문 기사 보기' : '관련 뉴스 검색', noSummary: !a.summary }),
       toggleBm:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); this._toggleBm(id); },
       titleStyle:'font-size:15px;font-weight:500;line-height:1.45;text-wrap:pretty;'+(rd?'color:var(--faint);':'color:var(--ink);'),
+      titleParts: this._splitTitle(a.title, q),
       starChar: bk?'★':'☆',
       starStyle:'border:none;background:none;cursor:pointer;font-size:16px;line-height:1;padding:2px;margin-top:1px;color:'+(bk?accentVar:'var(--line2)')+';',
       readBadge: rd?' · 읽음':'' };
