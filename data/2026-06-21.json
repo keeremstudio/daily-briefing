@@ -1,0 +1,385 @@
+{
+  "edition": "No. 416",
+  "moods": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "moodsPrev": {
+    "10대": 61,
+    "20대": 57,
+    "30대": 61,
+    "40대": 64,
+    "50대": 66,
+    "60대+": 70
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "팬덤 경제",
+      "dir": "up",
+      "change": "22%"
+    },
+    {
+      "rank": 2,
+      "term": "가치 소비 공동체",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 3,
+      "term": "AI 개인화 에이전트",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 4,
+      "term": "경험 디자인 리테일",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 5,
+      "term": "지속가능 패션",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 6,
+      "term": "웰니스 여행",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 7,
+      "term": "로컬 크리에이터 콘텐츠",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 8,
+      "term": "구독형 라이프스타일",
+      "dir": "flat",
+      "change": "3%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 116.9,
+      "delta": 0.5
+    },
+    {
+      "name": "금융·자산",
+      "value": 106.9,
+      "delta": -0.1
+    },
+    {
+      "name": "소비·유통",
+      "value": 103.1,
+      "delta": 0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 100.2,
+      "delta": -0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 99.3,
+      "delta": 0.9
+    }
+  ],
+  "rising": [
+    {
+      "title": "커뮤니티 기반 '소셜 리테일'의 부상",
+      "momentum": 88,
+      "desc": "제품 구매를 넘어, 관심사를 공유하는 사람들과 소통하고 교류하는 커뮤니티형 쇼핑 경험이 주요 트렌드로 자리 잡고 있습니다. 온라인 플랫폼과 오프라인 공간 모두에서 이러한 시도가 활발합니다."
+    },
+    {
+      "title": "AI 기반 초개인화 큐레이션의 진화",
+      "momentum": 85,
+      "desc": "AI 기술이 소비자의 미묘한 취향과 선호도를 더욱 정교하게 학습하여, 개인의 삶에 깊숙이 통합되는 맞춤형 콘텐츠 및 제품 추천 서비스가 각광받고 있습니다."
+    },
+    {
+      "title": "'디지털 노마드'를 위한 워케이션 인프라 확대",
+      "momentum": 82,
+      "desc": "원격 근무와 유연한 업무 환경이 보편화되면서, 일과 휴식을 병행할 수 있는 워케이션(Work+Vacation) 전용 숙소 및 서비스 시장이 빠르게 성장하고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "KT \"AI가 일하는 시대 온다\"…개인·산업 에이전트시장 공략 - 한국경제",
+      "source": "한국경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SNWl2cmdfSGx6dlZUY1gyMnphdnVyYm1NYzFPT29OZDJiSGpzRWctRDBydDkwamRITDd4VnV5ajNKVzZlakVLc3pELW96MjV3TkRTUGl1NVVHUdIBVEFVX3lxTFBJbHVLQ3FkNlpxRW1uNk50UkZaQVpKS3dmSThYd1FqSV9HU3c2bTNFcVBnNi1QZDRQMUhZT1diMDJFTDVMZWd5MVVlWWtpMmlpMkV1OA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-17T09:19:48.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "코오롱FnC, 팬덤 비즈니스로 승부…IP 전담조직 신설 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14YzZsbEs0UjA3aUYtQVh0ODhyUGVWNm85d1NOQXUwWVhlbFRIV095WVdHWFd5eW8tbEk1Q1VaWGlzeDhsZmtyM0RqV1JxUHljMS1KLW1n?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-16T23:17:32.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "캐릭터와 사랑에 빠진 소비자들… - 한국경제",
+      "source": "한국경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XOWRtU3pmckR1dEQzSVhqdnR1U0dJTjFzM1FnM0tzOEJHV3VmeEI2SHdPT3ozVTdoT1ptVU1LakQ2WjdhLV9YcjhzekdXdmVndncwU3duTTZud9IBVEFVX3lxTFBxRXgwcWNybWJ3RHRubGpUMzZZZW13R00ySnF5XzBfX0tfeERXV3k4TUcyNHRPcWE4ZUkxdHJFQ2RHSVJSRTRnQnRyeC1PR0VuVkhzNQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-16T23:09:49.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "코오롱FnC, 팬덤 비즈니스로 승부한다 - 한국경제",
+      "source": "한국경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBONm5TVkxoSmFFdVdRUW56TmdRU3hmcngtOWdvRGhjdTJqeEVscVVmemVsdTE0THQtckhQaVBoeUV5dl9DbUNXRkJmb3hpRDlwVFRfWmUtcVpHUdIBVEFVX3lxTE5NUzg3eVluVTBfekhOSUpVc2hsVFlKcUJXLW9SZXpQMmpBOV9LRElMbUFFUDZkN1pzell4UWw2R0RMTWotcU16ZXZPMGhDVjNoRVU2WA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-16T08:37:23.000Z",
+      "category": "news",
+      "trustScore": 3
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "가상 아이돌도 스타디움 시대… K팝 흥행 공식 바뀌나 - 이데일리",
+        "source": "이데일리",
+        "time": "10시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPczc0R0daNUNqS0xUTGZSOHVSUEFIWHRGcWZVRFpURGhicHN3Zk9HN2t1Y01VOFgzNkFBM1pQN3gtb0Z6djF2dnRoWG5lTE5GYmlxMHdiLUg4N0FmVmVjc2I3eHUzMHQ5YUhKTDFzdktacFAwNGRPN0JjcU5GZWlERw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-20T11:16:02.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "박은주 동두천양주교육지원청 학생보건팀장, 국립암센터장 표창 수상 - 경기일보",
+        "source": "경기일보",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZNU1nQ29mc1dzcWkyWGh0T0pFb3BUaVJwYUl6SlFNQXpmUWJsVVdKLUdpa1NPQkhNNlIzdHZNME1fMDFqaWRaOHdTVWM4eW5wQU5mUTFEQzVlNlE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T08:28:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "20대": [
+      {
+        "title": "\"고졸 청년 취업 돕는다\" 계명대, 특성화고와 맞춤형 고용서비스 확대 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42b0QtRHU3N0tJMU1rcGJFaWhka0JiYUdONjB3ME1CbWtXaFF6cXFpYVVpRl9TS1U3aFNGMC1Pdno3LTdLR3R2YVFDTHEwMm9RU1ZuT0FWMlpmXzFYd2NkVXBQV1NDOERvSkHSAW9BVV95cUxNb05jTFhoQU41ME5VWXREWXBycHFybUtfT2wxTWRoUnd2TVJtdmQ3VnUtZnpRMGdObklmRExhRVl3Nk9BWS04VFBOemNwUlFieVRhcGJDcjVIVTRKaW1wZFh2RUNEMG5BVkd3M0EzeEE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T04:20:22.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "계명대, 고졸 청년 '조기 취업지원 체계' 구축 - 한국경제",
+        "source": "한국경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FMDFHNWVhTHhEU20xUG11bFcydmFRSUZrSDA2LXd0eE1LRXNpSWFrTWh1NFB0bVdxLW82WWplLU5rZXZpbGNGdTM0UjhXVHVkRVk1eE1iVTZBQdIBVEFVX3lxTFBlbzliVWVGUmphWnVUY0cxSnVIYnBSOUdrNVZ3YmNtSGp5MEJIczBkSFJoaVBpRzVMSGViR3JnYk9PSVdKV3l6NEM0ZmdrMHFraFhvVQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-15T23:18:07.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "30대": [
+      {
+        "title": "\"따라 할 수 있으면 해봐라\"…밥그릇 지키려는 직장인 '반격' [차이나 워치] - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YY3Y5WTNOaTNSQ1lzR3gxdU1RckNKenItN3kyalhHTTh5XzNIdElKb0NiNWJadlZxNUNmNl9NZlB6Snh1Zk9NOVlPeXlaSWJzcWVDYkh6N3htZ9IBVEFVX3lxTFA3NWVWd1UtVG1COVA0RFBfVWNvWllPbnUyWWtfbkhvc0JSUktGNFEzV2x0d09OYWxmOUJJYzNfUllESzlyRlVpaGg4OUFGeXZDZUVsUw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T04:52:35.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "“월 4000원 깎아준다”…LG유플러스, 유튜브 프리미엄·구글 AI 결합 할인 나서 - 매일경제",
+        "source": "매일경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9nd19OaW1hb0h6QVFpZHhqOXI0cmhjWTQ1R1ZUWnVYQzVnbHMwMEFQQmtITy15TWR2Wlkwbk5yMHdCX2ctQU94YkdKdTJJZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-18T01:51:04.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "\"유튜브 프리미엄에 구글 AI 프로까지\"…LG U+, 구독료 부담 낮췄다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlQ0ZlcUZVTWdma1V0RllqZ3lQaEgtYnRZd0RSTmJlSFhfTldyaDFiMWdRUUpOQ2R4bVF3bUtnRTgySlZlRm12cXF3dnJKRjR2M08wZjNPc3RDbi1oVG9NMFBDQ3h5bUnSAWxBVV95cUxPRl9SbEMzWk5DRC1yLUgzTkpuc2JjNUFHMnpfVm9nRGNKOV9oYjlFU3E2aGJPNmFqdS02MGpwZWZIOEx6OU0xUHlaZVJIOGxFVDFVa0ZrcUZaNVh1YVkwTVZzRjNaRGtxNmdFcGs?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T23:41:01.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "40대": [
+      {
+        "title": "“40대에 이 2가지 안했다”…중년에 폭삭 늙는 사람의 비밀 - 중앙일보",
+        "source": "중앙일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SMDlBZzUweUc4ZGRYWWctU1p3V3d5U2dLajBoT3VBajNQTjdnYng2V1BKeVBUcGQtMVRFRXZ5OXFycjV0dmxNdXI0MExHZXdJT0d1Qk9n?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-15T06:14:04.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "\"밥만 먹으면 졸리네\" 40대 직장인의 고민…알고 보니 [건강!톡] - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ENWd6QmhQNkx5TnhXVXRyQVEzb2tKTTlhYUdienVzX0FyOU9YelZnMkozVzJ0bXA1Tmo0NnRuWXY1cXRMQmVFZ04wdEJpRmVVbERfMkJleGtBZ9IBVEFVX3lxTE1SNU0wUzllMTNJenVWWnIwVW51eXpXajdQQTlrZFBqOWFZMTZSWEpZWGlJMzBsTW9WSTZDVWVsRjVRS2Z2U1doalQ5QTYtTl95Z0lXUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T09:31:01.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "카스(CAS), 중국 생산기지 고도화 나서…연간 100만 대 생산체계 구축 추진 - 한국경제",
+        "source": "한국경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PTEgtQnZRaGNQOC01bFNXczRYc1NwcWE5RUowNmhZeng5b3pSTHZuT0g5MlBDalcxSEhRcXg2MU5tODMzOTFIekxkekx4bV9BRzFHZndGMm9zZ9IBVEFVX3lxTE9KYWtseDNpUGUyTmdFVlZSeVQtWXN4VG1DNE5xdWlCS1pveWkyaEp1a0dzaXFJQ3ZjMnhHalNpRlJweFZidG9NV2MtWVBUY0xRNy02Ug?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T02:00:40.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "50대": [
+      {
+        "title": "주거비·인플레 압박에…밀레니얼 은퇴 '빨간불' - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3OHFNRkxLQVBVeWFST1ljek1WdWhYYmFuNGJNTzBjRGQ2UjBwcHJYazNUZDZrTjRjRjdJMnJpSjk2dW9XdV9pT3lLc1poWS1VNlJ6QXBwTnd1RFFkOWNiX3NR?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T07:17:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "단절과 연결 사이 '행복한 구원'…오직 둘만을 위한 반얀트리 푸켓 - 한국경제",
+        "source": "한국경제",
+        "time": "11시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90bTJsbFkwT2EtRVVlWkl5R2t0YVVtTzhVNlQ3VVYtc3YtRFIxeWRwTHBQNExhTjIyLXhaUng2eHotNFFOcEtTV2drQnQ0cW05Q2JPcNIBVEFVX3lxTE90bTJsbFkwT2EtRVVlWkl5R2t0YVVtTzhVNlQ3VVYtc3YtRFIxeWRwTHBQNExhTjIyLXhaUng2eHotNFFOcEtTV2drQnQ0cW05Q2JPcA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-20T11:02:33.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "레스케이프, 나이키 스트렝스와 함께 서머 웰니스 프로젝트 ‘트레인 더 시티(Train the City) 선보여 - 한국경제",
+        "source": "한국경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwXzdjb1RvN2dqSHNKOXY3c2w5bVZ4aWZzQjdZcnVGZFpDeG5FRkV2d1JUZnZNWmFEbXlmRXNleklqS3czdEZRNTR0THlKX0t5bS1DcHFDa1FwZ9IBVEFVX3lxTFB6b1BDSFRfZy1xWHc0b1pveU42THVfR0JobGxZcnFDOUlkMGdoLW5HQmFxM3Q5dkVzRkpMZXVqbi1JWTNmSEljNlJPTHdKSlBzUFNjdQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-18T00:23:17.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "60대+": [
+      {
+        "title": "추경호, 노인·아동·응급의료 현장 잇단 방문…\"시민 삶 지키는 안전망 구축\" - 이데일리",
+        "source": "이데일리",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzgzLWZWWjVvanZOaks3WUFYODVfTlc4MGstWkpRaGdDWWw3ZGk1T00yZV9nYVRzeURPZzZnLTBpVkVnSkVYd1J2RmdTa3FYUjFnYzhrdFFHZ1c0cXl2YmFlWFNLUDloZnpjSmtHamxkZmJsS2hqV0d6djRPbE52Qw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T10:11:52.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "서울 버스 '70세 이상 무료' 되나…오세훈표 교통복지 '첫 단추' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vZFg5aFVzVWZOTFAzQkZEM0ZMbHFPT1Z0bTBXOXVVQlFpSEFENDVxN2E0RU1GUURvMzJYMmFmSnFYU25qMjV1eXlfMVp0TW1PaDRkR2ZyeWM2djB2WUgtRERMbWd4SlB6bUHSAW9BVV95cUxOcE9NVlluVlFIOUtmc0lMa2d2TlVVWHNSVFhHT3h4S2UtZE9mYnlxX0NBLTF4N3kxNXdDZWRVenZtSkhfZTZRODcwV0FlSGlmcmgtXy03eWdfLUhielBIVGNMWmhmZ0ZQWGswOFZLZ2c?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T07:47:44.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "금융위, 생애주기별 투자교육 강화…“고위험상품 알고 투자해야” - 매일경제 마켓",
+        "source": "매일경제 마켓",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxWGRoZzJTZkdzUjZubXRIRHJDRDhHQUlBZXBzVVVfSmJGWk1sU0M0bTFBMjZrRlFaV2EtdmF3ZGdhLV9vMXltc0JIQkJQby1tWGc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T07:09:15.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "브랜드 경험의 '감각적 몰입'과 '지속가능 스토리'가 핵심",
+    "insight": "단순히 아름다운 것을 넘어, 브랜드의 철학을 오감으로 느끼게 하고, 소비자가 그 스토리에 참여할 수 있도록 유도하는 디자인이 강력한 팬덤을 형성합니다. 특히 환경과 사회적 가치를 담아낸 진정성 있는 디자인은 브랜드의 장기적 생존과 직결됩니다.",
+    "rising": [
+      {
+        "title": "오가닉 & 미니멀 패키징 디자인",
+        "momentum": 87,
+        "desc": "환경 영향을 최소화하는 생분해성 소재와 재활용 가능한 용기를 사용하며, 불필요한 장식을 배제한 간결하고 본질적인 디자인이 선호됩니다."
+      },
+      {
+        "title": "동적 아이덴티티 시스템",
+        "momentum": 83,
+        "desc": "고정된 로고를 넘어, 다양한 플랫폼과 사용자 상호작용에 따라 유연하게 변화하는 동적(Dynamic) 브랜드 아이덴티티 시스템이 주목받고 있습니다."
+      },
+      {
+        "title": "경험 중심의 리테일 공간 디자인",
+        "momentum": 80,
+        "desc": "제품 판매를 넘어, 브랜드의 세계관을 체험하고 소통할 수 있는 몰입형 공간 디자인이 중요해지고 있으며, 디지털 기술과의 융합이 가속화됩니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "MK Pick | 파카, 클래식 디자인에 현대적 감각 더한 ‘아이엠 피니싱 터치 컬렉션’ 출시 - 매일경제",
+      "source": "매일경제",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95aFFfQzZwQ3lNd2FoaklaNXV3b1R5dkJZN1lYVXUyZmlENl80aHhua0llUjdhTTd4VnhlWDFPeHB6LWp4UFBmMk5EeUJJaTZv?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-15T01:18:58.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "\"가방 자랑은 끝났다\"…'마구간' 차린 에르메스의 속사정 [박수림의 요즘 여기] - 한국경제",
+      "source": "한국경제",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vd0xsRWltTldKQjdwclMybi11ODBONjNHcHpuUzVPWnhWdGFOay1odlFXYngxSE42QXhVVmZRd1VkNnU3VEp1T25zY2FhQlFtQW92QkRGMU1Sd9IBVEFVX3lxTE9XWlowX1lTTlQ4U2ZWNEZoTGJfRkZRLUVpcElZWENobllBZ2cwRWdMaEptbm9oQ0ZTWUxvWUp3elBpUk9fVWhUN0kybVNra3VsWnFIaA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-14T12:50:44.000Z",
+      "category": "news",
+      "trustScore": 3
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 '공동체 경험' 재조명, 팬덤 경제 확산의 시대",
+    "takeaways": [
+      "개인 맞춤형 서비스의 고도화 속에서, 유사한 가치를 공유하는 소규모 공동체 경험이 소비의 핵심 동력으로 부상하고 있습니다.",
+      "MZ세대를 넘어 전 연령층에서 '팬덤' 현상이 확산되며, 브랜드와 소비자의 관계가 단순한 구매를 넘어선 감정적 유대로 진화하고 있습니다.",
+      "디지털 전환 가속화와 함께 물리적 공간의 역할이 재정의되며, 온·오프라인을 융합한 몰입형 경험 디자인이 시장 경쟁력을 좌우합니다."
+    ],
+    "insight": "경기 둔화와 사회적 피로감 속에서, 소비자들은 고립감 해소와 소속감 충족을 위한 '안전한 공동체'를 찾아 나섭니다. 이는 단순히 취미를 넘어 가치와 신념을 공유하며 '함께 성장하는 경험'을 갈망하는 세대 심리가 시장 전반의 팬덤 경제를 촉진하고 있습니다. 브랜드는 이제 단순한 제품 제공을 넘어, 이러한 공동체 경험을 설계하고 그 안에서 소비자가 주체적으로 기여할 수 있는 장을 마련해야 합니다.",
+    "actions": [
+      "고객 데이터를 활용하여 미시적 취향 공동체를 발굴하고, 이들을 위한 전용 콘텐츠 및 커뮤니티 플랫폼을 구축하세요.",
+      "브랜드 철학을 명확히 하고, 이를 공유하는 소비자 집단을 '팬덤'으로 육성하기 위한 장기적인 관계 구축 전략을 수립하세요."
+    ]
+  }
+}
