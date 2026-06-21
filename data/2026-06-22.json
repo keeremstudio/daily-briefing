@@ -1,0 +1,405 @@
+{
+  "edition": "No. 417",
+  "moods": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 66,
+    "40대": 61,
+    "50대": 65,
+    "60대+": 73
+  },
+  "moodsPrev": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "초개인화",
+      "dir": "up",
+      "change": "25%"
+    },
+    {
+      "rank": 2,
+      "term": "생성형AI",
+      "dir": "up",
+      "change": "20%"
+    },
+    {
+      "rank": 3,
+      "term": "지속가능소비",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 4,
+      "term": "경험경제",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "가치소비",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 6,
+      "term": "헬스케어테크",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 7,
+      "term": "로컬브랜딩",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 8,
+      "term": "디지털휴머니즘",
+      "dir": "flat",
+      "change": "0%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 115.5,
+      "delta": -1.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 106.6,
+      "delta": -0.3
+    },
+    {
+      "name": "소비·유통",
+      "value": 102.6,
+      "delta": -0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 100,
+      "delta": -0.2
+    },
+    {
+      "name": "고용·노동",
+      "value": 99.3,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 큐레이션 라이프스타일",
+      "momentum": 92,
+      "desc": "개인의 취향과 생활 패턴을 AI가 분석하여 의식주 전반에 걸쳐 최적화된 상품과 서비스를 제안, 삶의 질을 높이는 트렌드."
+    },
+    {
+      "title": "리사이클링 & 업사이클링 프리미엄",
+      "momentum": 88,
+      "desc": "단순한 재활용을 넘어 디자인과 스토리를 입혀 새로운 가치를 창출하는 제품들이 고가에도 불구하고 큰 인기를 얻고 있으며, 환경 의식과 개성을 동시에 만족시키는 소비."
+    },
+    {
+      "title": "마이크로 커뮤니티 플랫폼",
+      "momentum": 85,
+      "desc": "거대 플랫폼의 피로감 속에서 특정 취미, 관심사, 지역 기반의 소규모 커뮤니티 플랫폼이 활성화되어 깊이 있는 정보 교류와 유대감을 형성하는 공간으로 부상."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "“인증샷 대신 현지 마트 턴다”…2026 글로벌 여행 판도 바꿀 ‘초개인화’ 트렌드 [여행+] - 세계일보",
+      "source": "세계일보",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2QXd1SjNPeUEzRnltck4xUmR2TTRjWFpFSFNiNE9weWlTeFdweWlsS1N2QnMyaDlFdV9lcFRLNXRFUU9vR0RUbTZCUVNWcFRXTG9tQUI4WDfSAVRBVV95cUxPeHlQVnduN0xzcElSWjlsQ1JvS2pvMXRENzU1SjZOa25sSTJ4dkRzOG43QWxJVWV1Y0pTZm9hWUpuMDNUYlhRcGpYYzFTOEZnZXFMN28?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-15T22:00:00.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "AI 슬롭 시대에 뜨는 ‘경험’ ‘맥락化’ [김소연 칼럼] - 매일경제",
+      "source": "매일경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53ME1tWl9VUlN2Y2RzM2NuWm92QTdXcmNhdGVrMG94M1pnVlBzRkUtY2duUk1KdFlCNEp3LVNmSVVQREF2Z2daeUJOb1MwRl9lTFFqYW85Q0c?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-19T07:51:22.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "부산시, 미취업 청년 189명에게 실무경험 제공…월급 234만원 - 매일경제 마켓",
+      "source": "매일경제 마켓",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96SWZEUnJSdjNmbUVUYVY5RmNHZ3lqRHVmQktHRVphU2lvTWJ3cTRFRmg2VUlkZUJ1OFd1aVIyZlhBc1FRSlVqRDA4LTVJeGdPbXc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-18T22:56:37.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "생성형 AI 인재 키우는 춘천…VFX 교육·인턴십 연계 본격화 - MTN 머니투데이방송",
+      "source": "MTN 머니투데이방송",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsRGpseDFsUVJIdk9zOVVfWUtnSVBHQWFpeUE2ZHQyUmRDb1M1Z2ZYSDljbE0xdGE1bG5OTmpIY1Q0c0ZpbHJyN3dYRFdha0ItUUdJbmFDVGNmLThBSklydFY3YVo?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-18T02:38:10.000Z",
+      "category": "news",
+      "trustScore": 3
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "자유게시판 - 헬로디디",
+        "source": "헬로디디",
+        "time": "11시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11d2Q2cW5nM3R3dVZNRmhrY1ZMRDE0Tmp4RENoZ0Y4ZGVFaGxSczk3ZlNKeEFSdEMxNUJFQmVldjN1SlFKVFd4MTlHZGJEOHZZUFVlOExMLWR2al8zT2c?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T11:03:21.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "'전지적 참견 시점' 아일릿 원희, 다이X 싹쓸이할 기세…쇼핑 폭주 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBObTV3UU9UV1I4SE9Ra1FjRUFZN1pXVEN2dmFIc0JyLVhzeFBJc1Zod3NHbnBqbEhORTNyUU40YnZyeGlXdDNfLVd0V3EzaE9RQUFjQVFLVHdiQlJ4WU00MnRIZ1hlRHlENDNjZ2xIR2NZeVB2b0FwRNIBeEFVX3lxTFBObTV3UU9UV1I4SE9Ra1FjRUFZN1pXVEN2dmFIc0JyLVhzeFBJc1Zod3NHbnBqbEhORTNyUU40YnZyeGlXdDNfLVd0V3EzaE9RQUFjQVFLVHdiQlJ4WU00MnRIZ1hlRHlENDNjZ2xIR2NZeVB2b0FwRA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-20T10:00:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "한강에 울려 퍼지는 ‘덩더덕 쿵덕’…국악이 서울을 깨우는 날 - 매일경제",
+        "source": "매일경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sRWJ0OGRBN1lhVWItZ1ZnLUk1eVZDdm1Wa2RiaUxRZFgzYmpxdDdPSW5kVHVvVlRjdzU4eFFISmtaaTA4YWk4cTJFeEJPRnI5ektmRA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-15T08:00:03.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "20대": [
+      {
+        "title": "\"고졸 청년 취업 돕는다\" 계명대, 특성화고와 맞춤형 고용서비스 확대 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42b0QtRHU3N0tJMU1rcGJFaWhka0JiYUdONjB3ME1CbWtXaFF6cXFpYVVpRl9TS1U3aFNGMC1Pdno3LTdLR3R2YVFDTHEwMm9RU1ZuT0FWMlpmXzFYd2NkVXBQV1NDOERvSkHSAW9BVV95cUxNb05jTFhoQU41ME5VWXREWXBycHFybUtfT2wxTWRoUnd2TVJtdmQ3VnUtZnpRMGdObklmRExhRVl3Nk9BWS04VFBOemNwUlFieVRhcGJDcjVIVTRKaW1wZFh2RUNEMG5BVkd3M0EzeEE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T04:20:22.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "계명대, 고졸 청년 '조기 취업지원 체계' 구축 - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FMDFHNWVhTHhEU20xUG11bFcydmFRSUZrSDA2LXd0eE1LRXNpSWFrTWh1NFB0bVdxLW82WWplLU5rZXZpbGNGdTM0UjhXVHVkRVk1eE1iVTZBQdIBVEFVX3lxTFBlbzliVWVGUmphWnVUY0cxSnVIYnBSOUdrNVZ3YmNtSGp5MEJIczBkSFJoaVBpRzVMSGViR3JnYk9PSVdKV3l6NEM0ZmdrMHFraFhvVQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-15T23:18:07.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "30대": [
+      {
+        "title": "컬처인: '라떼 파파' 시대, 육아하는 아빠들... 호주의 현실은? - SBS Australia",
+        "source": "SBS Australia",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUUNQdUkydzBraXRiLVE3bExQZFd2SEFCNG10RzljaHNmN1RmMi1tNTJlbHFaRlJoNVdqZldFT3NkWGtNelFLN0c4cmxJcFc3ckN0OWg0VGx5NC1xeVUySXFvWk9ma1AzQ0VycHdPSlJEUFZyR1N5RE12RVFjclFWUVFoZlZDY054dEV6TlVCOHo0T2VsWVlSeVFDNU1oaWNUMzNzVF9SeDRCOEtjb2s5Mnd4bDdRcExaWHdsMHJvZTZKUTZ4aXN3VXVLSWItQQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-18T11:06:20.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "버스서 여성 또 추행한 30대, 집행유예…법원 ＂추행 정도 등 참작＂ - 한국경제TV",
+        "source": "한국경제TV",
+        "time": "16시간 전",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DWFJxSFJTdGFvUWVBMHBRQm16RzgxMklveEV4NGdJalNQTDdOZGlZXzlqZ1NZMk5JNGFKd2k3NjhXV1NxbHVBR2dFajNOTlF5dTV4ZDhwanRYTnY5b1JvdkhqWmZyUjJ5VWdLWC1rbXg3MEMxRWN3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T06:12:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "“남성 82만원 vs. 여성 40만원” 국민연금 수급액 차이 왜 클까? - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hajdPRUlNd0t1aUVtT3d3UVVxUVJBaVFIdlAzZ3JmQ3pGUHBWUmM3MWRRRkJsNEZOS1ZFZUtwMENNRE45aHFudGdTRDhvV0VJbEt0clFB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-20T00:06:06.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "40대": [
+      {
+        "title": "“40대에 이 2가지 안했다”…중년에 폭삭 늙는 사람의 비밀 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SMDlBZzUweUc4ZGRYWWctU1p3V3d5U2dLajBoT3VBajNQTjdnYng2V1BKeVBUcGQtMVRFRXZ5OXFycjV0dmxNdXI0MExHZXdJT0d1Qk9n?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-15T06:14:04.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "\"밥만 먹으면 졸리네\" 40대 직장인의 고민…알고 보니 [건강!톡] - 한국경제",
+        "source": "한국경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ENWd6QmhQNkx5TnhXVXRyQVEzb2tKTTlhYUdienVzX0FyOU9YelZnMkozVzJ0bXA1Tmo0NnRuWXY1cXRMQmVFZ04wdEJpRmVVbERfMkJleGtBZ9IBVEFVX3lxTE1SNU0wUzllMTNJenVWWnIwVW51eXpXajdQQTlrZFBqOWFZMTZSWEpZWGlJMzBsTW9WSTZDVWVsRjVRS2Z2U1doalQ5QTYtTl95Z0lXUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T09:31:01.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "레스케이프, 나이키 스트렝스와 함께 서머 웰니스 프로젝트 ‘트레인 더 시티(Train the City) 선보여 - 한국경제",
+        "source": "한국경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwXzdjb1RvN2dqSHNKOXY3c2w5bVZ4aWZzQjdZcnVGZFpDeG5FRkV2d1JUZnZNWmFEbXlmRXNleklqS3czdEZRNTR0THlKX0t5bS1DcHFDa1FwZ9IBVEFVX3lxTFB6b1BDSFRfZy1xWHc0b1pveU42THVfR0JobGxZcnFDOUlkMGdoLW5HQmFxM3Q5dkVzRkpMZXVqbi1JWTNmSEljNlJPTHdKSlBzUFNjdQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-18T00:23:17.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "50대": [
+      {
+        "title": "생활AI 활용·ATM·디지털문해, 찾아가서 가르쳐준다 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5OTnpsdi1OZUVaTVBrVTEzczdmTzkzaFFmdjU4UjN5Y09scmEydXVyTzk1Q1lhSXJFTk10ZGVUS1lXSTZPUHRVUU1lMHhBeGs4VldUeDhn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T02:00:41.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "“끝까지 버티면 38% 더 받는다” … 계모임 닮은 ‘톤틴연금’의 비밀 - 매일경제",
+        "source": "매일경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwZ3kxQndMQ2ZTcjhVNkFKSnBmX1piZXo2bU1lT2h1MEFkYVFNLTdrRzdpMU1wMDlsYWZLNFJwUktHUWM4ZEsycFloQmd0WVF5U3B1TQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T20:00:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "여성 국민연금 월 40만원 불과…남성의 절반 수준 - 경기일보",
+        "source": "경기일보",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpeWluV3BKb01LOWxnQ0ZaWmhENGhzZk9SV3ByMU1WNkYzVDZsYW4tRzN3S0JiSXZDcTBjZ0JVeDJMVnl0WWJpdEJ2RWZyNklEZW01NHZtdzBhc0E?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T21:40:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "60대+": [
+      {
+        "title": "추경호, 노인·아동·응급의료 현장 잇단 방문…\"시민 삶 지키는 안전망 구축\" - 이데일리",
+        "source": "이데일리",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzgzLWZWWjVvanZOaks3WUFYODVfTlc4MGstWkpRaGdDWWw3ZGk1T00yZV9nYVRzeURPZzZnLTBpVkVnSkVYd1J2RmdTa3FYUjFnYzhrdFFHZ1c0cXl2YmFlWFNLUDloZnpjSmtHamxkZmJsS2hqV0d6djRPbE52Qw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T10:11:52.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "서울 버스 '70세 이상 무료' 되나…오세훈표 교통복지 '첫 단추' - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vZFg5aFVzVWZOTFAzQkZEM0ZMbHFPT1Z0bTBXOXVVQlFpSEFENDVxN2E0RU1GUURvMzJYMmFmSnFYU25qMjV1eXlfMVp0TW1PaDRkR2ZyeWM2djB2WUgtRERMbWd4SlB6bUHSAW9BVV95cUxOcE9NVlluVlFIOUtmc0lMa2d2TlVVWHNSVFhHT3h4S2UtZE9mYnlxX0NBLTF4N3kxNXdDZWRVenZtSkhfZTZRODcwV0FlSGlmcmgtXy03eWdfLUhielBIVGNMWmhmZ0ZQWGswOFZLZ2c?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T07:47:44.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "카스(CAS), 중국 생산기지 고도화 나서…연간 100만 대 생산체계 구축 추진 - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PTEgtQnZRaGNQOC01bFNXczRYc1NwcWE5RUowNmhZeng5b3pSTHZuT0g5MlBDalcxSEhRcXg2MU5tODMzOTFIekxkekx4bV9BRzFHZndGMm9zZ9IBVEFVX3lxTE9KYWtseDNpUGUyTmdFVlZSeVQtWXN4VG1DNE5xdWlCS1pveWkyaEp1a0dzaXFJQ3ZjMnhHalNpRlJweFZidG9NV2MtWVBUY0xRNy02Ug?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-16T02:00:40.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "기능을 넘어 감성으로, 지속가능한 경험을 디자인하라",
+    "insight": "브랜드는 이제 단순한 로고나 제품을 넘어, 소비자의 가치관과 라이프스타일에 깊이 공명하는 '총체적 경험'을 디자인해야 한다. 특히 환경적 책임과 사회적 기여를 시각적으로, 그리고 스토리로 전달하는 능력이 브랜드의 성패를 가를 것이다.",
+    "rising": [
+      {
+        "title": "바이오필릭 & 내추럴 디자인",
+        "momentum": 90,
+        "desc": "자연에서 영감을 받은 소재, 색상, 형태를 활용하여 공간과 제품에 편안함과 지속가능한 가치를 부여하는 디자인이 주류로 부상."
+      },
+      {
+        "title": "인터랙티브 아이덴티티",
+        "momentum": 87,
+        "desc": "고정된 로고를 넘어 사용자의 참여나 환경 변화에 따라 유동적으로 변하는 브랜드 아이덴티티가 젊은 세대에게 신선한 경험을 제공하며 주목받음."
+      },
+      {
+        "title": "스토리텔링 패키징",
+        "momentum": 84,
+        "desc": "제품의 생산 과정, 브랜드 철학, 지속가능성 메시지를 패키지에 담아 소비자에게 깊은 인상을 주고 구매를 유도하는 디자인 방식이 중요해짐."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "서울디자인재단-풀무원, '지속 가능 친환경 식생활' 선보인다 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQWV1UC1MT2lPSHkwa3Y5SmFuTDVZMk9zTWpvS3JCa2t2TlFzaW9TZ1Z0OVQ1elhXYXQ5bDJnb01JX0lWdXVYVkJsSEpKMlpfZm11MElULTlyRGVhelZETnNRU2RPOXEyanfSAW9BVV95cUxNN0ZKZGVSQXNWRHJ1RHNMYThQdlhIUWRxa0FKN3A2a2k0WUVYcmdrTkZBX01WRkpCeEpqLW15ckVXY0xRT2Z5REVZZm9BMy1Ib1o5ZU9kdlRrdWwzaUI2bkZ5SFpzS0E0cUVwU2xTdnc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-16T21:00:00.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "백판지 원재료 98.5% 국내 순환 원료로…깨끗한나라, 자원순환 확대 - 한국경제",
+      "source": "한국경제",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93VmRoQ0JlSTMxZjhDVUowY0FEWFFZQ0JwY2JyQkM5TV8xZEc5bUJJM0F4LTlKbTMyM0dkNGFCaElZLWhtQU9DSHlqNmk3VGI5YWp1Qi1YUzVvd9IBVEFVX3lxTE52ajh5M2d3Yl9VaGNuV28tWjFjU3d2OVpWaE9qVm1DZDIycU9xVDRtLW1TemdlRlU0UlhkOC1sWVFwTU9XZDRMakFwTjRVTG1teFVJeQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-16T05:28:17.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "MK Pick | 파카, 클래식 디자인에 현대적 감각 더한 ‘아이엠 피니싱 터치 컬렉션’ 출시 - 매일경제",
+      "source": "매일경제",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95aFFfQzZwQ3lNd2FoaklaNXV3b1R5dkJZN1lYVXUyZmlENl80aHhua0llUjdhTTd4VnhlWDFPeHB6LWp4UFBmMk5EeUJJaTZv?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-15T01:18:58.000Z",
+      "category": "news",
+      "trustScore": 3
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 시대, AI와 지속가능성으로 무장한 소비자의 지갑을 여는 법",
+    "takeaways": [
+      "AI 기반 초개인화 서비스가 소비 경험의 핵심으로 부상하며 시장 경쟁 심화.",
+      "진정성 있는 ESG 실천과 투명한 커뮤니케이션이 브랜드 신뢰도와 구매 결정에 결정적 영향.",
+      "세대별 가치관 차이 심화, 특히 Z세대는 '경험'과 '의미'를 중시하며 소비 패러다임 변화 주도."
+    ],
+    "insight": "기술적 고도화로 인한 '편리함'과 사회적 책임에 대한 '진정성' 사이에서 균형을 찾는 것이 중요하다. 특히, 개인의 정체성과 가치관을 반영하는 소비를 추구하는 MZ세대의 심리를 이해하고, 단순한 제품을 넘어 '경험'과 '이야기'를 제공하는 브랜드만이 시장에서 살아남을 것이다.",
+    "actions": [
+      "AI 기반 고객 데이터 분석을 강화하여 개인화된 마케팅 캠페인 및 제품 추천 시스템을 고도화하라.",
+      "ESG 경영의 진정성을 확보하고, 그 과정을 투명하게 공개하여 소비자 신뢰를 구축하며, 스토리텔링을 통해 브랜드 가치를 전달하라."
+    ]
+  }
+}
