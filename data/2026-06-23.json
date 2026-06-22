@@ -1,0 +1,375 @@
+{
+  "edition": "No. 418",
+  "moods": {
+    "10대": 66,
+    "20대": 62,
+    "30대": 67,
+    "40대": 63,
+    "50대": 69,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 66,
+    "40대": 61,
+    "50대": 65,
+    "60대+": 73
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 동반자",
+      "dir": "up",
+      "change": "25%"
+    },
+    {
+      "rank": 2,
+      "term": "경험 지속가능성",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 3,
+      "term": "갓생 테크",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 4,
+      "term": "디지털 트윈 라이프",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 5,
+      "term": "초개인화 금융",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 6,
+      "term": "실감형 콘텐츠",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 7,
+      "term": "로컬 커넥트",
+      "dir": "flat",
+      "change": "3%"
+    },
+    {
+      "rank": 8,
+      "term": "친환경 리필 스테이션",
+      "dir": "flat",
+      "change": "2%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 116.9,
+      "delta": 1.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 105.8,
+      "delta": -0.8
+    },
+    {
+      "name": "소비·유통",
+      "value": 102.2,
+      "delta": -0.4
+    },
+    {
+      "name": "주거·부동산",
+      "value": 101.4,
+      "delta": 1.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 99.3,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 라이프 코치 서비스",
+      "momentum": 95,
+      "desc": "개인의 건강, 재정, 경력 등 전반적인 삶의 목표 달성을 AI가 코칭하고 관리해주는 서비스가 급성장 중입니다."
+    },
+    {
+      "title": "순환 경제 패션 플랫폼",
+      "momentum": 90,
+      "desc": "헌 옷을 수거하여 새로운 디자인으로 재탄생시키거나, 공유 및 대여를 통해 의류 소비의 지속가능성을 높이는 플랫폼이 인기를 얻고 있습니다."
+    },
+    {
+      "title": "가상 인플루언서 커머스",
+      "momentum": 88,
+      "desc": "실존 인물보다 더 높은 신뢰도와 화제성을 바탕으로 가상 인플루언서가 특정 브랜드를 직접 기획하고 판매하는 커머스 모델이 확산됩니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "[기고] 청소년활동은 가능성을 미래로 바꾼다 - 세계일보",
+      "source": "세계일보",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtY0I2T0dPTFdhLVVTTmVUR1dfSzNWZzBRcHN3UlM0M1hhMzYweGFzUUVDaVFJMFYwbWRVUFFlVUdPX0ppSnBSX1V0dS1oUERxdWswMXNaQzhCMHFwbkZUdGVYcTZYbFpOUG1Z0gFUQVVfeXFMTUg2RDgwc3JVanhFZXlUTmxmbk1MQ2tYdlFUMmp6eHQ1a3VjOW11WHVkM2VrdFFiWEd3OUlJWno5cG02LTdUN21ZSEdFZU5ONHNUVnVi?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-18T07:31:32.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "[포토] 이형준, 영원한 동반자와 함께 - 이데일리",
+      "source": "이데일리",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbVItTWozZGNsMW5Iak5fSVRsbXdUbDJGRlV2UUZObDIyanNCWHhoMjRjZ0tIUHFJWm5faWt1cUllaWhBRS1FVG1DMHZPVjU4MFdFekR5ak51WHZvX215WG1QeEtSekFUUHRoX0ZNT2lqUDhLVVhmQXJhVGxpMDJqSg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-20T05:08:07.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "AI는 숙제 아닌 동반자…미래 교육 조건은 ‘검증·책임·공감’[세상&amp;] - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hVTBuRFBWTFpvTjVPMGhjZ3dFb2o3RHVKaFpfVFliWEFtSnBRYmFtTW9JX05sMjJVYXA4dXNpRG9maFM0aVd4bFN5T0JoelJpS0FoWU5n?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-18T09:06:51.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "이재명 대통령, G7서 ‘새로운 국제협력’ 제안…한국 개발 경험 공유 - 경기일보",
+      "source": "경기일보",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aSWYwYWp0UktoSEVWVkhaTUNLOUk4SHJSdE9PWDYweXE1Qlh4TkwwejdUTklvNk04c1ZmZE54dlFWU21Ga3dSdVd2ZWExUlYtRkJfNVQtSGdVYnM?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-16T21:29:00.000Z",
+      "category": "news",
+      "trustScore": 3
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "박은주 동두천양주교육지원청 학생보건팀장, 국립암센터장 표창 수상 - 경기일보",
+        "source": "경기일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZNU1nQ29mc1dzcWkyWGh0T0pFb3BUaVJwYUl6SlFNQXpmUWJsVVdKLUdpa1NPQkhNNlIzdHZNME1fMDFqaWRaOHdTVWM4eW5wQU5mUTFEQzVlNlE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T08:28:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "20대": [
+      {
+        "title": "안동시, 청년 취업지원 본격화…맞춤형 취업캠프·무료 취업사진 지원 - 이데일리",
+        "source": "이데일리",
+        "time": "12시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0dZQTJMTm83Yi1GWGU4UnZQOFZKeEtqQWtMMlBrSEd3TDVNS2JIMVJ2TWhnWUVQVHlndXJqM0tBN29ndnlfMVk0WlZHdDU4UGkweFM3d3gzX3gwd1Rscnhlb1A0MnZ3TV9tY0NBVzlOdm9yaXZVdEViUlRzXzFwSQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T10:18:03.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "청년 취업지원 39세로 확대…축제 푸드트럭 맥주 판매도 허용 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "20시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KVTFqaDJEZl9KMFhQdjRma1k0ajhDYzcxYWJiNjhueld6WnlDczdyUnJ2QktYcU9hQ25DU2U3aWYyQ3pra2hubTdyNHRwQkcwQzY1Y3RLNzNNLVlNWWlrZzAzY25KVUdhY3fSAW9BVV95cUxNV3hQWEpZc2F4dTNCVjkxMndUOVdnT2w2MXFxV09XcVV1SWl2aHozZVJyYnpkWE1KRHlJMVNvMTg5bTZadlJJY1BCMDZJSV85QXhIWlhYSlpoblNKckV3aTluTGV0UFFLd3J1TW9pdXc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T02:15:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "30대": [
+      {
+        "title": "버스서 여성 또 추행한 30대, 집행유예…법원 ＂추행 정도 등 참작＂ - 한국경제TV",
+        "source": "한국경제TV",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DWFJxSFJTdGFvUWVBMHBRQm16RzgxMklveEV4NGdJalNQTDdOZGlZXzlqZ1NZMk5JNGFKd2k3NjhXV1NxbHVBR2dFajNOTlF5dTV4ZDhwanRYTnY5b1JvdkhqWmZyUjJ5VWdLWC1rbXg3MEMxRWN3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T06:12:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "광규형 활짝 웃겠네…59억 거래 찍힌 송도, 신축 국평 10억 넘었다 [부동산360] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBodFB4bVAtcENia0Y5RlRCQUVXM2phRkFqcmhGeDdnTzladDhrT2FtNUlNNmhZMFFadS1PYzBFRXhHeUw3bmU0cW1xOXBjdWZ3dExGYjh3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T03:00:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "10억짜리 집 샀더니 세금만 1.2억원…부동산 세금의 모든것 - 한국경제",
+        "source": "한국경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16TzZFcEdiYUx1QUtmTG9uZ0pxVDYtN2c2ZUR5aHM2NUM0QlhQSWFLTm4wRTI4ZlA4NXJFSEh4WWlGNFVYVDdXVTBUVzBlV196cVZMMEpuT1MyQdIBVEFVX3lxTE1FYWdyWXU3TWo4N0Vpd2c2ODZhMlVTbVI4eUJ5MWpObG82UVpQbXFKTWJYVkFVQ3lvWkRhX3VNVnYyb1F1bm9aV2szZmhlbENua0NwWA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-18T10:00:05.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "40대": [
+      {
+        "title": "80세에도 새 뇌세포 생겨났다…50대 뇌 가진 ‘치매 노인’ 비밀 - 중앙일보",
+        "source": "중앙일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92YkU1cFVOejA4ZDVuckJYbnR1ZHJuWk1YRjMwLWR1Zi14OC1CMVZnMERLS3BNcllHZlpSZGtPNlNJbHZCTEtSQlBmMlpWX0dkcTA1eEV3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T13:42:25.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "\"밥만 먹으면 졸리네\" 40대 직장인의 고민…알고 보니 [건강!톡] - 한국경제",
+        "source": "한국경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ENWd6QmhQNkx5TnhXVXRyQVEzb2tKTTlhYUdienVzX0FyOU9YelZnMkozVzJ0bXA1Tmo0NnRuWXY1cXRMQmVFZ04wdEJpRmVVbERfMkJleGtBZ9IBVEFVX3lxTE1SNU0wUzllMTNJenVWWnIwVW51eXpXajdQQTlrZFBqOWFZMTZSWEpZWGlJMzBsTW9WSTZDVWVsRjVRS2Z2U1doalQ5QTYtTl95Z0lXUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T09:31:01.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "50대": [
+      {
+        "title": "카카오헬스케어-롯데손보, 만성질환 관리 서비스 협력…연계 보험상품 개발 - 이데일리",
+        "source": "이데일리",
+        "time": "22시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQmRyZlVXdFROcUw2cVFkcGs1aUZDMUYwSHV1LVo1ZHRsWE1fNElDU1E5dFBMdVZGLThkeDc5Szd6VzJtd0hOM0U1VExLa0JUNjlsa2tGRC1yQmEzb3dnNE1mWGl3Mzl0Tk14a1hJQ1h5a2s0YUxUZG54QV9XNXNIaw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T00:18:27.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "삼성전자, 유럽 최대 테크 박람회서 '커넥티드 케어' 헬스 비전 강조 - 이데일리",
+        "source": "이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWVNSYk0yRVlZbTE0aEhuOHVwMFFZc3hEQXRrNEx5VGdlSGV5WVRzQXNNRFBjUFpXSVNKOUt1eUFWekptNTJIOTN3WUhmT2llVldJUllhR2V2NGRrYW9TN2ZKX2tSRHhSQkZVQjFRQVZhNFRWMndaSVU3di1pTmlRdg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T02:00:04.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "“끝까지 버티면 38% 더 받는다” … 계모임 닮은 ‘톤틴연금’의 비밀 - 매일경제",
+        "source": "매일경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwZ3kxQndMQ2ZTcjhVNkFKSnBmX1piZXo2bU1lT2h1MEFkYVFNLTdrRzdpMU1wMDlsYWZLNFJwUktHUWM4ZEsycFloQmd0WVF5U3B1TQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T20:00:00.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ],
+    "60대+": [
+      {
+        "title": "청도군, 노인복지 예산 833억원 투입…‘어르신 행복도시’ 만든다 - 이데일리",
+        "source": "이데일리",
+        "time": "1시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZHhZS1NLcnEtSnJ1V29jZ2JkTXlUcVNPdEpacnB4eFFPZUs3VFFPaGtYZ21XcEdhMzFyeER6M0FndU55RmpEeHVWbFNyTnk3T1FoR050WEtud1lkWURIeEwtRVdrcXB1Ulo0eDYtTVlWS2ROcXlyZmR3WS1JLTREUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T21:00:06.000Z",
+        "category": "news",
+        "trustScore": 3
+      },
+      {
+        "title": "기술이 돌본다는 착각 - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1hakQzSFZCdlhlZEdpSVR1aUdIbHVxSHJzU1dUTHNzSDY5VVRFdk0tR3FaQWtud0xDZEZEMHN4TmRaV1NFSzdRY3dfMUxLWE9NdnczbdIBVEFVX3lxTE1hakQzSFZCdlhlZEdpSVR1aUdIbHVxSHJzU1dUTHNzSDY5VVRFdk0tR3FaQWtud0xDZEZEMHN4TmRaV1NFSzdRY3dfMUxLWE9NdnczbQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T08:09:49.000Z",
+        "category": "news",
+        "trustScore": 3
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "브랜드 경험의 '초개인화된 몰입'이 디자인의 새 지평을 엽니다.",
+    "insight": "단순한 미학을 넘어, AI와 데이터를 활용하여 사용자 개개인에게 최적화된 감각적 경험을 제공하는 디자인이 브랜드 충성도를 결정하는 핵심 요소가 될 것입니다.",
+    "rising": [
+      {
+        "title": "AI 생성 디자인 툴 도입",
+        "momentum": 92,
+        "desc": "디자이너의 창의성을 보조하며, 개인화된 디자인 요소를 빠르게 생성하고 적용할 수 있는 AI 기반 툴의 활용이 대중화됩니다."
+      },
+      {
+        "title": "감각 확장형 리테일 공간",
+        "momentum": 89,
+        "desc": "시각, 청각, 후각 등 오감을 자극하는 디자인 요소를 넘어, AR/VR 기술로 확장된 몰입형 경험을 제공하는 리테일 공간이 주목받습니다."
+      },
+      {
+        "title": "순환 디자인 패키징",
+        "momentum": 85,
+        "desc": "재활용을 넘어 제품 수명 주기 전반을 고려한 리필, 재사용, 분해 가능한 소재를 활용한 패키지 디자인이 브랜드의 핵심 가치로 부상합니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "동네 마실용 신발이 어쩌다…\"출근할 때도 신어요\" 품절 대란 [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "11시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Ia0dPcmRrYy12ckdocl8tVFNrSW5YckxIU0Z4Rk1wcHpIOXlrYVpaUlAxUE5mMHU2T0hGLXRyNTI2ZW9fUm1ERDJnaFJiTTB2S2UwRTg0WFBYUdIBVEFVX3lxTFBrUjhaQmhCRFBsV3Rzai1xU2l4TE94cllIWDdHM1cycWJocXZLUTlaLUpmWU96aWtSVElRbzg5eE9uUTZEejFfMHUwMEVzVVM3eXlEMQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T11:00:01.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "\"담배로 걷는 세금만 매년 10조 넘는데\"…초비상 걸린 이유 [권용훈의 트렌드워치] - 한국경제",
+      "source": "한국경제",
+      "time": "18시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYVkRiUnZVb0xzSzdjeER6QjFjVnhEWDRMU2FPNFkyemJnOFktcmZHZjJBOUlNdzRKWkVTdlZiTmtpZ05JNzZZY1Z6UFBCbHN1MlNMa3NSWUJrUdIBVEFVX3lxTFBPdG1zbU1xUVBSZDNLWGNObXFQY0lSZThfZWczSDc4VXktbHROR2JLZFhlZC1hNG10VjJzZ3g4RW9aUEFESi1yQ19YeDFKMFY0MG0tdQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T04:00:01.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "현대건설, 힐스테이트 20주년 기념 브랜드 개편 - 데이터뉴스",
+      "source": "데이터뉴스",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Zd0Qya3hGQXlFRTJQMHVqbGVNelRzbUJEQk5ydmJxbmROeFMtR3Y5ZER3a1NSNmtmRVNScVJYZlkwTklLQlVuS0diT2g0cHdSZ3lVbjYyYWx6eFA2Q3pN?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T01:15:20.000Z",
+      "category": "news",
+      "trustScore": 3
+    },
+    {
+      "title": "현대건설, '힐스테이트' 20주년 브랜드 리뉴얼…신규 BI 공개 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EM0NaNUpWcTFMLTBzOXMza1ZJVlI4anR0eHZWdzVJQS1FNjB0dGJmblM3M3Vnamc2UDVTdFVneGZmcmUyZEtlekRucEdMTnRTNUJoUDJKZTRJTDJXbHBLM0tfaER2LWpfc1HSAW9BVV95cUxOQTN1d2Z2dlFSYTN6MzBtUFdKX0MycDRXdlpGTVdvVEtrdThKcjJtcng3aW5mQXROcm1pYmw4TEc3d0JCMGZ2ZkZVaS1oa2ItYThoUjZWalFYNmlIRVhDUTlfbHgyS19NdkstRWt4bVk?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T01:06:22.000Z",
+      "category": "news",
+      "trustScore": 3
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 'AI 동반자' 시대, 소비 주도권 이동!",
+    "takeaways": [
+      "AI가 일상 소비 결정의 핵심 동반자로 부상하며 개인 맞춤형 시장이 재편됩니다.",
+      "환경·사회적 가치 소비는 기본, 이제는 '경험의 지속가능성'이 브랜드 선택의 새 기준입니다.",
+      "세대별 소비 격차 심화 속, '웰니스+효율'을 추구하는 '갓생' 트렌드가 모든 연령대로 확산 중입니다."
+    ],
+    "insight": "MZ세대의 가치 지향적 소비가 전 연령대로 확산되는 가운데, AI 기술이 개인의 시간과 노력을 최적화하는 '삶의 효율성'을 극대화하며 소비 경험의 질적 변화를 주도하고 있습니다. 이는 단순한 편리함을 넘어 '나만의 삶'을 설계하는 도구로 AI를 활용하려는 심리와 연결됩니다.",
+    "actions": [
+      "AI 기반 초개인화된 고객 여정 설계에 집중하고, AI 큐레이션을 통해 새로운 가치 제안을 모색하세요.",
+      "브랜드의 ESG 스토리를 '경험의 지속가능성' 관점에서 재구성하고, 소비자가 직접 참여할 수 있는 기회를 확대하세요."
+    ]
+  }
+}
