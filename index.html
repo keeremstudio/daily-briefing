@@ -68,7 +68,7 @@
 
   <!-- TOOLBAR -->
   <div class="db-noprint" style="display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-top:16px">
-    <input id="db-search" value="{{ query }}" onChange="{{ setQuery }}" placeholder="기사·키워드 검색  ( / 키로 포커스)" style="flex:1;min-width:180px;max-width:280px;padding:9px 13px;border:1px solid var(--line2);background:var(--card);color:var(--ink);border-radius:8px;font-size:13px;outline:none">
+    <input id="db-search" placeholder="기사·키워드 검색  ( / 키로 포커스)" style="flex:1;min-width:180px;max-width:280px;padding:9px 13px;border:1px solid var(--line2);background:var(--card);color:var(--ink);border-radius:8px;font-size:13px;outline:none">
     <sc-for list="{{ sections }}" as="s" hint-placeholder-count="4">
       <button onClick="{{ s.onClick }}" style="{{ s.style }}">{{ s.label }}</button>
     </sc-for>
@@ -376,8 +376,27 @@
       <div style="font-size:12.5px;color:var(--faint);margin-top:10px;display:flex;gap:8px;align-items:center"><span style="font-weight:600">{{ openArticle.source }}</span><span>·</span><span>{{ openArticle.time }}</span></div>
       <sc-if value="{{ openArticle.summary }}" hint-placeholder-val="{{ true }}">
         <div style="background:var(--card2);border-radius:4px;padding:16px 18px;margin:18px 0 8px">
-          <div style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:8px">AI 요약 · 광고 없는 핵심 내용</div>
+          <div style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:8px">AI 상세 요약 · 광고 없이 핵심만</div>
           <p style="font-size:14.5px;line-height:1.74;color:var(--ink2);margin:0;text-wrap:pretty">{{ openArticle.summary }}</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ openArticle.hasBullets }}" hint-placeholder-val="{{ true }}">
+        <div style="margin:14px 0 8px">
+          <div style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600;margin-bottom:8px">핵심 포인트</div>
+          <ul style="margin:0;padding:0;list-style:none">
+            <sc-for list="{{ openArticle.bullets }}" as="b" hint-placeholder-count="3">
+              <li style="position:relative;padding:6px 0 6px 18px;font-size:13.5px;line-height:1.6;color:var(--ink2);text-wrap:pretty;border-top:1px solid var(--line)">
+                <span style="position:absolute;left:0;top:10px;width:5px;height:5px;border-radius:50%;background:{{ openArticle.accent }};display:block"></span>
+                {{ b }}
+              </li>
+            </sc-for>
+          </ul>
+        </div>
+      </sc-if>
+      <sc-if value="{{ openArticle.implication }}" hint-placeholder-val="{{ true }}">
+        <div style="margin:14px 0 8px;background:var(--card);border:1px solid var(--line);border-left:3px solid {{ openArticle.accent }};border-radius:3px;padding:12px 14px;display:flex;gap:10px;align-items:flex-start">
+          <span style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:{{ openArticle.accent }};font-weight:700;white-space:nowrap;margin-top:2px">시사점</span>
+          <span style="font-size:13.5px;line-height:1.6;color:var(--ink2);text-wrap:pretty">{{ openArticle.implication }}</span>
         </div>
       </sc-if>
       <sc-if value="{{ openArticle.noSummary }}" hint-placeholder-val="">
@@ -387,7 +406,10 @@
         <a href="{{ openArticle.url }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:500;padding:12px 20px;border-radius:4px;text-decoration:none">{{ openArticle.linkLabel }} <span style="font-size:15px">↗</span></a>
         <button onClick="{{ modalToggleBm }}" style="{{ modalBmStyle }}">{{ modalBmChar }}</button>
       </div>
-      <div style="font-size:11px;color:var(--faint);margin-top:10px">※ 원문 사이트에는 광고가 포함될 수 있습니다</div>
+      <div style="font-size:11px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);line-height:1.6">
+        ※ 원문 사이트에는 광고가 포함될 수 있습니다.<br>
+        광고 없이 읽고 싶다면 <a href="https://ublockorigin.com/" target="_blank" rel="noopener" style="color:var(--muted);text-decoration:underline">uBlock Origin</a> 같은 광고 차단 확장 설치를 권장합니다.
+      </div>
     </div>
   </div>
 </sc-if>
@@ -421,6 +443,35 @@ class Component extends DCLogic {
       else if (e.key==='ArrowRight'){ this.setState(s=>({ dateIdx:Math.max(0,s.dateIdx-1) })); }
     };
     window.addEventListener('keydown', this._kd);
+
+    // 검색 input 직접 바인딩 (dc-runtime의 controlled input 한계 우회)
+    // setTimeout으로 첫 렌더 직후에 DOM 접근
+    this._bindSearch = ()=>{
+      const el = document.getElementById('db-search');
+      if (!el) { setTimeout(this._bindSearch, 60); return; }
+      if (el.dataset.dbBound === '1') return;
+      el.dataset.dbBound = '1';
+      el.value = this.state.query || '';
+      this._searchHandler = (e)=>{ this.setState({ query: e.target.value }); };
+      el.addEventListener('input', this._searchHandler);
+    };
+    setTimeout(this._bindSearch, 0);
+  }
+
+  componentDidUpdate(prevProps, prevState){
+    // state.query가 외부 요인(키워드 클릭 등)으로 바뀌었을 때, input에 동기화
+    // 단, 사용자가 직접 타이핑 중이면 건드리지 않음
+    if (prevState && prevState.query !== this.state.query) {
+      const el = document.getElementById('db-search');
+      if (el && document.activeElement !== el && el.value !== this.state.query) {
+        el.value = this.state.query;
+      }
+    }
+    // 리렌더 후에도 검색 input이 사라졌다 다시 생긴 경우 대비
+    if (this._bindSearch) {
+      const el = document.getElementById('db-search');
+      if (el && el.dataset.dbBound !== '1') this._bindSearch();
+    }
   }
 
   _todayStr(){ const d=new Date(), p=n=>('0'+n).slice(-2); return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate()); }
@@ -509,7 +560,12 @@ class Component extends DCLogic {
       this.setState({ live:{ profiles, days }, source:'live', dateIdx:ti, todayIdx:ti, showNewBanner: showNew });
     }catch(err){ this.setState({ source:'fallback' }); }
   }
-  componentWillUnmount(){ if(this._kd) window.removeEventListener('keydown', this._kd); if(this._tt) clearTimeout(this._tt); }
+  componentWillUnmount(){
+    if(this._kd) window.removeEventListener('keydown', this._kd);
+    if(this._tt) clearTimeout(this._tt);
+    const el = document.getElementById('db-search');
+    if (el && this._searchHandler) el.removeEventListener('input', this._searchHandler);
+  }
 
   _toast(m){ this.setState({toast:m}); clearTimeout(this._tt); this._tt = setTimeout(()=>this.setState({toast:''}), 3200); }
   _open(a){ const r={...this.state.read}; r[a.id]=true; this._save('db_read',r); this.setState({read:r, openArticle:a}); }
@@ -788,8 +844,13 @@ class Component extends DCLogic {
   _mapArt(a, accentVar, side, q){
     const id = a.title;
     const bk = !!this.state.bookmarks[id], rd = !!this.state.read[id];
-    return { ...a, id, side, accent:accentVar, bookmarked:bk, read:rd, timeColor:accentVar,
-      onClick:()=>this._open({ ...a, id, side, accent:accentVar, linkLabel: (a.url && !a.url.includes('search.naver.com')) ? '원문 기사 보기' : '관련 뉴스 검색', noSummary: !a.summary }),
+    const bullets = Array.isArray(a.bullets) ? a.bullets.filter(s=>s && String(s).trim()) : [];
+    return { ...a, id, side, accent:accentVar, bookmarked:bk, read:rd, timeColor:accentVar, bullets,
+      onClick:()=>this._open({ ...a, id, side, accent:accentVar, bullets,
+        linkLabel: (a.url && !a.url.includes('search.naver.com')) ? '원문 기사 보기' : '관련 뉴스 검색',
+        noSummary: !a.summary,
+        hasBullets: bullets.length > 0,
+        implication: a.implication || '' }),
       toggleBm:(e)=>{ if(e&&e.stopPropagation) e.stopPropagation(); this._toggleBm(id); },
       titleStyle:'font-size:15px;font-weight:500;line-height:1.45;text-wrap:pretty;'+(rd?'color:var(--faint);':'color:var(--ink);'),
       titleParts: this._splitTitle(a.title, q),
