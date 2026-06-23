@@ -235,21 +235,25 @@ keywords 8개(화제성순), rising 3개, ageTopics 연령당 2개, brandDesign.
 // 2단계 프롬프트: 기사 요약
 function summaryPrompt(articles) {
   const list = articles.map((a, i) => `${i + 1}. [${a.source}] ${a.title}`).join('\n');
-  return `아래 실제 뉴스 기사 목록을 분석하세요. 각 기사에 대해 3가지를 평가:
+  return `아래 실제 뉴스 기사 목록을 분석하세요. 각 기사에 대해 5가지를 평가:
 
-1. summary: 2~3문장 핵심 요약 (제목 맥락 추론, 정보 풍부)
-2. category: 아래 4개 중 하나
+1. summary: 5~7문장의 상세 요약 (배경·핵심·맥락을 모두 담을 것. 단순 제목 풀이 금지. 정보 풍부)
+2. bullets: 핵심 포인트 3개. 각 항목은 한 문장. "누가/무엇이/어떻게" 명확하게
+3. implication: 이 사안의 시사점·관점 한 문장. 마케터·디자이너·기획자·소비자 시야 중 가장 적합한 관점으로
+4. category: 아래 4개 중 하나
    - "news": 사실 보도 (취재 기반의 일반 뉴스)
    - "opinion": 칼럼·사설·의견·인터뷰
    - "PR": 보도자료·홍보·기업 발표·신제품 출시·자사 행사 안내
    - "clickbait": 낚시성·과장·근거 빈약·자극적 제목
-3. trustScore: 1~5 정수 (5=신뢰할 만한 사실 보도, 3=중립, 1=의심스럽거나 검증 부족)
+5. trustScore: 1~5 정수 (5=신뢰할 만한 사실 보도, 3=중립, 1=의심스럽거나 검증 부족)
 
 기사 목록:
 ${list}
 
-유효 JSON만 출력. 형식: {"items":[{"summary":"...","category":"news","trustScore":4}, ...]}
-기사 순서대로 같은 수의 항목 반환. 보수적으로 평가하되, 정상 보도는 너무 엄격히 깎지 말 것.`;
+유효 JSON만 출력. 형식:
+{"items":[{"summary":"...","bullets":["...","...","..."],"implication":"...","category":"news","trustScore":4}, ...]}
+
+기사 순서대로 같은 수의 항목 반환. 보수적으로 평가하되, 정상 보도는 너무 엄격히 깎지 말 것. summary와 implication은 한국어로, 완전한 문장으로.`;
 }
 
 // ============================================================================
@@ -294,9 +298,12 @@ ${list}
       allArticles.forEach((a, i) => {
         if (items[i]) {
           a.summary = items[i].summary || '';
+          a.bullets = Array.isArray(items[i].bullets) ? items[i].bullets.slice(0, 3) : [];
+          a.implication = items[i].implication || '';
           a.category = items[i].category || 'news';
           a.trustScore = typeof items[i].trustScore === 'number' ? items[i].trustScore : 3;
         } else {
+          a.bullets = []; a.implication = '';
           a.category = 'news'; a.trustScore = 3;
         }
       });
@@ -308,19 +315,23 @@ ${list}
         ', 저점수 ' + allArticles.filter(a=>a.category==='news'&&a.trustScore<3).length + ')');
     } catch (err) {
       console.warn('⚠️  분석 실패 (기사 링크는 유지, 신뢰도 필터 미적용):', err.message);
-      allArticles.forEach(a => { a.category = 'news'; a.trustScore = 3; });
+      allArticles.forEach(a => { a.category = 'news'; a.trustScore = 3; a.bullets = a.bullets || []; a.implication = a.implication || ''; });
     }
   }
 
   // 4단계: 신뢰도 필터 + 최종 개수 슬라이스
   // 매체 가중치는 이미 fetchAllNews에서 정렬됨
   const passFilter = (a) => a.category === 'news' && a.trustScore >= 3;
+  // brand 섹션은 디자인 칼럼·사례·인터뷰가 많아 opinion까지 허용 (PR/clickbait만 제외)
+  const passBrandFilter = (a) => (a.category === 'news' || a.category === 'opinion') && a.trustScore >= 3;
   const finalMarket = news.marketArticles.filter(passFilter).slice(0, 4);
   const finalProfile = {};
   AGES.forEach(age => {
     finalProfile[age] = (news.profileArticles[age] || []).filter(passFilter).slice(0, 3);
   });
-  const finalBrand = news.brandArticles.filter(passFilter).slice(0, 4);
+  const finalBrand = news.brandArticles.filter(passBrandFilter).slice(0, 4);
+
+  console.log('📋 최종 — market: ' + finalMarket.length + '건, brand: ' + finalBrand.length + '건 (brand opinion 허용)');
 
   // 조립
   const edition = {
