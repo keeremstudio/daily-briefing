@@ -1,0 +1,465 @@
+{
+  "edition": "No. 419",
+  "moods": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 65,
+    "40대": 63,
+    "50대": 63,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 66,
+    "20대": 62,
+    "30대": 67,
+    "40대": 63,
+    "50대": 69,
+    "60대+": 68
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 초개인화",
+      "dir": "up",
+      "change": "12"
+    },
+    {
+      "rank": 2,
+      "term": "지속가능 소비",
+      "dir": "up",
+      "change": "8"
+    },
+    {
+      "rank": 3,
+      "term": "경험 경제 2.0",
+      "dir": "up",
+      "change": "7"
+    },
+    {
+      "rank": 4,
+      "term": "생성형 AI 디자인",
+      "dir": "up",
+      "change": "6"
+    },
+    {
+      "rank": 5,
+      "term": "친환경 패키지",
+      "dir": "up",
+      "change": "5"
+    },
+    {
+      "rank": 6,
+      "term": "로컬 콘텐츠",
+      "dir": "up",
+      "change": "4"
+    },
+    {
+      "rank": 7,
+      "term": "디지털 웰빙",
+      "dir": "up",
+      "change": "3"
+    },
+    {
+      "rank": 8,
+      "term": "리셀 플랫폼",
+      "dir": "flat",
+      "change": "2"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 116.5,
+      "delta": -0.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 105.8,
+      "delta": 0
+    },
+    {
+      "name": "소비·유통",
+      "value": 100.9,
+      "delta": -1.3
+    },
+    {
+      "name": "주거·부동산",
+      "value": 101,
+      "delta": -0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 99.3,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 라이프스타일 큐레이션",
+      "momentum": 88,
+      "desc": "개인의 습관, 선호도를 학습하여 의식주 전반에 걸친 맞춤형 상품 및 서비스 추천이 대중화되고 있습니다."
+    },
+    {
+      "title": "순환 경제 모델 확산",
+      "momentum": 85,
+      "desc": "제품의 생산-소비-재활용-재생산으로 이어지는 순환 고리가 강화되며, 업사이클링 및 리퍼비시 제품 시장이 급성장 중입니다."
+    },
+    {
+      "title": "초실감형 메타버스 커머스",
+      "momentum": 82,
+      "desc": "VR/AR 기술의 발전으로 가상 공간에서 실제와 같은 쇼핑 경험을 제공하는 메타버스 플랫폼이 새로운 판매 채널로 부상하고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "숙명여대·한국MS, 1학기 캡스톤디자인 성료 - 중앙일보",
+      "source": "중앙일보",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3YjZNLTRsS2l1OUtvcGl4YUNPWXpsbElHcnJiajBZb3V6SElWY0ZnRGJFUHhzZ3cxWXVTVzdnSlVNNXJMdmNoMHQ2ODJJWGhJYm1iWFlR?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-17T05:55:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "이병권 중기2차관 \"조향산업 성장 가능성 커…정책적 지원 강구할 것\" - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "13시간 전",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55YWRqcmlxbURTeTNaNW1qTUZIVU1sdXN1aVcxaUhIVWU2ZjJqRjdVMkd1S1VaTWt2aFBxY3loeGhlNUlZeE51NXpaN1phU2RPdjhCNmFJLVItNk1xR0hPSFlpcjE3ZVRVM1hz0gFwQVVfeXFMTlJpRF9rbU9lSG1leVZ4bnZnNGhPZ0h1S2ozZDR3a2VtNmV4UVdLUG9MeFAzOXdYR21KRTlacjJwRHBSLXc2S2JqbVhXdEhPOEFucjM1Q0NMRkJwUlY2bi1PcWc3WVRCOEQ0RVJyenc2Zw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-23T08:33:15.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "에이치엘사이언스, AI·유전자 데이터 기반 초개인화 헬스케어 플랫폼 출시 - 한국경제",
+      "source": "한국경제",
+      "time": "14시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1USkMzeE1xYW9Rbm80eHRBM2wzdTdLVUFmU09hTHRkeUdJdGtEWHNhRHA2T1hSXzhCVF83NGt1dW1TQ2tvU214MUFuOTJGUEFhUmVpN9IBVEFVX3lxTE1USkMzeE1xYW9Rbm80eHRBM2wzdTdLVUFmU09hTHRkeUdJdGtEWHNhRHA2T1hSXzhCVF83NGt1dW1TQ2tvU214MUFuOTJGUEFhUmVpNw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-23T07:26:51.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "에이치엘사이언스, AI·유전자 데이터 기반 초개인화 헬스케어 플랫폼 출격 - 한국경제",
+      "source": "한국경제",
+      "time": "22시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sM1VlNHp3cFVMbVRhbFI3bkYza3dsS3JES18yTUVxS2M2Yjd0RTZSV1Y4QlQ3dWZDN0djRVdWUWpjZjE2UGFzckJxQ0d5QUN6V05FQUZEbU1md9IBVEFVX3lxTE5pZzJhN0RqQU5xa1FyTi1FRFZfZ2JDX2t6cks3N05sa0RjX2NIa1NMZ0gxR09TS0hSZ0FqVGoyVUVDYUo0bGV0VWhMd1NFUWZCZUhrWA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-23T00:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "이스트소프트-SKT-테라코랩스, 상담훈련 'AI 아바타' 만든다 - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "21시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6Y2xDUXRnNjhITy1pcGM1UXRQSkEycjJ0bWFQa3hsNFNOMlp2b2tudjl5b2tGLTlpLW1lcVZmR1VNbjE1LWlZcW13M3VMY2hTMldnTXVkTzJ3TmZuRWgwV2Y0dkg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T00:45:19.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "딥브레인AI, TV조선에 AI 리포터 ‘아이온’ 공급…AI 휴먼 방송 진화 - 이데일리",
+        "source": "이데일리",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOU0tIWHhmZTJMUDQyWDBoOV9Wd3dOOFA0QmI5dVN4ZVNoYjZ6dWhqcGFhVkkwVHIwN1RaekplcmxUd3IxcGZNYXJpc3I0TUYxbnhmZkdWRGZOdUdpWGh4dnUzRGI5YmxJejNwOC03bWdaMnFaZmFrT0pQbVhpb0Rheg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T05:27:24.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "해루질 사고 막는다…중부해경청, ‘간·절·해’ 숏폼 챌린지 추진 - 인천일보",
+        "source": "인천일보",
+        "time": "20시간 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZOUU4Mnc1WmhHVXJUNmlyb1htSllycXNPcXN4bEduMUFGeERwRGtHR1FIY1VaRUowb2pOdE5qZDNvWXZLbXhkNjctU0JNbmgyZUg0TzFsbWg4OVBXSnY2ZDlZQktOOEc3RDVzRk5hd3M?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T01:49:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "안동시, 청년 취업지원 본격화…맞춤형 취업캠프·무료 취업사진 지원 - 이데일리",
+        "source": "이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0dZQTJMTm83Yi1GWGU4UnZQOFZKeEtqQWtMMlBrSEd3TDVNS2JIMVJ2TWhnWUVQVHlndXJqM0tBN29ndnlfMVk0WlZHdDU4UGkweFM3d3gzX3gwd1Rscnhlb1A0MnZ3TV9tY0NBVzlOdm9yaXZVdEViUlRzXzFwSQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T10:18:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "가상 아이돌도 스타디움 시대… K팝 흥행 공식 바뀌나 - 이데일리",
+        "source": "이데일리",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPczc0R0daNUNqS0xUTGZSOHVSUEFIWHRGcWZVRFpURGhicHN3Zk9HN2t1Y01VOFgzNkFBM1pQN3gtb0Z6djF2dnRoWG5lTE5GYmlxMHdiLUg4N0FmVmVjc2I3eHUzMHQ5YUhKTDFzdktacFAwNGRPN0JjcU5GZWlERw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-20T11:16:02.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "빌보드 히트 프로듀서가 빚어낸 역대급 버추얼 신인 [비더후드①] - 매일경제",
+        "source": "매일경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5HZHpEd0VVdGY2Vk0td1JPLU0xejM2OFlnb1VlQnRTbDcxeWpaYWVFbGVUbFpkODlfTXNCaWVKcEJYUEpqUG9wc0xqX1FBWnV5M2U4UFNzWQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T01:30:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "\"정치보다 집값·물가\"…서울시민 표심 흔든 결정타 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "방금 전",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NZlJiV2hmVmY3RTdKenNUcVAzamtaaV96dFFXOVU2TDRJZm5oOEdhSWRZMHlyeWlNdm82OFR0aVlLN295bUhFTWkyYVpTdDFKVHpURWVwQ0RMa2U2am1Ud1VKdURFLTgwMW05Z9IBckFVX3lxTE5ZWlF5S09rcHZodVNiQlk2Wk9wZ2xYMy1wa2hnbThUc2lQd0xmQVhGUVRWSFhUc094ZnhVclVjblBCNFE1VFJvSXlzb0lqdWFkY3kxalcwN1Nidm5NYXltWHhYbFVBY1FzYmJLVGZsdzJMdw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T21:30:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "양천구, 생활밀착형 스마트 서비스 발굴할 ‘리빙랩 문제해결단’ 모집 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rVnNCb1FjekY5clAzdml0cWwtM0QzeHRpWVhDOHA1YXdrMjZ1NXNxUjF4OTdKRy1EM1dtb3JKNkdEZTYxTXlUa05VSE9UYTM5d01kMWNB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T20:37:30.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "광규형 활짝 웃겠네…59억 거래 찍힌 송도, 신축 국평 10억 넘었다 [부동산360] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBodFB4bVAtcENia0Y5RlRCQUVXM2phRkFqcmhGeDdnTzladDhrT2FtNUlNNmhZMFFadS1PYzBFRXhHeUw3bmU0cW1xOXBjdWZ3dExGYjh3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T03:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "80세에도 새 뇌세포 생겨났다…50대 뇌 가진 ‘치매 노인’ 비밀 - 중앙일보",
+        "source": "중앙일보",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92YkU1cFVOejA4ZDVuckJYbnR1ZHJuWk1YRjMwLWR1Zi14OC1CMVZnMERLS3BNcllHZlpSZGtPNlNJbHZCTEtSQlBmMlpWX0dkcTA1eEV3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T13:42:25.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "SBI저축은행, 생활밀착형 금융 플랫폼 '사이다뱅크'…커피적금·커플통장, 일상 혜택 가득 - 한국경제",
+        "source": "한국경제",
+        "time": "15시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqRlduakQyYlc1dE1fZFpEbzA4ZVR0V1RFaEVvQWxEM0tZSmdLY3dYVDhOMXBkUWNha2J5ZVZlMm9SX09QblR1ZUFocHZyNWpyYk5oLWlYQzlOZ9IBVEFVX3lxTE5RR0dVS1dJOUg2eG5COEVxbWprWkR4aHpqOHJUU181VFBVYmtUWWNwcEdmMzJ3Z3N0cmVEdk1Db3E2YWJKSkJBUGI2SXg3bXhIampyUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T06:28:38.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"밥만 먹으면 졸리네\" 40대 직장인의 고민…알고 보니 [건강!톡] - 한국경제",
+        "source": "한국경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ENWd6QmhQNkx5TnhXVXRyQVEzb2tKTTlhYUdienVzX0FyOU9YelZnMkozVzJ0bXA1Tmo0NnRuWXY1cXRMQmVFZ04wdEJpRmVVbERfMkJleGtBZ9IBVEFVX3lxTE1SNU0wUzllMTNJenVWWnIwVW51eXpXajdQQTlrZFBqOWFZMTZSWEpZWGlJMzBsTW9WSTZDVWVsRjVRS2Z2U1doalQ5QTYtTl95Z0lXUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T09:31:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“끝까지 버티면 38% 더 받는다” … 계모임 닮은 ‘톤틴연금’의 비밀 - 매일경제",
+        "source": "매일경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwZ3kxQndMQ2ZTcjhVNkFKSnBmX1piZXo2bU1lT2h1MEFkYVFNLTdrRzdpMU1wMDlsYWZLNFJwUktHUWM4ZEsycFloQmd0WVF5U3B1TQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T20:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "여성 국민연금 월 40만원 불과…남성의 절반 수준 - 경기일보",
+        "source": "경기일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpeWluV3BKb01LOWxnQ0ZaWmhENGhzZk9SV3ByMU1WNkYzVDZsYW4tRzN3S0JiSXZDcTBjZ0JVeDJMVnl0WWJpdEJ2RWZyNklEZW01NHZtdzBhc0E?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T21:40:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "CAS, 중국 공장 생산능력 확대 추진 - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Zc0pHR1EyaWFhSFYwd29uZ0dfcTYtOExkRGhGNFhUTzRBcHp2ckZDcGxGMTQ3TVdTNTlMYVNEX05NMTkzdC1LTElrWGtPZEdrRWpha1M0clZWXzlKTlREYzRR?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-17T01:06:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "DGIST, 생체신호 동시 측정 반도체 칩 개발…웨어러블 헬스케어 기술 진전 - 이데일리",
+        "source": "이데일리",
+        "time": "10시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMFIxNWZVRTQydWVLRzRsdW5RdjJSUTloM0FqSkoyc0NsSmExZHREcU1tUWp2SzFjY3ZkV09qZG9lakVzUS1VX2Z4MlFjaW04MUV3NllCX2lrMW9vOVNYdnpBN2RvS0tsYnV3WURKM3FKZnlRelhXWmkyRGp3QzJUTQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T12:06:38.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "청도군, 노인복지 예산 833억원 투입…‘어르신 행복도시’ 만든다 - 이데일리",
+        "source": "이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZHhZS1NLcnEtSnJ1V29jZ2JkTXlUcVNPdEpacnB4eFFPZUs3VFFPaGtYZ21XcEdhMzFyeER6M0FndU55RmpEeHVWbFNyTnk3T1FoR050WEtud1lkWURIeEwtRVdrcXB1Ulo0eDYtTVlWS2ROcXlyZmR3WS1JLTREUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T21:00:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "AI 협업 디자인, 브랜드의 본질적 가치와 지속 가능성을 시각화하다",
+    "insight": "생성형 AI 도구의 발전은 디자이너에게 무한한 가능성을 제공하지만, 결국 브랜드의 핵심 가치를 명확히 하고 지속 가능한 메시지를 진정성 있게 전달하는 것이 성공적인 디자인의 본질입니다.",
+    "rising": [
+      {
+        "title": "생성형 AI 기반 디자인 시스템",
+        "momentum": 90,
+        "desc": "AI가 로고, 서체, 이미지 등 다양한 디자인 요소를 생성하고 조합하여 브랜드 아이덴티티를 빠르게 구축하고 확장하는 데 활용됩니다."
+      },
+      {
+        "title": "모듈형 & 리필형 패키징 솔루션",
+        "momentum": 87,
+        "desc": "환경 부담을 줄이기 위해 재사용, 재활용이 용이한 모듈형 및 리필형 패키지 디자인이 화장품, 식품 등 전반으로 확산되고 있습니다."
+      },
+      {
+        "title": "촉각적 경험을 강조한 리테일 공간 디자인",
+        "momentum": 84,
+        "desc": "디지털 피로감 해소를 위해 실제 재료의 질감, 마감 등을 통해 오프라인 공간에서만 느낄 수 있는 독특한 촉각적 경험을 제공합니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "서울우유-SIG, 세계 유제품 혁신 어워드 수상 - 중앙일보",
+      "source": "중앙일보",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0MnBGMjQ1Rm1LVExYM2hEYml1eE1SNjdwODAtdVd1MEFCbzlTMmlFSTQzdHIyUW5uNW1vbWFxdXJnMHctS0xhbDZ0VW9oeVhwOVdPTGpn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T05:54:44.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "현대건설, 힐스테이트 론칭 20주년 맞아 브랜드 리뉴얼 - SBSBiz",
+      "source": "SBSBiz",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4MFNlMXZNcWRnWjd6V2hCMkxsLTN0dWE0RGtqeWpFQlpVc3k1d2xHOXFPVXA5QVJHNXRKZHFiUGcxQVVkNl9CQ2FsbmpqR0xJVEdDTjRvTmM?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T02:52:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"편의점 갈 때 신던 건데\"…'꾸안꾸 아이템'으로 핫해진 '이 신발' [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrUjhaQmhCRFBsV3Rzai1xU2l4TE94cllIWDdHM1cycWJocXZLUTlaLUpmWU96aWtSVElRbzg5eE9uUTZEejFfMHUwMEVzVVM3eXlEMdIBVEFVX3lxTFBrUjhaQmhCRFBsV3Rzai1xU2l4TE94cllIWDdHM1cycWJocXZLUTlaLUpmWU96aWtSVElRbzg5eE9uUTZEejFfMHUwMEVzVVM3eXlEMQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T11:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "서울우유·SIG, 알루미늄층 없는 무균팩으로 글로벌 혁신 인정 - 이데일리",
+      "source": "이데일리",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaUFlUDVjNklLRUVqenhwOVFXWmJOcjFBYXJMU290cGowSDRSeXN2RVpmdVRmNVRUekNXbkVQX18yemNrSy1fX2I4c2pERzBaaU1hcy1IemdVaDFSbTFvalBOdGVlaTdPaG4yaHNLaGpDSHBrUDV0UGQ3eDY3MXQ4bA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T05:58:13.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 시대, AI와 경험이 소비를 재편하다: 2026년 한국 시장 브리핑",
+    "takeaways": [
+      "AI 기반 초개인화 서비스가 소비자의 필수 조건으로 부상, 맞춤형 경험이 구매 결정에 결정적 영향.",
+      "'지속 가능성'이 단순 트렌드를 넘어 브랜드 진정성 검증의 핵심 지표로 진화, 업사이클링 및 순환 경제 모델 확산.",
+      "세대별 가치관 차이 심화, Z세대와 알파세대의 '의미 소비' 및 '디지털 네이티브' 특성이 시장 판도를 바꿈."
+    ],
+    "insight": "고도화된 AI가 개인의 미세한 욕구까지 포착하며 맞춤형 만족을 제공하는 가운데, MZ세대는 단순 소비를 넘어 브랜드의 사회적 가치와 개인의 신념을 일치시키는 '의미 소비'를 추구. 이는 기업이 기술적 혁신과 윤리적 책임을 동시에 강화해야 하는 복합적 시장 환경을 조성합니다.",
+    "actions": [
+      "AI 기반 고객 데이터 분석 시스템을 고도화하여 잠재적 수요를 예측하고 선제적 맞춤형 프로모션을 기획하라.",
+      "브랜드의 지속 가능성 메시지를 명확히 하고, 제품 생산부터 폐기까지 전 과정의 투명성을 확보하여 소비자의 신뢰를 구축하라."
+    ]
+  }
+}
