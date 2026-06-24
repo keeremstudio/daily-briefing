@@ -1,0 +1,453 @@
+{
+  "edition": "No. 420",
+  "moods": {
+    "10대": 66,
+    "20대": 54,
+    "30대": 68,
+    "40대": 57,
+    "50대": 63,
+    "60대+": 73
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 65,
+    "40대": 63,
+    "50대": 63,
+    "60대+": 68
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 큐레이션",
+      "dir": "up",
+      "change": "25%"
+    },
+    {
+      "rank": 2,
+      "term": "지속 가능 브랜드",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 3,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 4,
+      "term": "하이퍼 개인화",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "웰니스 테크",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 6,
+      "term": "워케이션",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 7,
+      "term": "가치 소비",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 8,
+      "term": "숏폼 커머스",
+      "dir": "flat",
+      "change": "2%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 117.3,
+      "delta": 0.8
+    },
+    {
+      "name": "금융·자산",
+      "value": 105.8,
+      "delta": 0
+    },
+    {
+      "name": "소비·유통",
+      "value": 101.5,
+      "delta": 0.6
+    },
+    {
+      "name": "주거·부동산",
+      "value": 101.9,
+      "delta": 0.9
+    },
+    {
+      "name": "고용·노동",
+      "value": 98.8,
+      "delta": -0.5
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 추천 서비스 고도화",
+      "momentum": 90,
+      "desc": "개인의 소비 패턴을 넘어 감성적 니즈까지 예측하는 AI 추천 서비스가 유통 전반에 걸쳐 확산되며 구매 전환율을 높이고 있습니다."
+    },
+    {
+      "title": "리테일먼트(Retail-tainment) 강화",
+      "momentum": 85,
+      "desc": "단순 구매를 넘어 몰입형 경험을 제공하는 리테일 공간이 소비자들의 발길을 사로잡으며 오프라인 채널의 존재감을 재확립하고 있습니다."
+    },
+    {
+      "title": "지속 가능성 인증 브랜드 부상",
+      "momentum": 80,
+      "desc": "환경, 사회적 책임에 대한 명확한 인증과 투명한 정보 공개를 통해 신뢰를 얻는 브랜드들이 시장에서 강력한 영향력을 행사하고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "관광도시 경쟁력, 명소보다 '경험'…송파구 전국 1위 - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiZXNNdDI2dHJnZy1SQVcyVzg2T0ZuTk9rWWxkN01ralpZUDJmeHl0dnI5eTBRZlRNMFl0ZTJYWFVCMkNmSHdNUVpESVJGNVRvdVlxTtIBVEFVX3lxTFBiZXNNdDI2dHJnZy1SQVcyVzg2T0ZuTk9rWWxkN01ralpZUDJmeHl0dnI5eTBRZlRNMFl0ZTJYWFVCMkNmSHdNUVpESVJGNVRvdVlxTg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T10:28:39.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "온라인 최저가·전국 맛집…BC카드 AI가 알려줘요 - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QWGZMQW9ua2x0TExTb1c1VTc1V3h5aDVPNTV2MDZqRFAzcmt2a3FuVENOS0ZWckhjWHJxNF9kakpMSW1lbHFLdG1ZYVBmb2tLbzAzLTVILUMwZ9IBVEFVX3lxTE15QWRiN3N3NHh6OVhVYzVPbEkyZk05Vmd1cGxwNVpEZ3NkNG9vdGRJc3NFUTlIZzh0aU4tUGNUbzRFS0JQTUsybnhHUHFYYV9pcEtmSw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T08:21:22.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "[로펌ON] 율촌, 법제처 AI 법령검색 자문…'아이율' 경험 살린다 - 블로터",
+      "source": "블로터",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fU1ZqSkZ1cHg0ZjA0WjR1N2lOanlQUnNwWGxCcjhtbWJGaGdhOC1HSjFOYU9seHhuRm02TjhPeldsNmxldkxsZE4yRlVIbDNvTmNxYzVteHBjakxpQmNfMnFjNEpneEp20gFsQVVfeXFMT1BzOVhtWFpERDlXSkVjZVNna0ZRX2ZnTjRzaVAwWjdKN01FdjQ1NXZPbmRrWFd6X016VFBvdnlEQjk2VnhEWlpkSXg5WXNpZmZzUURieDI2OUwxdDR2cTJ4Qm9oMTQxS0d6Mkcw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T08:04:20.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "AI 슬롭 시대에 뜨는 ‘경험’ ‘맥락化’ [김소연 칼럼] - 매일경제",
+      "source": "매일경제",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53ME1tWl9VUlN2Y2RzM2NuWm92QTdXcmNhdGVrMG94M1pnVlBzRkUtY2duUk1KdFlCNEp3LVNmSVVQREF2Z2daeUJOb1MwRl9lTFFqYW85Q0c?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-19T07:51:22.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "[가보니] ＂말 한마디에 앱 뚝딱＂…KT가 보여준 AI 에이전트 시대 - 한국경제TV",
+        "source": "한국경제TV",
+        "time": "23시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblBxN0IwOUtsTFBhU0cwa1JCRVlpZnVMWl9lU2xILUJtQkdIZ3dJaE5rR3ZBdElod2NILV8yNHJNWEx5ZmpnLWUtVW9iZHZTaXRiSlRhYjVIb2NNcEJtOEpkd2J0Q1Jqbm1zSXJRakpBd3ZsZWszbThJcGp2Y04tUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T23:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "웰컴저축은행 \"친구한테 5만원 보내\" 한마디에…'AI 금융비서'가 이체·조회 척척 - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZQ0JWY1ZTd2I2UW0zWUNHWWVXbUJiQVpLeFdYaHBZNEpxUGZGc3ptS2M4S3ZhMWxtRnk5bG0wU0twLUlRREhuYlRrUFBpNVNVYzZvR9IBVEFVX3lxTE1ZQ0JWY1ZTd2I2UW0zWUNHWWVXbUJiQVpLeFdYaHBZNEpxUGZGc3ptS2M4S3ZhMWxtRnk5bG0wU0twLUlRREhuYlRrUFBpNVNVYzZvRw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T06:26:18.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "해루질 사고 막는다…중부해경청, ‘간·절·해’ 숏폼 챌린지 추진 - 인천일보",
+        "source": "인천일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZOUU4Mnc1WmhHVXJUNmlyb1htSllycXNPcXN4bEduMUFGeERwRGtHR1FIY1VaRUowb2pOdE5qZDNvWXZLbXhkNjctU0JNbmgyZUg0TzFsbWg4OVBXSnY2ZDlZQktOOEc3RDVzRk5hd3M?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T01:49:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "청년 일자리가 정년 연장보다 더 절박하다 - 한국경제",
+        "source": "한국경제",
+        "time": "13시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zNEdQN3VJRzV3VHphNzNfczItRF9ZMWlubjlWbURwMGg5azNyeXpHd1VJUnRTTU12aUtVQWxJdnJKZjhKT0I4cnFfcnVFVVFkY0drYWZja3dsQdIBVEFVX3lxTE9RT3EtcFJRWnkydmdqQ2RYS0k5N1l2VThLUUJISl84YlMxR2dnR3p3QWJTSS1pWFhGXzZJeFB4WkhzNks5SnpXdWVMSWZBejBUSzN4aA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:52:16.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "MK Pick | LG생활건강·환경재단, 한강공원서 ‘그린 시네마 피크닉’ 개최 - 매일경제",
+        "source": "매일경제",
+        "time": "20시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE51MTNIVnNJbDg4cm5yblM0aUNyNnVsY21EUU16ZmFOVndWSEwydXM5VGdvWVdGb0Y1Z1Fod3h6WDZRaDFYTXFmZG9tUXJpQVJP?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T02:01:17.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "Y&amp;K BIOCOS, 비건·할랄 인증 기반 해외 공급망 확대 나서 - 한국경제",
+        "source": "한국경제",
+        "time": "22시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtZ1JRcGxPV3FDMV8yNU1wdEwtS2NsLWMwdTBIa1JDZnJRT1ZBRi0yM2V4VndRUHZsUnVWb2V3RHUxQkRGNFVlclgxRzd5M29aejhhOWptREk3UdIBVEFVX3lxTE1ZWWFhMFBSQkRpeE8yTUpTQXBzR3UyT2hvR3VIWHRJeG1OX2QzY0owR0MwUnhxM3Z2c0dSZVBXUmxhLWk1N1kzTWpGT2ZMYWlNY3d3cg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T00:00:16.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "‘우리동네 아이케어’ 미래세대 성장 지원 [사회공헌 특집] - 세계일보",
+        "source": "세계일보",
+        "time": "12시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5RXJmbmZOcU9IR3d0dWloMzZqeDZHc05JdFZ4QXRXZzdZTDFrU3hSR2ttaENxWFhoamY2UTFFSG4zM05XUG9jeVZCb1RGVXI5V3BGLVotbmfSAVRBVV95cUxPYXdMTGhUdVJqZk8tdGMxdHpDQUJDNUdaV0pWWUdJQ1RTM0FpUHUtSkNIVzRINWhYeXlHbEJoSWlkaWZWWjVIUjdTUzdyYUQ4WW52Ylc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T09:47:12.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "집이 나에게 맞춰 움직인다…삼성 'AI 모듈러 홈' 가보니 [현장+] - 블로터",
+        "source": "블로터",
+        "time": "13시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNckY5c0lLbW1Fa0RrWFBmRG15cXVvQ2hfSU5SRVF5WUd0QWdjLUZDZkpNc3VmbW50NTdvb0hsUlNpRDhVQmR1SjN1NGxKcGEzX2lnYUhmSFVFLUF4NWR3a1FzRFh5cEtD0gFsQVVfeXFMUDNxZU9UREg1Y3lPTDNWZENXaGNGRXhzQUtmTXozUEZnNGVyVjdqTVNoMjN5RUc2bHJLQ2tOU0FIdGhmQzhzb2FtYXR6c2hoeF9YZ2VHUkdURTltbmRGSGs3emNkOUU0Tl9IZ3VR?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:44:22.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"집도 가전처럼 주문한다\"…삼성·LG 'AI 모듈러 홈' 승부수 - 매일경제TV",
+        "source": "매일경제TV",
+        "time": "14시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80ZkU4bVVNcE10SUVUSE9tMW1MNm11bjlPYjlveUZ0LTJMQW9WZWM0a01aTk1rOWJoM0tyNEoyVEl2a2FCSVd3WXB0SzU1blpBaWJLZXFsamVwRlFGVVJmLVNrQmlTYXhD?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "“비만? 난 그동안 속았다” 위 70% 자른 118㎏ 의사의 충격 - 중앙일보",
+        "source": "중앙일보",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JS1FwTUVwNWF3b3lwbUJvX2ZHQ2ljN0JXZG4wandJbVRkRnRtWllMQTZ5NzFxa2VodE9mWVVzR28yeGVoMGFnWW1QZG5uWVlxaFNsQ1dn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T04:10:49.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "맥널티인터내셔널, 부산디지털자산거래소 'e커피' 공급 파트너 참여 - 이데일리",
+        "source": "이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNHBVZXN6Rk1LbktiWkI1UjZRVnRLWFJUMmd2UHV1eGM2MERhMTFqMUxzcWtNLUdDaGR5U2o2eVZRU3VyMTdyNnA3Wk0zSVNyOEpFMjhUbk8yV050M2xoeEFTdDlKcU1VY2h6TEtGb1BFWGQzVVVwZ3BUYlYwRWlERw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T02:22:59.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "두나무·카카오·토스가 말하는 미래 금융의 모습은 [미리보는 DAIF 2026] - 한국경제",
+        "source": "한국경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92dEozWW1HTTFWanc4WGhndVp4RU90S0JLVDVaQWNnTjZZVlhWakh3by1kbzVoV0s3TVBId0g0M1pCZlVmZjZPNkxwNkFGM3Buc01zekVyREZKQdIBVEFVX3lxTE5CSUdsV2VWRzJuSVhWb0s5NXRCdDFHa3Z6cTVUSFJRU3BNQTE2dGhBOXdjMXZtd3NDRG1QcnhPekxNNXI5d3pROWNvcEgtOGpFbkhVUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T06:34:39.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“짧게 일하고 돈도 짭짤” 은퇴 65명이 알려준 ‘최고 직업’ - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Pd09odF95TmdpVi1hVWVDRDRqcnNkMlBjUkFtRzdiOExrcUVkZmNFODlyMXN3dkxOSkN6bHZLTDZyTWFrSEdZODZfVl92NmxMc2tEd01nbmlrcFlqWTBFQm9n?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T02:44:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "삼성전자, 獨알체디스와 파트너십…'갤럭시 워치' 데이터로 신약 임상 '가속' - 이데일리",
+        "source": "이데일리",
+        "time": "22시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWWJzVGNBN2VBeTZrRG02aHlvd0V5ZzUtWkZxUDI5WjRoZVRVelBaT1dRejhMMnFiTGhfZG1Mek9iR1BhX2Q4UGpRa3FPTXZXTmtTeUh1ZHZ5VGEtVFNJZUY4SjVHMjNuaVZ5dXl2eXZLVHZGZU9rV25UbDBZX2Nmeg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T23:34:48.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "여성 국민연금 월 40만원 불과…남성의 절반 수준 - 경기일보",
+        "source": "경기일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpeWluV3BKb01LOWxnQ0ZaWmhENGhzZk9SV3ByMU1WNkYzVDZsYW4tRzN3S0JiSXZDcTBjZ0JVeDJMVnl0WWJpdEJ2RWZyNklEZW01NHZtdzBhc0E?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-19T21:40:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "기술이 돌본다는 착각 - 한국경제",
+        "source": "한국경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fc0s1ajg4aVFLU2xmaXRhbTB2Tl9iWGVXRDNHajBfOVFkZnNYa2ZXU0dHTlR1X1ExVlJBeHk0SGVGUVl5ZnhlTXR1N3VOR20xZXdXWHVwdjJXZ9IBVEFVX3lxTE1hakQzSFZCdlhlZEdpSVR1aUdIbHVxSHJzU1dUTHNzSDY5VVRFdk0tR3FaQWtud0xDZEZEMHN4TmRaV1NFSzdRY3dfMUxLWE9NdnczbQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T08:09:49.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "경험과 진정성을 담는 디자인, AI 협업으로 효율성과 창의성 동시 확보",
+    "insight": "AI는 디자이너의 보조 도구를 넘어 창의적 영감을 제공하고 반복 작업을 자동화하며, 이는 디자이너가 브랜드의 본질적 가치와 사용자 경험을 깊이 탐구하는 데 더 많은 시간을 할애하게 함으로써 디자인의 질적 향상을 이끌고 있습니다.",
+    "rising": [
+      {
+        "title": "적응형 아이덴티티 디자인",
+        "momentum": 90,
+        "desc": "다양한 디지털 환경과 사용자 인터랙션에 유연하게 반응하는 동적이고 적응적인 브랜드 아이덴티티 시스템이 중요성을 더해가고 있습니다."
+      },
+      {
+        "title": "친환경 패키지 솔루션",
+        "momentum": 85,
+        "desc": "재활용 용이성, 생분해성 소재, 최소화된 포장 등 환경 영향을 최소화하는 패키지 디자인이 브랜드 경쟁력의 핵심 요소로 부상하고 있습니다."
+      },
+      {
+        "title": "AI 기반 디자인 툴 활용",
+        "momentum": 80,
+        "desc": "생성형 AI를 활용한 디자인 초안 생성, 컨셉 발상, 시각화 작업이 가속화되며 디자이너의 워크플로우를 혁신하고 있습니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "캐나다 | 음바페도 홀란도 핑크, 월드컵 흔드는 분홍 축구화 열풍 - 밴쿠버 중앙일보",
+      "source": "밴쿠버 중앙일보",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ndTBiNm9hMzVrQkJna2lrMnFGZGRaVzlqbWtXWVBIWWZwSTBzb2ZmNV8zNlg4eUYtVnppM294bEU3cVpRaDk2NkJER2dvZ1ZVWkRKbjdjbkRfSHptMnJzdXpRV05hbk5KcGJrcEVBRm1wTzNVeENF?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T01:48:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "현대건설, 힐스테이트 20주년 기념 웰컴 키트 선보여 - 데이터뉴스",
+      "source": "데이터뉴스",
+      "time": "19시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMa2cyYUFkc1BGRHB1bFBMRjZad1Z4M3ZpbzZxWWZiTG5fMEZjbVUwNnBXSS1TUmRob3VMOXZ5cl95ZUl0MXNjU0tEQXM5c1V5WDVDcU56TlM5dTRBOEhJ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-24T02:24:33.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"편의점 갈 때 신던 건데\"…'꾸안꾸 아이템'으로 핫해진 '이 신발' [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrUjhaQmhCRFBsV3Rzai1xU2l4TE94cllIWDdHM1cycWJocXZLUTlaLUpmWU96aWtSVElRbzg5eE9uUTZEejFfMHUwMEVzVVM3eXlEMdIBVEFVX3lxTFBrUjhaQmhCRFBsV3Rzai1xU2l4TE94cllIWDdHM1cycWJocXZLUTlaLUpmWU96aWtSVElRbzg5eE9uUTZEejFfMHUwMEVzVVM3eXlEMQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T11:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "현대건설, 힐스테이트 20주년 기념 브랜드 개편 - 데이터뉴스",
+      "source": "데이터뉴스",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Zd0Qya3hGQXlFRTJQMHVqbGVNelRzbUJEQk5ydmJxbmROeFMtR3Y5ZER3a1NSNmtmRVNScVJYZlkwTklLQlVuS0diT2g0cHdSZ3lVbjYyYWx6eFA2Q3pN?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T01:15:20.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 'AI 큐레이션' 소비 시대, 지속 가능성 필수가 되다",
+    "takeaways": [
+      "AI 기반의 초개인화 서비스가 소비 결정의 핵심 요소로 부상하며 시장의 지형을 변화시키고 있습니다.",
+      "MZ세대를 넘어 전 세대로 확산되는 '가치 소비'와 '지속 가능성' 요구는 브랜드의 필수적인 경쟁력이 되고 있습니다.",
+      "경기 둔화 우려 속에서도 '경험'과 '프리미엄 소확행' 시장은 견고한 성장세를 유지하며 새로운 기회를 창출합니다."
+    ],
+    "insight": "디지털 네이티브 세대는 AI 큐레이션에 대한 높은 수용도를 보이며 편리함과 효율성을 추구하는 반면, 기성세대는 '진정성'과 '경험 가치'에 더 집중하는 경향을 보입니다. 이는 시장 전반의 '선택의 피로도' 해소와 '의미 소비' 트렌드를 가속화하는 요인으로 작용합니다.",
+    "actions": [
+      "AI 기반 개인화 추천 시스템 고도화 및 고객 데이터 활용 전략을 재정비하여 초개인화된 고객 경험을 제공하십시오.",
+      "제품 및 서비스의 지속 가능성 스토리텔링을 강화하고, ESG 경영 실천을 가시화하여 가치 소비를 지향하는 소비자들의 신뢰를 확보하십시오."
+    ]
+  }
+}
