@@ -1,0 +1,465 @@
+{
+  "edition": "No. 423",
+  "moods": {
+    "10대": 62,
+    "20대": 59,
+    "30대": 61,
+    "40대": 59,
+    "50대": 69,
+    "60대+": 72
+  },
+  "moodsPrev": {
+    "10대": 58,
+    "20대": 55,
+    "30대": 62,
+    "40대": 57,
+    "50대": 65,
+    "60대+": 68
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 초개인화",
+      "dir": "up",
+      "change": "7"
+    },
+    {
+      "rank": 2,
+      "term": "가치 소비",
+      "dir": "up",
+      "change": "6"
+    },
+    {
+      "rank": 3,
+      "term": "로컬 경험",
+      "dir": "up",
+      "change": "4"
+    },
+    {
+      "rank": 4,
+      "term": "리커머스",
+      "dir": "up",
+      "change": "3"
+    },
+    {
+      "rank": 5,
+      "term": "디지털 휴먼",
+      "dir": "up",
+      "change": "2"
+    },
+    {
+      "rank": 6,
+      "term": "워케이션",
+      "dir": "flat",
+      "change": "1"
+    },
+    {
+      "rank": 7,
+      "term": "구독 경제",
+      "dir": "flat",
+      "change": "0"
+    },
+    {
+      "rank": 8,
+      "term": "오프라인 리테일",
+      "dir": "down",
+      "change": "1"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 119.5,
+      "delta": 1.6
+    },
+    {
+      "name": "금융·자산",
+      "value": 108.1,
+      "delta": 0.3
+    },
+    {
+      "name": "소비·유통",
+      "value": 101,
+      "delta": 0.2
+    },
+    {
+      "name": "주거·부동산",
+      "value": 103.5,
+      "delta": 0.6
+    },
+    {
+      "name": "고용·노동",
+      "value": 99.8,
+      "delta": 0.5
+    }
+  ],
+  "rising": [
+    {
+      "title": "커뮤니티 기반 소비 플랫폼",
+      "momentum": 88,
+      "desc": "취향과 가치를 공유하는 사람들끼리 모여 제품을 구매하고 정보를 교환하는 플랫폼이 강력한 구매 동기로 작용하고 있습니다."
+    },
+    {
+      "title": "웰니스 온디맨드 서비스",
+      "momentum": 85,
+      "desc": "정신 건강부터 신체 단련까지, 개인 맞춤형 웰니스 프로그램과 코칭을 언제든 원하는 시간에 이용하는 서비스가 인기를 얻고 있습니다."
+    },
+    {
+      "title": "초실감형 메타버스 커머스",
+      "momentum": 82,
+      "desc": "가상 공간에서 실제와 같은 몰입감을 제공하며 제품을 체험하고 구매하는 메타버스 커머스가 새로운 쇼핑 경험을 제시합니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "\"빵 사러 부산까지 갔는데\"…배송비 0원에 배달받는 방법 - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXM3dLUWl2OFZtaHh2cnR5Q0FIeDRCT2lScm1hbVFqVWFJbURaZ015dnFaS0RoOExWSG9aSElpQ2kwQW9xNzhoZm5WcFN3RUdKaHdsRdIBVEFVX3lxTFBXM3dLUWl2OFZtaHh2cnR5Q0FIeDRCT2lScm1hbVFqVWFJbURaZ015dnFaS0RoOExWSG9aSElpQ2kwQW9xNzhoZm5WcFN3RUdKaHdsRQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-26T03:00:02.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "“안 쓰는 물건 팔기만 했는데 생활비가”…번개머니, CU·올영까지 쓴다 - 매일경제",
+      "source": "매일경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PdFN1SlNrWjA0aWlXR0tDRzlVREFkelNSYnFiak45N0dRNUNXbE9iSDNzZ3c4TVJxZGF1SUxfcUlWc2dlTXd3clpYNVNwNmZzSWMtdGx3?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-25T01:06:46.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"다이소·올영서 '번개머니' 써요\"…번개장터, 오프라인 제휴처 확장 - 이데일리",
+      "source": "이데일리",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSDFEQXd1eEZ3MENXdUc4VXQ2am9WZTUxcjVNZFRoZWpZbXRyUzBIWlZUUFRlZnNSSVEyc0N4dW9XTHUtOWFxeTZNOWJkQS1ZZHItVXcyVUpzYm9jVFhFYk9KZlJDc1FsNzhSRk5CRDF4V1FkOWRTaFF4VjZwWW9mcA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-24T23:56:41.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "9.81파크 제주, ‘그래비티 퀘스트 제주 2026’ 상반기 성과 공개 - 한국경제",
+      "source": "한국경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DblhGMzYyZmYzOTl4SFBMQzJyRUh2MmJWdzJrNzhJT3BRc2ItMklZcWdocWdUTzhYUUlfME9rdTdNQUxFTVo3aTNZaTIwQ0lvVmN1QWNMNjg0UdIBVEFVX3lxTFBQTF9Na2xZSkN1NFR4SHM3T0lMTDhQbEZQZlBCaVhWcVdnNmNob0ZJY1A0ZEZNbDlLNUx3VVA2aHR1RGktNmRlWEpuRFZWdTE4aF9ZVw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-23T23:08:12.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "“머스크의 AI ‘그록’ 트래픽 절반 이상이 성인 콘텐츠…엔지니어 이탈도” - 세계일보",
+        "source": "세계일보",
+        "time": "1시간 전",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ySHZvMXBoWk00cUxlekp4b1dDREJKdzRXNW9vRGcxdkVGQVFZOS1FY3pNZmctR3hGeE5pdExNTWdwNmVrVUtyQjQ4WENsWmJTTUIzdTlFb1dSYjlzSTcya3lLeHdsX255Q0Zn0gFUQVVfeXFMUDB6VHJ2RV9lWkJYWG9xQjMzYi1nTVNKcUx2M00tX3c1WEhhM1czdDAwa1FYNXAyaWt0WExHM0piWnBfOUhTa1pPMlA3TzR3NjY4aVVs?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-27T20:30:32.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "해루질 사고 막는다…중부해경청, ‘간·절·해’ 숏폼 챌린지 추진 - 인천일보",
+        "source": "인천일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZOUU4Mnc1WmhHVXJUNmlyb1htSllycXNPcXN4bEduMUFGeERwRGtHR1FIY1VaRUowb2pOdE5qZDNvWXZLbXhkNjctU0JNbmgyZUg0TzFsbWg4OVBXSnY2ZDlZQktOOEc3RDVzRk5hd3M?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T01:49:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "중부해경청, 해루질 안전수칙 “간·절·해” 릴레이 챌린지 캠페인 추진 - 경기일보",
+        "source": "경기일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xVE13S1RWQlFJR0tRTUFaWlNHWmRtbEk3ZWV2VzJodU5tYU5teHM5bW1nMFNsUV9YNVJqM2pKYnB4YkdVQ1RCV2Q3UnJBa1dUMU1OLVRZWFhLamc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T07:38:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "청년 일자리가 정년 연장보다 더 절박하다 - 한국경제",
+        "source": "한국경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zNEdQN3VJRzV3VHphNzNfczItRF9ZMWlubjlWbURwMGg5azNyeXpHd1VJUnRTTU12aUtVQWxJdnJKZjhKT0I4cnFfcnVFVVFkY0drYWZja3dsQdIBVEFVX3lxTE9RT3EtcFJRWnkydmdqQ2RYS0k5N1l2VThLUUJISl84YlMxR2dnR3p3QWJTSS1pWFhGXzZJeFB4WkhzNks5SnpXdWVMSWZBejBUSzN4aA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:52:16.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[사설]실패해도 재기할 수 있는 창업 환경을 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lQmNPQnJxcjJWclJaZkwyVF82d0lpOXNpM05LUk8tcXA2R2RxQXhjYm1NUUt4TmItYjN6eWppaTlIODdiQ2lVQWFtQjlEME5VUDJUWmxoc0hFdkI1LUE0NEltOHVpMFRCLW5n0gFwQVVfeXFMTkI3bnlHOEVvdU5PbTJyc3JOUW1KLUh5cUw0TTc1N2l5aXlza0Q5U0VqVzE2a01PeFpFLWo3OVZPVmlVX0xQeW9WWTdGencyaHlGaWlPNnVxWGtsTUJGaU5Na0sxdkw5STBnSG9kQUJLVQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T19:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "안동시, 청년 취업지원 본격화…맞춤형 취업캠프·무료 취업사진 지원 - 이데일리",
+        "source": "이데일리",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0dZQTJMTm83Yi1GWGU4UnZQOFZKeEtqQWtMMlBrSEd3TDVNS2JIMVJ2TWhnWUVQVHlndXJqM0tBN29ndnlfMVk0WlZHdDU4UGkweFM3d3gzX3gwd1Rscnhlb1A0MnZ3TV9tY0NBVzlOdm9yaXZVdEViUlRzXzFwSQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T10:18:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "\"오세훈 몰표\" 보수로 확 쏠린 2030 남성...'예상 깬' 2030 여성 표심 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHeHY5MnFUbmU5RS1MMm15ZW5WcTM2OG14SkFBdVZfSlE4S2pJblVQNjdVZUJ1MDdoN3lwZFVocEIwcEJmNUhxY200dHlnRHNaWFpxTEwzT3h3MW41cHgyclNKTndLYXI1djNQdNIBckFVX3lxTE9mS1ltSHNwNDJCVWZBanlXYXQ1LUkzWUJmOTgxZmVyTDdwdlpudjlYSy1jQjlCUlZrUXIzOXd0dEVkVUR6d0NkUnZFMENaUGhGOXNWdTBfdHZWU2JiUks4SG5DeW9EVTlLNFFkc2FzT1FvUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T20:30:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "광규형 활짝 웃겠네…59억 거래 찍힌 송도, 신축 국평 10억 넘었다 [부동산360] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBodFB4bVAtcENia0Y5RlRCQUVXM2phRkFqcmhGeDdnTzladDhrT2FtNUlNNmhZMFFadS1PYzBFRXhHeUw3bmU0cW1xOXBjdWZ3dExGYjh3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T03:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "80세에도 새 뇌세포 생겨났다…50대 뇌 가진 ‘치매 노인’ 비밀 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92YkU1cFVOejA4ZDVuckJYbnR1ZHJuWk1YRjMwLWR1Zi14OC1CMVZnMERLS3BNcllHZlpSZGtPNlNJbHZCTEtSQlBmMlpWX0dkcTA1eEV3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T13:42:25.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“비만? 난 그동안 속았다” 위 70% 자른 118㎏ 의사의 충격 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JS1FwTUVwNWF3b3lwbUJvX2ZHQ2ljN0JXZG4wandJbVRkRnRtWllMQTZ5NzFxa2VodE9mWVVzR28yeGVoMGFnWW1QZG5uWVlxaFNsQ1dn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T04:10:49.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "스페이스X 공모가 아래로 간다(83%) Fed 금리 안 올려(54%) [김현석의 월스트리트나우] - 한국경제",
+        "source": "한국경제",
+        "time": "22시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vNzI3WlREY2RTMkNCdFdRQkVudlFQdm9oY0lXejREd1Fjc0F4bThQU2RaV1phSVA3bnhmTTNyUEFTcVZMM3RhdXJZcjdJdWdsTFE2ZXlZZll2d9IBVEFVX3lxTE1xY2RLblg4QzlEMjF1aFNhZ0ZFbHdia3ZYUVNBaXd4NGQ5a2ZoN0llR0cyUk9FZnJWYVI5VWNXZXRvQ1d5V0lTLUt3LWpfbFl5MS1mXw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T23:10:46.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“짧게 일하고 돈도 짭짤” 은퇴 65명이 알려준 ‘최고 직업’ - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Pd09odF95TmdpVi1hVWVDRDRqcnNkMlBjUkFtRzdiOExrcUVkZmNFODlyMXN3dkxOSkN6bHZLTDZyTWFrSEdZODZfVl92NmxMc2tEd01nbmlrcFlqWTBFQm9n?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T02:44:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“‘연 30%’ 역대급 수익률” … 연금 ‘노후 격차’ 막는 5가지 방법 - 매일경제",
+        "source": "매일경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TOGh5VkFITlVaT0p0ZTc3a1pPamlUTW5NdENpcXgwUHJKaUFwRmZZNDF3dVRYTUhJS1VzSHY4Q2JwVURuMUpPMS1iaWhNbm5iRTRHNw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T08:57:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "금융 일상 바꿔놓을 두 축, CBDC와 스테이블코인은 어떻게 다를까?[엠블록레터] - 매일경제 마켓",
+        "source": "매일경제 마켓",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KUWJqdFk0eFEzSXRYNnBja0Ztcnh3LU10cExfTFVQcVVhem9pM3N3Sjg3SUhZd3BEdVFWRm1Yek92UGVKQzRyN1FUMUZvMjVlMkE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T09:03:22.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "서울시, 지하철 무임승차 70세 상향·버스도 포함 추진 - JTBC",
+        "source": "JTBC",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85TTc1bEU0VGY5bzZDWkZ0UldWVE10RkJkeG5OTHVXa1J4VVVwX0M5ZkRtLWhxazdBVy1rTGhkQlB0YkJVa2hDUjE5eTJDREZEMG0wWQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-22T07:29:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "기술이 돌본다는 착각 - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fc0s1ajg4aVFLU2xmaXRhbTB2Tl9iWGVXRDNHajBfOVFkZnNYa2ZXU0dHTlR1X1ExVlJBeHk0SGVGUVl5ZnhlTXR1N3VOR20xZXdXWHVwdjJXZ9IBVEFVX3lxTE1hakQzSFZCdlhlZEdpSVR1aUdIbHVxSHJzU1dUTHNzSDY5VVRFdk0tR3FaQWtud0xDZEZEMHN4TmRaV1NFSzdRY3dfMUxLWE9NdnczbQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T08:09:49.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "삼성이 그리는 헬스케어의 미래..\"커넥티드 홈 강화\" - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01UW5CUUZCYmxDRGFuYjNKWWNER0ZyaU13QkJNX19SdzFsME90dlhpaVNtUXlFcF9HMkcwSVZVM1J1cVRvNnBPdFlvMGlMQnhKcFdVWFRBT05oMndsTGJpZ2RpQ0x0ejYyMzZ1etIBckFVX3lxTFBVTnUtdzlVekIzd0FxTmlPVndhMjV3clZvajhPVWVnUTA3Y05rYTNZZmc1S0tNSTlNejg3eGVCZFhqcnNJSGJYRFFJVmtRcnlDSTVlNzZ0S1dwcnlZMXdrNmJDcGExYzhjaU9UZ3M4eDRqZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-21T02:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "브랜드는 '경험의 건축가', 디자인은 '감각의 언어'로 진화 중",
+    "insight": "단순한 미학을 넘어, 브랜드의 철학과 가치를 공간, 촉각, 청각 등 오감으로 전달하는 '총체적 경험 디자인'이 브랜드 충성도를 결정합니다.",
+    "rising": [
+      {
+        "title": "지속 가능한 패키지 디자인",
+        "momentum": 92,
+        "desc": "재활용성, 생분해성 소재는 기본이며, 소비자가 직접 업사이클링할 수 있는 '순환 디자인'이 각광받고 있습니다."
+      },
+      {
+        "title": "생체 모방형 UI/UX",
+        "momentum": 87,
+        "desc": "인간의 자연스러운 감각과 행동을 모방하여 직관적이고 편안한 디지털 인터랙션을 제공하는 디자인이 주류를 이룹니다."
+      },
+      {
+        "title": "로컬 헤리티지 아이덴티티",
+        "momentum": 85,
+        "desc": "지역 고유의 역사, 문화, 장인정신을 현대적인 감각으로 재해석하여 브랜드의 독창성과 진정성을 강화하는 디자인이 주목받습니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "현대건설, 힐스테이트 론칭 20주년 맞아 브랜드 리뉴얼 - SBSBiz",
+      "source": "SBSBiz",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80MXhmQkJpdFFXSkptU2NKOFF1YjNwMWp2dUpxN1FrRzVVeHpfV2ZVUTVlRHBubnZXTTc2dDNOcjNNbkVxR0ZMNFljLXlibkROc3Rn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-22T02:52:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "젤리슈즈도 DIY… 롯데백화점, 헤븐리젤리 팝업스토어 오픈 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQSmwyZ0YwZ3ZwSF9kVTY0NXV2SHR0OTI4V2RzMHZtQ2xhZFdJdUJnY1lhSFhzd1Jpa0F4Y2YwTmpENTRVSEw3M2ZteV8tYjRfaktXdkZvN0hfTWxxRTBiYWM2R2xQXzU3TU1WdkdWRdIBb0FVX3lxTFBQSmwyZ0YwZ3ZwSF9kVTY0NXV2SHR0OTI4V2RzMHZtQ2xhZFdJdUJnY1lhSFhzd1Jpa0F4Y2YwTmpENTRVSEw3M2ZteV8tYjRfaktXdkZvN0hfTWxxRTBiYWM2R2xQXzU3TU1WdkdWRQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-25T05:55:51.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "밀라노·파리는 옛말…지금 디자이너들이 모이는 곳 [오상희의 공간&amp;트렌드] - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kUTFXZXFtNWpvUFFkWGltM3BuX1RLWjJsQnk2dzNSZkt1bGJ4aTM3ZWktR3VVRFdVN1hHRHNwTnFCNjVlamdCQXZOemtUZDc4Z1p6aDhBUURPUdIBVEFVX3lxTFA4ekVhR3dJV2JFTmVQa0RVQ0Vsa0Mxd1pyZ1U0X19wdHpCSFp4Rlo1TmV0azU2akhLNzZ3Zjd1MmZ2bXlCZ0ZCakJXakpsVGItVWdtNA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-25T05:37:08.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "클래식은 영원하다…100년째 식지 않는 덴마크 디자인의 매력[오상희의 공간&amp;트렌드] - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QVJxQ2w1bWJmcXItQlV6OFRrSlM3dEVNZzJLaG9SMVdXcS1YWERMYlRSWWs2N194MTJNNU5zQy14UWU1T2p5WWlBVEpXUkNRTmEyUWRyVGczQdIBVEFVX3lxTE9McVVkQVRtZXY5dkFicTNuaE9VdUR6aV82Z1NVaVAxakhwUEp0bVBqN2NYaE96MlhCaF9aMVhaR1VJMU5QamcxU2lIcUtKRlRlV2tldQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-25T02:34:02.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 '초연결 경험' 시대, 소비 주도권은 '몰입'에서",
+    "takeaways": [
+      "AI 기반 개인화는 기본, 이제는 '커뮤니티'와 '가치'를 통해 연결되는 경험이 소비를 견인합니다.",
+      "환경 및 사회적 임팩트에 대한 기업의 진정성이 MZ세대를 넘어 전 세대 소비 결정에 핵심 요소로 부상했습니다.",
+      "온·오프라인 경계가 사라진 옴니채널 환경에서, 브랜드는 '어디서든 일관되고 몰입감 있는 경험'을 제공해야 합니다."
+    ],
+    "insight": "경기 둔화 속에서도 '나만의 가치'와 '의미 있는 연결'을 찾는 세대 심리가 시장 전반에 걸쳐 '경험 소비'와 '가치 소비'를 촉진하며, 이는 단순한 제품 구매를 넘어선 라이프스타일 전반의 변화를 요구하고 있습니다.",
+    "actions": [
+      "데이터 기반의 초개인화 마케팅을 넘어, 고객의 가치관과 연결될 수 있는 커뮤니티 조성 및 스토리텔링에 집중하십시오.",
+      "브랜드의 ESG 활동을 투명하게 공개하고, 실제적인 사회적 기여를 통해 소비자의 신뢰와 공감을 얻는 데 주력하십시오."
+    ]
+  }
+}
