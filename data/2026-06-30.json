@@ -1,0 +1,417 @@
+{
+  "edition": "No. 425",
+  "moods": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 59,
+    "30대": 61,
+    "40대": 59,
+    "50대": 69,
+    "60대+": 72
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "초개인화 AI",
+      "dir": "up",
+      "change": "25%"
+    },
+    {
+      "rank": 2,
+      "term": "지속가능 라이프",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 3,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 4,
+      "term": "디지털 디톡스",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 5,
+      "term": "웰니스 테크",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 6,
+      "term": "로컬리티",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 7,
+      "term": "가치 소비",
+      "dir": "up",
+      "change": "3%"
+    },
+    {
+      "rank": 8,
+      "term": "숏폼 커머스",
+      "dir": "down",
+      "change": "7%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 120,
+      "delta": 0.5
+    },
+    {
+      "name": "금융·자산",
+      "value": 108,
+      "delta": -0.1
+    },
+    {
+      "name": "소비·유통",
+      "value": 101.5,
+      "delta": 0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 103.1,
+      "delta": -0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 100.7,
+      "delta": 0.9
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 맞춤형 큐레이션 플랫폼",
+      "momentum": 85,
+      "desc": "개인의 취향과 행동 데이터를 AI가 분석하여 쇼핑, 콘텐츠, 여행 등 전 분야에서 초정밀 맞춤 서비스를 제공."
+    },
+    {
+      "title": "지속가능성 인증 및 투명성 강화",
+      "momentum": 80,
+      "desc": "제품 생산 과정부터 폐기까지 전 과정의 친환경성을 블록체인 등으로 투명하게 공개하고, 이에 대한 소비자 신뢰가 구매를 좌우."
+    },
+    {
+      "title": "오프라인 공간의 '목적형 경험' 진화",
+      "momentum": 78,
+      "desc": "단순 구매를 넘어, 브랜드 가치를 체험하고 커뮤니티 활동에 참여할 수 있는 독특한 테마의 오프라인 공간이 각광받음."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "'고객 경험·지속가능 성장'…미래 이끄는 기업의 비결 - 한국경제",
+      "source": "한국경제",
+      "time": "15시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56Q2dHSnlGcDJJVUJCLU1fc3NtUWJ0Y2N6a19jclZBRUNnU0NkRVRxWDV2UEVDOWJTSGRkeDVvcUdBNEtsYVNPN0lJb2tpMGZIMjdYbkg0cXlhUdIBVEFVX3lxTE5yaE9LX3o1X3R5TTFJSmszX0E3TEl0bmpvN180c3ozeENaY0p1YU1vcVYwVE5xVEhLLVE3VEdwOERDdXJ6ZFpWVHJNbHU4ckRxZFZTMQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T07:00:47.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "[특징주] 한컴, 공공·민간 AI 수주 확대에 9%대 강세 - MTN 머니투데이방송",
+      "source": "MTN 머니투데이방송",
+      "time": "17시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0TFZieFcydzNZZ2x2LTRoUThkWWFFU2F3SUxNTmRiRkZ3OFF2cHFmR1JBYkxNUVoyR0lrQTdGRFZWOTRWUW54RjNXNzdqZ0hOYmUzUWozYnpXTS1oTnFSRVhmMFE?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T04:39:21.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "삼성전자, AI 전자칠판으로 글로벌 교육시장 정조준 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "20시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12TWZ4RkJnTXhFRi1aT3E2dnFXLUdxeVh6VWR6Tk9DeHJVYko1VDNiNXZ5eW1oWUhUWS1lX3FYaDVSQy1kYnpPWmFveV9vTWdsOE8xZWpn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T02:00:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "IPARK, KCC와 손잡고 브랜드 경험 강화한다 - 한국경제",
+      "source": "한국경제",
+      "time": "22시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PMDk4X1R5RUs0QzY5TWRCdDdyWWswSUg1dy1MYlluR2w0a3ZNeTJPU3g3Wk56Mm5nV0hhLVlLYlo4Q25aOExRbWF5OWQ1V3Q0U2NJMtIBVEFVX3lxTE9PMDk4X1R5RUs0QzY5TWRCdDdyWWswSUg1dy1MYlluR2w0a3ZNeTJPU3g3Wk56Mm5nV0hhLVlLYlo4Q25aOExRbWF5OWQ1V3Q0U2NJMg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-28T23:36:32.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "주요국 청소년 SNS 금지 추세…한국도 스마트폰 제한 움직임 - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NbGNmRS1MS0VVUndPeHhRSGJSN0xyVHVWTlZXY0hUMi00bGF2SndSaEJrNkpNVmI3YnMxWlMxRE9xUHBrdnI3Tk44MWlmSHBCLTVCczRuOExmd9IBVEFVX3lxTE9ZS1ZTb3pkdGc1M1FqS0U5OXFZUEFjbkx3ekRudHJnUTRxeGNHcVJsaDBtOWxsaEU0ang0MDhyZWsyMno5ejJ6Umhjb0xyUmdLc3ZxNw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-28T08:12:08.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "청년 일자리가 정년 연장보다 더 절박하다 - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zNEdQN3VJRzV3VHphNzNfczItRF9ZMWlubjlWbURwMGg5azNyeXpHd1VJUnRTTU12aUtVQWxJdnJKZjhKT0I4cnFfcnVFVVFkY0drYWZja3dsQdIBVEFVX3lxTE9RT3EtcFJRWnkydmdqQ2RYS0k5N1l2VThLUUJISl84YlMxR2dnR3p3QWJTSS1pWFhGXzZJeFB4WkhzNks5SnpXdWVMSWZBejBUSzN4aA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:52:16.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "격이 다른 디자인과 서비스…초프리미엄 빌트인 ‘SKS’ 전 세계가 찬사 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsT2FleXF2aXRycUNjVkczdWNtUzdjWFpVUl9iaW56c09FcnlhN0htbF9YLUxkYzFsdzBtb3FWWDNQVDlVdzFaTF9mc3R3cHdkeUtFNTFB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T15:01:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“김장 대신 호텔 김치 사먹을래”...워커힐·조선 이어 롯데도 ‘구독 전쟁’ - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1LSmxtdDhBRkdBNmIwUTRSajZzNUZkNF9uTnBkX1NicDJzVVBpT2FfOTA4c1MxX3JzMElzVE9lbWttdlpCb2VXVnd0OGprSDJQWUI5U0pB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T10:12:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“노원 13평도 8억 넘봐” 2030 몰리자 초소형 아파트 몸값, 수억씩 ‘쑥’ [부동산360] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5saVExejdkbGFtLTNwR1lBa245bDVaS0FXV1dDSlFNcVhFNTdlWmhYMHNRMkF3eDUtVE1uM19DeE1VMzUwbnNEYVFJa2xVOTAySk1WcVBB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T01:23:52.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "\"몸 챙겨야지\" 2030, 의외로 '이것'에 돈 펑펑...전통 건강관리 '큰손'됐다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qWUhRSmVfVm8wV1VITEU0WmxXQkU4ZU9IU2plU0E0Skp0djBoUzNHcl8yMGNMOUoyWTNzRzh3U0xfNVJ3MnVBVXhHd3h6clNmQ0hyM0ZUTzh4UnB5RUppZ0hQMXFpdjdYeHZuQmw2Z9IBb0FVX3lxTE9qWUhRSmVfVm8wV1VITEU0WmxXQkU4ZU9IU2plU0E0Skp0djBoUzNHcl8yMGNMOUoyWTNzRzh3U0xfNVJ3MnVBVXhHd3h6clNmQ0hyM0ZUTzh4UnB5RUppZ0hQMXFpdjdYeHZuQmw2Zw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-27T21:05:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "동아에스티, 연세대와 '디지털 헬스케어 서비스 개발' 업무협약 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aV0tNN1prX19jb05ZZ2g1UFltSV9MUlNaeEZhel8tRzhQUkVPUld4a1FjRzVjLWtKdnBTQlBIekt2dmdWcUxRemtXdUE1Q1RGc3owQjltQjQxOWUxVGptR1BEWDc3YlFaVHfSAW9BVV95cUxPdFVKN2hwLTJvamw1VXAzTVdwdFpFSjNGNEhuczloTjNsRVNQYUdXSUVHenU2V3pfT21oeXpzMFBaTlMzdHdFQW5qUTd2ZFljT2NSZDhhblZmOThsRlZ5cmt5Mk9sWWMydzlUaDVCMDA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T01:46:52.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "동아ST, 연세대학교 디지털헬스연구원과 디지털헬스케어 서비스 개발을 위한 업무협약 체결 - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41MHhJTndqeFU3TmxrakpPTS1QT3NGMVBka0h2Yng4dW15aTE4VC1PallBdjUyVm0yYnMwOGFvNzcyckUxMjBrUkFGQ3NpQ0JXSWdvNFcwZkEtQdIBVEFVX3lxTE9DNl9fSEVCMDRtaERLaE9EbVUzMnF6U3dvQkVKcTVwSGRjMTFjSVZOVHJnT3Zwb2RfQXB3ZzFXWEZPNWp4eFR1aFJpX2ZMdFRqSERGTA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-23T00:12:44.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“‘연 30%’ 역대급 수익률” … 연금 ‘노후 격차’ 막는 5가지 방법 - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TOGh5VkFITlVaT0p0ZTc3a1pPamlUTW5NdENpcXgwUHJKaUFwRmZZNDF3dVRYTUhJS1VzSHY4Q2JwVURuMUpPMS1iaWhNbm5iRTRHNw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T08:57:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"김과장은 삼전닉스로 대박 났다는데\"…직장인 '벼락거지' 공포 - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zRERWTlpGTnR2ZDYxNEVROXJrNi0xZXppTnpFbTJPSk82VFRseWlLcUlnZmFFOXQtWV96THFleUFkUGMzekdqZmRnVFBvbHZKN3lTTzZjb0hIQdIBVEFVX3lxTE5KLXdfUnU4djJUcGIyaFl2cHN2WXRvT25HT2pXR3pQZFEwY1VNcURTTS1yVW9qSEhCQTF4Tk5ERWR0ZGxVNGMxVEpUQ0lMNXZfYlRkZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T02:01:13.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "“청소년 디지털 성범죄 예방 위해 SNS 규제·교육 병행해야”[인터뷰] - 이데일리",
+        "source": "이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS1FTdmFGenhwSHRET21FYm9Wd1lkc0JwSlZMMHRzaGVHTDB3blNoQ2dlU1haWjVlRnlLc2xiaHZXRk5RdlhNRTM0dmZ3eVMwQ3NVWGlDWGRZdGU2Z0xGeUJhVjhwSEtibmVRZC05aTRkWnMwODRsQkJSdjlTQ000OQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-28T03:00:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "빚부담에 軍사고 늘어날까 … 국방부·금감원, 장병들 금융교육 강화나서 - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE05Snc0YmFOdDhWdXcyTzl5TnNramVTZ1RLTWF3MFJTOGFtZDZrYXV3cmtfUjdYN0J1UERpZkdHWUJFWjBMb3plZFUtR3dYNXdTLTU1eg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T08:29:44.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[속보] ‘70세 이상 버스요금 지원’ 조례 서울시의회 통과 - 매일경제",
+        "source": "매일경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVlBzMW1pWkdTV25IUUcwVmJ4SmdGa25yMUdXWmlIdWFuc3hrZEx4NkoxT3Q2Z1NGbW5vUENrQlA0U0E2eU1ld3JzLURVU0htRDdVUA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T05:33:58.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "본질적 가치와 스토리텔링으로 승부하는 디자인의 시대",
+    "insight": "단순한 미학을 넘어 브랜드의 철학과 지속가능성을 시각적으로 구현하고, 사용자 경험 전반에 걸쳐 진정성을 전달하는 디자인이 성공의 열쇠.",
+    "rising": [
+      {
+        "title": "순환 경제를 위한 모듈형 패키지 디자인",
+        "momentum": 88,
+        "desc": "재활용 및 재사용이 용이하며, 분해와 조립이 가능한 친환경 모듈형 패키지가 디자인 혁신을 주도."
+      },
+      {
+        "title": "AI 기반 개인화된 브랜드 아이덴티티",
+        "momentum": 82,
+        "desc": "AI가 사용자 데이터를 분석하여 개인에게 최적화된 브랜드 경험과 시각적 요소를 제안하는 동적 BI 시스템 부상."
+      },
+      {
+        "title": "젠더 뉴트럴 & 포용적 디자인",
+        "momentum": 79,
+        "desc": "특정 성별이나 연령에 국한되지 않고, 모든 사용자를 포용하는 보편적인 디자인 언어와 그래픽이 중요해짐."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "이정환 두산건설 대표 \"주거 트렌드 세심히 읽은 고품격 삶의 공간\" - 한국경제",
+      "source": "한국경제",
+      "time": "14시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WRHZoMWtONS1Rb2ZWbkRGSzJoMTY2THY3NjYyZE5GVlBRd2tuemRWZ0RjYmVsVGNjaEZzaTJUYVNyZjlwTmd3Zjd4d1FMWkZjSlMzSWR4VEpLQdIBVEFVX3lxTE1XYzR0bFFmRE1vNS16cDV2UWh1aDNoU2d6UTNiZVI3V2d5Y3JIWm55SjNjcVM5S2xIQ1l2SzNWZDF1UkRTVGRaR1E4ZWk4dzlPc1JPaA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T07:18:28.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "현대건설 힐스테이트, 브랜드 리뉴얼 맞아 워커힐과 특별한 여정 나선다 - 매일경제",
+      "source": "매일경제",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90bDRSSTlYQk1vWUpYTlk0Q0NyT1FhNU1zR0otRGdMSHREME13dW9FTlB1Z3gxSGtxdHpNckt1N2hNXzVsUnZxbC11TERIWVVacXpTMmY1Rzc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T00:37:21.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "밀라노·파리는 옛말…지금 디자이너들이 모이는 곳 [오상희의 공간&amp;트렌드] - 한국경제",
+      "source": "한국경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kUTFXZXFtNWpvUFFkWGltM3BuX1RLWjJsQnk2dzNSZkt1bGJ4aTM3ZWktR3VVRFdVN1hHRHNwTnFCNjVlamdCQXZOemtUZDc4Z1p6aDhBUURPUdIBVEFVX3lxTFA4ekVhR3dJV2JFTmVQa0RVQ0Vsa0Mxd1pyZ1U0X19wdHpCSFp4Rlo1TmV0azU2akhLNzZ3Zjd1MmZ2bXlCZ0ZCakJXakpsVGItVWdtNA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-25T05:37:08.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "클래식은 영원하다…100년째 식지 않는 덴마크 디자인의 매력[오상희의 공간&amp;트렌드] - 한국경제",
+      "source": "한국경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QVJxQ2w1bWJmcXItQlV6OFRrSlM3dEVNZzJLaG9SMVdXcS1YWERMYlRSWWs2N194MTJNNU5zQy14UWU1T2p5WWlBVEpXUkNRTmEyUWRyVGczQdIBVEFVX3lxTE9McVVkQVRtZXY5dkFicTNuaE9VdUR6aV82Z1NVaVAxakhwUEp0bVBqN2NYaE96MlhCaF9aMVhaR1VJMU5QamcxU2lIcUtKRlRlV2tldQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-25T02:34:02.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 시대, 경험 경제의 진화와 지속가능성의 본질",
+    "takeaways": [
+      "AI 기반 초개인화 경험이 소비의 핵심 동력으로 자리매김하며 시장 전반을 재편.",
+      "진정성 있는 ESG 가치 추구, '착한 소비'를 넘어 '현명하고 지속가능한 소비'로 진화.",
+      "디지털 피로도 증가로 아날로그 감성 및 오프라인 공간의 '목적형 경험'이 재조명."
+    ],
+    "insight": "불확실한 미래 속에서도 자신만의 가치와 만족을 추구하는 세대 심리. 디지털과 아날로그의 균형을 통해 '나다운 만족'을 찾고자 하는 욕구가 시장을 움직임.",
+    "actions": [
+      "AI 활용 고객 데이터 분석으로 예측 불가능한 니즈까지 선제적으로 파악하고 맞춤형 솔루션 제공.",
+      "스토리텔링 기반의 지속가능 브랜드 경험 설계로 진정성 있는 관계를 구축하고 브랜드 충성도를 강화."
+    ]
+  }
+}
