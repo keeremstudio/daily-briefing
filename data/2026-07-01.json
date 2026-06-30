@@ -1,0 +1,441 @@
+{
+  "edition": "No. 426",
+  "moods": {
+    "10대": 61,
+    "20대": 57,
+    "30대": 61,
+    "40대": 64,
+    "50대": 66,
+    "60대+": 70
+  },
+  "moodsPrev": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 개인화",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 2,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 3,
+      "term": "지속가능 소비",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 4,
+      "term": "디지털 휴식",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 5,
+      "term": "리테일 테크",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 6,
+      "term": "구독 피로",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 7,
+      "term": "멀티 페르소나",
+      "dir": "flat",
+      "change": "3%"
+    },
+    {
+      "rank": 8,
+      "term": "로컬 브랜딩",
+      "dir": "up",
+      "change": "6%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 121.1,
+      "delta": 1.1
+    },
+    {
+      "name": "금융·자산",
+      "value": 108.9,
+      "delta": 0.9
+    },
+    {
+      "name": "소비·유통",
+      "value": 101,
+      "delta": -0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 102.8,
+      "delta": -0.3
+    },
+    {
+      "name": "고용·노동",
+      "value": 102.1,
+      "delta": 1.4
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 컴패니언 서비스",
+      "momentum": 90,
+      "desc": "개인의 일상과 감정을 보조하는 AI 비서 서비스가 고도화되며 심리적 유대감을 형성."
+    },
+    {
+      "title": "초몰입형 엔터테인먼트",
+      "momentum": 88,
+      "desc": "AR/VR 기술 기반의 실감나는 경험을 제공하는 콘텐츠 및 플랫폼이 빠르게 성장, 단순 관람을 넘어선 참여 유도."
+    },
+    {
+      "title": "지속가능 럭셔리",
+      "momentum": 85,
+      "desc": "환경과 사회적 가치를 중시하는 하이엔드 소비자들이 늘어나며, 윤리적 생산과 투명한 공정을 강조하는 럭셔리 브랜드가 각광받음."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "부산대, ‘THE 세계대학 영향력 평가’ 세계 16위 기록 - 중앙일보",
+      "source": "중앙일보",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GZ1BXMmhlbGpSV200MDNtY2pEalFFRjNNT0FTUW1iUEhpU0tXTENpeFd2blUxaEhxRGtNOFcwWDFqM2tWLTROX2JIMHk2OHQ3N1pSVGJ3?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T06:10:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "인구감소지역 합리적으로…청년에 사회연대경제 일경험도 - 이데일리",
+      "source": "이데일리",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdGR1WS1weVBFa050bWloRVB0SlptZm0yQmZyTkdvc2IwN1V2QmNKUDV1NlpVN0JCZmdfY3BLM0NnMTZYZ0pXc3FuSGxQOEhpdVFqQjNha01raVRUWC1FbWJKLWZqQV83ZlJWczVaczdWX3BWblNROWRjc0V2aEw0Tw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-30T01:00:10.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "널싱엑스알, 한국아동간호학회서 AI 개인화 간호교육 모델 발표 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xczNPblpUd1BmVlVUVlhreTlNYXpRSEVUd0dCTXZjTFZ1N3RsYUs4YWx5dU1HbUhRa1hoZlNTRGxNNnhwNWNSdE1SVVNaNzRQRjhkdkJpOVl2bmo5RWh1MkRycEp4UHBFVEotcGdtTTc1Z9IBckFVX3lxTE9xczNPblpUd1BmVlVUVlhreTlNYXpRSEVUd0dCTXZjTFZ1N3RsYUs4YWx5dU1HbUhRa1hoZlNTRGxNNnhwNWNSdE1SVVNaNzRQRjhkdkJpOVl2bmo5RWh1MkRycEp4UHBFVEotcGdtTTc1Zw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T07:27:47.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "IPARK, KCC와 손잡고 브랜드 경험 강화한다 - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PMDk4X1R5RUs0QzY5TWRCdDdyWWswSUg1dy1MYlluR2w0a3ZNeTJPU3g3Wk56Mm5nV0hhLVlLYlo4Q25aOExRbWF5OWQ1V3Q0U2NJMtIBVEFVX3lxTE9PMDk4X1R5RUs0QzY5TWRCdDdyWWswSUg1dy1MYlluR2w0a3ZNeTJPU3g3Wk56Mm5nV0hhLVlLYlo4Q25aOExRbWF5OWQ1V3Q0U2NJMg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-28T23:36:32.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "서울에서 매튜 만나다…서울관광재단, '제로베이스원 석매튜'와 캠페인 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1LY0NSUTNJV0M3R3I4UWNyaWt4VFVfM282cHZ0cHdzNFlHMXpFZUEySy1vazlJM1ZJQUZ6NDlVX0FvTVZzSW5KZlBzeEFuMlNmUEFLNmV2LW9aZGNkbUl2YXdreHVuZDhvN1QyM2I3b9IBb0FVX3lxTE1LY0NSUTNJV0M3R3I4UWNyaWt4VFVfM282cHZ0cHdzNFlHMXpFZUEySy1vazlJM1ZJQUZ6NDlVX0FvTVZzSW5KZlBzeEFuMlNmUEFLNmV2LW9aZGNkbUl2YXdreHVuZDhvN1QyM2I3bw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-29T08:42:35.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "테크빌교육 티처빌, 교원 맞춤 연수 돕는 'AI 학습튜터' 베타 서비스 출시 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SOWNUMkR4Z3V1eDVyWmFHMDh2RC0zczlSRkRQVG5WZFcxc0E0SXhFZ3VLTFhEaUZvQ3FKRmNHSUxKTXVJcTF0c25mcEZLa0pxeWFtVXdROXRkSEFBZGNjX0VzelAxNWdxRi1tRdIBckFVX3lxTE5hd2U0UGRGbm0wbWxTZnJjamVmU2UzZVo0b0NrQnh3NzQ0SlZqZEFJWkVsdndIc0VWMkhWWDdYU3VDNHlqWjUyM1dvczBkaTdYME1RRDFWOS1ZdWVWQzdBTi1sSE1NVmZaNmxUaUFfWF9mUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-25T08:23:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "네이버웹툰, 웹툰 IP로 숏폼 애니 만드는 ‘컷츠메이크’ 출시 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wSnZmVDNEbk9mR3BlLTNSRWRyekxYRVZaOWZBX2pCczFHYXZTSngwZ2ozYURxa205UHBqbHBuWDZCZjRFbW5RWEhveUZXOWlHamJ5N1lB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T12:42:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "청년 일자리가 정년 연장보다 더 절박하다 - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zNEdQN3VJRzV3VHphNzNfczItRF9ZMWlubjlWbURwMGg5azNyeXpHd1VJUnRTTU12aUtVQWxJdnJKZjhKT0I4cnFfcnVFVVFkY0drYWZja3dsQdIBVEFVX3lxTE9RT3EtcFJRWnkydmdqQ2RYS0k5N1l2VThLUUJISl84YlMxR2dnR3p3QWJTSS1pWFhGXzZJeFB4WkhzNks5SnpXdWVMSWZBejBUSzN4aA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:52:16.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "[2026 혁신 바이오 기술대상] 반려동물 클린케어 제품 선보여 - 중앙일보",
+        "source": "중앙일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tM0hjRnFCX2N6XzRzc0NNcF8wN0M5TUs2Rzh2b3pjM20tYWd4ckRaREFsRnQ1dUZuSWd2VTlQS0FuU1d3a2ZvV1FySEJGU0lIUllKaUpn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-29T20:31:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“노원 13평도 8억 넘봐” 2030 몰리자 초소형 아파트 몸값, 수억씩 ‘쑥’ [부동산360] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5saVExejdkbGFtLTNwR1lBa245bDVaS0FXV1dDSlFNcVhFNTdlWmhYMHNRMkF3eDUtVE1uM19DeE1VMzUwbnNEYVFJa2xVOTAySk1WcVBB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T01:23:52.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"오세훈 몰표\" 보수로 확 쏠린 2030 남성...'예상 깬' 2030 여성 표심 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHeHY5MnFUbmU5RS1MMm15ZW5WcTM2OG14SkFBdVZfSlE4S2pJblVQNjdVZUJ1MDdoN3lwZFVocEIwcEJmNUhxY200dHlnRHNaWFpxTEwzT3h3MW41cHgyclNKTndLYXI1djNQdNIBckFVX3lxTE9mS1ltSHNwNDJCVWZBanlXYXQ1LUkzWUJmOTgxZmVyTDdwdlpudjlYSy1jQjlCUlZrUXIzOXd0dEVkVUR6d0NkUnZFMENaUGhGOXNWdTBfdHZWU2JiUks4SG5DeW9EVTlLNFFkc2FzT1FvUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T20:30:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "\"8시간 자야 건강?\"…27만 명 데이터가 깨부순 수면 상식 - SBS 뉴스",
+        "source": "SBS 뉴스",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QX3ZRWERpTkQ1SktOS1p6OF9rcmZwUkhUV2p0cmZJSWdGZDhLSnZIX29jaXNDbTU2TmlybXNQVkNyeDZaS0NPMHpXUjJsTGxoSkNqTDdlTk5MTFJPN2MwWlcxVkcyWmlNNlE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-27T00:39:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "국민연금 리밸런싱 재개 D-1…“시장 충격 최소화할 것” - 매일경제",
+        "source": "매일경제",
+        "time": "16시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQUVNZRDctOHc4TFJ5R1pXVEpuQjNhX3Jqa0F6bjBleENrRl9lc3E5dWtpUm5jUnNMb1F2M1V0QVh4d2lzUk0xT3BQeFRCaUNBWFJSSg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-30T05:22:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“7월부터 매도 시작”…리밸런싱 유예 만료 앞둔 국민연금 - 매일경제",
+        "source": "매일경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZGp1MG5IQ1R2WG9QS3F6V2U2RWdrdFI1Y19vUmp4U1d5eXRCN0RPZjBkcVZGVWtzQzA3ZVpBQ2NiOXZDYksydDRuY002dFVtR1lPazVB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-24T08:07:32.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“‘연 30%’ 역대급 수익률” … 연금 ‘노후 격차’ 막는 5가지 방법 - 매일경제",
+        "source": "매일경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TOGh5VkFITlVaT0p0ZTc3a1pPamlUTW5NdENpcXgwUHJKaUFwRmZZNDF3dVRYTUhJS1VzSHY4Q2JwVURuMUpPMS1iaWhNbm5iRTRHNw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-26T08:57:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "마크로젠, NGS 국내 1위서 디지털헬스케어 플랫폼 기업으로 전환…'수익성은 과제' - 이데일리",
+        "source": "이데일리",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONjdKZTJjX2RMSTB1ZHJybEtSUE9VU01fWl8xM1pWRktyMWd5Xzd2YzlIdXdJa0ZETEZYUkVkTWZqMzZrVTJRQVAxdlY2MWx5V1ZHRHNyWDVGZ0kxUG5hbmFkY0hYOU9mQlBFeDNDT2JnazRfRlhVbFVwUnVRaDVJTw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-25T23:21:02.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "로킷헬스케어, 35개 질환 예측 AI 플랫폼 상용화 추진 - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0bTh0R0xQWHNqUHh4WDNCX0ZsM0JSNDlKbFdBNS1OeXpwWFNFTS1HUUJUU2ZpS0R3YzhUZWVzY1hvWWFXdnhXLTR4NWNvTlpoSnNRdmx5czZYUdIBVEFVX3lxTE80cnNSazBQNnFnbmJ4XzFkelNCdWJCblJyajNLbFVsUFVVZ3dSd2F2MkpXYzJZYmFOSmVLV0tWMEhXenZob01rY1lBYjBLU2VMVk9HRA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-25T05:23:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "아산리버뷰 한양립스, 곡교천 품은 배산임수…산업 배후수요 풍부 - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xTzQyY0t2OXVRSlFNYWpFTFlPZWc2R2NvZnRGSC1NTXJnTzd0dEl5MFFjeHdKX2p0ZzdQM0IxTHE5T3dwTjBzRS1zeUZwMF9BQ3V0SNIBVEFVX3lxTE9xTzQyY0t2OXVRSlFNYWpFTFlPZWc2R2NvZnRGSC1NTXJnTzd0dEl5MFFjeHdKX2p0ZzdQM0IxTHE5T3dwTjBzRS1zeUZwMF9BQ3V0SA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-29T06:11:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "의왕시 ‘통합 돌봄 특화사업 및 건강돌봄가 사업’ 업무협약 - 경기일보",
+        "source": "경기일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2cEJlNUtUa2NqS3VnRnhRVkZYOVlnc3lMZ0VoWTd6SU5PRzB3UFRaejBMMzY2VUg1NWpsQ0p2VFZpV2x6Tmg4eFZlMFc4U2N3YVA0NDhVSUJ5Qzg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-29T02:09:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "브랜드 본질과 지속가능성을 시각화하는 디자인의 역할 증대",
+    "insight": "기능적 아름다움을 넘어 브랜드의 서사와 가치를 담아내는 디자인이 소비자에게 깊은 공감과 신뢰를 얻는 핵심 요소로 부상.",
+    "rising": [
+      {
+        "title": "생체모방 디자인 (Biomimicry Design)",
+        "momentum": 88,
+        "desc": "자연의 패턴과 구조를 모방하여 지속가능성과 기능성을 동시에 추구하는 패키징 및 제품 디자인이 주목받음."
+      },
+      {
+        "title": "감각적 타이포그래피",
+        "momentum": 85,
+        "desc": "디지털 환경에서의 가독성을 넘어 브랜드의 개성과 메시지를 전달하는 촉각적이고 동적인 서체 디자인이 인기."
+      },
+      {
+        "title": "순환 경제 패키징",
+        "momentum": 82,
+        "desc": "재활용 용이성, 리필 시스템, 생분해성 소재를 넘어 소비자가 직접 재사용하거나 업사이클링할 수 있는 디자인이 각광받음."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "DB證, NHN과 디지털 워크플레이스 구축 ‘맞손’ - 매일경제",
+      "source": "매일경제",
+      "time": "16시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84ZWVKNXZwTEtCZWloekdaUWF4WXB0TWhlcVVOM1RPRzcyV0dKN29NbFZpdkZPelhtZ0hXc0hpeTZDLThFeWYwbzhiVXdKQ3N0bmc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-30T05:53:39.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "NHN클라우드·NHN두레이, DB증권 디지털 워크플레이스 구축한다 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfUDQ3YUZUb2JSNXl2NEU3ZUJ5aFRkNWlJYVo4Z0VybjduWnN6eTRqVFJTSUxCMi0xNFZEQ2h6Q21vTDNTWmt1SzQwUW9paVlwdXI1TFJR?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-30T01:12:35.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "2026 더 메종, ’큐레이션 된 삶’ 제안하며 성황리 폐막 - 매일경제",
+      "source": "매일경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ON0VDRkpGck8xZ1J6RnVqTFE2dEQ2czRWZlBwNWh5VHByNzU4OUVZaGpRWHdVQnNfX0tsVnJlMXVGNFJDMVVMYWVZZFNvT2c?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T04:43:19.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "현대건설 힐스테이트, 브랜드 리뉴얼 맞아 워커힐과 특별한 여정 나선다 - 매일경제",
+      "source": "매일경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90bDRSSTlYQk1vWUpYTlk0Q0NyT1FhNU1zR0otRGdMSHREME13dW9FTlB1Z3gxSGtxdHpNckt1N2hNXzVsUnZxbC11TERIWVVacXpTMmY1Rzc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-29T00:37:21.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 '초연결 경험' 시대, 소비 주도권 이동 가속화",
+    "takeaways": [
+      "AI 일상화로 인한 생산성 증대와 여가 시간 활용 방식 변화 심화.",
+      "MZ세대 주도 '가치 소비'가 전 연령대로 확산, 브랜드 윤리 및 지속가능성 중요성 증대.",
+      "온-오프라인 경계 없는 '하이브리드 리테일' 경험 요구 증대, 공간의 재해석 필요."
+    ],
+    "insight": "경기 불확실성 속에서도 '나'를 위한 투자와 만족을 추구하는 세대별 심리가 강해지며, 단순 소비를 넘어선 '경험'과 '의미'를 제공하는 브랜드가 시장을 선도할 것.",
+    "actions": [
+      "AI 기반 개인화 마케팅 솔루션 도입 및 고객 데이터 분석 역량 강화.",
+      "브랜드 핵심 가치와 ESG 활동을 명확히 전달하고, 진정성 있는 소통 채널 구축."
+    ]
+  }
+}
