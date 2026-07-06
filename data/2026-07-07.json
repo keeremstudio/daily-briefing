@@ -1,0 +1,392 @@
+{
+  "edition": "No. 432",
+  "moods": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 64,
+    "40대": 62,
+    "50대": 63,
+    "60대+": 70
+  },
+  "moodsPrev": {
+    "10대": 66,
+    "20대": 54,
+    "30대": 68,
+    "40대": 57,
+    "50대": 63,
+    "60대+": 73
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 큐레이션",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 2,
+      "term": "지속가능한 소비",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 3,
+      "term": "웰니스 테크",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 4,
+      "term": "마이크로 커뮤니티",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 5,
+      "term": "경험 경제 2.0",
+      "dir": "up",
+      "change": "4%"
+    },
+    {
+      "rank": 6,
+      "term": "타겟 세분화",
+      "dir": "up",
+      "change": "3%"
+    },
+    {
+      "rank": 7,
+      "term": "디지털 디톡스",
+      "dir": "up",
+      "change": "2%"
+    },
+    {
+      "rank": 8,
+      "term": "로컬 브랜딩",
+      "dir": "up",
+      "change": "1%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 123.1,
+      "delta": 1.1
+    },
+    {
+      "name": "금융·자산",
+      "value": 108.9,
+      "delta": 1.2
+    },
+    {
+      "name": "소비·유통",
+      "value": 98.7,
+      "delta": -1.2
+    },
+    {
+      "name": "주거·부동산",
+      "value": 104.5,
+      "delta": 0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 102.6,
+      "delta": 0.1
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 페르소나 마케팅",
+      "momentum": 88,
+      "desc": "AI가 소비자의 가상 페르소나를 분석, 예측하여 맞춤형 제안을 넘어 감성적 소통까지 시도하며 구매 전환율을 높임."
+    },
+    {
+      "title": "순환 경제 패션",
+      "momentum": 85,
+      "desc": "리사이클, 업사이클을 넘어 소비자가 직접 제품의 수명주기에 참여하는 서비스와 플랫폼이 활성화되며 지속가능성을 실천."
+    },
+    {
+      "title": "오프라인 웰니스 허브",
+      "momentum": 82,
+      "desc": "디지털 피로도 증가와 함께, 자연 친화적 공간에서 심신을 치유하고 교류하는 오프라인 거점이 새로운 소비 공간으로 부상."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "파리 사로잡은 'K패션' … 유럽 판로 넓혀줬죠 - 매일경제",
+      "source": "매일경제",
+      "time": "15시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9KLTdZZDc2TlNEOWtVVUw1aE1aX1R5SzE0VXAyTl9xbk1FR3d1a0d0MlJ6MENVd25jM1daYm5LQV9aeUdLZlY4QWJMSEVyWTRiSG1tS0Nn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T07:02:44.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "PwC컨설팅, AI 공급사·수요 기업 잇는 'AI 에이전트 커넥터' 출시 - 이데일리",
+      "source": "이데일리",
+      "time": "22시간 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSUU2Rk9iWHNGR21vcmF4MnY2V2NQYUVfcjdwUWkyQ2Z2LWtkNnh2TF9Jalo4TVkwd3hTRGg2QW1SS0RTaUI5bmhpQjJmWFpCekV1bk12cXEzRFhDLWdvcUtDenVqUjZxeVdDcmdGRGlObGpWVGt5YUc3eGZHcF9kdw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-05T23:47:54.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "[Hotel News]호텔업계 웰니스케이션...웰니스는 이제 ‘회복의 경험’ - 매일경제",
+      "source": "매일경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SMTJ4SHh2aVgzT2Q3WmIzSjBUdUFvMlpMcVk3LXpPQTV6WGVncC1Nc0JDbDNWd0hwQWFTS3R6eUdUcFN2dkNGOGw4TFMzMG5oR1V4dU5n?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-04T17:16:45.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "MK Pick | 서울국제도서전 못 갔다면 광화문으로! kt 밀리의서재 체험형 팝업 꼭 가야 하는 이유 - 매일경제",
+      "source": "매일경제",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4RGdOUDVLMFVsSFd4NzB5cTRWQjZDYjJvSVZkaVEwNURaemtIMDlCOHFITHRMUHFCWDZsT3MzbnpWUDZUbU9XTDFURVhzdGwt?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-01T01:30:05.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "\"'교육여건 개선' 학생들 응원 토대로 '함께 발전하는 포천' 만들것\" - 이데일리",
+        "source": "이데일리",
+        "time": "17시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNkJ5aTAtajFOTlhYSGU1RjdYN0hKVG5iNFUxak5HSDhTZjl2N2Iya3poVVFaSzZCejNLSk5VZ2dQQ3NzTklIbmR6eXc2T3RqemFDLUc5VDJ4M3BfNEh1WUtmZHZyM1FFZzZJMzd3dUR3bDVKUmRGOU92Tks0eU13Zg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T04:20:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "안민석 경기도교육감 추진 5대 경기형교육정책…일부에선 우려의 목소리 - 인천일보",
+        "source": "인천일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvcUkwXzJsdlVuY0phcUVVZVhMZ2tXNkFJdXR3ZWw2b0YzeEJ0TmxHeTRSeGJyMDhNMmJsOTFEWnRNZ1dMejJqMXNhVEVDLUM5ckVtWjZtZHhVckJTZUw3N2JSVThwUlhkOVhXdGJ1X0M?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T08:41:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "청년 5만5천명 취업 지원…비수도권 근속 인센티브 최대 720만 원 - SBS Biz",
+        "source": "SBS Biz",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2Y2J5dVdxcUhrWkpRNHg1RV9sd3pXWDJjcU93NlJSQmdsN1RFTmZ3OXBUVGxtQVRxMk5ROHNEXzJsZDFRejExaXVhQ1ZFQVd2VnJJ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T02:09:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "지방 중견기업 취업해도 장려금…정부, 청년 지역 안착 돕는다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PZHdQWjBYQ2kwbDE3RG5OSzN3OEp2UUVOS2RpaVRfVFdSeXNmdlI3RHlsUXN3Y3pQM2pDUFBoTEJYbU02eENQZkVxOG1HNk1Md2FMZlZsdDdNLVlnenAwb2EwVEpQMDFIeXI40gFwQVVfeXFMUEowSFNMbUtPdXR4dndWd3EzRV9rdWJ6V2I3bEhnbDdfazdWcmxXRl9PWktJNGdGX3dnT2U0Yms1REU0bUFfMTBZRmlkNGRQeEgxY0FpQWtqbVpZS0tCdHVZQlFfWGd4NFNTTEgtSHhGMA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T05:16:28.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [],
+    "40대": [
+      {
+        "title": "“만 7세 ‘이것’ 씹게 해라” 수백만원 교정비 아끼는 법 - 중앙일보",
+        "source": "중앙일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jdmlnbkI1R0Y2U0pleVNHRmx2YWZ4bEt6VzU0aGxVMkRKQld1VTFNLWwwX2JJSFFReHpVQlp6ZnFTb2hIZnlPSnY0Q25aWDRYNE52U1dn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-05T20:04:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[특별기고] 평생 건강의 첫걸음, 국가건강검진 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6VEtmXzVGUHpFOUFHN0p2WlBKbFVZbTRSbENoaGx0WGtJajhic0NOV181aWdBS1NlVEpTakpzR1dWeVRva3RqUURsbkJwOU8zT0ppbndR?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T02:35:33.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "국민연금공단, 세종대 공공정책대학원과 노후준비 전문가 양성 나서 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "21시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KNE1NaFZwWnNXemVjUENIYUltbjFnUGI2SVFyQlZpbEhmd0hfWXNRMm5zU09kM1NZcXNaMXQ5ajR5MXZ6dFM1anBvMkY2YUdOd2JQMlBB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T00:28:13.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "첫 월급 받자마자 은퇴 준비?…요즘 2030 돈 굴리는 공식 [김연지의 연금빌드업] - 한국경제",
+        "source": "한국경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWElEYVROcEItaXphMGRwa3J5WGdneUMtWEIzTXYwX19pN1pId0xMMHhZaEFMMGw4bWtXOWhQbXRSdHRPRlZwMnFiOFZSMFktVmxfclF2MVd6Z9IBVEFVX3lxTFA1ZnJHRGptRjB1bXdpZmtDV1YwNUtGN1B0bWZodDRhU0tYU2dQdXVaOUZFbWtxVzBZVnlQbGVKSEJYWVExcU93RzdTU3l5M3RXOTJkQg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T21:30:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "법정 정년은 60세, 노인은 70세?… 10년 ‘소득·복지 공백’ 공포 - 중앙일보",
+        "source": "중앙일보",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jLWlyU1dienJjd2VIMzlxTXJscEVVQjM1VkJiMXNNQTB3UFo1MldKLVNpaGJtSE9RcGp2SWNYYTcwVExfb3NqMDhHTWFmQU91eFhYYl9R?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T21:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "원광디지털대 대학원, 웰 에이징 주제 국제세미나 개최 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YdF9IbzE4WVZTTlZCbGIzOUFsLVVLWHpvVVdtMjhTOWU0bHZlWmxnZ2hBQkM5M2t0bE1yV2s1UjNOWWtsSUNwRzR0LUwtOFQtdi11a2d3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-06-30T09:45:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[집중기획/벼랑끝에 내몰린 노인들](3)복지정책 거주지별로 '천차만별' - 경기신문",
+        "source": "경기신문",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TMlNCbDdyMU9seWxxUG9SbWRzOTAxeG8wV0pkNWdMdGd5YlNqUWhPdV8zN05tc2ctb3dGR25UamFTN3JrLW5ENjVaWC11ekpMbENsRjBPR1ZCV2lfY2Y5OHNn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T05:27:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "기능 넘어 감성적 몰입 유도, 지속가능성 메시지를 시각화하는 디자인이 승리한다",
+    "insight": "브랜드 스토리를 진정성 있게 전달하고, 소비자가 디자인을 통해 직접 가치를 경험하도록 유도하는 것이 핵심이다. AI 도구는 디자이너의 창의적 파트너로 진화 중이다.",
+    "rising": [
+      {
+        "title": "바이오필릭 디자인",
+        "momentum": 80,
+        "desc": "자연 요소를 실내외 공간, 제품 디자인에 적극 도입하여 심리적 안정감과 웰빙을 제공하며 소비자에게 긍정적 경험을 선사."
+      },
+      {
+        "title": "데이터 시각화 UI/UX",
+        "momentum": 75,
+        "desc": "복잡한 AI 분석 데이터나 ESG 성과를 직관적이고 아름다운 그래픽으로 표현, 소비자의 이해와 공감을 유도하며 신뢰도를 구축."
+      },
+      {
+        "title": "모듈형 지속가능 패키징",
+        "momentum": 70,
+        "desc": "재사용, 재활용이 용이하며, 소비자가 직접 조립/분해하며 지속가능성을 체감하는 친환경 패키지 디자인이 각광받고 있음."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "[AI Trend Map] 정범진 파이온코퍼레이션 대표 | AI 마케팅 자동화의 미래 - 매일경제",
+      "source": "매일경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kaDVmNC04UXFwT3VkQVgyd0pMQlppaktudTM5LWNBWGVpQ1hBNEgyc0VPRDJJcFBLX3U5Xzk3OXFsU2Z6SlltalVSQTJOelhiaDltNA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-03T08:11:51.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "김윤희 국민대 교수, 디자인학회 국제초대전 '대상' 수상 - 이데일리",
+      "source": "이데일리",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGV6Si1Id2t4dFhhNks1QlRPejlmZjJpMHg2OVFDMm1iZldpemY2SWVwNHB5SFJoSDVIY2RPLTdEcDNwbVBQRm1HSW0zQS1rZHY1bHBpb1RZWkJZdHJUM2dMemxSU2pIR01tNDFMcEs2VWlaVmVoaVVTbEplRmkwMA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-02T08:05:58.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "'아무거나 안 쓰는' 사람들이 찾는 덴마크 브랜드는 [오상희의 공간&amp;트렌드] - 한국경제",
+      "source": "한국경제",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfdVV4TTZHTXBrOVRDS1R4dDIwNTZPRUZPWTIxbW9ub0RxTk9NTURGNFZPUUpNaG5vRHhSbWExX0F1QXh6RTFwT2V3ZXFBUWdMZnNjdENXeWNCZ9IBVEFVX3lxTE1LbVpLc2c0OUF6NU1nbU5STHNMWFY5emROOU4zR0NTUVlhYWM1ck5seFVnUU5uWGdNS3MxY1E2aHl2VFB2RzQteWRhNHRqaGVWWkhiVA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-01T01:30:06.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "보로탈코, ‘보로탈코 오리지널 샤워크림 500ml' 국내 첫 출시 - 이데일리",
+      "source": "이데일리",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMkFkZFZ6MnppS2dfVGlZMjg4Qy00bzZXbm5OTkpSeUJ1Xy1uclZ0bFNBeFhPQjVVV21hYmhmNEtaSTZ1WWR4WGJWTVVXWmpfMlp1MVJOcGE4eFF2NElfODZoRXVYbDd6LTFuQUZxanBHQzNhV3VwdFZNZFBKbHpPdg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-06-30T01:46:02.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 '공감형 AI' 소비 시대, 지속가능성 실천이 브랜드 핵심 가치로 부상",
+    "takeaways": [
+      "AI 기반 큐레이션, 경험 설계가 소비자의 시간을 점유하며 구매 결정에 결정적 영향력을 행사.",
+      "환경/사회적 가치 실천 여부가 브랜드 선택의 중요 기준으로 부상, 진정성 있는 ESG 소통 필수.",
+      "세대별 라이프스타일 격차 심화로 맞춤형 소통 전략이 필수적이며, 마이크로 커뮤니티의 영향력 증대."
+    ],
+    "insight": "불확실성 속 위로와 안정감을 추구하는 모든 세대에게, AI는 개인화된 '정서적 웰빙' 도우미로, 브랜드는 '가치 지향적 공동체'의 구심점으로 작용하며 소비를 이끌고 있다.",
+    "actions": [
+      "AI 기반 고객 데이터 분석을 강화하고 예측형 맞춤 서비스를 도입하여 초개인화된 감성적 경험을 제공.",
+      "ESG 경영 실천을 넘어, 소비자가 직접 참여하고 체감할 수 있는 지속가능성 캠페인 및 제품/서비스 기획."
+    ]
+  }
+}
