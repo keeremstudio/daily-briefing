@@ -1,0 +1,453 @@
+{
+  "edition": "No. 433",
+  "moods": {
+    "10대": 58,
+    "20대": 55,
+    "30대": 62,
+    "40대": 57,
+    "50대": 65,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 64,
+    "40대": 62,
+    "50대": 63,
+    "60대+": 70
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "온디바이스 AI",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 2,
+      "term": "지속가능 패션",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 3,
+      "term": "경험형 소비",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 4,
+      "term": "생성형 AI 디자인",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "헬스케어 구독",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 6,
+      "term": "로컬 브랜딩",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 7,
+      "term": "숏폼 커머스",
+      "dir": "flat",
+      "change": "2%"
+    },
+    {
+      "rank": 8,
+      "term": "리셀 플랫폼",
+      "dir": "down",
+      "change": "3%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 122.6,
+      "delta": -0.5
+    },
+    {
+      "name": "금융·자산",
+      "value": 109.7,
+      "delta": 0.8
+    },
+    {
+      "name": "소비·유통",
+      "value": 99.2,
+      "delta": 0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 105.1,
+      "delta": 0.6
+    },
+    {
+      "name": "고용·노동",
+      "value": 103,
+      "delta": 0.4
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 라이프스타일 큐레이션",
+      "momentum": 85,
+      "desc": "개인의 취향, 건강 데이터를 분석하여 식단, 운동, 여가 활동까지 맞춤형으로 제안하는 AI 서비스가 주목받고 있습니다."
+    },
+    {
+      "title": "프리미엄 비건 & 대체식품",
+      "momentum": 80,
+      "desc": "환경과 건강을 넘어 '미식 경험'을 제공하는 고품질 비건 및 대체육, 대체유 제품들이 시장을 확대하고 있습니다."
+    },
+    {
+      "title": "초개인화 웰니스 여행",
+      "momentum": 78,
+      "desc": "AI 분석을 통해 개인의 스트레스 지수, 수면 패턴 등을 고려한 맞춤형 휴식과 힐링 프로그램을 제공하는 여행 상품이 인기입니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "어드밴트, 온디바이스 AI 서비스 실증·확산 사업 참여 - 중앙일보",
+      "source": "중앙일보",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zaVZmTUE3WXlIczM2Y193MTRvM044VUJrWWFDZ2hRajlfRktxVWNIODZjY3Rsd3Y2UU14NTRuOVJncnc0N29HT1R2MngwOEpITUMtQmt3?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T08:17:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "경북도, 과기부 '온디바이스 AI 실증·확산 공모' 2년 연속 선정 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "22시간 전",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85dmFfcWc0aklJeW9BcGJCczZSdUFETDNGcGRkUWl4bjhnaFBiU21MbTlSZ2JkZmVJT0YwZEFEZkVHRzVlMmhzc3c4Ni1na2lVYkR2bjFnelJXMGloSS1YNWI4OUpfei1hLTBPNUlGY9IBb0FVX3lxTE85dmFfcWc0aklJeW9BcGJCczZSdUFETDNGcGRkUWl4bjhnaFBiU21MbTlSZ2JkZmVJT0YwZEFEZkVHRzVlMmhzc3c4Ni1na2lVYkR2bjFnelJXMGloSS1YNWI4OUpfei1hLTBPNUlGYw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-07T00:00:48.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "성북스마트패션산업센터 패션봉제 중심 지역 경제 선순환 실천 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaZEhyaDZvc0l2bmFKUFhNenVySGNNUDV4ZWNyT0Z6amhyZl9fTTc0Q2RHdUtYNmdKZ09kREtPYWw2UmVKQXo0blRoY3Y2V0ZRLU5HNXVn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T04:14:09.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "“보급형도 온디바이스 AI” KT, 실속파 저격 ‘갤럭시 점프5’ 출시 - 이데일리",
+      "source": "이데일리",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeHNGMFJvNVFsakdMY1VJeWVNZEFxQ3VyeE9DZFIySGxqOVBMSDlQSnppdUp0Q3pxek5lX2VmQWpqcTl6ODN5SXVuaTBsdVh3Z3ZtM2V3NzcyVHU4dTR1VEZJM0Q3aFgwc0Y5TVN0U1RqdFYzdnVfT1YwSGxQa3Jmcw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-02T23:31:43.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "\"청소년 교육부터 지역 정주까지\" 선문대, 충남사회서비스원과 협약 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "21시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3N1pnamg2cmNEU0IxQUtKSHI1WHJuUUJQZ08ycXZhTlFFdXhaZHpKNjFnRElMVkxzWHBUYVNRdXFLTnNsbVFyX256RFVxb0FuUUc3SU51UlBMeG5FWFc5Q0xUR2txVHlDbXfSAW9BVV95cUxNUmc0Wm9KYWdCY2xTNC1SY2I4aVdkSFNReG91Q2JMa29QUnNMX2Z3VllKZFVkNGY1MVhZZkY0V0l1aWEtN2oyTXlaZUtpVlp0WUxGajcyX09DWDZXUG9SRnVTSUVjbDUxcDFzRXJWSEk?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-07T01:02:29.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "강원랜드, AI 도박중독 상담 챗봇 도입…24시간 상담 지원 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YQURFY1U1aVVZZXkyazJxSURwQjJyUEI4TnVqdDM1XzFqZ3F1Skk4M1J1aUhTUWFKUUlVMHBEOFU5VzZvUFBFblN5TjlJOUZkYndtd3c2aklIYklLSjFLdzNYTDlrMUUtNFFz0gFwQVVfeXFMTy1IcXEtV2szSUh1YkprS3NkTVlEOVhjN3QzNWRfWjVjQ29kQzdNQi1NTTlQdXg3d2V3RW40MkUzMlY5THRFams5VE1nMjdUMjJmV0JTTGN3ZWpPUllCTjJjN3IyQlBnSHA2b25NbWlQMA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-01T01:37:32.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "안민석 경기도교육감 추진 5대 경기형교육정책…일부에선 우려의 목소리 - 인천일보",
+        "source": "인천일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvcUkwXzJsdlVuY0phcUVVZVhMZ2tXNkFJdXR3ZWw2b0YzeEJ0TmxHeTRSeGJyMDhNMmJsOTFEWnRNZ1dMejJqMXNhVEVDLUM5ckVtWjZtZHhVckJTZUw3N2JSVThwUlhkOVhXdGJ1X0M?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T08:41:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "법무부, 디지털노마드 비자 정식 운영…소득요건↓체류기간↑ - 한국경제",
+        "source": "한국경제",
+        "time": "12시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oa3RxMmxGT1Y0XzBmcThmejJhWkU1Qy10VU1neHdiRE1qTEJRQ2N5Yy1KWjNrQUNlaTJ0YTN3azlicW5VbUNXRGdrNHJyZ1lKNTZ2UNIBVEFVX3lxTE9oa3RxMmxGT1Y0XzBmcThmejJhWkU1Qy10VU1neHdiRE1qTEJRQ2N5Yy1KWjNrQUNlaTJ0YTN3azlicW5VbUNXRGdrNHJyZ1lKNTZ2UA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-07T09:38:44.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "디지털노마드 비자 정식 운영…청년·비수도권 외국인 소득 문턱 낮춘다 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "13시간 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82QVZ3RUlFb0N1aUFhLW9hbmxaZ1V1YjJDZjMxeHZnLXh2aVpCWWVsb3JEa2ZBRVZHcGJ4aWU4OHRCSHpsQXFTZmFrQkM5MlJEN1JBMzg3UUdLdUFPTmdDcUlLcDhFR3dLOXhxM21vRUbSAXBBVV95cUxPNkFWd0VJRW9DdWlBYS1vYW5sWmdVdWIyQ2YzMXh2Zy14dmlaQlllbG9yRGtmQUVWR3BieGllODh0Qkh6bEFxU2Zha0JDOTJSRDdSQTM4N1FHS3VBT05nQ3FJS3A4RUd3Szl4cTNtb0VG?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-07T08:22:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "'아무거나 안 쓰는' 사람들이 찾는 덴마크 브랜드는 [오상희의 공간&amp;트렌드] - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfdVV4TTZHTXBrOVRDS1R4dDIwNTZPRUZPWTIxbW9ub0RxTk9NTURGNFZPUUpNaG5vRHhSbWExX0F1QXh6RTFwT2V3ZXFBUWdMZnNjdENXeWNCZ9IBVEFVX3lxTE1LbVpLc2c0OUF6NU1nbU5STHNMWFY5emROOU4zR0NTUVlhYWM1ck5seFVnUU5uWGdNS3MxY1E2aHl2VFB2RzQteWRhNHRqaGVWWkhiVA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-01T01:30:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "체면보다 실리…“아빠는 우리 집 후방 사령관” - 중앙일보",
+        "source": "중앙일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RSHN3Q3V6OC0tU0JpX0hBMTNhNzFJV0dWcWt6Ny1zcjM4bTB0Z1NVNEY2ZmhYc29ZQ1N6UEtNaHhvZHFrQm9SMXRPaFhLV2lOM3dwVzZB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-03T15:55:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "공공형 신혼희망타운 ‘e편한세상 분당 퍼스트빌리지’ 가보니[르포] - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qaWkyVi12alZ5aVFReTY0eTkycmlubmxZdjJ5eUViRVduOXRURDJKM0lzSjFadWQ5b3NYZHZRS2hvaTRuVHU3elJ1Ymt4WmwyLW9NNTlRT2Ytb3ozUUo5NUxfd20?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T06:02:02.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "'워킹맘' 前 차관이 전하는 일·가정 모두 잡는 법…신간 - 한국경제",
+        "source": "한국경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10djFSSk9IMEFsMVB0WjcweVNjZWFOSFFvZmd3QVV3bmpGNWJoenFXbVlNWXhKamNNdDVpZER5dUVKS3BNdnRGSDZHVVNPc3NTSnZVdTNralMwZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-03T07:15:26.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "“만 7세 ‘이것’ 씹게 해라” 수백만원 교정비 아끼는 법 - 중앙일보",
+        "source": "중앙일보",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jdmlnbkI1R0Y2U0pleVNHRmx2YWZ4bEt6VzU0aGxVMkRKQld1VTFNLWwwX2JJSFFReHpVQlp6ZnFTb2hIZnlPSnY0Q25aWDRYNE52U1dn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-05T20:04:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "기술패권 주도권 뺏길라…AI 교육 열 올리는 美·中 - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ob3dYdDkza0lVdGVTNzNkNkYwQTdXTHlCVlFRYTh6Q0p2Z1dFRUFyd2Z4WWFIblVTQ1AzQ0NjWXVlZWtHbjZxWWdNT1dobGNvckNGbtIBVEFVX3lxTE5ob3dYdDkza0lVdGVTNzNkNkYwQTdXTHlCVlFRYTh6Q0p2Z1dFRUFyd2Z4WWFIblVTQ1AzQ0NjWXVlZWtHbjZxWWdNT1dobGNvckNGbg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T08:38:24.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "학생 183만명에 '의무 교육'…AI 패권 노린 중국의 '초강수' [차이나 워치] - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrMnJNdG45anlrR1FfeDkySkc1OFNsWVlKZTZ6aV9SYzBtcjFvTXhjMkNUN1hsRS1WbjAzamhqbkV1N1Bzb3BPNTNDMnhjeldsQTVfczdHbEpwd9IBVEFVX3lxTE1VUWNVZWU5WkROTklDdFhFMFpMUjZsZnE4UF9ZV29KSGdXUUhYTWREbDlWNi1pcU9sQy13N1BMTjUxdmdTVGttV2pqb2R5enVBZzI3Qg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T06:34:08.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "국민연금공단, 세종대 공공정책대학원과 노후준비 전문가 양성 나서 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KNE1NaFZwWnNXemVjUENIYUltbjFnUGI2SVFyQlZpbEhmd0hfWXNRMm5zU09kM1NZcXNaMXQ5ajR5MXZ6dFM1anBvMkY2YUdOd2JQMlBB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T00:28:13.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "첫 월급 받자마자 은퇴 준비?…요즘 2030 돈 굴리는 공식 [김연지의 연금빌드업] - 한국경제",
+        "source": "한국경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWElEYVROcEItaXphMGRwa3J5WGdneUMtWEIzTXYwX19pN1pId0xMMHhZaEFMMGw4bWtXOWhQbXRSdHRPRlZwMnFiOFZSMFktVmxfclF2MVd6Z9IBVEFVX3lxTFA1ZnJHRGptRjB1bXdpZmtDV1YwNUtGN1B0bWZodDRhU0tYU2dQdXVaOUZFbWtxVzBZVnlQbGVKSEJYWVExcU93RzdTU3l5M3RXOTJkQg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T21:30:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"반품비 무서워 쿠팡 썼는데…\" G마켓도 8월부터 무료 반품 시작 - 마이데일리",
+        "source": "마이데일리",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HX3BwemlORWlCV3loVzBaNmxpWnV0V2J4dU5rMFJwUVE2ZmJDVjBXV2FnTHF5OFNrYnlRNDdLSC1tLVlUY0tNeW1KWlBMTVBTU2RQWUlqcGFMOW9FOGVNcw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T09:36:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "법정 정년은 60세, 노인은 70세?… 10년 ‘소득·복지 공백’ 공포 - 중앙일보",
+        "source": "중앙일보",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jLWlyU1dienJjd2VIMzlxTXJscEVVQjM1VkJiMXNNQTB3UFo1MldKLVNpaGJtSE9RcGp2SWNYYTcwVExfb3NqMDhHTWFmQU91eFhYYl9R?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T21:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[집중기획/벼랑끝에 내몰린 노인들](3)복지정책 거주지별로 '천차만별' - 경기신문",
+        "source": "경기신문",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TMlNCbDdyMU9seWxxUG9SbWRzOTAxeG8wV0pkNWdMdGd5YlNqUWhPdV8zN05tc2ctb3dGR25UamFTN3JrLW5ENjVaWC11ekpMbENsRjBPR1ZCV2lfY2Y5OHNn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-02T05:27:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "AI 디자인 도구의 보편화 속, 브랜드 진정성과 지속가능한 경험 디자인의 중요성 증대",
+    "insight": "AI는 디자인 생산성을 혁신하지만, 결국 브랜드의 핵심 가치와 인간적 감성을 담아내는 '진정성' 있는 스토리텔링과 경험 디자인이 차별화된 경쟁력을 만듭니다.",
+    "rising": [
+      {
+        "title": "AI 기반 맞춤형 패키지 디자인",
+        "momentum": 85,
+        "desc": "소비자 데이터 기반으로 개인화된 메시지와 그래픽을 적용한 패키지가 대량 생산 시스템에 접목되고 있습니다."
+      },
+      {
+        "title": "순환 경제를 위한 소재 및 공정 디자인",
+        "momentum": 82,
+        "desc": "재활용성, 생분해성 소재 사용은 물론, 제품의 전 생애 주기를 고려한 디자인과 리사이클링 공정이 주목받고 있습니다."
+      },
+      {
+        "title": "몰입형 리테일 공간 경험 디자인",
+        "momentum": 79,
+        "desc": "AR/VR, 인터랙티브 미디어를 활용하여 오프라인 매장에서 디지털과 융합된 감각적인 몰입형 경험을 제공하는 디자인이 확산됩니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "교도소에서도 AI 활용법 배운다…모범수형자 대상 자립 교육 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qbWJGcEhoRVdja1ZUT3c2MnBwMVpzV1BMaHh0Rm1yUExDdVNRcjdCSmRuS3RtYXdITlQ1aWlWZk5EXzlRSWkzLXp0LW1mbWZXQ1VJWnhZRXhGNkNKSlVaN1pCSjZaZXE0LUpzdXlaX1jSAXBBVV95cUxOam1iRnBIaEVXY2tWVE93NjJwcDFac1dQTGh4dEZtclBMQ3VTUXI3Qkpkbkt0bWF3SE5UNWlpVmZORF85UUlpMy16dC1tZm1mV0NVSVp4WUV4RjZDSkpVWjdaQko2WmVxNC1Kc3V5Wl9Y?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T05:52:39.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "[AI Trend Map] 정범진 파이온코퍼레이션 대표 | AI 마케팅 자동화의 미래 - 매일경제",
+      "source": "매일경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kaDVmNC04UXFwT3VkQVgyd0pMQlppaktudTM5LWNBWGVpQ1hBNEgyc0VPRDJJcFBLX3U5Xzk3OXFsU2Z6SlltalVSQTJOelhiaDltNA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-03T08:11:51.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "'아무거나 안 쓰는' 사람들이 찾는 덴마크 브랜드는 [오상희의 공간&amp;트렌드] - 한국경제",
+      "source": "한국경제",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfdVV4TTZHTXBrOVRDS1R4dDIwNTZPRUZPWTIxbW9ub0RxTk9NTURGNFZPUUpNaG5vRHhSbWExX0F1QXh6RTFwT2V3ZXFBUWdMZnNjdENXeWNCZ9IBVEFVX3lxTE1LbVpLc2c0OUF6NU1nbU5STHNMWFY5emROOU4zR0NTUVlhYWM1ck5seFVnUU5uWGdNS3MxY1E2aHl2VFB2RzQteWRhNHRqaGVWWkhiVA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-01T01:30:06.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 시대, AI와 지속가능성으로 진화하는 소비 경험",
+    "takeaways": [
+      "AI 기술이 개인화된 소비 경험을 극대화하며 시장의 핵심 동력으로 부상하고 있습니다.",
+      "지속가능성 및 윤리적 소비 트렌드가 MZ세대를 넘어 전 연령대의 중요한 가치 기준으로 확산되고 있습니다.",
+      "오프라인 공간은 '경험'과 '커뮤니티'를 중심으로 재편되며, 디지털과의 융합을 통해 새로운 가치를 창출합니다."
+    ],
+    "insight": "모든 세대가 '개인화된 가치 경험'에 대한 기대치를 높이는 가운데, AI는 이를 실현하는 핵심 기술로, 브랜드는 진정성과 편리함을 동시에 제공해야 합니다.",
+    "actions": [
+      "AI 기반의 초개인화된 제품 추천 및 서비스 경험 제공 시스템을 고도화하십시오.",
+      "지속가능한 원료, 생산 과정, 윤리적 메시지를 브랜드 스토리텔링에 적극적으로 통합하여 진정성을 확보하십시오."
+    ]
+  }
+}
