@@ -1,0 +1,368 @@
+{
+  "edition": "No. 435",
+  "moods": {
+    "10대": 61,
+    "20대": 57,
+    "30대": 61,
+    "40대": 64,
+    "50대": 66,
+    "60대+": 70
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 59,
+    "30대": 61,
+    "40대": 59,
+    "50대": 69,
+    "60대+": 72
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "생성형AI",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 2,
+      "term": "초개인화",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 3,
+      "term": "가치소비",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 4,
+      "term": "경험경제",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 5,
+      "term": "웰니스",
+      "dir": "up",
+      "change": "6%"
+    },
+    {
+      "rank": 6,
+      "term": "피지털",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 7,
+      "term": "로컬리티",
+      "dir": "up",
+      "change": "4%"
+    },
+    {
+      "rank": 8,
+      "term": "구독피로",
+      "dir": "up",
+      "change": "3%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 125.3,
+      "delta": 1.1
+    },
+    {
+      "name": "금융·자산",
+      "value": 110.9,
+      "delta": 0.9
+    },
+    {
+      "name": "소비·유통",
+      "value": 98.9,
+      "delta": -0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 105.4,
+      "delta": -0.3
+    },
+    {
+      "name": "고용·노동",
+      "value": 104.9,
+      "delta": 1.4
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 취향 큐레이션 플랫폼",
+      "momentum": 88,
+      "desc": "개인화된 콘텐츠 및 상품 추천이 고도화되어 소비자의 탐색 시간을 절약하며 만족도를 높임."
+    },
+    {
+      "title": "지속가능 패션/뷰티 리커머스",
+      "momentum": 85,
+      "desc": "중고, 업사이클링 제품에 대한 관심 증대와 함께 친환경 소비 트렌드가 시장 성장을 견인."
+    },
+    {
+      "title": "몰입형 미디어 아트 전시 공간",
+      "momentum": 82,
+      "desc": "단순 관람을 넘어 오감을 자극하는 체험형 전시가 오프라인 경험 소비의 핵심으로 부상."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "청운대·생성형AI콘텐츠학회, AI 기반 지역인재 양성 힘 모은다 - 중앙일보",
+      "source": "중앙일보",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zUl9HS3Y2NzNGcjlHaWxFdF93UTMwNnpTc0FlNC1uQUNVckFJZGwzaWhEY2lvb2tSNk1WWW1sbUdfWnhpS3J6RFNEak1mWEhjbEZpWFZ3?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T09:57:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "AI 시대, 지역 문화예술관광의 생존 전략: ‘대체 불가능한 로컬’을 설계하라 - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zbzFlSHVKXzIwUDFGNEdJN1hubGx0QkEwV0FGd01INkRSdUZEMFN0Y1RvMzdzejRyWnlpc3hJdzhXVFI1TW1lVU41b3dvc3ZSTFRzdXhRY09Ld9IBVEFVX3lxTE1EcU5YTDRBWTU5el9kdkZrUEFrUnJkMGo2OTJ1Y3ZyRzJtUkxuWm8zTVhoQjVGSWpkM05CUGZkSDRmcENSUHM4TWNXOHozMGYwVU1lZw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-07T04:26:39.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "中, 생성형 AI 넘어 '에이전트 AI' 시대로[정유신의 china story] - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PUzNtbWQzOWRwY0h5WjFBZ3JVR1RmWEktdEpnLWtyY3UtZktNS1NCNzl4cjZpTHNzcXF4VXZjNTg1ZENtTTYtd3BXTloyWThPbEw1MG9yVkVvcDM2TVRsVDZWdkZjUkw0SUx30gFwQVVfeXFMTkJXSGhHNXVSNmdyUEtJajB0aWltMmFSSEM4TG5mNDhnLWoyb1VINVlyWGZqaG9uVm1QTHhlV21FVG8wNVdjNHp6c1NndFVmd1F6eU1OQTk2M2s1a0dRV1lGMVNqZ0dMZVU1ZXBBTUc5YQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T19:03:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "“과자도 제철 있다“…햇감자부터 초당옥수수까지 ‘시즌 상품’ 인기 - 이데일리",
+      "source": "이데일리",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU3ZpcmdpcEIzcE8xMVp3YTNIRjZZQ3hwdWNwNThuR05nbzBWamxXZmp6czhxWWdSVThOR2lHUXNtbXVDTk8xMDFENTRtMG5WcUI0N0tQYTdaSUx4TGFLSEdaYWZ3TkV4d3FrdHFEM01FRXVJcTVvZXF3VklXSHR4Tw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T06:49:10.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "\"청소년 교육부터 지역 정주까지\" 선문대, 충남사회서비스원과 협약 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3N1pnamg2cmNEU0IxQUtKSHI1WHJuUUJQZ08ycXZhTlFFdXhaZHpKNjFnRElMVkxzWHBUYVNRdXFLTnNsbVFyX256RFVxb0FuUUc3SU51UlBMeG5FWFc5Q0xUR2txVHlDbXfSAW9BVV95cUxNUmc0Wm9KYWdCY2xTNC1SY2I4aVdkSFNReG91Q2JMa29QUnNMX2Z3VllKZFVkNGY1MVhZZkY0V0l1aWEtN2oyTXlaZUtpVlp0WUxGajcyX09DWDZXUG9SRnVTSUVjbDUxcDFzRXJWSEk?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-07T01:02:29.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"'교육여건 개선' 학생들 응원 토대로 '함께 발전하는 포천' 만들것\" - 이데일리",
+        "source": "이데일리",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNkJ5aTAtajFOTlhYSGU1RjdYN0hKVG5iNFUxak5HSDhTZjl2N2Iya3poVVFaSzZCejNLSk5VZ2dQQ3NzTklIbmR6eXc2T3RqemFDLUc5VDJ4M3BfNEh1WUtmZHZyM1FFZzZJMzd3dUR3bDVKUmRGOU92Tks0eU13Zg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T04:20:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "대진대, 경기북부 청년 취업 플랫폼으로 자리매김 - 경기일보",
+        "source": "경기일보",
+        "time": "20시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DcWZCSHdHd1dvbXU0YnVyWTRsOHgtSEV1SkRhcE1tYVhyVHltY3JCMjJMQ09TVERIZnREYWFvVTJuWGdCQlRQN2p3RW1WMnliS1cwSWJqMzRuNEk?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T02:08:17.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "생애최초 너마저...\"주담대 반토막, 당장 1억 어디서 구해\" 패닉 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "14시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBESkgyR0EycUZNQ1dDX3ZPOFR3bGs5UXlVYi1fbkpvLWZhNkVsU29kaUlsSm9UaUxRMnRST2w4NjQ5akZ0dGJ0c1dmd1JuVWEtYjRWSXNvTDJjeFo3bzZKa0RtTzlBV1UtbXfSAW9BVV95cUxPMVRvbU1GcnVOOHZTNlJFV3dkTlNhbmtabFlBek9WdW50T210dGdsZjhvSWpHakJpNjNNR3VTVnF4ako1ODliT2pzYmN2WktyODhSVHdmM3lQbVl2MEdGZ3hvU1NaNXJTMkczUkZTTDQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T08:21:41.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "공공형 신혼희망타운 ‘e편한세상 분당 퍼스트빌리지’ 가보니[르포] - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qaWkyVi12alZ5aVFReTY0eTkycmlubmxZdjJ5eUViRVduOXRURDJKM0lzSjFadWQ5b3NYZHZRS2hvaTRuVHU3elJ1Ymt4WmwyLW9NNTlRT2Ytb3ozUUo5NUxfd20?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T06:02:02.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "[단독] 위내시경 받고 숨졌는데…고인에 날아온 ‘검진 이벤트’ 문자 - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00SzhKWHZnbHRESm9DTFFCcnpyUklIdGpVLUEycUpLNHZkeFBLYW01VHVuVzVTVXZ6MFFUbWh4WFNkMnpsR2tIT05kRDNMdVptblktdVFGZGVBV3ZUSVE3S3hB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T05:35:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "한·몽, 총 21건 MOU 체결…경제·외교·교육 협력↑ - 이데일리",
+        "source": "이데일리",
+        "time": "13시간 전",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQejAxODlYakJJUnFGbWhyN3FYQ0FPM2VtSGRZbXU4cFZxRm9YZWs3c09JR2xUNXAzV2Y3aGRaR3pRZWdPTU4xbjl4eDdCSnVmN20tMzZ4QTBJVnR5bGZfaTN1MzBiVHpQVWNvRVk0ZllBdV90amRyU2VLM1JxSVFEZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T08:55:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“나이는 40대인데 몸은 50대” 신지, 일상마저 흔드는 ‘충격적’ 몸 상태 - 매일경제",
+        "source": "매일경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yRDhoUGdxNmRYY1V5RFdMSkhJZTJUZTQ5Qk1DdnpZV3hxZEJORlY4ci16V1E3cUJ0M0lWdnlXVEFQQVZDY2Y3cnhZYzZRZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T11:38:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [],
+    "60대+": [
+      {
+        "title": "한국 노인빈곤율 30%대로 떨어졌지만...OECD 1위 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "22시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCMXB4RldUblY0M1hvQk1PaFBSMkhLUF85a3l3THFmR1V3aHU5ODZRRnlaa21uR3NuWDRZRldDLUQ2YXV1aHBKeWJqLWgxVGRQdGlTYnJB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T23:40:12.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "성남시, 고령사회 대응 강화…노인복지·돌봄·예방접종 정책 올인! - 경기신문",
+        "source": "경기신문",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZelN1dHJnWmFRVTR5bHJZOGJpN2oyMTYtdTB3eHlCZUhtR2hoOFF6NVN4QVBiYTd3SXNIZ01kWHEtbnQ0elBBMmszS1R4Nl8tcjhLckxyRlhHMVFqaTJPcFpn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-05T06:07:45.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "AI와 지속가능성이 만드는 디자인의 새로운 지평",
+    "insight": "디자인은 이제 단순한 미적 요소를 넘어, AI를 통한 초개인화된 사용자 경험을 제공하고, 지속가능한 가치를 시각적으로 전달하는 핵심적인 브랜드 언어가 되고 있다.",
+    "rising": [
+      {
+        "title": "생성형 AI 기반 디자인 툴 대중화",
+        "momentum": 90,
+        "desc": "디자이너의 작업 효율성을 극대화하고, 창의적인 실험 범위를 확장하며 새로운 디자인 결과물을 도출."
+      },
+      {
+        "title": "바이오/업사이클링 소재 패키징 디자인",
+        "momentum": 87,
+        "desc": "친환경 가치를 시각적으로 소구하며 브랜드의 지속가능성을 강화하고 소비자에게 긍정적 이미지 형성."
+      },
+      {
+        "title": "'공간 경험' 중심의 리테일 디자인",
+        "momentum": 85,
+        "desc": "단순 상품 판매를 넘어 브랜드 스토리를 체험하고 고객과 상호작용하는 몰입형 공간 설계가 중요해짐."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "한국인들 줄 서서 '중국산' 사갔다…'오픈런' 난리 난 브랜드 [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "10시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41a0tLQXY3U1NqOXFEV0dqekxSRkdXSkM3dXRZdVlydklXSHhTMC1pdFhGd3lSQi1QMTlmRnA4QXdiSHRGd0pFaEl0eldobmZFZTdxTmo4UEtMUdIBVEFVX3lxTE1GMTAxOFJ0S0d0M1IwVTBsUTY4SHVqajhwZnh2czhHYWJoLUF1anBTVTJGYU10VHdtVVlIM195SEF5ZThIdDVqRXp2aUhIcVlQMXYwVQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T12:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "무신사, 소상공인 브랜드 육성 프로그램 운영…100개사 맞춤 지원 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "20시간 전",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBFenhTYTRqWGNUcG5xVjhHUVNkNERpbTlRczF6LWMtaXJ5XzRZUXp1aDU3N2tMN09PZG0waVI4RE1Ed2hOYnZPY05wY0RPOER3NWdqUlVjM0NfYmJqQ2daSkVCdHE4Q1VtdE0tRUJqc9IBb0FVX3lxTFBFenhTYTRqWGNUcG5xVjhHUVNkNERpbTlRczF6LWMtaXJ5XzRZUXp1aDU3N2tMN09PZG0waVI4RE1Ed2hOYnZPY05wY0RPOER3NWdqUlVjM0NfYmJqQ2daSkVCdHE4Q1VtdE0tRUJqcw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T01:36:09.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "추억의 신발, 뜻밖의 '역주행' 하더니…\"나이키도 뛰어들었다\" [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaR25TdnluSTJUclZDYXNsRGFHN1p2TUdJZURzNDUyQ1M1bE1Fbk1UZ3lRRDhWV1I5aThaRjVkYk0tZkdkejNWMUhvOE5maFl1RjRHedIBVEFVX3lxTFBaR25TdnluSTJUclZDYXNsRGFHN1p2TUdJZURzNDUyQ1M1bE1Fbk1UZ3lRRDhWV1I5aThaRjVkYk0tZkdkejNWMUhvOE5maFl1RjRHeQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-08T12:01:56.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 시대, 경험과 지속가능성으로 진화하는 소비 트렌드",
+    "takeaways": [
+      "AI 기반 초개인화 서비스 확산과 소비자 피로도 증가가 동시 발생",
+      "환경·사회적 가치를 중시하는 '가치 소비'가 주류 소비 형태로 자리매김",
+      "온·오프라인 경계를 허물며 몰입형 '경험 소비'의 중요성 증대"
+    ],
+    "insight": "고도화된 기술이 제공하는 편리함 속에서도, 소비자들은 본질적인 연결감과 의미 있는 경험, 그리고 지속가능한 가치에서 진정한 만족을 찾으려는 이중적 심리를 보인다. 브랜드는 기술을 넘어선 '인간적 공감대'를 형성해야 한다.",
+    "actions": [
+      "AI 활용 개인화 마케팅 고도화 및 데이터 윤리성 확보에 주력",
+      "ESG 경영 투명성 강화 및 진정성 있는 브랜드 스토리텔링으로 가치 소비층 공략"
+    ]
+  }
+}
