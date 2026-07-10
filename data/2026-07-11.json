@@ -1,0 +1,417 @@
+{
+  "edition": "No. 436",
+  "moods": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "moodsPrev": {
+    "10대": 61,
+    "20대": 57,
+    "30대": 61,
+    "40대": 64,
+    "50대": 66,
+    "60대+": 70
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "공감 AI",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 2,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 3,
+      "term": "지속가능 패션",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 4,
+      "term": "디지털 웰니스",
+      "dir": "up",
+      "change": "9%"
+    },
+    {
+      "rank": 5,
+      "term": "로컬 브랜딩",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 6,
+      "term": "AI 휴먼",
+      "dir": "flat",
+      "change": "5%"
+    },
+    {
+      "rank": 7,
+      "term": "구독 경제 2.0",
+      "dir": "up",
+      "change": "3%"
+    },
+    {
+      "rank": 8,
+      "term": "크리에이터 이코노미",
+      "dir": "flat",
+      "change": "2%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 125.8,
+      "delta": 0.5
+    },
+    {
+      "name": "금융·자산",
+      "value": 110.8,
+      "delta": -0.1
+    },
+    {
+      "name": "소비·유통",
+      "value": 99.4,
+      "delta": 0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 105,
+      "delta": -0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 105.8,
+      "delta": 0.9
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 초개인화 큐레이션 서비스",
+      "momentum": 92,
+      "desc": "개인의 소비 이력은 물론 감정 상태, 라이프스타일까지 분석하여 최적화된 상품과 콘텐츠를 제안하는 서비스가 각광받고 있습니다."
+    },
+    {
+      "title": "몰입형 리테일 경험 공간",
+      "momentum": 88,
+      "desc": "단순 제품 판매를 넘어, 브랜드의 세계관을 오감으로 체험할 수 있는 테마형 플래그십 스토어 및 팝업 공간이 인기를 끌고 있습니다."
+    },
+    {
+      "title": "지속가능성 인증 및 투명한 공급망",
+      "momentum": 85,
+      "desc": "환경적, 사회적 책임을 다하는 기업에 대한 소비자 신뢰가 높아지면서, 제품의 생산 과정과 원료의 투명성을 공개하는 움직임이 확산되고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "‘한·영 패션 퓨쳐스 – 지속가능한 패션의 미래’ 전시 개최 - 중앙일보",
+      "source": "중앙일보",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11ajFRSzBFX1pMQXRVRmdkODJIekNtM01Fang0ekN0aGx2aVFhUnZId3hBSkJ6a1NQQXhudHBmNkZCWllGLWxvMl9YR08zZ2Vaa0piOFNn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T01:51:29.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "신세계百, AI 캐릭터 '김햄찌' 단독 팝업…\"사전예약 10분 마감\" - 한국경제",
+      "source": "한국경제",
+      "time": "22시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jY0ozNnhMY2xTRUpQc25qeVZsc0VFekVZdHlIaTZ5c3NhRC1IWHRkN2RmS3NDMTlQeFZTNXJQblh3RG5GVmZqUkNFZF9EU244WGxYVdIBVEFVX3lxTE9jY0ozNnhMY2xTRUpQc25qeVZsc0VFekVZdHlIaTZ5c3NhRC1IWHRkN2RmS3NDMTlQeFZTNXJQblh3RG5GVmZqUkNFZF9EU244WGxYVQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T23:49:48.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "英 고가 자전거, 한국총판 바뀐 이유…패션 회사의 '브롬톤 실험' - 한국경제",
+      "source": "한국경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00Yy00NkZkTllIc1ltcF9QYmpFYXVSYnZySWpJWGFiYnNvTkpfMWk2NjNNU2h1TVBPaS1lcUM1VDFEZWFDMjVKSmtnUnZkNnJLQVAxLW01andKd9IBVEFVX3lxTE5Xb1JZemJVdExDaFZCWG1oRFpSYW9nVnBhWWNlOUJScGFoN0lWN0ZuX2lrU3ppdnhMQnMxTjdvMUhocTBTU1JCY094Mng1RXhOc2lSOQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-07T10:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "인천시, 사회연대경제 청년 일 경험 시범사업 참여 기업 모집 - 인천일보",
+      "source": "인천일보",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kREJKRVdQTnFTa0RnVU9BTjR5cWpMTUlEaGNVWEdqRFNnUzJnSWszcGdjMmR3dmhQRDgxLVd3WGY5WTZGZS1MXzRQaXJjYktuOWNQSV9sRjF3bGJFTC02ZHM5WExzNVFyV2t1bloxYnQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T11:00:02.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "나우즈, 8월 中 시상식 ‘2026 TIMA’ 첫 출격 - JTBC",
+        "source": "JTBC",
+        "time": "18시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aUGdRTHNtd1ZiWUE4SmR0ZFZMUjFWdUFVVjRCVklRZFV2RzFqZEVQVzZYZXFTVUdFbTJFZlVjbTI4VkhxRW12aWdqMFAtQWZvMGtPMA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-10T03:24:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "케이쓰리아이, 개인 맞춤형 AI 에이전트 기술 개발 과제 참여 - 이데일리",
+        "source": "이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM2xBNnQ0b1VRZFpZSmt5Mno0emRRS2xZQ3NMWnZKY2E2dkNRYlpQSGpZNlB0Z3psYjI4V3FhaElhYnhXaDRfR2JLOXEyOEJCZjZVaGdaWXV0blFlempqTkF0ZndUT3BOaGJiVFZobG1TRmJXektITzBVUWFSN2ZkcA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T00:46:47.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "일본 가요 리메이크 했더니 1위…요즘 MZ들 J팝에 빠진 이유 [K컬처인사이드] - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1IRktFMDBwMzhDOXl3TE9uN0t0YlhBZXpFWlgwMmZzRmp2NkZPNERGZlB5endlcXZxaUw0RTVVVHVWakotdEUzajBMRGFMMGNoQW1VZmkzdGtXUdIBVEFVX3lxTE55TXEzMmNmYXpXc2xLbzU4aFBnanlrdUg4QjJTZ1NnYVBRRGJORnhrNWxQd2dwQ2xYUjBPRnkzV2E1ZzUtdUxieTFqNGZTMlBpTUlEZg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T09:00:03.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "대진대, 경기북부 청년 취업 플랫폼으로 자리매김 - 경기일보",
+        "source": "경기일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DcWZCSHdHd1dvbXU0YnVyWTRsOHgtSEV1SkRhcE1tYVhyVHltY3JCMjJMQ09TVERIZnREYWFvVTJuWGdCQlRQN2p3RW1WMnliS1cwSWJqMzRuNEk?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T02:08:17.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "입사 3년 차, 동기가 외제차 살 때 5000만원으로 아파트를 샀다 [92년생의 마포 22억 자가 마련기 ①] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "방금 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VMUs0UmVwYXVFQ1ZnWkhRRy01SVZhbWJra0Q5T2d6MUx3Q0pmZ2tSMm00MERQNVJNMFNnX3RlQkVJRzNtVzh1SkRtN01pUGgxMHJDd2p3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-10T22:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"당장 3억을 어디서\" 엄빠찬스 없인 엄두 못 낸다...주담대 '반토막' 충격 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "방금 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VSGNIRWs5SUhHMWRha2FpV0NXc280b3R1c19OVl9DcVZKSGtBZkJlZ2RtV3dHNDkwdnpHeUhJbm5ZZXBXSlZWN3RUdzVjS2x1YU5hY2JtbFRhSWJkR3E3TUJVTjdBZjIwR2fSAW9BVV95cUxQR2I5LTB2MXY2QUtQMTYzaDNnM2FQU3FJd1dxQTRFOUQta0lQYzVQMnBnRXNLbFhsWmpkMmhGT2RZVlFzcGRjM19RaTE4dkpoenpUWGFVNkFqN3k2bVY3MVNJekhBd09kb1BOQlE0UW8?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-10T21:10:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "[단독] 위내시경 받고 숨졌는데…고인에 날아온 ‘검진 이벤트’ 문자 - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00SzhKWHZnbHRESm9DTFFCcnpyUklIdGpVLUEycUpLNHZkeFBLYW01VHVuVzVTVXZ6MFFUbWh4WFNkMnpsR2tIT05kRDNMdVptblktdVFGZGVBV3ZUSVE3S3hB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T05:35:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "닥터다이어리, ADB-NHIS 국제 워크숍서 韓 AI 만성질환 관리 사례 소개 - 팜이데일리",
+        "source": "팜이데일리",
+        "time": "21시간 전",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EYzVhTFo4MHRqdTNuNWNvY3FXT0pmV2FIRVNXSlprRUJqdHo0R0RmaHBPemhzNl8yOGJDSFQ5WHZYV0RVZnR3bGZhcTUzVXl4S0Z3aUhPM1Y5ZFA3c0FxYWhuUnVKSkhYeXJhN3h3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-10T00:22:26.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "전통·디지털금융 융합 나선 미래에셋 … 주식앱서 코인도 투자 - 매일경제",
+        "source": "매일경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TNGN0LTVuaVhENmNNUjlOaXAtUW5VWDVuakRTd1A1SFo1cFlBYl9ibENXRGlYQ0FObl9QNUFuQ3NHMjJ0NVM2MEFTeUQyNmxoUXc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T08:47:54.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "광명시 \"신중년도 취업시장서 당당한 현역으로\"…인생 2막 지원 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53WmF5N1BFWm5Md0xhYk1NU1lJUGp4VFVEdmtuS3Q4MEYxMFhwZHo1QmFSbE4wU2dNdzB3cmlUZmFSQzZOVE5odWVDZUR5aFZMdjdIU3VJMEExSFlOMVVMdU9fUjRPY0VySWfSAW9BVV95cUxNZWZvUnpyMVFLOUdlVk5mYTc2YVNJcHh5RFozZWpET2tQUDNzZUozQXVzTXlXS0NkdmxWeThQVmFtcVZERVl2M1dhV0N5enBRU1k0enNvS2dOUVFaTHhQdFFlcEV3R2J4MVVmWWpOclE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T06:10:41.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "첫 월급 받자마자 은퇴 준비?…요즘 2030 돈 굴리는 공식 [김연지의 연금빌드업] - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XWElEYVROcEItaXphMGRwa3J5WGdneUMtWEIzTXYwX19pN1pId0xMMHhZaEFMMGw4bWtXOWhQbXRSdHRPRlZwMnFiOFZSMFktVmxfclF2MVd6Z9IBVEFVX3lxTFA1ZnJHRGptRjB1bXdpZmtDV1YwNUtGN1B0bWZodDRhU0tYU2dQdXVaOUZFbWtxVzBZVnlQbGVKSEJYWVExcU93RzdTU3l5M3RXOTJkQg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-04T21:30:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "마포구, 맞춤형 디지털 교육 운영 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "23시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5Z1d6UGtRSUUyYkNCa0sxa185SWV2TURxb2l1b1FDa3NkUVpEOExJcWV4Tk50YldTUGJIQnRPbDBDNTRwQjRKaGlCVGFxdTFxSWdEMDB3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T22:05:47.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "한국 노인빈곤율 30%대로 떨어졌지만...OECD 1위 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCMXB4RldUblY0M1hvQk1PaFBSMkhLUF85a3l3THFmR1V3aHU5ODZRRnlaa21uR3NuWDRZRldDLUQ2YXV1aHBKeWJqLWgxVGRQdGlTYnJB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T23:40:12.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "노인 빈곤율 사상 첫 30%대 진입...OECD “한국 39.7%” - 경기일보",
+        "source": "경기일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGbUpuc3JLRW8tNEExaTdOUjhoYUtyYm5Qclo3NE43b3VXWnBHd3NhMDNYQWljeWNpTklPWGNMMWVnYlp6a3RNX3FEQ1NOaHViTXZSNDYyR1ZmS0E?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T22:17:35.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "경험의 깊이를 더하는 '촉각적 디자인'과 '스토리텔링 공간'의 부상",
+    "insight": "오늘날 디자이너와 브랜드 운영자는 시각적 아름다움을 넘어, 사용자의 오감을 자극하고 브랜드의 서사를 전달하는 '총체적 경험 디자인'에 집중해야 합니다.",
+    "rising": [
+      {
+        "title": "AI 기반 개인화 패키징 디자인",
+        "momentum": 90,
+        "desc": "AI가 소비자의 취향과 구매 이력을 분석하여, 개개인에게 최적화된 컬러, 패턴, 메시지를 담은 맞춤형 패키징 디자인을 제안합니다."
+      },
+      {
+        "title": "바이오필릭 & 지속가능 소재 디자인",
+        "momentum": 87,
+        "desc": "자연에서 영감을 얻은 디자인과 재활용, 생분해성 등 지속가능한 신소재를 활용한 제품 및 공간 디자인이 주목받고 있습니다."
+      },
+      {
+        "title": "감각적 몰입형 리테일 공간 브랜딩",
+        "momentum": 82,
+        "desc": "브랜드 아이덴티티를 오감으로 체험할 수 있도록, 시각, 청각, 후각, 촉각 요소를 결합한 스토리텔링 기반의 리테일 공간 디자인이 핵심입니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "한국인들 줄 서서 '중국산' 사갔다…'오픈런' 난리 난 브랜드 [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41a0tLQXY3U1NqOXFEV0dqekxSRkdXSkM3dXRZdVlydklXSHhTMC1pdFhGd3lSQi1QMTlmRnA4QXdiSHRGd0pFaEl0eldobmZFZTdxTmo4UEtMUdIBVEFVX3lxTE1GMTAxOFJ0S0d0M1IwVTBsUTY4SHVqajhwZnh2czhHYWJoLUF1anBTVTJGYU10VHdtVVlIM195SEF5ZThIdDVqRXp2aUhIcVlQMXYwVQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T12:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "추억의 신발, 뜻밖의 '역주행' 하더니…\"나이키도 뛰어들었다\" [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaR25TdnluSTJUclZDYXNsRGFHN1p2TUdJZURzNDUyQ1M1bE1Fbk1UZ3lRRDhWV1I5aThaRjVkYk0tZkdkejNWMUhvOE5maFl1RjRHedIBVEFVX3lxTFBaR25TdnluSTJUclZDYXNsRGFHN1p2TUdJZURzNDUyQ1M1bE1Fbk1UZ3lRRDhWV1I5aThaRjVkYk0tZkdkejNWMUhvOE5maFl1RjRHeQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-08T12:01:56.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "롯데칠성음료 '새로', 제로슈거 이어 과일소주 트렌드까지…3년만에 '8억병' - 매일경제",
+      "source": "매일경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lakQxNV9qWXN5NjQwb2NMZEFsOVptT2J2VEF3WTVaS0RlQ1ZUZWpMZlpiSG5LWFlHMDFVM09rUFFMeC1fS1RYX2NVbElrMXRjOGxVNg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-08T07:11:31.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 너머 '공감 AI'와 '경험 투자' 시대, 소비 시장의 판을 바꾸다",
+    "takeaways": [
+      "AI 기술의 고도화로 단순 추천을 넘어선 '감성적 공감' 기반의 초개인화 서비스가 핵심 경쟁력으로 부상하고 있습니다.",
+      "소비자들은 단순 제품 구매를 넘어, 브랜드가 제공하는 독특하고 몰입감 있는 '경험'에 기꺼이 지갑을 열고 시간을 투자하는 경향이 강화되고 있습니다.",
+      "환경 및 사회적 가치를 중요시하는 소비 트렌드가 더욱 확고해지며, 기업의 투명한 ESG 경영과 진정성 있는 소통이 브랜드 신뢰의 필수 조건이 되었습니다."
+    ],
+    "insight": "MZ세대는 '경험'과 '가치'를 통해 자아를 실현하고, 기성세대는 '웰빙'과 '안정' 속에서 새로운 '의미'를 찾으려는 세대 심리가 시장 전반의 '프리미엄 경험' 및 '지속가능한 가치 소비'로 연결되고 있습니다.",
+    "actions": [
+      "고객 데이터를 활용하여 AI 기반의 감성 분석 시스템을 구축, 고객의 미묘한 니즈와 감정까지 포착하는 초개인화 마케팅 전략을 수립하세요.",
+      "오프라인 매장 및 디지털 채널에서 브랜드 스토리를 체험할 수 있는 몰입형 콘텐츠와 이벤트를 기획하여, 고객에게 잊을 수 없는 '경험 가치'를 제공하고 팬덤을 강화하세요."
+    ]
+  }
+}
