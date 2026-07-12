@@ -1,0 +1,381 @@
+{
+  "edition": "No. 438",
+  "moods": {
+    "10대": 66,
+    "20대": 62,
+    "30대": 67,
+    "40대": 63,
+    "50대": 69,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "초개인화",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 2,
+      "term": "생성형 AI",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 3,
+      "term": "지속가능성",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 4,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 5,
+      "term": "디지털 디톡스",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 6,
+      "term": "로컬 브랜딩",
+      "dir": "up",
+      "change": "6%"
+    },
+    {
+      "rank": 7,
+      "term": "웰니스 라이프",
+      "dir": "up",
+      "change": "4%"
+    },
+    {
+      "rank": 8,
+      "term": "AI 큐레이션",
+      "dir": "up",
+      "change": "9%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 127.2,
+      "delta": 1.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 110,
+      "delta": -0.8
+    },
+    {
+      "name": "소비·유통",
+      "value": 99,
+      "delta": -0.4
+    },
+    {
+      "name": "주거·부동산",
+      "value": 106.4,
+      "delta": 1.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 105.8,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 맞춤형 건강 관리 서비스",
+      "momentum": 88,
+      "desc": "개인의 유전체, 생활 습관 데이터를 AI가 분석하여 식단, 운동, 영양제 등 초개인화된 건강 솔루션을 제공하는 서비스가 급성장 중이다."
+    },
+    {
+      "title": "친환경 리필 스테이션 및 구독 모델",
+      "momentum": 85,
+      "desc": "플라스틱 사용을 줄이기 위한 리필 스테이션이 일상화되고, 세제, 화장품 등 생활용품의 친환경 구독 모델이 소비자들에게 큰 호응을 얻고 있다."
+    },
+    {
+      "title": "지역 커뮤니티 기반 소셜 살롱",
+      "momentum": 82,
+      "desc": "디지털 피로를 해소하고 진정한 연결감을 찾는 소비자들이 특정 취미, 관심사를 공유하는 오프라인 소셜 살롱에 적극적으로 참여하고 있다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "청운대·생성형AI콘텐츠학회, AI 기반 지역인재 양성 힘 모은다 - 중앙일보",
+      "source": "중앙일보",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zUl9HS3Y2NzNGcjlHaWxFdF93UTMwNnpTc0FlNC1uQUNVckFJZGwzaWhEY2lvb2tSNk1WWW1sbUdfWnhpS3J6RFNEak1mWEhjbEZpWFZ3?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-06T09:57:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "카카오뱅크, 한-몽골 비즈니스 포럼서 디지털 금융 혁신 경험 공유 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XemNRaW9ESXR0ajRLeHhWemZuRVFmbGRnYmRHdUk1VWxoQTRBcGxjRnk0OXJtcXpweUFlTmw5MjQyR0RldFBsLUZGekxSRXJXamZfM0l3?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-10T00:36:42.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"모의고사도 없이 수능치란 소리\"..지속가능성 '법정공시'에 재계 한숨 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50Tm1TQ3o0Rkh1UHVDSGNRa2prZERNTzdidlRjMHNmQzhUdjI5aEhUak44UnQ2M2lVUFEtV0xIQmhUa2wyTmVuUXJ3bW9WWVlTNUgtR2pUZ1Q3LVdLVU9OVUladDdOemYzR1B0M9IBckFVX3lxTFB0NVVXTEVvaGxnQ0VrMmR1Z2xFV09KNGlveHNKQll0cS1hdzU5SFJGT2xzQWdISk1ob3ljRnJiNjAzZVZvMFdrTUM0SUt6ZkRHQXItRXpjcWJydVdiYU1VTGlJeVZrWFRHUmlLWElGUElSZw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-08T07:30:36.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "카카오모빌리티, 르노코리아와 모빌리티 경험 혁신 나선다 - 매일경제",
+      "source": "매일경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE45NXB0WGRmdEI4emZ6eDE5cV9rS1dPZFFCa0JhYTFjX0VNcEZxQzhjdE11dmNwXzFFNDlSU3psNkk0bUFDdFZhLUR5STlGZw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-08T00:56:04.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "\"청소년 교육부터 지역 정주까지\" 선문대, 충남사회서비스원과 협약 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3N1pnamg2cmNEU0IxQUtKSHI1WHJuUUJQZ08ycXZhTlFFdXhaZHpKNjFnRElMVkxzWHBUYVNRdXFLTnNsbVFyX256RFVxb0FuUUc3SU51UlBMeG5FWFc5Q0xUR2txVHlDbXfSAW9BVV95cUxNUmc0Wm9KYWdCY2xTNC1SY2I4aVdkSFNReG91Q2JMa29QUnNMX2Z3VllKZFVkNGY1MVhZZkY0V0l1aWEtN2oyTXlaZUtpVlp0WUxGajcyX09DWDZXUG9SRnVTSUVjbDUxcDFzRXJWSEk?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-07T01:02:29.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "이천시 청소년 연합의회 ‘나비’, 정책 제안 교육 참여 - 인천일보",
+        "source": "인천일보",
+        "time": "20시간 전",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40UHd5UlpqRUlPV2VwQ0RHaHg3RHE0WXljNlpEUWMtUWw3LTAyS2pDVU4zbHhtbkNXZWE2aVd5d1BHVFR2WWtYcUVibmpvSE1GRWdHRm1IaGwwbml6WG9DdGtHZTdORVUwNXFPai1Obw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-12T01:02:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "\"AI로 취업문 뚫는다\" 가톨릭대 대학일자리플러스센터, 취업 캠프 운영 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wLXdINzRhcF96bDhMV0U4V1RxUDlIaWhOMElWRDJFN3pPTHZYMkhHSzFzQWRNVWV2bzV5RFgyRWFOc0xvcG83S2NCMUZxNG0wcW5VQ3NaTWFRM1pYMG5vOVBrLTFTejhqYXfSAW9BVV95cUxQc3JyTGJhdXBKbDlxa0l5UnFjSm54ZG5jdTlsOWZtLVh0LTJSTXRIOENzREc1bVZwdk9ZTTRTY1ZicTBhbEZJb2M2NWtYUkwyaVVhMGFpTHpYOW1qV0RYbXd6TVIxQzNpN2x2dmpMc2s?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T07:21:42.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "“기승전 부동산이죠” 입사 3년 차, 외제차 대신 5000만원으로 아파트를 샀다[92년생의 마포 22억 자가 마련기 ①] - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VMUs0UmVwYXVFQ1ZnWkhRRy01SVZhbWJra0Q5T2d6MUx3Q0pmZ2tSMm00MERQNVJNMFNnX3RlQkVJRzNtVzh1SkRtN01pUGgxMHJDd2p3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-10T22:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "전세난 내몰린 30대, 급매 뜨면 바로 '줍줍' - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01bjFELTFGS0owUU45VW9ORTNvTVJFYmtwbUlnWVIzMEUyVW9SV2VQTVl3Q0hmUG16bm5kSUVGMDF2bU13RDNZeTF4WnlUbGxidGJ3R2owekI?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-09T08:48:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "[라이프 트렌드&amp;] 6개월 연속 MAU 1위…국민 자산관리 플랫폼 우뚝 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMQVdvMVgyaUpMT2d5QnZzQ1FSUHlKTGVabG9pbElQcVNhZ1k5SFdNWnNNTjcyY2FEdDhYYnRPUDJ2dTBIdWxlT3huQktuUGlvekZlMFhB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T20:30:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“나이는 40대인데 몸은 50대” 신지, 일상마저 흔드는 ‘충격적’ 몸 상태 - 매일경제",
+        "source": "매일경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE51Y1lUM3F6VlBvdXUyYUtFdVV4cDg1V1BpQ2NmcWNwNThfeEg5eWFubnNOVHVjcjNkT2ZCMWU3dDdyYUszN1RfUlI2WmQwdmJ2NGIyYXhqcw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T11:38:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "iM라이프, AI투자운용에 무게 싣는 까닭…변액보험 '큰그림' - 블로터",
+        "source": "블로터",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01QWp2bEVKR2tSOFpOS3daTFBsY19WZnlSODdkSHlyRGRqQ2ZILW9sdzNvNjNvZG5uRzVxTG5uVEhGdlZDVWRjTExkbEcwaXJkNW1SbS1SR1EyZmdFNjhZTExSMnhWNkxp0gFsQVVfeXFMT0ZpVUVYNFJrNzV6eWE3Tm9HLVl2WklEY0xXdzBVaVdWdEFkRDRFLUZuT3l6LWd0enlfNW9WWjdiaVpkY3ZkSWVFbmE2cU5EeE5SRHowNzlxekxVWld6VDFYVVRnZlY3SXZ4OUR3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-08T08:36:07.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "서울시, 고령자 여가시설 확충…'콜택시'도 다산콜센터로 간편하게 - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UNEdWUVlLam80NWczTXhoTDJpSGtReDN5SGxQQ1liQnNYVUFSWDFrU2ViMXdkVWlHVEN2WC1FYk5hWXI3SmNKRFd2YlJ4MG1UMFYwVFItMGM5ci04U0dmZDQxSjQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-06T08:38:38.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "NH농협은행, 시니어 맞춤형 'NH시니어 스마트 금융 아카데미' 실시 - 한국경제",
+        "source": "한국경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94WUZZWkdvNUJqeU1tN0F3enNvOXZQdG9wY1Q1QXJ6aEU1WjFFS29ETG0tckhVOWxIZjR6Z3I1ZW5qQklkXzNUM2xNTXpkUVdvdEhqUXVhazdCQdIBVEFVX3lxTE1nTGE3OVQ5TG5FQlktMnRGNF9JNlJ2UmxGN21CUGVuMlYwdGNwVGN4M0ltTHRXbDJHZW1SRlpUckhfOXlXdWk2UUl5VjduN0NzLXRGcg?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-10T02:30:45.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "지속가능성과 AI의 교차점에서 탄생하는 감성적 브랜드 경험 디자인",
+    "insight": "기술의 발전 속에서 브랜드의 진정성과 사용자 중심의 감성적 연결이 디자인 성공의 핵심 동력으로 작용하며, 예측 불가능한 미래에 대한 안정감을 제공해야 한다.",
+    "rising": [
+      {
+        "title": "순환 경제를 위한 디자인",
+        "momentum": 87,
+        "desc": "제품의 생산부터 폐기까지 전 과정에서 재활용, 재사용, 수리 용이성을 고려한 디자인이 필수가 되며, 소재와 구조의 혁신이 강조된다."
+      },
+      {
+        "title": "AI 기반 초개인화 패키징",
+        "momentum": 85,
+        "desc": "소비자 데이터와 AI를 활용하여 개인의 취향에 맞는 컬러, 패턴, 메시지를 담은 맞춤형 패키지 디자인이 브랜드 경험을 극대화한다."
+      },
+      {
+        "title": "오감 자극 몰입형 리테일 공간",
+        "momentum": 83,
+        "desc": "디지털 피로에 지친 소비자들을 위해 향기, 사운드, 촉감 등 오감을 활용한 몰입감 높은 리테일 공간 디자인이 중요한 차별점이 된다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "석유화학의 변신…HBM 패키징·ESS용 32개 기술 ‘국가 전략기술’로 승격 - 매일경제",
+      "source": "매일경제",
+      "time": "15시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WczJfY0MtVWg4YTBxY2x2V2dYXzkxanVkZDZxR2NodXhPUmE1dlJZWmo1UERocUlnMGJ0S1Y2RWZKcWtwTnJXeTAySDlHWlU3RmZkSA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-12T06:08:54.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "[MD트렌드] “장마에도 휴가에도 발 편하게”…올여름 ‘이 신발’이 뜬다 - 마이데일리",
+      "source": "마이데일리",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jZnBNNVpkTS1JWXFlWmJ6MHdJS2diU2oxN2NFNkZSR0ExeDU1SERCZ0dHTWVhVDZoRmE0T0NVWkpoa0FqUDAweFEyUEYtdGNERF81YXktX0JIN1VPTWs0WQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T23:49:07.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "한국인들 줄 서서 '중국산' 사갔다…'오픈런' 난리 난 브랜드 [트렌드+] - 한국경제",
+      "source": "한국경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41a0tLQXY3U1NqOXFEV0dqekxSRkdXSkM3dXRZdVlydklXSHhTMC1pdFhGd3lSQi1QMTlmRnA4QXdiSHRGd0pFaEl0eldobmZFZTdxTmo4UEtMUdIBVEFVX3lxTE1GMTAxOFJ0S0d0M1IwVTBsUTY4SHVqajhwZnh2czhHYWJoLUF1anBTVTJGYU10VHdtVVlIM195SEF5ZThIdDVqRXp2aUhIcVlQMXYwVQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T12:00:01.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "한국제지, '나노코리아'서 셀룰로오스 신소재 공개…\"친환경 소재 사업 확대\" - 이데일리",
+      "source": "이데일리",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORUpLVHhVQlZ1ZVd6X2VBczJuREpyWFMxNHpxcG12U3Nid2laWGk2bTFFRzB0ajh4SlhXMU9ORHpfWjNvRTZoQXlrc0RrbWlxajNlNUVtbWVZN045SlIwczlVOURWdVh6dkNKVW44Z1p4dmtDRVNpQXk3VTNjVUI0Wg?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-09T05:55:33.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 시대, AI와 지속가능성이 엮어내는 새로운 소비 지형",
+    "takeaways": [
+      "AI 기반 초개인화 서비스가 소비 만족도를 극대화하며 시장의 주류로 부상, 맞춤형 경험이 핵심 경쟁력으로 자리매김.",
+      "환경 및 사회적 가치를 중시하는 '가치 소비'가 전 연령대로 확산되며 브랜드 선택의 핵심 기준으로 작용, ESG 경영이 필수 전략화.",
+      "디지털 피로도 증가로 오프라인 경험, 아날로그 감성, 그리고 진정성 있는 커뮤니티 활동에 대한 수요가 증대."
+    ],
+    "insight": "AI가 제공하는 효율성과 개인화 속에서도, 인간적인 연결과 지속가능성에 대한 갈망이 세대별 소비 심리를 관통하며 시장의 양극화를 심화시키고 있으며, 이는 브랜드에게 새로운 균형점 탐색을 요구한다.",
+    "actions": [
+      "AI 기반 고객 데이터 분석을 통해 개인화된 제품/서비스 추천 시스템을 고도화하고, 감성적 스토리텔링을 강화하여 브랜드 충성도 제고.",
+      "ESG 경영을 브랜드 핵심 가치로 내재화하고, 투명한 커뮤니케이션으로 소비자 신뢰를 구축하며 가치 소비를 유도할 수 있는 캠페인 기획."
+    ]
+  }
+}
