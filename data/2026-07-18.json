@@ -1,0 +1,417 @@
+{
+  "edition": "No. 443",
+  "moods": {
+    "10대": 62,
+    "20대": 59,
+    "30대": 61,
+    "40대": 59,
+    "50대": 69,
+    "60대+": 72
+  },
+  "moodsPrev": {
+    "10대": 58,
+    "20대": 55,
+    "30대": 62,
+    "40대": 57,
+    "50대": 65,
+    "60대+": 68
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "관계형 소비",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 2,
+      "term": "생성형 AI 윤리",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 3,
+      "term": "디지털 휴먼",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 4,
+      "term": "숏폼 커머스",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "친환경 위장술",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 6,
+      "term": "웰니스 여행",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 7,
+      "term": "워케이션",
+      "dir": "flat",
+      "change": "3%"
+    },
+    {
+      "rank": 8,
+      "term": "리셀 플랫폼",
+      "dir": "down",
+      "change": "5%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 128.7,
+      "delta": 1.6
+    },
+    {
+      "name": "금융·자산",
+      "value": 111.1,
+      "delta": 0.3
+    },
+    {
+      "name": "소비·유통",
+      "value": 99,
+      "delta": 0.2
+    },
+    {
+      "name": "주거·부동산",
+      "value": 108.1,
+      "delta": 0.6
+    },
+    {
+      "name": "고용·노동",
+      "value": 106.2,
+      "delta": 0.5
+    }
+  ],
+  "rising": [
+    {
+      "title": "초개인화 웰니스 구독",
+      "momentum": 85,
+      "desc": "AI 기반으로 개인의 건강 데이터를 분석하여 맞춤형 운동, 식단, 심리 케어 콘텐츠를 제공하는 서비스가 각광받고 있습니다."
+    },
+    {
+      "title": "관계 지향형 커뮤니티 커머스",
+      "momentum": 82,
+      "desc": "공통의 가치와 취향을 가진 소비자들이 모여 정보를 교환하고 공동 구매까지 이어지는 형태의 커머스가 새로운 구매 동력으로 부상합니다."
+    },
+    {
+      "title": "지속가능한 리페어 & 업사이클링 문화",
+      "momentum": 78,
+      "desc": "환경 보호 의식과 더불어 '나만의 것'을 추구하는 경향이 맞물려, 오래된 제품을 고쳐 쓰거나 새로운 가치를 부여하는 리페어 및 업사이클링 서비스가 확산되고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "생명보험재단, 청소년 AI·디지털 역량 강화 사회공헌 확대 - 매일경제",
+      "source": "매일경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVLWt0TUZrWG44TGJZa2tIeWtGVzgwa1F3VGtyZUZNUVRlNFNXa0tMNEZXWndLSDBjMFNqR0Nhci1iNGlQNlRLOThjc0dOUGp2Wl9kTA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T05:08:26.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "SKB 숏폼 커머스 ‘B tv 핫딜’…8개월 만에 누적 판매액 60억 돌파 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3bG85aEZManR3WWlhQnV2US1tVnRFN2d6OERvRGFvQXgtMGtLQlNOdzJvWl91S1AyYk9Da3NvdHB1SGJLamlIblZxS0kwSVF1VUF1LWdR?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T00:20:03.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "진신 테크놀로지 홀딩, 나스닥 최저가 요건 재준수 확인 - 매일경제 마켓",
+      "source": "매일경제 마켓",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTc3FmN19RNUpVQV96SHZIX2tSdV9vVVp3b2J1N3E2X1U0U1l2R2dxd1dUMmZtdXlSd05mczNYU2tLajNGbWg5RXkwVFhoY096eFE?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-14T10:25:34.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"숏폼 크리에이터 시장 개척자로 정진\"…윗유, 청담동 사옥 이전 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sdkRUWm02VnVQYi1yWS1Wa0poM2ZYQjd5Um5yRUhwSmt3WTBGbjdJRzhSQVN2RmU4RF8yS2paYklSSUtjU2IxR0Rqb2xCaDk5dnFSYkNQOHZGVW1PR1ctM0hMeXYtMmhTcGfSAW9BVV95cUxNTndRNUJQQ1N1TGZnOXBTT1ctVFNLM0dpNGJyRTZDaUkzdGZERU9KRk1DNFFxMjBZdjU5YWdnckN6NUpfNnA3aktZUzlOWGxteGVpSnFWUlFHY2NlcktmQ0Vld2FQQlkzMUFWUm11aUE?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-13T10:00:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "연예인도 보자마자 \"설렌다\"…여성들 홀린 남자의 정체 [유지희의 ITMI] - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhd1JQaGF0VlMtZTBiTmZjVE5CNWtVMkdGNDRMZTIyRXM2bElDNXdIWDJ0LUVxTkZGN0FMa0FuV0cwMzBRS3FUM0tyRG42TThrSTd0WmljcHU3Zw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-12T04:00:02.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "\"가수 활동도 이렇게까진 안했는데\"…BMK '깜짝 근황' [본캐부캐] - 한국경제",
+        "source": "한국경제",
+        "time": "14시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yMmxlazhjTlh6UFdDWmxWdUZvTE5HODN5NlN6SktUMzduMTV1NnYyVDA1SmJQOHBYXzdIdTc4WFh5djZXaUI5T2lxNmhFVGxlS2Q1RmlyTmdSQQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-17T07:07:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "아주대, 경기고용청·지역 7개 대학과 청년 취업문제 해결 맞손 - 경기일보",
+        "source": "경기일보",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hQXFmVHFPWEZOdGsxYU9sQ3AwZmpVaWJDeGw0Nlg0aHZvOFNZdkVwMDBuTEdPVV9Dd0NpVFV1VWhFQm5sQWJKM0RzdXlwci0wU1piNFZISVY1ZjA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T08:48:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "인도 돌진 벤츠에 출근길 30대 참변…운전자 ＂급발진＂ - 한국경제TV",
+        "source": "한국경제TV",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0SHpSbTZnWUhoU01GV0Y5MjBqck1oQmF6WTJnY3Q3Uy1KMGtuTC0wMDdjVXphZ1dJTkRJeG5aMVdpU0FSeTdTMXAwNENWbTBMZEJxQVc3YzNMZnhFTEZ6eGFKbTVtUDh6ZXUtTG5ETUhFM1lDY0ZB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-14T10:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "상장 리츠 최초 기업회생 신청, 제이알리츠 사태 일파만파 ― 위축된 리츠 투자심리 회복은 언제쯤… - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JVE5zR01PUTFaa1BCcGJOX3MyYjNiRF80eFE1c1dodjdlX3Y3b1NSUTczTTZmdGc0SHFTZjZLT0VIMXdiYlJDZ3BNZHlEUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-14T04:55:47.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“퇴근중이시면 에어컨 켜둘까요?”…자이 아파트에 AI비서 심는다 - 매일경제",
+        "source": "매일경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96cTVYUmFjd0RtbENxcnVRX3pMeVFOUF9jWFRPZDdlMGFESGJ6RWdJT2RyQTE5NnFGcl9RbDhvOTR6R0hzMndocW5lcGpnUWFZeVlwdUR3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-13T10:09:36.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "“마음 건강한 직장인, ‘건강자산’ 관리에도 더 적극적” - 마이데일리",
+        "source": "마이데일리",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QMnEwcmszTDdIR3h0enJfWk1tZGJmRENjSTN6dHB5Y0xhcWhQUUhsMWZrOFZrdFVzNnl1cUowNXNiSGEtSGxZdmYxaWZQMldkYkZuR3RXVDFqSGIzazMzWnB4b2hrdw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T00:10:08.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[데스크 칼럼] 게임의 룰 없이 링 오르는 증권사 - 한국경제",
+        "source": "한국경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxMVpWVkFvZXVOTnlHemhfMnh5R1hLU2FkX3BCM0RacDdleW5VUU0ySkVGaFhjQWJkV2dvb092UUZQMXpSOVhwUVlManBvVlFQUXBPUFJxbmh3UQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T08:38:07.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“디지털자산은 국가 생존 전략”…방미의원단, 올 하반기 원화 스테이블코인 법제화 박차 - 매일경제 마켓",
+        "source": "매일경제 마켓",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fZTdxS0g2eEUwQ1hZS2hESzE3M2hweHVUZkNYb0o0TGZjWU1XMmNKNWx1ZjItVHJXTWZGelpnSFFNdGpOdUswLWd1aU5JRC1Wenc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T06:49:46.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“지금 안 하면 늦는다”…노후 불안 확산에 청년들 이례적으로 몰린 ‘이것’ - 매일경제",
+        "source": "매일경제",
+        "time": "8시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3djAyUENwMFFrMFUzSkpKa1AycE1KbWhRd1gzMjAzV0wwVjBkYW4tLXFLWi1KMFRFVjdFcDFMWVhERzJNaTBqVng1YXpHQTJ3UEVVRw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-17T13:36:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "토스인슈 “20대 보험 공식 바꼈다”… 연금보험 가입 97.5%↑ - 스카이데일리",
+        "source": "스카이데일리",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WN0lTN3haaEljeERwenVvRW5laHNHQ2RHY1JVSURZczhmZzF0YV9RNzZwLXVBcjBteGtqcFFBY2FCQ2hBREFBR1RNdkttci0xcUktMm52V2ZkU0s4czBfVA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T02:22:59.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "돈 때문만은 아니었다…\"70세 넘어도 일하고 싶다\"는 이유 - 한국경제",
+        "source": "한국경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pX1VqWTFsSXRmb3hpRURvTFZkVlRHc1o0YktxeWxHNjhzUGJZanhIYUcxODNSdTBleGFHZkxYSTdHZEd1SklwZzV3YS1mUGl1VldOd1lZZGUyUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T03:20:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "동두천시 보건소, 스마트 기술에 따뜻한 돌봄을 담다 - 경기일보",
+        "source": "경기일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4ybkxiYkt4Qm5OemE3WWlmMmJHLWNPS2tiRjBNbzgxQmtnZ0p3NlFVMzNnajhKZ1lVZExwbDFnUHh5dmhiSVFwUFNsMDZZSy1ZSGh0WnBMWjN2SVU?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T04:51:26.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[조례, 지역을 바꾸다] 20-2. 이경희 구리시의회 부의장 ‘노인복지 더 촘촘하게’ - 인천일보",
+        "source": "인천일보",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53bXROY1FITTk4MEpQSHk1Qk1QZmpxNmJIZFppdFhqVmJQYk00Y2xnbWV1dDNDTFVGSzQzT2NIU0ZFTDlzVEhaS3RmREN2ekRuaUxFZlFnZmRnaThQZ0pHdGxuV1RJaDRvTWRyNlRQUC0?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-14T08:43:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "브랜드 경험의 진정성: AI 시대, 인간적 연결고리가 디자인의 핵심",
+    "insight": "AI가 제공하는 효율성과 개인화를 넘어, 소비자의 감성에 깊이 공명하고 '진짜' 관계를 형성하는 브랜드 스토리가 공간, 패키지, 디지털 인터랙션 등 모든 디자인 접점에서 중요해지고 있습니다.",
+    "rising": [
+      {
+        "title": "공감각적 리테일 공간 디자인",
+        "momentum": 88,
+        "desc": "시각, 청각, 후각, 촉각 등 오감을 자극하여 브랜드 몰입도를 높이고 체류 시간을 늘리는 공간 경험 디자인이 주목받고 있습니다."
+      },
+      {
+        "title": "AI 기반 개인 맞춤형 패키징",
+        "momentum": 85,
+        "desc": "AI 분석을 통해 소비자의 취향과 구매 이력을 반영한 디자인, 메시지, 형태의 맞춤형 패키지가 브랜드 충성도를 높이는 요소로 활용됩니다."
+      },
+      {
+        "title": "디지털-실물 연동 브랜드 아이덴티티",
+        "momentum": 80,
+        "desc": "NFT, AR 등을 활용하여 디지털 세계와 현실 세계를 넘나들며 일관된 브랜드 경험을 제공하는 아이덴티티 시스템이 중요해지고 있습니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "피에프창, 잠실 롯데월드몰점 리뉴얼 오픈 - 세계일보",
+      "source": "세계일보",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWZWRDLXBjUXZITFFiQ3hidFBrMjJwLUdDdUN4ZTVlLTc0aXA3WlJxbjEyRXhZR3dGUTVGcDFwVUtpS2Y3dmZjTGtoX3hUel82b0R3QmdsV2PSAVRBVV95cUxPOTRjWFlxQWlZNTFzQlVWZmVJZDgtRV9IRG9SUGZfeDJUUF82eG9oVnRrU3otSDlUT3R2UGNjNDI1WHdzVW1uY1EzTHJXSVB2Y2NtdlI?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "제네시스 ‘마릴린먼로 특별전’ 뜨거운 호응에 전시 연장 - 헤럴드경제",
+      "source": "헤럴드경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wRnVheFhpdWpBdXBhZFptLTlVeUJRcnJlcDMyQTBPWjdlUm5qSFA5bEVZdjFPTy11ZzM1dnJyZ0NrRTFqMnpBNmRoLUtLdnJ0clVoVEFn?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T02:45:34.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "29CM, 여성 스포츠 쇼핑 수요 잡았다…러닝·발레 거래액 급증 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWa2RReHloRmRYejYtaEJMWEVjTUMtQzZaZWJXMk5OSGFna1VVX3ROZmhjQU40SjFEX1RLOW5QZ3U1bGVRa1J3dWNQRlFxbnQ2QkRrLVZtS0pCREZWVzhTUm1jUFJBekQ2NjhiVFNWd9IBb0FVX3lxTFBWa2RReHloRmRYejYtaEJMWEVjTUMtQzZaZWJXMk5OSGFna1VVX3ROZmhjQU40SjFEX1RLOW5QZ3U1bGVRa1J3dWNQRlFxbnQ2QkRrLVZtS0pCREZWVzhTUm1jUFJBekQ2NjhiVFNWdw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T01:12:26.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어 '관계형 소비' 부상: 연결과 공감으로 시장 재편",
+    "takeaways": [
+      "AI 기술 고도화로 개인화는 기본, 이제는 '가치 공유' 기반의 관계형 소비가 중요해집니다.",
+      "불확실성 시대, 소비자는 심리적 안정과 소속감을 주는 커뮤니티와 브랜드를 선호합니다.",
+      "ESG 피로감 속에서도 '진정성' 있는 지속가능성과 윤리적 가치 소비는 여전히 강력한 동인입니다."
+    ],
+    "insight": "경제적 불확실성과 AI 기술의 보편화 속에서 MZ세대는 물론 전 세대가 '진정한 연결'과 '공감'을 통해 심리적 안정감을 추구하며, 이는 단순한 상품 구매를 넘어선 '경험적 소비'와 '가치 지향적 관계 맺기'로 이어지고 있습니다.",
+    "actions": [
+      "고객 여정 전반에 걸쳐 '공동의 가치'를 발견하고 소통할 수 있는 커뮤니티 기반의 브랜드 경험을 구축하세요.",
+      "AI를 활용한 초개인화 서비스를 넘어, 고객의 감성적 니즈를 충족시키는 '인간적 연결고리'를 디자인하는 데 집중하세요."
+    ]
+  }
+}
