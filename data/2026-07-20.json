@@ -1,0 +1,405 @@
+{
+  "edition": "No. 445",
+  "moods": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "moodsPrev": {
+    "10대": 58,
+    "20대": 55,
+    "30대": 63,
+    "40대": 56,
+    "50대": 64,
+    "60대+": 72
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "초개인화 AI",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 2,
+      "term": "지속가능한 소비",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 3,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 4,
+      "term": "웰니스 라이프",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "로컬 크리에이터",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 6,
+      "term": "실버 이코노미",
+      "dir": "up",
+      "change": "7%"
+    },
+    {
+      "rank": 7,
+      "term": "생성형 AI 콘텐츠",
+      "dir": "up",
+      "change": "6%"
+    },
+    {
+      "rank": 8,
+      "term": "리사이클 디자인",
+      "dir": "up",
+      "change": "5%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 129.1,
+      "delta": 0.5
+    },
+    {
+      "name": "금융·자산",
+      "value": 111.1,
+      "delta": -0.1
+    },
+    {
+      "name": "소비·유통",
+      "value": 98.8,
+      "delta": 0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 107.4,
+      "delta": -0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 106.8,
+      "delta": 0.9
+    }
+  ],
+  "rising": [
+    {
+      "title": "몰입형 디지털 경험",
+      "momentum": 88,
+      "desc": "메타버스, AR/VR 기술이 일상화되며 온오프라인 경계 없는 몰입형 콘텐츠 소비가 증가하고 있습니다."
+    },
+    {
+      "title": "AI 동반자 서비스",
+      "momentum": 85,
+      "desc": "개인의 감정 상태를 분석하고 맞춤형 대화를 제공하는 AI 챗봇 및 가상 비서의 활용도가 높아지고 있습니다."
+    },
+    {
+      "title": "순환 경제 비즈니스 모델",
+      "momentum": 82,
+      "desc": "제품의 수명 연장, 재활용, 업사이클링을 넘어 자원 순환 시스템을 구축하는 기업들이 주목받고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "[구본경의 동남아를 걷다] 달라진 베트남을 읽어라 - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fSVpzYWpTVldtYkp6TU5XUUpWbVQwTnBSc0didFhBWWNrbHZ3MkRmc0JCaVU2VHBDSVhxTHNlbkVGRDZKOS1FMkdIRFhTNlB2V0dENTFfMFpCZw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-17T08:27:52.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "러닝부터 발레까지…29CM, 여성 스포츠 거래액 50% 증가 - 매일경제",
+      "source": "매일경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JcFBlMldJYzhCazVRMXR4cmFCVDJlbHJQUm5zU3E3VEZkb2ctLV9NMjlRaDFkX2hhcGFwczF2Rmw2Y2l4VUJodERkaEpzYnlDS1I0RWdR?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T04:29:26.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "휴넷, AI 기반 학습 플랫폼 '랩스' 공개 - 한국경제",
+      "source": "한국경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iRzJSUktSbnVDaTdjV2xXdl83T2xIMV9KeHZ6bHRhY2NrendmZms3RGFUb0RSMl9Ic2VtUzZ5am5tQUdXdzFlY21TWGRWMGFDNGFhN0Rlb2ZkQQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T05:08:09.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "TWW, 첫 구강 케어 라인 출시…치약 2종·마우스워시 선보여 - 한국경제",
+      "source": "한국경제",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Xb0RyV2hfeGZheWpHVllMQTBZbmdHVGJwaVdGM1lMbnVfaFU2czg0aFNRTm9qSUtpWVJkU2JXQUoxVFQwMmdlNFl1cGJCa0l1VVpzMmRyeGRLUQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T01:00:03.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "‘모두의 챌린지-방산’ 50곳 모집…스타트업 최대 1억 지원 - SBS Biz",
+        "source": "SBS Biz",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YMXFwQXlXZHNkcmJfcGdJVjgxVWNpOUk0eEhmSjVxWWlxTjhBNGtNMVNXeVVZLTFPaEdVLUlHNzg0cmJ2R0JwZ19MSVctRTlQT1Rv0gFYQVVfeXFMTWllaHdWMlNnR25SaHNOVzhDWDN5MXdnZF9QNHpWLWFKX01NREhNSFJEUkpKdVQ4Z0Q3MUwwRkVVWHFiUFZVTGpLVl90Y19FVnJ0blA2NEtDMw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T07:07:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "Z세대 위한 AI 공모전 시즌2 시작! 1,200만원의 주인공들은 누구? - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10dHlhVVhJMkY3UlN4MHFYQkNRMEJsM2tlSlBTQmJrdWc0NjE0U0w5RENmU0lFU21BbEtBMnBGaVY5SElYczBEdUVLRWRQRjBuSEF4UnhJMm05dw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-14T00:07:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "2분기 대졸 실업자 48만명 돌파…20·30대가 64% ‘청년 취업 한파’ 심화 - 헤럴드경제",
+        "source": "헤럴드경제",
+        "time": "21시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yV1ZMME9QNWY3Q1hKMG44YllRaVl6WU1mWEhPeE5oNjctWkRwX0tnS0doRkJTZ0M5MHFxWEExbmtiQkpxNy1oU1FNT0pjU0tDSTRpS2J3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-19T00:00:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "아주대, 경기고용청·지역 7개 대학과 청년 취업문제 해결 맞손 - 경기일보",
+        "source": "경기일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hQXFmVHFPWEZOdGsxYU9sQ3AwZmpVaWJDeGw0Nlg0aHZvOFNZdkVwMDBuTEdPVV9Dd0NpVFV1VWhFQm5sQWJKM0RzdXlwci0wU1piNFZISVY1ZjA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T08:48:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "“월세로, 부업뛰며, 주식해야 살아진다”…1인가구 생존법 - 매일경제",
+        "source": "매일경제",
+        "time": "20시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xNkxNUHBGYldRU2NxN3hlcVFXemdxVTJJWWF3VVlyODZHV0Q4REZOWVZuUWs2MGU3N1VyTzlMWXUtdEFpWmNlR3NOLVFXQ181dkZTdA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-19T01:27:33.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "서울 아파트값 상승세 유지 속 금리 인상 영향 미미 - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3Mk5tVnNyTm95a21mbE1Jbk1CSHc5WXRaRmM2Mms4TTFJLXlsQmEwQWszeXpFcDZZamNPZFh2OXVtenZ4bG1lQzFhR2h2bkVlcTBVdC1aR2xPNXU5eFJ5UUhRZVQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T21:08:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "건강관리도 재테크처럼…직장인 10명 중 6명 “돈 내고라도 관리” - 중앙일보",
+        "source": "중앙일보",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTaGhnWHhrT0xTSjVmbURhZ0l1OHh2aERGRDdVSnNvdllreWYzNWtaX0Q1TEJncGVmVEYwUV9Mc195X0pkZ01NWnlyY1VKbjlzM3lFam9B?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T06:40:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“마음 건강한 직장인, ‘건강자산’ 관리에도 더 적극적” - 마이데일리",
+        "source": "마이데일리",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SMW56Z0sxZk45OU1ndm9JNGdMeEVvelpaNHYzZ3o4dUN2NjVqSi1oVDRCazVDU3pDeXBCekNEZTZhb2JQRWIzX0hLR3dTZ29idDkxRlhEQmd6OHJDMjcybQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T00:10:08.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“건강검진 결과 보고 식단 추천”…현대그린푸드, 의료 마이데이터 사업 첫 진출 - 매일경제",
+        "source": "매일경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zTENhX2Z2XzBVTVNGMm9oT29ES2czRThBT0swTkNCaElJUzNFN2VQbVh4a2tPMzh3YjdLSTlqTjlVUUxVTHJieW5jbHk1T1lPR3N0ekZB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-14T00:57:44.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“지금 안 하면 늦는다”…노후 불안 확산에 청년들 이례적으로 몰린 ‘이것’ - 매일경제",
+        "source": "매일경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3djAyUENwMFFrMFUzSkpKa1AycE1KbWhRd1gzMjAzV0wwVjBkYW4tLXFLWi1KMFRFVjdFcDFMWVhERzJNaTBqVng1YXpHQTJ3UEVVRw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-17T13:36:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "1000원 효도택시·180만원 효도수당…어르신 복지 경쟁 - 중앙일보",
+        "source": "중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XdDdYMndUUmFhY1pqN05iVjRrcGpVT3dXRlFHMzNyUWFqeGJDWUJvemhXU05tYTFfM21vQlhjRDNiNGgwUnh5RzF2NlF2RnFGeEhRaC1n?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-13T15:01:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "[더벨]드림텍, 인도 DS 센터 증설 투자 254억으로 확대 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ySlZ6RGowOFIzZDNwYVM4aE93bXdKVWJnMHlPb0JhampxVjFiUTAxS3kxWmFVTXo2TkZaRmZ0b1k3c09hMkpWbUgtWGtEMUIyWWxZZ1NxUEJCbHM2eXUxSmZRd1ZqVERT0gFuQVVfeXFMTm9MZHdCOW5SWGF1X2F4bmJqazlmOVdtYkhrbnYwVjFCUWF5UG93REctOVRjcjh2SXZIWk9LU3V3Yjl2VXdJRHdPQ1lzc1REZVpNZHVpek1YQm44SjNuNVNxcjR2RWlIVnZtMWhZdlE?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T04:59:13.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "돈 때문만은 아니었다…\"70세 넘어도 일하고 싶다\"는 이유 - 한국경제",
+        "source": "한국경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pX1VqWTFsSXRmb3hpRURvTFZkVlRHc1o0YktxeWxHNjhzUGJZanhIYUcxODNSdTBleGFHZkxYSTdHZEd1SklwZzV3YS1mUGl1VldOd1lZZGUyUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T03:20:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "AI 기술과 지속가능성, 브랜드 아이덴티티와 리테일 공간 디자인의 새로운 지평을 열다",
+    "insight": "기술 혁신을 통해 효율성을 높이면서도, 본질적인 브랜드 가치를 전달하고 소비자와의 진정성 있는 관계를 구축하는 디자인 전략이 필수적입니다. 지속가능한 소재와 사용자 경험 중심의 접근이 중요합니다.",
+    "rising": [
+      {
+        "title": "AI 기반 개인화 패키징",
+        "momentum": 85,
+        "desc": "소비자의 취향과 데이터를 분석하여 맞춤형 디자인을 제안하는 스마트 패키징 기술이 빠르게 발전하고 있습니다."
+      },
+      {
+        "title": "친환경 리테일 공간",
+        "momentum": 80,
+        "desc": "자연 채광, 재활용 소재, 식물 등을 활용하여 지속가능성을 시각적으로 구현하고 심리적 안정감을 주는 공간 디자인이 확산됩니다."
+      },
+      {
+        "title": "동적 아이덴티티 디자인",
+        "momentum": 78,
+        "desc": "브랜드 메시지나 사용자 인터랙션에 따라 유연하게 변화하는 로고, 서체, 컬러 팔레트 등 다이내믹한 비주얼 아이덴티티가 주목받고 있습니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "피에프창, 잠실 롯데월드몰점 리뉴얼 오픈 - 세계일보",
+      "source": "세계일보",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWZWRDLXBjUXZITFFiQ3hidFBrMjJwLUdDdUN4ZTVlLTc0aXA3WlJxbjEyRXhZR3dGUTVGcDFwVUtpS2Y3dmZjTGtoX3hUel82b0R3QmdsV2PSAVRBVV95cUxPOTRjWFlxQWlZNTFzQlVWZmVJZDgtRV9IRG9SUGZfeDJUUF82eG9oVnRrU3otSDlUT3R2UGNjNDI1WHdzVW1uY1EzTHJXSVB2Y2NtdlI?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "29CM, 여성 스포츠 쇼핑 수요 잡았다…러닝·발레 거래액 급증 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95QXRhV0JCTURVQWdCZTNJOFNRQWhlTTNROXI1enVka0Rabmhvb3hkam04WnRJWnpuU3Jjem5LWko1b1FBdW43VVVqMWVDLUdFbGc1NW5Xc01QWWZUaGplNWVjTEN0UFV2YXfSAW9BVV95cUxQVmtkUXh5aEZkWHo2LWhCTFhFY01DLUM2WmViVzJOTkhhZ2tVVV90TmZoY0FONEoxRF9USzluUGd1NWxlUWtSd3VjUEZRcW50NkJEay1WbUtKQkRGVlc4U1JtY1BSQXpENjY4YlRTVnc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T01:12:26.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "고트만, 베트남 SCJ TV 홈쇼핑 공식 론칭…동남아 시장 공략 본격화 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yVUpSMlNsS0ZFWGV4bHI2dDE0aU01TWRqcGREVDZsX0dESDd5b29pTGZvZnpkdHBHcUlmTDBpTWNNR1FQVFNzdXg4QkhYUF9aVlR5R0ZCWS1FMTJ2aFlGMXNuSWVZVzZ1WGNsTdIBckFVX3lxTE04U01oOFc2TVU4VjZLVTRSM21OZDFiTjZiV0tHWXFGdk4zZ0Jmenk3TzVHRnJ3MzVFQW9DcmlJVTIwdmFISzZIeE95cE55YjhJMHU1ZWpIWDhiZTZQcUZZUkltS1lKTG5iWFhYRkwtTjZVQQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-13T08:22:54.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 AI와 지속가능성, 미래 소비의 핵심 동력으로 부상",
+    "takeaways": [
+      "AI가 모든 산업에 깊이 침투하며 소비 경험의 초개인화를 가속화하고 있습니다.",
+      "환경적 가치를 중시하는 '에코 프리미엄' 소비층이 두터워지며 기업의 ESG 경영이 더욱 중요해졌습니다.",
+      "세대별 소비심리 격차가 심화, 맞춤형 전략 없이는 시장 공략이 어렵습니다."
+    ],
+    "insight": "MZ세대는 가치 소비와 경험을 중시하며 AI 기술에 대한 수용도가 높고, X세대 이상은 건강과 안정성, 편리함에 AI를 접목한 서비스를 선호하는 등 세대별 AI 활용 및 지속가능성 인식에 미묘한 차이가 나타나고 있습니다. 이는 단순한 기능 제공을 넘어선 정서적 연결과 브랜드 스토리가 중요해짐을 시사합니다.",
+    "actions": [
+      "AI 기반 고객 데이터 분석을 통해 초개인화된 상품/서비스 추천 시스템을 고도화하세요.",
+      "제품 기획부터 폐기까지 전 과정에서 지속가능성을 입증하고 투명하게 소통하는 브랜딩 전략을 수립하세요."
+    ]
+  }
+}
