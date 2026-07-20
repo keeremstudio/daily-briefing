@@ -1,0 +1,417 @@
+{
+  "edition": "No. 446",
+  "moods": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 66,
+    "40대": 61,
+    "50대": 65,
+    "60대+": 73
+  },
+  "moodsPrev": {
+    "10대": 65,
+    "20대": 62,
+    "30대": 62,
+    "40대": 57,
+    "50대": 69,
+    "60대+": 71
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 라이프스타일",
+      "dir": "up",
+      "change": "5"
+    },
+    {
+      "rank": 2,
+      "term": "경험 경제",
+      "dir": "up",
+      "change": "3"
+    },
+    {
+      "rank": 3,
+      "term": "지속가능 패션",
+      "dir": "up",
+      "change": "2"
+    },
+    {
+      "rank": 4,
+      "term": "웰니스 테크",
+      "dir": "up",
+      "change": "1"
+    },
+    {
+      "rank": 5,
+      "term": "온디맨드 커머스",
+      "dir": "up",
+      "change": "0"
+    },
+    {
+      "rank": 6,
+      "term": "로컬 크리에이터",
+      "dir": "flat",
+      "change": "0"
+    },
+    {
+      "rank": 7,
+      "term": "디지털 휴먼 마케팅",
+      "dir": "down",
+      "change": "1"
+    },
+    {
+      "rank": 8,
+      "term": "가상자산 투자",
+      "dir": "down",
+      "change": "2"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 127.7,
+      "delta": -1.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 110.8,
+      "delta": -0.3
+    },
+    {
+      "name": "소비·유통",
+      "value": 98.3,
+      "delta": -0.5
+    },
+    {
+      "name": "주거·부동산",
+      "value": 107.2,
+      "delta": -0.2
+    },
+    {
+      "name": "고용·노동",
+      "value": 106.8,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 동반자 서비스의 진화",
+      "momentum": 92,
+      "desc": "개인의 데이터를 학습해 맞춤형 조언과 서비스를 제공하는 AI가 단순한 도구를 넘어 삶의 동반자처럼 밀착되는 서비스가 확산되고 있습니다."
+    },
+    {
+      "title": "몰입형 경험 리테일 강화",
+      "momentum": 88,
+      "desc": "온라인 쇼핑의 한계를 넘어 오프라인 매장이 단순 판매처가 아닌 브랜드 가치를 오감으로 체험하고 공유하는 복합 문화 공간으로 진화하고 있습니다."
+    },
+    {
+      "title": "생산-소비 전 과정의 투명성 요구",
+      "momentum": 85,
+      "desc": "소비자들은 제품의 원료 수급부터 생산, 유통, 폐기까지의 모든 과정에 대한 투명한 정보를 요구하며, 브랜드의 윤리적 책임감을 강력히 촉구하고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "[이준의 인사이드 아트] 큐레이션, 경험을 기획하는 시대 - 중앙일보",
+      "source": "중앙일보",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1aUdnSUYyRjFOcDNiZlJGZ0N4RDJ6aE5CT0pRTzVyeGlpcGNMdHI3MDZJamx6NTZqS3N5VHhLa2plbmtPbzlXcWxUTU1vYjExeVZraVhB?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-19T15:12:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "“브릴리언트” 연발한 앤 공주…방한 마지막 강조한 건 ‘오래가는 관계’ - 중앙일보",
+      "source": "중앙일보",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2S1FrZWxsa094Rk8wSGpIRnZpbEM3dmlJQnZRS1dZSlRsZGlzME13M0xsNlRGUjMzcEVLSmxqTzdRX1ZSM3Q1Wk5oUTVWLVVMZEVYZDJB?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T07:18:30.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "＂푸드테크와 브랜드테크의 결합＂…로브콜, 미래 청사진 공개 - 한국경제TV",
+      "source": "한국경제TV",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xbFNOeE1iems1MHo0NEpNbmtYbmY5TlFXMmo0REx2TXQ5NnZtZml0b3BoZ0dnYU5XSENQMUdyQlVyQXRsX1VPc2RwMWZ0NUpxU0dFVG1MQ0RtWVJVWnoxSUxsYy05azlMZVBrX0w4QXo1UUFTZW9B?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-20T00:21:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "류재철 \"고객에게 더 나은 경험 제공\" - 한국경제",
+      "source": "한국경제",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96S1J5MVVHT1M3blloUnBGM1dMTFdSVVVDQXB2dWl0ZTBXR2JnNjFaMlRaVjJYQlhwS0RoRVZ0S1liakhRdG4zMzJNUHJlSHA0WnFqZU1IbGw4UQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T08:45:50.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "강원교육 공약추진단 출범…청소년 참여 확대 속 정책 실행력 강화 - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "17시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HbnNybFBJa1lHeUxwYjlIOTQ3OUhBV3ZpQkpibEo0Rm1fbHByVEdGbTBGYzJyMy1CZ1hfSVpMZ1p5UThTdFRNNjBub3BzVkJub3lLQVBBd0pMS2hvTGNJRXZxbzI?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T04:13:07.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "경기도교육청, '스마트폰 없는 교실' 조성 본격화 - 인천일보",
+        "source": "인천일보",
+        "time": "14시간 전",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wNF9FUWJqWU55OENQd0NBZmwyVFNaanFjNWU4T09jTHBabk4yOE01OXM3c0JYRmdZQkVRODhIc1l0YjdjcjZvVmpvdG1LdFFxVk1DZmc5ZEx4aTlBa0loZ0VZR2RtRFpvcC1MRldTSFo?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T07:42:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "남구, ‘청년 취업·창업 지원, 현장에서 답 찾는다’ - HKBC환경방송",
+        "source": "HKBC환경방송",
+        "time": "4시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2eS1hWmR5MEpIa01GeUFrVnZucFZLdjh3VzV4TWRZaTM4Q2Q3am9iSnBSS0pPb2ZpbUNJWUFYTmNiSWJRVDAtR1EzUnN3dlRURm5yRVM5VWNjMUVocmgyck1FbHFmZTTSAWdBVV95cUxQNnktYVpkeTBKSGtNRnlBa1Z2bnBWS3Y4d1c1eE1kWWkzOENkN2pvYkpwUktKT29maW1DSVlBWE5jYkliUVQwLUdRM1Jzd3ZUVEZuckVTOVVjYzFFaHJoMnJNRWxxZmU0?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T17:16:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "아주대, 경기고용청·지역 7개 대학과 청년 취업문제 해결 맞손 - 경기일보",
+        "source": "경기일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hQXFmVHFPWEZOdGsxYU9sQ3AwZmpVaWJDeGw0Nlg0aHZvOFNZdkVwMDBuTEdPVV9Dd0NpVFV1VWhFQm5sQWJKM0RzdXlwci0wU1piNFZISVY1ZjA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T08:48:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "“월세로, 부업뛰며, 주식해야 살아진다”…1인가구 생존법 - 매일경제",
+        "source": "매일경제",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xNkxNUHBGYldRU2NxN3hlcVFXemdxVTJJWWF3VVlyODZHV0Q4REZOWVZuUWs2MGU3N1VyTzlMWXUtdEFpWmNlR3NOLVFXQ181dkZTdA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-19T01:27:33.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "서울 아파트값 상승세 유지 속 금리 인상 영향 미미 - MTN 머니투데이방송",
+        "source": "MTN 머니투데이방송",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3Mk5tVnNyTm95a21mbE1Jbk1CSHc5WXRaRmM2Mms4TTFJLXlsQmEwQWszeXpFcDZZamNPZFh2OXVtenZ4bG1lQzFhR2h2bkVlcTBVdC1aR2xPNXU5eFJ5UUhRZVQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T21:08:01.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "[라이프 트렌드&amp;] 7개월 연속 MAU 1위 … 국민 자산관리 플랫폼 자리매김 - 중앙일보",
+        "source": "중앙일보",
+        "time": "1시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2ZjctX05SZGstLWxFb2ZfeEEzaldaUWhrNFVSckhsSXRVUm1sd19hUHJfeDlDbDlWaFVsZlNTSUI5LTQwZkJrRExfUnEyRVhfS0hhU3JB?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T20:30:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "건강관리도 재테크처럼…직장인 10명 중 6명 “돈 내고라도 관리” - 중앙일보",
+        "source": "중앙일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTaGhnWHhrT0xTSjVmbURhZ0l1OHh2aERGRDdVSnNvdllreWYzNWtaX0Q1TEJncGVmVEYwUV9Mc195X0pkZ01NWnlyY1VKbjlzM3lFam9B?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T06:40:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "스트레스에 잘 대처하는 직장인, 건강관리 투자 의지도 높아 - 중앙일보",
+        "source": "중앙일보",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jejh1UTR4U3lpUE9rZXBSMUVsS1gxSlNsa0FTeUxsT0Q1cFl3UlpyVzBBZHZac2NILXVMUTcxMmFaekVFSmdiTWk0QmI5Z191X2NVV1Zn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T06:39:45.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "[반퇴시대 재산리모델링] 은퇴 후 월 800만원 받고 싶다면, IRP·ISA·배당 ETF 판 짜라 - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fdDRmX1ljM1hwdnBsWXlFdE1vV1JmOVpqcVNaal8yM2ZtMmxUZHVMNEN1S2xkbDJuTFZXOC1XbFdGdFZDenowLXdIZk90U3pjYk8tLTZObV9NSXBSZnB4UlN3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T20:32:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "대웅제약, AI 기반 병상 모니터링 시스템 ‘씽크’ 삼성서울병원 공급 - 한국경제",
+        "source": "한국경제",
+        "time": "22시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90WjJMZllWNUw0Wjk0cldFVWdLYkZOZzB0WUJxdng0Y2cxSGFvTTRHYmVaNHFzS2xVZGRxTzRFNHBXVTFMZG9nT2l2ODFQVnZRaEFjbDcwYkd6QQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-19T23:42:12.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“지금 안 하면 늦는다”…노후 불안 확산에 청년들 이례적으로 몰린 ‘이것’ - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3djAyUENwMFFrMFUzSkpKa1AycE1KbWhRd1gzMjAzV0wwVjBkYW4tLXFLWi1KMFRFVjdFcDFMWVhERzJNaTBqVng1YXpHQTJ3UEVVRw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-17T13:36:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "돈 때문만은 아니었다…\"70세 넘어도 일하고 싶다\"는 이유 - 한국경제",
+        "source": "한국경제",
+        "time": "4일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pX1VqWTFsSXRmb3hpRURvTFZkVlRHc1o0YktxeWxHNjhzUGJZanhIYUcxODNSdTBleGFHZkxYSTdHZEd1SklwZzV3YS1mUGl1VldOd1lZZGUyUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T03:20:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "공간은 경험, 제품은 스토리텔링: 감성과 기능의 미학적 결합",
+    "insight": "소비자는 단순히 아름다운 것을 넘어, 브랜드의 철학과 공간이 전달하는 '맥락적 경험'에서 깊은 감동을 얻으므로, 디자인은 이제 서사의 시작점이 되어야 합니다. 제품, 패키지, 리테일 공간 모두가 하나의 일관된 스토리라인을 가지고 소비자에게 말을 걸어야 합니다.",
+    "rising": [
+      {
+        "title": "몰입형 리테일 공간 디자인",
+        "momentum": 91,
+        "desc": "오프라인 매장이 단순한 쇼핑 공간을 넘어, 브랜드 아이덴티티를 온전히 체험하고 공유하는 인터랙티브한 몰입형 공간으로 진화하고 있습니다."
+      },
+      {
+        "title": "AI 생성 디자인 툴 활용",
+        "momentum": 86,
+        "desc": "디자이너의 창의적 아이디어를 보조하고, 시안 제작 시간을 단축하며, 개인화된 디자인 요소를 대량 생산하는 AI 디자인 툴의 활용이 가속화되고 있습니다."
+      },
+      {
+        "title": "지속가능한 소재 패키징 디자인",
+        "momentum": 83,
+        "desc": "환경 영향을 최소화하는 재활용, 생분해성, 업사이클링 소재를 활용한 패키징 디자인이 브랜드의 핵심 가치이자 경쟁력으로 부상하고 있습니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "피에프창, 잠실 롯데월드몰점 리뉴얼 오픈 - 세계일보",
+      "source": "세계일보",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWZWRDLXBjUXZITFFiQ3hidFBrMjJwLUdDdUN4ZTVlLTc0aXA3WlJxbjEyRXhZR3dGUTVGcDFwVUtpS2Y3dmZjTGtoX3hUel82b0R3QmdsV2PSAVRBVV95cUxPOTRjWFlxQWlZNTFzQlVWZmVJZDgtRV9IRG9SUGZfeDJUUF82eG9oVnRrU3otSDlUT3R2UGNjNDI1WHdzVW1uY1EzTHJXSVB2Y2NtdlI?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "'초경량' 아이시스 패키지, 레드닷 디자인 어워드 본상 수상 - 한국경제",
+      "source": "한국경제",
+      "time": "22시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zbVVLVDlWS3dPNG52RWhNQzJoZ2JQWTNaTW9WN192QmQ2RFJOcWl1VjJTbXJodTg2Y25TQUwtVnROUVU1SjI3QTBkNHN2N0pIM3EyNTQzV1VnUQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-19T23:45:13.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"어쩐지 신상이 빨리 나오더라\"…뉴발란스 디자인의 비밀 - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wNlpzQWk4NHJ0aTJ2Y1RXM20yeHN0UV9nMFRLVHYtYVdYUTFGS2Q2QWJvajlQeG1GNzliM2h4TFpxeW05eHY5R0ZORlFyTWVMNUZScVV2eDNiQQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-19T11:11:06.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "29CM, 여성 스포츠 쇼핑 수요 잡았다…러닝·발레 거래액 급증 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "4일 전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95QXRhV0JCTURVQWdCZTNJOFNRQWhlTTNROXI1enVka0Rabmhvb3hkam04WnRJWnpuU3Jjem5LWko1b1FBdW43VVVqMWVDLUdFbGc1NW5Xc01QWWZUaGplNWVjTEN0UFV2YXfSAW9BVV95cUxQVmtkUXh5aEZkWHo2LWhCTFhFY01DLUM2WmViVzJOTkhhZ2tVVV90TmZoY0FONEoxRF9USzluUGd1NWxlUWtSd3VjUEZRcW50NkJEay1WbUtKQkRGVlc4U1JtY1BSQXpENjY4YlRTVnc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T01:12:26.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 'AI 동반자' 시대, 소비 주도권 이동 가속화",
+    "takeaways": [
+      "AI 기반 하이퍼 개인화 서비스가 소비 경험의 핵심 동력으로 부상하며, 단순 추천을 넘어선 '동반자'적 기능으로 진화 중입니다.",
+      "소유보다는 경험, 물질보다는 가치를 중시하는 소비 트렌드가 전 세대에 걸쳐 확산되며, 브랜드의 스토리텔링과 진정성이 더욱 중요해지고 있습니다.",
+      "지속가능성과 윤리적 소비가 단순한 선택을 넘어 '필수적 기준'으로 자리 잡으며, 기업의 생산부터 폐기까지 전 과정에 대한 투명성을 요구하고 있습니다."
+    ],
+    "insight": "MZ세대는 AI를 삶의 '동반자'로 수용하며 개인화된 경험과 가치를 추구하는 반면, 기성세대는 '기술 피로감' 속에서 본질적 가치와 아날로그적 휴식을 갈망합니다. 이러한 세대 간 인식의 간극이 시장을 양분하며, 각기 다른 접근법을 요구하는 새로운 소비 지형을 형성하고 있습니다.",
+    "actions": [
+      "AI 기반 초개인화 마케팅 솔루션을 고도화하여 고객의 라이프스타일에 깊숙이 침투하는 'AI 동반자'형 서비스를 기획하십시오.",
+      "오프라인 공간을 디지털 피로감을 해소하고 본질적 경험에 집중할 수 있는 '디지털 디톡스' 및 '감각적 휴식'의 장소로 재설계하여, 세대별 니즈를 동시에 충족시키십시오."
+    ]
+  }
+}
