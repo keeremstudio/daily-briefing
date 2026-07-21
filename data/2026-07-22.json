@@ -1,0 +1,357 @@
+{
+  "edition": "No. 447",
+  "moods": {
+    "10대": 66,
+    "20대": 62,
+    "30대": 67,
+    "40대": 63,
+    "50대": 69,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 66,
+    "40대": 61,
+    "50대": 65,
+    "60대+": 73
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "초개인화 AI",
+      "dir": "up",
+      "change": "18%"
+    },
+    {
+      "rank": 2,
+      "term": "생성형 미디어",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 3,
+      "term": "순환 경제 디자인",
+      "dir": "up",
+      "change": "12%"
+    },
+    {
+      "rank": 4,
+      "term": "액티브 시니어",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "디지털 웰빙",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 6,
+      "term": "로컬 경험",
+      "dir": "up",
+      "change": "5%"
+    },
+    {
+      "rank": 7,
+      "term": "XR 리테일",
+      "dir": "up",
+      "change": "4%"
+    },
+    {
+      "rank": 8,
+      "term": "데이터 주권",
+      "dir": "flat",
+      "change": "3%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 129.1,
+      "delta": 1.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 110,
+      "delta": -0.8
+    },
+    {
+      "name": "소비·유통",
+      "value": 97.9,
+      "delta": -0.4
+    },
+    {
+      "name": "주거·부동산",
+      "value": 108.6,
+      "delta": 1.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 106.8,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "AI 기반 맞춤형 라이프스타일 큐레이션",
+      "momentum": 92,
+      "desc": "패션, 식단, 여행 등 개인의 모든 일상에 AI가 개입하여 최적의 경험을 제안하는 서비스가 급부상하고 있습니다."
+    },
+    {
+      "title": "'재생'을 지향하는 친환경 소비재 인기",
+      "momentum": 88,
+      "desc": "단순히 환경에 해를 덜 주는 것을 넘어, 환경을 복원하고 개선하는 데 기여하는 제품과 브랜드가 소비자의 선택을 받고 있습니다."
+    },
+    {
+      "title": "XR 기술 접목 몰입형 리테일 경험",
+      "momentum": 85,
+      "desc": "가상 피팅, 증강현실 쇼룸 등 XR(확장현실) 기술이 오프라인 리테일 공간과 결합하여 새로운 쇼핑 경험을 제공합니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "파수 AI, 리안헤어와 손잡고 AI 뷰티 플랫폼 구축한다 - 데이터뉴스",
+      "source": "데이터뉴스",
+      "time": "21시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xVzF1NTBKbGYtQkFnWWdRMnZEQTJDTmN2S1EzUl9pTWJFOGNXRXYwYmJmbVlvZ2hMSHU2X0FWS3NKMG92MUtUckR4VnFSUl9Rem9JUVdRLTEwT3RPRWI4?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-21T00:52:27.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "이이남 작가, 구글 AI와 협업한 미디어아트 첫 공개 - KBC광주방송",
+      "source": "KBC광주방송",
+      "time": "6일 전",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RUVlhMjFjekh6cm1JaFNMbkRLSDIyWjFpZTM0MXlPWjJ1WW1GMDB1dnNfQmVRb3NWNzYzS0w0aWVVaTFxblBCZjlBbjJyem1ZQnZEaFFPRnJaYmVYRXRGeGpWUEhjbE9sNkwyWEZSRTRMWG0ydmJZRWR2NA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-15T00:16:15.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "‘모두의 챌린지-방산’ 50곳 모집…스타트업 최대 1억 지원 - SBS Biz",
+        "source": "SBS Biz",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YMXFwQXlXZHNkcmJfcGdJVjgxVWNpOUk0eEhmSjVxWWlxTjhBNGtNMVNXeVVZLTFPaEdVLUlHNzg0cmJ2R0JwZ19MSVctRTlQT1Rv0gFYQVVfeXFMTWllaHdWMlNnR25SaHNOVzhDWDN5MXdnZF9QNHpWLWFKX01NREhNSFJEUkpKdVQ4Z0Q3MUwwRkVVWHFiUFZVTGpLVl90Y19FVnJ0blA2NEtDMw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T07:07:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“팬덤이 이끄는 지속가능성”…학문으로 짚어낸 BTS와 한류의 미래 - 매일경제",
+        "source": "매일경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUN3FmY3BJMjB1VnNWSnI4RW9FTGpUMUJJLUJ1OE1WVjJRQVlIMW1yWWxaY3VOM0Y2YTZJSVMyczlNVFA3X3Aza3JYV1VZSDZOMnoySHNhZw?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T07:27:59.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "경기도교육청, '스마트폰 없는 교실' 조성 본격화 - 인천일보",
+        "source": "인천일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wNF9FUWJqWU55OENQd0NBZmwyVFNaanFjNWU4T09jTHBabk4yOE01OXM3c0JYRmdZQkVRODhIc1l0YjdjcjZvVmpvdG1LdFFxVk1DZmc5ZEx4aTlBa0loZ0VZR2RtRFpvcC1MRldTSFo?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T07:42:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "남구, ‘청년 취업·창업 지원, 현장에서 답 찾는다’ - HKBC환경방송",
+        "source": "HKBC환경방송",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2eS1hWmR5MEpIa01GeUFrVnZucFZLdjh3VzV4TWRZaTM4Q2Q3am9iSnBSS0pPb2ZpbUNJWUFYTmNiSWJRVDAtR1EzUnN3dlRURm5yRVM5VWNjMUVocmgyck1FbHFmZTTSAWdBVV95cUxQNnktYVpkeTBKSGtNRnlBa1Z2bnBWS3Y4d1c1eE1kWWkzOENkN2pvYkpwUktKT29maW1DSVlBWE5jYkliUVQwLUdRM1Jzd3ZUVEZuckVTOVVjYzFFaHJoMnJNRWxxZmU0?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T17:16:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "아주대, 경기고용청·지역 7개 대학과 청년 취업문제 해결 맞손 - 경기일보",
+        "source": "경기일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hQXFmVHFPWEZOdGsxYU9sQ3AwZmpVaWJDeGw0Nlg0aHZvOFNZdkVwMDBuTEdPVV9Dd0NpVFV1VWhFQm5sQWJKM0RzdXlwci0wU1piNFZISVY1ZjA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T08:48:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "“집 사지말라는것 아니냐”…내집 대신 ‘캥거루’ 택한 청년들, 왜 - 중앙일보",
+        "source": "중앙일보",
+        "time": "2시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwNHJ0RUtGSHVfMktKNW1GTVdGd2tnVEtEVUdrRDYzbXRrcWFtUXJfU21SX1U4aXRQa09lYUhPdUtpSnJZSEthNHBfVmJ0VmVYWWw5X3Rn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-21T20:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“월세로, 부업뛰며, 주식해야 살아진다”…1인가구 생존법 - 매일경제",
+        "source": "매일경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xNkxNUHBGYldRU2NxN3hlcVFXemdxVTJJWWF3VVlyODZHV0Q4REZOWVZuUWs2MGU3N1VyTzlMWXUtdEFpWmNlR3NOLVFXQ181dkZTdA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-19T01:27:33.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "건강관리도 재테크처럼…직장인 10명 중 6명 “돈 내고라도 관리” - 중앙일보",
+        "source": "중앙일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTaGhnWHhrT0xTSjVmbURhZ0l1OHh2aERGRDdVSnNvdllreWYzNWtaX0Q1TEJncGVmVEYwUV9Mc195X0pkZ01NWnlyY1VKbjlzM3lFam9B?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T06:40:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "스트레스에 잘 대처하는 직장인, 건강관리 투자 의지도 높아 - 중앙일보",
+        "source": "중앙일보",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jejh1UTR4U3lpUE9rZXBSMUVsS1gxSlNsa0FTeUxsT0Q1cFl3UlpyVzBBZHZac2NILXVMUTcxMmFaekVFSmdiTWk0QmI5Z191X2NVV1Zn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T06:39:45.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "[반퇴시대 재산리모델링] 은퇴 후 월 800만원 받고 싶다면, IRP·ISA·배당 ETF 판 짜라 - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fdDRmX1ljM1hwdnBsWXlFdE1vV1JmOVpqcVNaal8yM2ZtMmxUZHVMNEN1S2xkbDJuTFZXOC1XbFdGdFZDenowLXdIZk90U3pjYk8tLTZObV9NSXBSZnB4UlN3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-15T20:32:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "돈 때문만은 아니었다…\"70세 넘어도 일하고 싶다\"는 이유 - 한국경제",
+        "source": "한국경제",
+        "time": "5일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pX1VqWTFsSXRmb3hpRURvTFZkVlRHc1o0YktxeWxHNjhzUGJZanhIYUcxODNSdTBleGFHZkxYSTdHZEd1SklwZzV3YS1mUGl1VldOd1lZZGUyUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T03:20:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "AI와 순환 디자인이 주도하는 미래 브랜드 경험의 재정의",
+    "insight": "생성형 AI는 디자인 프로세스의 효율성을 극대화하며 개인화된 비주얼을 가능하게 하고, 순환 디자인은 브랜드의 윤리적 가치와 혁신을 동시에 보여주는 핵심 전략으로 자리 잡고 있습니다. 이는 디자이너에게 창의적 협력과 지속가능성에 대한 깊은 이해를 요구합니다.",
+    "rising": [
+      {
+        "title": "생성형 AI 기반 디자인 자동화 및 개인화",
+        "momentum": 95,
+        "desc": "AI가 로고, 레이아웃, 심지어 3D 모델링 초안을 생성하고, 개인 맞춤형 비주얼 콘텐츠를 대규모로 제작하여 브랜드 경험을 혁신합니다."
+      },
+      {
+        "title": "순환 경제를 위한 패키징 디자인 혁신",
+        "momentum": 90,
+        "desc": "재활용을 넘어 재사용, 분해, 생분해 과정을 고려한 소재와 구조 디자인이 핵심이며, '리필 스테이션' 등 새로운 유통 모델과 연계됩니다."
+      },
+      {
+        "title": "감성적 미니멀리즘과 촉각적 브랜드 경험",
+        "momentum": 85,
+        "desc": "정보 과잉의 시대에 디지털 피로를 해소하고 본질에 집중하는 디자인, 따뜻한 색감, 무광 마감, 특정 질감 등 아날로그적 촉각 경험을 강조합니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "'초경량' 아이시스 패키지, 레드닷 디자인 어워드 본상 수상 - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zbVVLVDlWS3dPNG52RWhNQzJoZ2JQWTNaTW9WN192QmQ2RFJOcWl1VjJTbXJodTg2Y25TQUwtVnROUVU1SjI3QTBkNHN2N0pIM3EyNTQzV1VnUQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-19T23:45:13.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"어쩐지 신상이 빨리 나오더라\"…뉴발란스 디자인의 비밀 - 한국경제",
+      "source": "한국경제",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wNlpzQWk4NHJ0aTJ2Y1RXM20yeHN0UV9nMFRLVHYtYVdYUTFGS2Q2QWJvajlQeG1GNzliM2h4TFpxeW05eHY5R0ZORlFyTWVMNUZScVV2eDNiQQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-19T11:11:06.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "29CM, 여성 스포츠 쇼핑 수요 잡았다…러닝·발레 거래액 급증 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "5일 전",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95QXRhV0JCTURVQWdCZTNJOFNRQWhlTTNROXI1enVka0Rabmhvb3hkam04WnRJWnpuU3Jjem5LWko1b1FBdW43VVVqMWVDLUdFbGc1NW5Xc01QWWZUaGplNWVjTEN0UFV2YXfSAW9BVV95cUxQVmtkUXh5aEZkWHo2LWhCTFhFY01DLUM2WmViVzJOTkhhZ2tVVV90TmZoY0FONEoxRF9USzluUGd1NWxlUWtSd3VjUEZRcW50NkJEay1WbUtKQkRGVlc4U1JtY1BSQXpENjY4YlRTVnc?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-16T01:12:26.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "2026년 여름, AI 초개인화와 지속가능한 '재생' 경제가 소비 시장을 재편하다",
+    "takeaways": [
+      "AI 기반의 초개인화 서비스가 소비 경험의 핵심으로 부상하며, 단순 추천을 넘어선 예측적 만족을 제공합니다.",
+      "환경을 넘어선 '재생(Regenerative)' 개념이 소비자의 브랜드 선택 기준이 되며, 기업의 진정성이 더욱 중요해지고 있습니다.",
+      "숏폼, 가상 아이돌, XR 등 디지털 기술은 연령대별로 맞춤화된 방식으로 일상에 깊숙이 침투하며 새로운 소비 문화를 창출합니다."
+    ],
+    "insight": "MZ세대는 AI로 구현되는 '나만을 위한' 경험에 열광하며 관계와 가치를 소비하고, 시니어 세대는 건강과 편리함을 넘어선 '능동적 삶'을 위한 AI 및 웰니스 솔루션에 지갑을 엽니다. 모든 세대가 디지털 기술과 지속가능성이라는 거대한 흐름 속에서 각자의 방식으로 '의미 있는 삶'을 추구하는 심리가 시장을 움직이고 있습니다.",
+    "actions": [
+      "AI 기술을 활용하여 고객의 잠재적 니즈까지 예측하는 초개인화된 상품/서비스 큐레이션 및 경험 설계에 집중하십시오.",
+      "브랜드의 지속가능성 스토리를 '재생' 관점에서 재정의하고, 제품의 전 생애 주기에 걸쳐 투명하고 진정성 있는 가치를 소통하십시오."
+    ]
+  }
+}
