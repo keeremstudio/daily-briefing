@@ -1,0 +1,393 @@
+{
+  "edition": "No. 448",
+  "moods": {
+    "10대": 62,
+    "20대": 58,
+    "30대": 65,
+    "40대": 63,
+    "50대": 63,
+    "60대+": 68
+  },
+  "moodsPrev": {
+    "10대": 66,
+    "20대": 62,
+    "30대": 67,
+    "40대": 63,
+    "50대": 69,
+    "60대+": 68
+  },
+  "keywords": [
+    {
+      "rank": 1,
+      "term": "AI 윤리",
+      "dir": "up",
+      "change": "28%"
+    },
+    {
+      "rank": 2,
+      "term": "환경 재생형 소비",
+      "dir": "up",
+      "change": "22%"
+    },
+    {
+      "rank": 3,
+      "term": "웹3.0 커뮤니티",
+      "dir": "up",
+      "change": "15%"
+    },
+    {
+      "rank": 4,
+      "term": "숏폼 커머스",
+      "dir": "up",
+      "change": "10%"
+    },
+    {
+      "rank": 5,
+      "term": "시니어 테크",
+      "dir": "up",
+      "change": "8%"
+    },
+    {
+      "rank": 6,
+      "term": "워케이션",
+      "dir": "flat",
+      "change": "5%"
+    },
+    {
+      "rank": 7,
+      "term": "펫 휴머니제이션",
+      "dir": "up",
+      "change": "3%"
+    },
+    {
+      "rank": 8,
+      "term": "로컬리티 브랜딩",
+      "dir": "up",
+      "change": "2%"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "콘텐츠·미디어",
+      "value": 128.7,
+      "delta": -0.4
+    },
+    {
+      "name": "금융·자산",
+      "value": 110,
+      "delta": 0
+    },
+    {
+      "name": "소비·유통",
+      "value": 96.6,
+      "delta": -1.3
+    },
+    {
+      "name": "주거·부동산",
+      "value": 108.2,
+      "delta": -0.4
+    },
+    {
+      "name": "고용·노동",
+      "value": 106.8,
+      "delta": 0
+    }
+  ],
+  "rising": [
+    {
+      "title": "초개인화 AI 큐레이션 서비스",
+      "momentum": 92,
+      "desc": "사용자의 라이프스타일, 소비 패턴, 심지어 감정 상태까지 분석하여 최적화된 상품과 콘텐츠를 제안하는 AI 서비스가 대세로 자리 잡고 있습니다."
+    },
+    {
+      "title": "환경 재생형(Regenerative) 소비",
+      "momentum": 88,
+      "desc": "단순히 환경 피해를 줄이는 것을 넘어, 자연과 생태계를 적극적으로 회복시키는 제품과 서비스에 대한 소비자의 관심과 지출이 급증하고 있습니다."
+    },
+    {
+      "title": "가상 인플루언서 2.0",
+      "momentum": 85,
+      "desc": "고도화된 AI 기술로 실제 인간과 거의 구별할 수 없는 가상 인플루언서들이 특정 가치관과 스토리를 가지고 팬덤을 형성하며 마케팅 시장의 주요 주체로 부상하고 있습니다."
+    }
+  ],
+  "marketArticles": [
+    {
+      "title": "‘AI 안경 몰카’와 ‘미토스 해킹’ 시대...‘AI 윤리 지침’ LG-유네스코 공동 개발 - JTBC",
+      "source": "JTBC",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZaXFNREZxLUxicEU3WVpQV3JFbWZadHI3M1NxYm51S3FicXhUNVdGUnNpTXJvUjMweHZocDFGRjBMc1lSb3VYLW5LOGRIa2dIYUlYRQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-20T07:06:00.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "가정용 태양광 3kW도 RE100 활용 가능…경기도 전국 첫 REGO 실증 - 머니투데이 - 머니투데이",
+      "source": "머니투데이",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xMDJfc1lFcF9NRzh0TGVEMGc5eGp4SG9SNVpRYnZBR3d5bGcxcnNPa2RHTDZEeHhaUmI3U08walk2bWNQWGN4WnBuMzZWOFJUSGcyR2tTcEU3WWhnYVdFcnZZM0EtSHZRczVHZXBtc9IBb0FVX3lxTE4xMDJfc1lFcF9NRzh0TGVEMGc5eGp4SG9SNVpRYnZBR3d5bGcxcnNPa2RHTDZEeHhaUmI3U08walk2bWNQWGN4WnBuMzZWOFJUSGcyR2tTcEU3WWhnYVdFcnZZM0EtSHZRczVHZXBtcw?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-21T04:26:34.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "버려지던 자가 태양광 가치 인정…경기도 첫 실증 - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jWFJWelRRWHhuWDN3ME5DcjhvdktGNmF1RzJCc0RqcmxPbXVNUGJxREVRTTBoR3ZUZnJISDM4MUlnSmZBLWpwWWktNnI1dE9uNkRiUWpjd2t1UQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-21T04:10:07.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "LG AI연구원-유네스코, ‘AI 윤리 MOOC 프로젝트’ 런칭 - 데이터뉴스",
+      "source": "데이터뉴스",
+      "time": "2일 전",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ybjBwQnJMNFB4dlNuRTJEZFNvOUwxem11a2o1eVE3ZVRuUENOQXJsaXJkSlEyRmprVFNaVTZlOGJpWkx1QTdlOUlkRXpkMk5LYW1zNERaaHlTSGFmaXZSbzVOODA?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-20T06:59:12.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "profileArticles": {
+    "10대": [
+      {
+        "title": "\"챗GPT·제미나이가 알아서 퍼간다\" 이스트에이드 이글루스, AI봇 방문 18배 폭증 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KVWoxVXF6S0RGcWNqdGJ2OUZvVDltWThpSmtDRFU0VUdLR1ZKc1pHNDlVQlZQcnI2eWZ6aFpuUnF4SmNRQVVhb19EQWtSTEFqaWo0SzZqeE94RkRRbHdFa0R1d202bnPSAWxBVV95cUxOZFlhckUwUEhvWnNZSG1NN00yZzZlYlZhNWZZbVB1RXEzVGphc0JmVWZfdFJrdnR6Y0RPT0ZvOFJ2TVVIYVY5Y3cwVnJkNFVBR3hIZEh2ZW9aeXptaVd5d05HWVhlZ3VhQTVuVHY?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-21T05:39:47.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "성남시, 폴란드 브로츠와프시와 청소년 국제교류 협력 강화 - 경기신문",
+        "source": "경기신문",
+        "time": "14시간 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03YzUtYUlPOUdqQlJnYzQ1a1dDS1ZVbUttVzVldmxGbmJ5Y1FJMXBkNWtqY1BLdEVudEpJRVFZZWRWM2FvNUtDWHRXc0pYS0pjMnU1VC1SLUpBWXFLelQzUml3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-22T07:58:08.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "20대": [
+      {
+        "title": "청년 구직 부담 줄였다…성남시 무료 면접정장 대여 사업 ‘효자 노릇’ - 인천일보",
+        "source": "인천일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mbkhTRWpiMEVHRnp1czJGZjE1NDduanppUktYcWprMmU4SVdfcmo0VGtIT3FuUU96OEplblluc2lpZWctakJTRVNmdTBsNGRRR0J6bWJ0amRtMEFmTmMxdE1JOUpjbjIyOWN6SmhNZmU?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T23:49:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "남구, ‘청년 취업·창업 지원, 현장에서 답 찾는다’ - HKBC환경방송",
+        "source": "HKBC환경방송",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2eS1hWmR5MEpIa01GeUFrVnZucFZLdjh3VzV4TWRZaTM4Q2Q3am9iSnBSS0pPb2ZpbUNJWUFYTmNiSWJRVDAtR1EzUnN3dlRURm5yRVM5VWNjMUVocmgyck1FbHFmZTTSAWdBVV95cUxQNnktYVpkeTBKSGtNRnlBa1Z2bnBWS3Y4d1c1eE1kWWkzOENkN2pvYkpwUktKT29maW1DSVlBWE5jYkliUVQwLUdRM1Jzd3ZUVEZuckVTOVVjYzFFaHJoMnJNRWxxZmU0?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T17:16:06.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "30대": [
+      {
+        "title": "“집 사지말라는것 아니냐”…내집 대신 ‘캥거루’ 택한 청년들, 왜 - 중앙일보",
+        "source": "중앙일보",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwNHJ0RUtGSHVfMktKNW1GTVdGd2tnVEtEVUdrRDYzbXRrcWFtUXJfU21SX1U4aXRQa09lYUhPdUtpSnJZSEthNHBfVmJ0VmVYWWw5X3Rn?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-21T20:00:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "“월세로, 부업뛰며, 주식해야 살아진다”…1인가구 생존법 - 매일경제",
+        "source": "매일경제",
+        "time": "3일 전",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xNkxNUHBGYldRU2NxN3hlcVFXemdxVTJJWWF3VVlyODZHV0Q4REZOWVZuUWs2MGU3N1VyTzlMWXUtdEFpWmNlR3NOLVFXQ181dkZTdA?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-19T01:27:33.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "40대": [
+      {
+        "title": "건강관리도 재테크처럼…직장인 10명 중 6명 “돈 내고라도 관리” - 미주중앙일보",
+        "source": "미주중앙일보",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE44RDJsTHh6S0lKdEJCYTNyT3lGeUljVWVjOWtOSk1lQi1CYW9aVnh0UHo5LXAyWUlpYjJTVExWVlZzWDhlRXlfVW13MC1vNlluTXRJYkZwWWc3cy00bVRUZ21n?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T06:40:00.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "\"사골국 먹으면 뼈 튼튼?\"…골다공증 전문의의 반전 경고 - 머니투데이 - 머니투데이",
+        "source": "머니투데이",
+        "time": "어제",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXMmtjYkw3QnVvNnlwc3RrUG9rLUttai04S2hkc25kZDhrX3pROU8zWlFkejNFOHhSRXNGazNrNWN2U2JWUFUweDR1S2lRdXdMZWhNODc5dE1uVjY1dzN5aENGUFROMU5BR3fSAW9BVV95cUxONy1YZ3JEWWJ6YVVXN1Y4T1ZQQkd1N1ZvZVVsVGRIM0VweER4ZFRfVmhRSFhJY2JWYktGN3BldVJ6eHQ2WkVqNGlrSXhpQVFGYmhENU0teFhWUldkS2lhT000X1g1ZjNLZ0tsQ3JmR2c?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-21T10:44:56.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "50대": [
+      {
+        "title": "“내 아파트, 지금이 마지막 기회”…경매로 몰리는 청년들 - 매일경제",
+        "source": "매일경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zSnhwYkdZWXZJTFUzY0dqU2tPbm9TdUtNRkVzM3RvdzladXUtenlMMFNHNGdVcG8wRmdvV1N6M01QdXotblRfN2oya0x4a3I3U1RHMzFJTWQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T08:52:44.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "팔목에 차고 있던 스마트워치…2세 소식 가장 먼저 알렸다 - 매일경제",
+        "source": "매일경제",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53UXg2bm9vbmpHV0FkU25hVU5NMmxjM0Y4UGpMb29SQkg3LUU0ZkRvTG9lOTJzSHJuVm12cFFNNXJwUFRkSEdIbHJlUmVGaVlyUmc?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T02:43:27.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      },
+      {
+        "title": "씨어스, 삼성서울병원 스마트병실에 '씽크' 적용…모비케어 해외 매출도 가시화 - 팜이데일리",
+        "source": "팜이데일리",
+        "time": "2일 전",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYTk1mQ05ISzBzaXdwWjdnVFFEZ1NQbkdseXJFVXF1ejRiVjRqc2VZRkFmRUxJWnJvb2UwR2I3S2V6MVVDZVljbVcySDg5aGl5SGNndW9XcmZIWWIwUTVaSEhBdzVqM0JkRDV2M3N3?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-20T02:05:31.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ],
+    "60대+": [
+      {
+        "title": "돈 때문만은 아니었다…\"70세 넘어도 일하고 싶다\"는 이유 - 한국경제",
+        "source": "한국경제",
+        "time": "6일 전",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pX1VqWTFsSXRmb3hpRURvTFZkVlRHc1o0YktxeWxHNjhzUGJZanhIYUcxODNSdTBleGFHZkxYSTdHZEd1SklwZzV3YS1mUGl1VldOd1lZZGUyUQ?oc=5",
+        "summary": "",
+        "publishedAt": "2026-07-16T03:20:15.000Z",
+        "category": "news",
+        "trustScore": 3,
+        "bullets": [],
+        "implication": ""
+      }
+    ]
+  },
+  "brandDesign": {
+    "headline": "감각을 넘어선 '경험 디자인'으로 브랜드 본질을 재정의하라",
+    "insight": "소비자의 오감을 자극하고 브랜드의 스토리를 입체적으로 전달하는 몰입형 디자인이 핵심 경쟁력으로 부상하고 있습니다. 단순한 시각적 아름다움을 넘어, 사용자와 상호작용하며 브랜드 가치를 공유하는 '총체적 경험 디자인'이 요구됩니다.",
+    "rising": [
+      {
+        "title": "인터랙티브 스마트 패키지",
+        "momentum": 90,
+        "desc": "QR 코드, NFC, AR 기술을 활용하여 소비자가 패키지를 통해 제품 정보, 브랜드 스토리, 게임 등 다양한 디지털 콘텐츠를 경험할 수 있는 디자인이 주목받고 있습니다."
+      },
+      {
+        "title": "생체 모방형(Biomimicry) UI/UX",
+        "momentum": 85,
+        "desc": "자연의 형태, 패턴, 프로세스를 디자인에 적용하여 사용자에게 직관적이고 편안한 인터페이스와 경험을 제공하는 트렌드가 확산되고 있습니다."
+      },
+      {
+        "title": "커뮤니티 기반 리테일 공간",
+        "momentum": 82,
+        "desc": "단순한 판매 공간을 넘어, 특정 관심사를 가진 사람들이 모여 소통하고 경험을 공유하는 커뮤니티 허브 역할을 하는 리테일 공간 디자인이 인기를 얻고 있습니다."
+      }
+    ]
+  },
+  "brandArticles": [
+    {
+      "title": "물건만 파는 공간? 옛말…매장에 ‘경험’ 심는 브랜드들 [트렌드] - 세계일보",
+      "source": "세계일보",
+      "time": "15시간 전",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE05ck9BZlRpbVBjaGN2VV85bnZUQ3JTYk9tNVRZOE9yMFhJejFvWkh5WW13OWpIdTdPZTRVTG8yM25DQmEzeHBScEFzNXMyZTNaRDdvUDdDR0jSAVRBVV95cUxOay1GNS1idmo1S3pSZ2RwalBqQ3BzTGxLM2lRMnYyQUZQUjVDdHlKNUkxRnFjdVJzSzB1RTRmSVNfemw1UFhHUDZyMkFxYVpUWXJQdnM?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-22T06:16:30.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "AI 품은 매트리스·회전형 소파…에몬스, 80여종 신제품 공개 - 한국경제",
+      "source": "한국경제",
+      "time": "어제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HTE9Pc3BqM2FqeDNMMEMxaVBpTU5HYldLRUJIUlJkOUdIY3JTNlFKT0ZZNmdKY1RPSFFoZVFramJ2bER4bjlyLWMwWUdvWlRwdzJTbXVycjNJQQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-21T06:23:59.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    },
+    {
+      "title": "\"어쩐지 신상이 빨리 나오더라\"…뉴발란스 디자인의 비밀 - 한국경제",
+      "source": "한국경제",
+      "time": "3일 전",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wNlpzQWk4NHJ0aTJ2Y1RXM20yeHN0UV9nMFRLVHYtYVdYUTFGS2Q2QWJvajlQeG1GNzliM2h4TFpxeW05eHY5R0ZORlFyTWVMNUZScVV2eDNiQQ?oc=5",
+      "summary": "",
+      "publishedAt": "2026-07-19T11:11:06.000Z",
+      "category": "news",
+      "trustScore": 3,
+      "bullets": [],
+      "implication": ""
+    }
+  ],
+  "briefing": {
+    "headline": "초개인화 넘어선 '초연결 경험' 시대, 공감 마케팅이 승부수",
+    "takeaways": [
+      "AI 기술 대중화로 소비자의 '초개인화' 경험이 상향 평준화되었으며, 이제는 '초연결'을 통한 공감대 형성이 핵심 경쟁력입니다.",
+      "환경/사회적 가치를 중시하는 소비 트렌드가 전 세대로 확산되며, 브랜드의 진정성과 투명한 ESG 경영이 구매 결정에 결정적인 영향을 미치고 있습니다.",
+      "온라인과 오프라인의 경계가 모호해진 '하이브리드 리테일' 환경에서, 소비자의 모든 접점에서 일관되고 몰입감 있는 경험을 제공하는 것이 중요해졌습니다."
+    ],
+    "insight": "MZ세대는 물론, X세대와 시니어 세대까지 디지털 환경에 익숙해지면서, 단순한 기능적 만족을 넘어 '나'를 이해하고 '우리'의 가치를 공유하는 브랜드에 깊이 공명합니다. 세대별 가치관의 미묘한 차이를 파악하여, 개인의 정체성과 공동체의 가치를 동시에 만족시키는 '공감 서사'를 제공해야 합니다.",
+    "actions": [
+      "AI 기반 고객 데이터 분석을 통해 세분화된 고객 그룹별 '가치 기반 스토리텔링' 마케팅 캠페인을 기획하고 실행하십시오.",
+      "온·오프라인 통합형 '경험 플랫폼'을 구축하여, 소비자가 브랜드와 상호작용하는 모든 단계에서 개인화된 몰입감을 제공하고 피드백 루프를 강화하십시오."
+    ]
+  }
+}
